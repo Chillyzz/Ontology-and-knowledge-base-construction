@@ -1,0 +1,4 @@
+{
+    "Coordinate": "Coordinate(p: Point) -> (Number, Number): Coordinate of point p in the two-dimensional coordinate system.",
+    "XCoordinate": "XCoordinate(p: Point) -> Number: X-coordinate of point p in the two-dimensional coordinate system."
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "id": 0,
+        "text": "He runs $60$ meters each sprint.",
+        "ops": [
+            "Equal"
+        ],
+        "expression": "Meters: Variable; Meters = 60"
+    },
+    {
+        "id": 1,
+        "text": "The repairs increased the value of the house by $150\\%$.",
+        "ops": [
+            "Multiple"
+        ],
+        "expression": "Newvalue: Number; Orivalue: Number;  Newvalue = 150% * Orivalue"
+    },
+    {
+        "id": 2,
+        "text": "Charleston has $C = 4 \\times S$ sheep.",
+        "ops": [
+            "Multiple",
+            "Equal"
+        ],
+        "expression": "Charleston_sheep: Variable; S: Variable; Charleston_sheep = 4*S"
+    },
+    {
+        "id": 3,
+        "text": "The total number of sheep is $T + C + S$.",
+        "ops": [
+            "Equal",
+            "Add"
+        ],
+        "expression": "T: Variable; C: Variable; S: Variable; M: Variable; M = T + C + S"
+    }
+]
