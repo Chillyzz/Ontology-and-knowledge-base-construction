@@ -16,8 +16,8 @@ instruction = (
 )
 
 # 输入文件路径
-input_file = "/home/zjy17/MATH/test.json"  # 替换为您的 JSON 文件路径
-output_file = "/home/zjy17/Conic10k/test_data/concept_extract.json"
+input_file = "/home/zjy17/MATH/prealgebra.json"  # 替换为您的 JSON 文件路径
+output_file = "/home/zjy17/Conic10k/test_data/prealgebra_extract.json"
 
 # 读取测试数据
 with open(input_file, "r", encoding="utf-8") as f:

@@ -22,6 +22,6 @@ def fix_json_format(input_file_path, output_file_path):
 
 # 示例调用
 if __name__ == "__main__":
-    input_file_path = '/home/zjy17/Conic10k/test_data/concept_extract.json'  # 替换为输入文件路径
-    output_file_path = '/home/zjy17/Conic10k/test_data/concept_new.json'  # 替换为输出文件路径
+    input_file_path = '/home/zjy17/Conic10k/test_data/probability_extract.json'  # 替换为输入文件路径
+    output_file_path = '/home/zjy17/Conic10k/test_data/probability_concept.json'  # 替换为输出文件路径
     fix_json_format(input_file_path, output_file_path)
