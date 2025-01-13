@@ -12,6 +12,8 @@
 6. Plane : A flat, two-dimensional surface that extends infinitely in all directions. It is often represented by a four-sided figure or the letter \(P\).
 7. Half-Plane \\ on Plane : A half-plane is a region of a two-dimensional plane that is divided by a straight line into two parts. One of these parts is called a half-plane, and it consists of all points on one side of the dividing line.
 
+8. Ordered Line \\ on Line : The Line having order on it, similar to the real line.
+
 ## Angle 角
 1. Angle \\ on Plane : An angle is formed by two rays (sides) that share a common endpoint (the vertex). Angles are measured in degrees (°).
 2. Acute Angle \\ in Angle : An angle less than 90°.
