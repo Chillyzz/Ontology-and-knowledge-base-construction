@@ -172,17 +172,21 @@
    *Example:* \( \emptyset \) or \( \{ \} \).
 
 6. Power Set \\in Set: The set of all subsets of a given set.  
-    *Example:* The power set of \( A = \{1, 2\} \) is \( \mathcal{P}(A) = \{\emptyset, \{1\}, \{2\}, \{1, 2\}\} \).
+   *Example:* The power set of \( A = \{1, 2\} \) is \( \mathcal{P}(A) = \{\emptyset, \{1\}, \{2\}, \{1, 2\}\} \).
 
 7. Finite Set \\in Set: A set that contains a finite number of elements.  
-    *Example:* \( A = \{1, 2, 3\} \) is a finite set.    
+   *Example:* \( A = \{1, 2, 3\} \) is a finite set.    
 
 8. Infinite Set \\in Set: A set that contains an infinite number of elements.  
-    *Example:* The set of all integers, \( \mathbb{Z} \), is an infinite set.
+   *Example:* The set of all integers, \( \mathbb{Z} \), is an infinite set.
 
 9. Ordered Set \\in Set: A set where the arrangement of elements matters.  
-    *Example:* \( A = \{1, 2, 3\} \) is ordered if we consider the set as a sequence, like \( A = (1, 2, 3) \).
+   *Example:* \( A = \{1, 2, 3\} \) is ordered if we consider the set as a sequence, like \( A = (1, 2, 3) \).
 
+10. Event \\in Set: A set in probability theory, used to compute the value of probability.
+
+11. Interval \\in Set: A useful set often used when learning function.
+   *Example:* A: Interval, $A = [1, 2]$ ; B: Interval, $B = (3, 5]$ 
 
 
 # Expression(表达式)
@@ -193,13 +197,13 @@
 2. Variable: A symbol, often a letter, used to represent an unknown or changeable value in mathematical expressions or equations.  
    *Example:* In the expression \(3x + 5\), \(x\) is a variable.
 
-3. Statement: A declarative sentence that can be either true or false. A statement often refers to an equation, inequality, or other assertion.  
+3. Formula: A declarative sentence that can be either true or false. A statement often refers to an equation, inequality, or other assertion.  
    *Example:* \(x = 2\) is a statement that asserts \(x\) equals 2.
 
-4. Equation \\in Statement: A statement where two expressions are set equal to each other. 
+4. Equation \\in Formula: A statement where two expressions are set equal to each other. 
    *Example:* \(2x + 3 = 7\) is an equation where we can solve for \(x\).
 
-5. Inequation \\in Statement: A statement where two expressions are compared using inequality signs (>, <, ≥, ≤, ≠) instead of equality.  
+5. Inequation \\in Formula: A statement where two expressions are compared using inequality signs (>, <, ≥, ≤, ≠) instead of equality.  
    *Example:* \(2x + 3 > 7\) is an inequation where we can solve for \(x\) to find values that satisfy the inequality.
 
 6. Factorial \\in Expression: The product of all positive integers less than or equal to a given positive integer \(n\), denoted as \(n!\).  

@@ -90,9 +90,6 @@
         "IsParallel": "IsParallel(l1: Union[Line, LineSegment, xAxis, yAxis], l2: Union[Line, LineSegment, xAxis, yAxis]): l1 and l2 are parallel to each other.",
         "IsPerpendicular": "IsPerpendicular(l1: Union[Line, LineSegment, xAxis, yAxis], l2: Union[Line, LineSegment, xAxis, yAxis]): l1 and l2 are perpendicular to each other.",
         "Cos": "Cos(a: Angle) -> Number: The cosine value of angle a.",
-        "Sin": "Sin(a: Angle) -> Number: The sine value of angle a.",
-        "Equal": "Equal(x: Variable, y: Variable) -> Number: The value of a free variable x.",
-        "Multiple": "Multiple(x: Variable, y: Number) -> Number: Multiple a variable by a number",
-        "Add": "Add(x: Variable, y: Variable) -> Variable: Add two things"
-       
+        "Sin": "Sin(a: Angle) -> Number: The sine value of angle a."
+
 }
