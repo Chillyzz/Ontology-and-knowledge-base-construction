@@ -65,7 +65,7 @@
 
 5. Coefficient \\in Number: The coefficient of the term in a polynomial. In 4x^3 + 2x^2, the coefficient for 4x^3 term is 4.
 
-6. Polyroots \\in Number: The values of the variable that make the polynomial equal to zero. Ex(x^2- 5x + 6 has two roots x = 2 and x = 3)
+6. Polyroots \\in Set: The values of the variable that make the polynomial equal to zero. Ex(x^2- 5x + 6 has two roots x = 2 and x = 3)
 
 7. PolynomialTerm \\in Polynomial: Each individual part of a polynomial separated by addition or subtraction.  
    *Example:* In \(3x^2 + 4x + 5\), \(3x^2\), \(4x\), and \(5\) are terms.
@@ -109,10 +109,13 @@
 6. LogarithmicFunction \\in Function: The inverse of an exponential function, represented as \(f(x) = \log_b(x)\), where \(b > 0\).  
    *Example:* \(f(x) = \log_2(x)\).
 
-7. AbsoluteValueFunction \\in Function: A function that outputs the non-negative magnitude of a number, represented as \(f(x) = |x|\).  
+7. PowerFunction \\in Function: A function where the variable is raised to a constant power, represented as , where  and  are constants.
+   *Example:* \(f(x) = \x^2\).
+
+8. AbsoluteValueFunction \\in Function: A function that outputs the non-negative magnitude of a number, represented as \(f(x) = |x|\).  
    *Example:* \(f(x) = |x - 3|\).
 
-8. PiecewiseFunction \\in Function: A function defined by different expressions for different intervals of the domain.  
+9. PiecewiseFunction \\in Function: A function defined by different expressions for different intervals of the domain.  
    *Example:*  
    \[
    f(x) = 
@@ -122,37 +125,44 @@
    \end{cases}
    \]
 
-9. RationalFunction \\in Function: A function represented as the ratio of two polynomials, \(f(x) = \frac{P(x)}{Q(x)}\), where \(Q(x) \neq 0\).  
-   *Example:* \(f(x) = \frac{1}{x - 2}\).
+10. RationalFunction \\in Function: A function represented as the ratio of two polynomials, \(f(x) = \frac{P(x)}{Q(x)}\), where \(Q(x) \neq 0\).  
+    *Example:* \(f(x) = \frac{1}{x - 2}\).
 
-10. TrigonometricFunction \\in Function: Functions related to angles, such as sine, cosine, and tangent.  
+11. TrigonometricFunction \\in Function: Functions related to angles, such as sine, cosine, and tangent.  
     *Example:* \(f(x) = \sin(x), g(x) = \cos(x)\).
 
-11. InverseFunction \\in Function: A function that reverses the input-output mapping of another function, represented as \(f^{-1}(x)\), where \(f(f^{-1}(x)) = x\).  
+12. InverseFunction \\in Function: A function that reverses the input-output mapping of another function, represented as \(f^{-1}(x)\), where \(f(f^{-1}(x)) = x\).  
     *Example:* If \(f(x) = 2x + 3\), then \(f^{-1}(x) = \frac{x - 3}{2}\).
 
-12. ConstantFunction \\in Function: A function that always outputs the same value, regardless of the input, represented as \(f(x) = c\).  
+13. ConstantFunction \\in Function: A function that always outputs the same value, regardless of the input, represented as \(f(x) = c\).  
     *Example:* \(f(x) = 5\).
 
-13. IdentityFunction \\in Function: A function that maps every input to itself, represented as \(f(x) = x\).  
+14. IdentityFunction \\in Function: A function that maps every input to itself, represented as \(f(x) = x\).  
     *Example:* \(f(x) = x\).
 
-14. PeriodicFunction \\in Function: A function that repeats its values at regular intervals, such as trigonometric functions.  
+15. PeriodicFunction \\in Function: A function that repeats its values at regular intervals, such as trigonometric functions.  
     *Example:* \(f(x) = \sin(x)\), with period \(2\pi\).
 
-15. IncreasingFunction \\in Function: A function where the output increases as the input increases.  
+16. IncreasingFunction \\in Function: A function where the output increases as the input increases.  
     *Example:* \(f(x) = 2x\).
 
-16. DecreasingFunction \\in Function: A function where the output decreases as the input increases.  
+17. DecreasingFunction \\in Function: A function where the output decreases as the input increases.  
     *Example:* \(f(x) = -x\).
-   
-17. Domain \\in Set: The set of all possible input values for a function.  
+
+18. Domain \\in Set: The set of all possible input values for a function.  
     *Example:* For \(f(x) = \sqrt{x}\), the domain is \(x \geq 0\).
 
-18. Range \\in Set: The set of all possible output values for a function.  
+19. Range \\in Set: The set of all possible output values for a function.  
     *Example:* For \(f(x) = x^2\), the range is \(y \geq 0\).
 
-19. OddFunction \\in Function: 
+20. OddFunction \\in Function: A function that satisfies the condition \(f(-x) = -f(x)\) for all \(x\) in its domain.  
+    *Example:* \(f(x) = x^3\), where \(f(-2) = -8\) and \(f(2) = 8\).
+
+21. EvenFunction \\in Function: A function that satisfies the condition \(f(-x) = f(x)\) for all \(x\) in its domain.  
+    *Example:* \(f(x) = x^2\), where \(f(-2) = 4\) and \(f(2) = 4\).
+
+22. FunctionZeroPoint \\in Set: The set of all values of x for which f(x)=0. 
+    *Example:* \(f(x) = x^2 + 2x + 1\), ZeroPoint is x = -1. 
 
 
 
@@ -192,6 +202,8 @@
 11. Interval \\in Set: A useful set often used when learning function.
    *Example:* A: Interval, $A = [1, 2]$ ; B: Interval, $B = (3, 5]$ 
 
+12. ElementProperty \\in LogicalExpression: 
+
 
 # Expression(表达式)
 
@@ -215,6 +227,9 @@
 
 7. BinomialCoefficient \\in Expression: The coefficient of the term in the expansion of \( (x + y)^n \), denoted as \( \binom{n}{k} \).  
     - *Example*: \( \binom{5}{2} = \frac{5!}{2!(5-2)!} = 10 \).
+
+8. LogicalExpression: Logical expression? Need to be verified.
+   *Example:* {a: Number}; a > 0 And a^2 = 1
 
 
 
@@ -244,6 +259,21 @@
 
 8. DivergentSequence \\in Sequence: A sequence where the terms do not approach a finite value as \(n\) approaches infinity.  
     - *Example*: The sequence \( 1, 2, 3, 4, \dots \) is divergent.
+
+
+
+# Angle
+
+1. DegreeMeasure : Represents the measure of an angle in degrees. A complete rotation equals 360 degrees.
+    - *Example*: 1^{\circ}, 180^{\circ}, -90^{\circ}.
+
+2. RadianMeasure : Represents the measure of an angle in radians. A complete rotation equals \( 2\pi \) radians.
+    - *Example*: 1 rad, 10 rad, \pi rad.
+
+
+# Vector (向量)
+
+# Logic
 
 
 

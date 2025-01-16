@@ -3,7 +3,7 @@
 #### Arithmetical Operation
 
 1. Add: Add({x: Addtype}, {y: Addtype}) -> Addtype     # Add({3: Numbers} , {5:Numbers}) = 8.
-备注: Addtype作为一个集合会单独给出, 下同
+    备注: Addtype作为一个集合会单独给出, 下同
 
 2. Minus: Minus({x: Addtype}, {y: Addtype}) -> Addtype  # Minus({8: Numbers}, {5: Numbers}) = 3.
 
@@ -12,6 +12,10 @@
 4. Divide: Divide({x: Addtype}, {y: Addtype}) -> Addtype  # Divide({8: Numbers}, {2: Numbers}) = 4.
 
 5. Power: Power({x: Powertype}, {y: Powertype}) -> Powertype # Power({2: Numbers}, {4: Numbers}) = 16. 
+
+6. Radical: Radical({x: Radicaltype}, {y: Radicaltype}) -> Radicaltype # Radical({x^2: Expression}, {2: Number}) = x.
+
+7. Log: Logtype({x: Logtype}, {y: Logtype}) -> Logtype # Log({2: Number}, {4: Number}) = 2.
 
 
 #### Compare Operation
@@ -30,15 +34,19 @@
 #### Equation and Expression
 
 1. Get_Variable_Type: Get_Variable_Type(x: Variable) -> Concept # 变量x为一个正整数, Get_Variable_Type(x) -> Integer
-备注: Get_Variable_Type函数的返回值类型应该单独注明
+    备注: Get_Variable_Type函数的返回值类型应该单独注明
 
-2. Solve_equation: Solve_equation({P: Equation}, {x: Variable}) -> Set # 输入一个等式和对应变量, 返回解集
+2. Solve_equation: Solve_equation({P: Equation}, {x: Variable}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
 
 3. Solve_inequation: Solve_inequation({P: Inequation}, {x: Variable}) -> Set # 输入一个不等式和对应变量, 返回解集
 
 4. Get_Value_Expression: Get_Value_Expression({P: Expression}, {x: Variable}) -> Number # 输入一个表达式和变量, 返回它的值
 
+5. Simplified_Expression: Simplified_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式和变量, 返回化简后的表达式(合并同类项)
 
+6. Get_Factor_Expression: Get_Factor_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式, 做因式分解
+
+7. Get_Variable_Range: Get_Variable_Range(x: Variable) -> Set # 输入一个变量, 获取它的取值范围
 
 
 #### Function
@@ -86,7 +94,20 @@
 15. Is_Decreasing_Function: Is_Decreasing_Function({f: Function}, {D: Interval}) -> Boolean
     备注: 输入一个函数 f 和一个区间 D; 判断函数 f 在区间 D 上是否是减函数
 
+16. Is_OddFunction: Is_OddFunction(f: Function) -> Boolean
+    备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是奇函数
 
+17. Is_EvenFunction: Is_EvenFunction(f: Function) -> Boolean
+    备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是偶函数
+
+18. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
+    备注: 输入两个函数 f g; 返回它们的复合函数 f(g(x))
+
+19. Is_Periodic_Function: Is_Periodic_Function(f: Function) -> Boolean
+    备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是周期函数
+
+20. Get_Function_Minimalperiod: Get_Function_Minimalperiod(f: Function) -> Real
+    备注: 输入一个函数 f ; 返回它的最小正周期
 
 #### Set
 
@@ -124,7 +145,46 @@
     备注: 输入一个集合 \( A \) 和全集 \( U \), 返回集合 \( A \) 相对于全集 \( U \) 的补集; 公式表示为：\( A' = U \setminus A \)。  
 
 12. Set_Equality: Set_Equality({A: Set}, {B: Set}) -> Boolean  
-    备注: 输入两个集合, 判断它们是否相等 (\( A = B \)); 如果两个集合的元素完全相同且没有重复元素, 则它们相等。  
+    备注: 输入两个集合, 判断它们是否相等 (\( A = B \)); 如果两个集合的元素完全相同且没有重复元素, 则它们相等。
+
+13. Get_Set_Sum: Get_Set_Sum({A: Set}) -> Real
+    备注: 输入一个集合, 返回这个集合中所有元素的和(首先得能求和?)
+
+14. Build_Set: Build_Set(A: ElementProperty) -> Set
+    备注: 输入一个描述集合元素满足的条件, 返回由这个条件构建的集合
+
+#### Probability (概率)
+
+1. Probability: Probability({P: Event}) -> PositiveNumbers
+    备注: 输入一个集合 Event, 返回一个正实数(对应的概率)
+
+
+
+#### Angle (三角函数)
+
+1. Get_Angle_DegreeMeasure: Get_Angle_DegreeMeasure({A: Angle}) -> DegreeMeasure
+    备注: 输入一个角A, 返回它的度数(角度制)
+
+2. Get_Angle_RadianMeasure: Get_Angle_RadianMeasure({A: Angle}) -> RadianMeasure
+    备注: 输入一个角A, 返回它的弧度(弧度制)
+
+3. Change_Degree_To_Radian: Change_Degree_To_Radian({D: DegreeMeasure}) -> RadianMeasure
+    备注: 输入一个度数(角度制), 返回它的弧度(弧度制)
+
+4. Change_Radian_To_Degree: Change_Radian_To_Degree({R: RadianMeasure}) -> DegreeMeasure
+    备注: 输入一个弧度(弧度制), 返回它的角度(角度制)
+
+5. Sin: Sin({A: Angle}) -> Real
+    备注: 输入一个角度, 返回对应的正弦值
+
+6. Cos: Cos({A: Angle}) -> Real
+    备注: 输入一个角度, 返回对应的余弦值
+
+7. Tan: Tan({A: Angle}) -> Real
+    备注: 输入一个角度, 返回对应的正切值
+
+8. Cot: Cot({A: Angle}) -> Real
+    备注: 输入一个角度, 返回对应的余切值
 
 
 
