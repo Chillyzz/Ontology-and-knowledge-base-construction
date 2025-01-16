@@ -187,6 +187,31 @@
     备注: 输入一个角度, 返回对应的余切值
 
 
+#### Vector (向量)
+
+1. Build_Plane_Vector: Build_Plane_Vector({A: Point}, {B: Point}) -> Vector
+    备注: 输入平面直角坐标系两个点, 返回对应的向量
+
+2. Build_ThreeDimension_Vector: Build_ThreeDimension_Vector({A: Point}, {B: Point}, {C: Point}) -> Vector
+    备注: 输入空间直角坐标系三个点, 返回对应的向量
+
+3. Get_Vector_Length: Get_Vector_Length({A: Vector}) -> PositiveNumbers
+    备注: 输入一个向量, 返回它对应的模长
+
+4. Is_Vector_Equal: Is_Vector_Equal({A: Vector}, {B: Vector}) -> Boolean
+    备注: 输入两个向量, 判断它们是否相等
+
+5. Is_Vector_Parallel: Is_Vector_Parallel({A: Vector}, {B: Vector}) -> Boolean
+    备注: 输入两个向量, 判断它们是否平行
+
+6. Get_ScalarMul_Vector: Get_ScalarMul_Vector({c: Real}, {A: Vector}) -> Vector
+    备注: 输入一个标量(实数)和一个向量, 返回它们数乘的结果
+
+7. Get_InnerProduct_Vector: Get_VectorMul_Vector({A: Vector}, {B: Vector}) -> Real
+    备注: 输入两个向量, 返回它们做内积的结果
+
+
+
 
 
 

@@ -273,6 +273,15 @@
 
 # Vector (向量)
 
+1. Vector: : A vector is a mathematical object that has both magnitude (length) and direction.
+    - *Example*: (0, 1); (10, 20); (0, 1, 1).
+
+2. PlaneVector: A PlaneVector is a vector in a plane.
+    - *Example*: (0, 1); (0, 2).
+
+3. ThreeDimensionVector: A ThreedimensionVector is a vector in a 3D space.
+    - *Example*: (0, 1, 2); (0, 2, 3).
+
 # Logic
 
 
