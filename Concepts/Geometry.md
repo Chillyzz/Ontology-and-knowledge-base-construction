@@ -16,11 +16,7 @@
 
 ## Angle 角
 1. Angle \\ on Plane : An angle is formed by two rays (sides) that share a common endpoint (the vertex). Angles are measured in degrees (°).
-2. Acute Angle \\ in Angle : An angle less than 90°.
-3. Right Angle \\ in Angle : An angle exactly equal to 90°.
-4. Obtuse Angle \\ in Algle : An angle greater than 90° but less than 180°.
-5. Straight Angle \\ in Algle : An angle equal to 180°.
-6. Reflex Angle \\ in Angle : An angle greater than 180° but less than 360°.
+
 
 # Polygon 多边形
 1. Polygon : a 2D geometric figure made up of straight line segments (called sides) that are connected to form a closed figure.
@@ -92,8 +88,8 @@
 1. Parabola \\ in Conic Section : A parabola is a curve defined as the set of points equidistant from a fixed point (focus) and a line (directrix).
 
 # Coordinate System 坐标系
-## Cartesian Coordinate System (笛卡尔坐标系 坐标变换？极坐标系以及三维坐标系？) 
 
-1. Origin : The point where the axes intersect is called the **origin**, denoted as \( (0, 0) \).
-2. Axes : The two perpendicular lines are the **x-axis** (horizontal) and the **y-axis** (vertical).
-3. Quadrants : The plane is divided into four regions (quadrants) by the axes.
+
+1. Coordinate System
+
+2. Rectangular Plane Coordinate System
