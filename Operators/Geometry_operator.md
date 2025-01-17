@@ -72,6 +72,9 @@
 
 3. volume of : ({-,-}) -> [0, +∞)
 
+4. lenght of : ({-,-}) -> (0, +∞)
+   (the sum of the lengths of Polynomial or the perimeter is also this one)
+
 ### Angle 角度
 1. the degree of angle : (Angle) -> [0, 180°]
 
@@ -162,6 +165,22 @@
 9. Circular Arc Determined by Three point : when a point is in the middle of two points, then they determine an  circular arc.
    Circular Arc Determined by Three point : (Point, Point, Point, Bool) -> Set
 
+### Midpoint, perpendicular bisector, angular bisector 中点，垂直平分线，角平分线
+1. Midpoint of Line Segment : (Line Segment) -> Point
+
+2. The nth mth dividing point of Vector : (Vector) -> Point
+
+3. perpendicular bisector of Line Segment : (Line Segment, Plane) -> Line
+
+4. angular bisector : (Angle) -> Ray
+
+5. Centroid of triangle : the point of intersection of its three medians.
+   Centroid of triangle : (Triangle) -> Point
+
+6. orthocenter of triangle : the point where the three altitudes of the triangle intersect
+   orthocenter of triangle : (Triangle) -> Point
+
+
 # Rectangular Plane Coordinate System 平面直角坐标系
 
 1. Origin : The point where the axes intersect is called the **origin**, denoted as \( (0, 0) \).
@@ -208,6 +227,71 @@
 2. The standard equation of circle : x^2 + y^2 + Dx + Ey + F = 0
    The standard equation of circle : (Circle) -> Function
 
+# Tangency of a circle 圆与直线,三角形心
+
+1. Line intersect circle : (Line, Circle) -> Bool
+
+2. Line is tangent to circle : (Line, Circle) -> Bool
+
+3. line is separate from a circle : (Line, Circle) -> Bool
+
+4. Incircle of triangle : a circle that is tangent to all three sides of the triangle.
+   Incircle of triangle : (Triangle) -> Circle
+
+5. Excircle of triangle : a circle that is tangent to one side of the triangle and the extensions of the other two sides.
+   Excircle of triangle : (Triangle, Point) -> Circle
+
+6. circumcircle of triangle : the circle that passes through all three vertices of the triangle.
+   circumcircle of triangle : (Triangle) -> Circle
+
+7. incenter of triangle : the point of intersection of the angle bisectors of the triangle。
+   incenter of triangle : (Triangle) -> Point
+
+8. Excenter of triangle : center of one of the excircles.
+   Excenter of triangle : (Triangle, Point) -> Point
+
+9. circumcenter of triangle : the point of intersection of the perpendicular bisectors of the sides of the triangle.
+   circumcenter of triangle : (Triangle) -> Point
+
+# Translation, Rotation, Symmetry, and Central Symmetry 平移，旋转，对称，中心对称
+1. Translation : to move every point of a figure the same distance in the same direction(Determined by a Vector).
+   Translation : ({-,-}, Vector) -> {-,-}
+
+2. 2d_Rotation : to turn a figure around a fixed point, known as the center of rotation, by a certain angle.
+   2d_Rotation : ({-,-}, Point, [0,360°)) -> {-,-}
+
+3. 3d_Rotation : ({-,-}, Line, [0,360°)) -> {-,-}
+
+4. 2d_Reflection : flipped across a line (in 2D) or a plane (in 3D), resulting in a mirror image of the original figure.
+   2d_Reflection : ({-,-}, Line) -> {-,-}
+
+5. 3d_Reflection : ({-,-}, Plane) -> {-,-}
+
+6. 2d_Central_Symmetry : rotated 180°.
+   2d_Central_Symmetry : ({-,-}, Point) -> {-,-}
+
+7. 3d_Central_Symmetry : ({-,-}, Line) -> {-,-}
+
+# similarity and homothety 相似与位似
+1. Is Similar with : shapes that have the same shape but may differ in size.
+   Is Similar with : ({-,-}, {-,-}) -> Bool
+
+2. Is Similar Triangle : (Triangle, Triangle) -> Bool
+
+3. homothety : a figure is moved along a straight line through a fixed point (the center of homothety), with distances multiplied by a constant scale factor(a real number, when negtive, then the figure is of the two sides of the center).
+   homothety : ({-,-}, Point, Real Number) -> {-,-}
+
+4. Is_Homothetic_With : ({-,-}, {-,-}, Point) -> Bool
+
+# Internal and External 内部与外部
+1. 2d_Internal_Of : the region inside the object(for simple closed curve, the Jordan Curve Theorem give the definition, but for others, the definition is customary, e.g : the Internal of Parabola).
+   2d_Internal_Of : ({-,-}) -> Set
+
+2. 3d_Internal_Of : ({-,-}) -> Set
+
+3. 2d_External_Of : ({-,-}) -> Set
+
+4. 3d_External_Of : ({-,-}) -> Set
 
 
 
