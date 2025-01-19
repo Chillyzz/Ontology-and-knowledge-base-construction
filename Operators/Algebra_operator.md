@@ -1,3 +1,5 @@
+(共100个 Operator)
+
 # Operator
 
 #### Arithmetical Operation
@@ -289,6 +291,24 @@
 
 1. Negation: Negation({a: Proposition}) -> Proposition
     备注: 对原命题进行取反
+
+2. Build_Universal_Proposition: Build_Universal_Proposition({a: Set}, {b: Proposition}) -> Proposition
+    备注: \forall x\in 集合a, x都满足命题b
+
+3. Build_Exist_Proposition: Build_Exist_Proposition({a: Set}, {b: Proposition}) -> Proposition
+    备注: \exist x\in 集合a, x满足命题
+
+4. And: And({a: Proposition}, {b: Proposition}) -> Proposition
+    备注: 命题A 且 命题 B
+
+5. Or: Or({a: Proposition}, {b: Proposition}) -> Proposition
+    备注: 命题A 或 命题 B
+
+6. Implication: Implication({p: Proposition}, {q: Proposition}) -> Proposition
+    备注: 命题 P 蕴含 命题 Q
+
+7. Equivalence: Equivalence({p: Proposition}, {q: Proposition}) -> Proposition
+    备注: 命题 P 和命题 Q 等价
 
 
 

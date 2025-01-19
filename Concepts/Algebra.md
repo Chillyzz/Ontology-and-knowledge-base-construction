@@ -1,3 +1,5 @@
+(90个Concept)
+
 # Number(数，实数、整数、自然数、小数、分数)
 
 1. Number: The concept of a number, representing a mathematical entity used to measure, count, and label.
@@ -290,6 +292,8 @@
 1. Proposition: A statement that is whether true or false.
     - *Example*: " 2 + 2 = 4 "
 
+2. UniversalProposition: A statement that contains " \forall "
+    - *Example*: " \forall x \in Z, x^2 -1 = 0 " 
 
 
 
@@ -297,10 +301,6 @@
 
 1. Dataset \\in Set: A set contains data points, ususally used in statistics.
     - *Example*: A: Dataset; A = {1, 2, 3, 4}  
-
-2. 
-
-3. 
 
 
 
