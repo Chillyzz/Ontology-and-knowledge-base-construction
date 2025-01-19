@@ -39,17 +39,28 @@
 16. TranscendentalNumbers \\in Irrational: Numbers that are not the roots of any non-zero polynomial equation with integer coefficients.  
     *Example:* \( \pi, e \).
 
-17. AlgebraicNumbers \\in Real: Numbers that are the roots of polynomial equations with integer coefficients.  
-    *Example:* \( \sqrt{2}, \frac{1}{3} \).
-
-18. PositiveNumbers \\in Real: Real numbers greater than zero.  
+17. PositiveNumbers \\in Real: Real numbers greater than zero.  
     *Example:* \(2, 3.5, \sqrt{7}\).
 
-19. NegativeNumbers \\in Real: Real numbers less than zero.  
+18. NegativeNumbers \\in Real: Real numbers less than zero.  
     *Example:* \(-1, -3.14, -\sqrt{5}\).
-    
+
+19. NonNegativeNumbers \\in Real: Real numbers that are greater or equal than zero.
+    *Example:* \(0, 3.5, \sqrt{7}\).
+
 20. Reciprocal \\in Rational Numbers: A number that, when multiplied by the original number, results in 1.  
     *Example:* The reciprocal of \(4\) is \(\frac{1}{4}\).
+
+21. PositiveIntegers \\in Integers: Integers that > 0
+    *Example:* 1, 2, 3.
+
+22. NegativeIntegers \\in Integers: Integers less than zero.  
+    *Example:* \(-1, -2, -3\).
+
+23. NonNegativeIntegers \\in Integers: Integers that are greater or equal than zero.
+    *Example:* \(0, 1, 3, 5\).
+
+
 
 
 
@@ -57,35 +68,29 @@
 
 1. Polynomial \\in Expression: Mathematical expression consisting of variables(numbers) and coefficients, combined using operations. 
 
-2. PolyDegree \\in Integers : The highest power of the variable in the polynomial. For example, in 3x^4 + 2x + 5, the degree is 4.
+2. Monomial \\in Polynomial: A polynomial with only one term, such as 3x^2 or 5.
 
-3. Monomial \\in Polynomial: A polynomial with only one term, such as 3x^2 or 5.
+3. Binomial \\in Polynomial: A polynomial with two terms, such as x+2 or 3x^2-4x.
 
-4. Binomial \\in Polynomial: A polynomial with two terms, such as x+2 or 3x^2-4x.
-
-5. Coefficient \\in Number: The coefficient of the term in a polynomial. In 4x^3 + 2x^2, the coefficient for 4x^3 term is 4.
-
-6. Polyroots \\in Set: The values of the variable that make the polynomial equal to zero. Ex(x^2- 5x + 6 has two roots x = 2 and x = 3)
-
-7. PolynomialTerm \\in Polynomial: Each individual part of a polynomial separated by addition or subtraction.  
+4. PolynomialTerm \\in Polynomial: Each individual part of a polynomial separated by addition or subtraction.  
    *Example:* In \(3x^2 + 4x + 5\), \(3x^2\), \(4x\), and \(5\) are terms.
 
-8. ConstantTerm \\in PolynomialTerm: A term in the polynomial with a degree of 0, representing a fixed value.  
+5. ConstantTerm \\in PolynomialTerm: A term in the polynomial with a degree of 0, representing a fixed value.  
    *Example:* In \(2x^2 + 3x + 4\), the constant term is \(4\).
 
-9. RationalRoot \\in Polyroots: A root of the polynomial that can be expressed as a fraction of integers.  
+6. RationalRoot \\in Polyroots: A root of the polynomial that can be expressed as a fraction of integers.  
    *Example:* For \(x^2 - 3x + 2\), the roots \(x = 1\) and \(x = 2\) are rational.
 
-10. IrrationalRoot \\in Polyroots: A root of the polynomial that cannot be expressed as a fraction.  
+7. IrrationalRoot \\in Polyroots: A root of the polynomial that cannot be expressed as a fraction.  
    *Example:* The roots of \(x^2 - 2 = 0\) are \(x = \pm \sqrt{2}\), which are irrational.
    
-11. Factor \\in Polynomial: A polynomial that divides another polynomial exactly.  
+8. Factor \\in Polynomial: A polynomial that divides another polynomial exactly.  
    *Example:* \((x - 2)\) and \((x - 3)\) are factors of \(x^2 - 5x + 6\).
 
-12. IrreduciblePolynomial \\in Polynomial: A polynomial that cannot be factored into polynomials of lower degree with coefficients in a field.  
+9. IrreduciblePolynomial \\in Polynomial: A polynomial that cannot be factored into polynomials of lower degree with coefficients in a field.  
    *Example:* \(x^2 + 1\) is irreducible over the real numbers.
 
-13. CriticalPoint \\in Polyroots: A value of the variable where the derivative of the polynomial equals zero.  
+10. CriticalPoint \\in Polyroots: A value of the variable where the derivative of the polynomial equals zero.  
    *Example:* For \(f(x) = x^3 - 3x^2\), the critical points are \(x = 0\) and \(x = 2\).
 
 
@@ -202,7 +207,6 @@
 11. Interval \\in Set: A useful set often used when learning function.
    *Example:* A: Interval, $A = [1, 2]$ ; B: Interval, $B = (3, 5]$ 
 
-12. ElementProperty \\in LogicalExpression: 
 
 
 # Expression(表达式)
@@ -228,8 +232,6 @@
 7. BinomialCoefficient \\in Expression: The coefficient of the term in the expansion of \( (x + y)^n \), denoted as \( \binom{n}{k} \).  
     - *Example*: \( \binom{5}{2} = \frac{5!}{2!(5-2)!} = 10 \).
 
-8. LogicalExpression: Logical expression? Need to be verified.
-   *Example:* {a: Number}; a > 0 And a^2 = 1
 
 
 
@@ -282,9 +284,23 @@
 3. ThreeDimensionVector: A ThreedimensionVector is a vector in a 3D space.
     - *Example*: (0, 1, 2); (0, 2, 3).
 
+
 # Logic
 
+1. Proposition: A statement that is whether true or false.
+    - *Example*: " 2 + 2 = 4 "
 
+
+
+
+# Statistics & Probability
+
+1. Dataset \\in Set: A set contains data points, ususally used in statistics.
+    - *Example*: A: Dataset; A = {1, 2, 3, 4}  
+
+2. 
+
+3. 
 
 
 

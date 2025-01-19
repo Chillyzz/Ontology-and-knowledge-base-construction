@@ -18,6 +18,17 @@
 7. Log: Logtype({x: Logtype}, {y: Logtype}) -> Logtype # Log({2: Number}, {4: Number}) = 2.
 
 
+#### Numbers
+
+1. Get_Reciprocal: Get_Reciprocal({x: Number}) -> Number #  Get_Reciprocal(4) = 1/4 (取倒数)
+
+2. Get_Number_Floor: Get_Number_Floor({x: Real}) -> Integer  # Get_Number_Floor(3.8) = 4 (向上取整)
+
+3. Get_Number_Ceil: Get_Number_Ceil({x: Real}) -> Integer  # Get_Number_Ceil(3.8) = 4 (向下取整)
+
+4. Abs: Abs({a: Number}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
+
+
 #### Compare Operation
 
 1. Is_GreaterThan: Is_Greaterthan({a: Number}, {b: Number}) -> Boolean  # Is_Greaterthan({3: Number}, {5: Number}) -> False.
@@ -44,9 +55,29 @@
 
 5. Simplified_Expression: Simplified_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式和变量, 返回化简后的表达式(合并同类项)
 
-6. Get_Factor_Expression: Get_Factor_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式, 做因式分解
+6. Get_Factors_Expression: Get_Factors_Expression({P: Polynomial}) -> Expression # 输入一个表达式, 做因式分解
 
 7. Get_Variable_Range: Get_Variable_Range(x: Variable) -> Set # 输入一个变量, 获取它的取值范围
+
+8. Get_PolyDegree: Get_PolyDegree(x: Polynomial) -> Number # 输入一个多项式, 返回它的最高次幂
+
+9. Get_Polyroots: Get_Polyroots(x: Polynomial) -> Set # 输入一个多项式, 返回它的根的集合
+
+10. Get_PolyCoefficient: Get_PolyCoefficient(x: Polynomial) -> Set # 输入一个多项式, 返回它的系数集合
+
+11. Get_PolyTerm: Get_PolyTerm(x: Polynomial) -> Set # 输入一个多项式, 返回它的项的集合
+
+12. Get_ConstantTerm: Get_ConstantTerm(x: Polynomial) -> Number # 输入一个多项式, 返回它的常数项
+
+13. Is_PolyFactor: IsPolyFactor({A: Polynomial}, {B: Polynomial}) -> Boolean # 输入两个多项式, 判断 A 是不是 B 的因子
+
+14. Is_IrreduciblePolynomial: Is_IrreduciblePolynomial({A: Polynomial}) -> Boolean # 输入一个多项式, 判断是否可约
+
+
+
+#### Sequence(数列)
+
+1. Get_Sequence_Terms: Get_Sequence_Terms({s: Sequence}, {n: Integers}) -> ElementType # 输入一个数列和序号, 返回对应的数列元素
 
 
 #### Function
@@ -109,6 +140,12 @@
 20. Get_Function_Minimalperiod: Get_Function_Minimalperiod(f: Function) -> Real
     备注: 输入一个函数 f ; 返回它的最小正周期
 
+21. Get_Function_CriticalPoint: Get_Function_CriticalPoint(f: Function) -> Set
+    备注: 输入一个函数 f ; 返回它零点的集合
+
+22. Get_Inverse_Function: Get_Inverse_Function(f: Function) -> Function
+    备注: 输入一个函数 f ; 返回它的反函数
+
 #### Set
 
 1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set
@@ -150,8 +187,16 @@
 13. Get_Set_Sum: Get_Set_Sum({A: Set}) -> Real
     备注: 输入一个集合, 返回这个集合中所有元素的和(首先得能求和?)
 
-14. Build_Set: Build_Set(A: ElementProperty) -> Set
-    备注: 输入一个描述集合元素满足的条件, 返回由这个条件构建的集合
+14. Build_Set: Build_Set({x: Variable}, {P(x): Proposition}) -> Set
+    备注: 输入变量 x 满足的条件, 返回 x 构成的集合
+
+15. Get_Set_Maximum: Get_Set_Maximum({A: Set}) -> Real
+    备注: 输入一个集合, 返回这个集合中元素的最大值
+
+16. Get_Set_Minimum: Get_Set_Minimum({B: Set}) -> Real
+    备注: 输入一个集合, 返回这个集合中元素的最小值
+
+
 
 #### Probability (概率)
 
@@ -209,6 +254,41 @@
 
 7. Get_InnerProduct_Vector: Get_VectorMul_Vector({A: Vector}, {B: Vector}) -> Real
     备注: 输入两个向量, 返回它们做内积的结果
+
+
+
+#### Statistics & Probability (概率统计)
+
+1. Get_Dataset_Range: Get_Dataset_Range({D: Dataset}) -> Real
+    备注: 输入一个数据集, 返回它的极差
+
+2. Get_Dataset_Mean: Get_Dataset_Mean({D: Dataset}) -> Real
+    备注: 输入一个数据集, 返回它的均值
+
+3. Get_Dataset_Median: Get_Dataset_Median({D: Dataset}) -> Real
+    备注: 输入一个数据集, 返回它的中位数
+
+4. Get_Dataset_Mode: Get_Dataset_Mode({D: Dataset}) -> Real
+    备注: 输入一个数据集, 返回它的众数
+
+5. Get_Dataset_StandardDeviation: Get_Dataset_StandardDeviation({D: Dataset}) -> Real
+    备注: 输入一个数据集, 返回它的标准差
+
+6. Get_Dataset_Variance: Get_Dataset_Variance({D: Dataset}) -> Real
+    备注: 输入一个数据集, 返回它的方差
+
+7. Probability: Probability({P: Event}) -> PositiveNumbers
+    备注: 输入一个集合 Event, 返回一个正实数(对应的概率, 0到1)
+
+8. Is_Event_Exclusive: Is_Event_Exclusive({A: Event}, {B: Event}) -> Boolean
+    备注: 输入两个事件 A, B; 判断它们是否互斥
+
+
+
+#### Logic (逻辑相关)
+
+1. Negation: Negation({a: Proposition}) -> Proposition
+    备注: 对原命题进行取反
 
 
 
