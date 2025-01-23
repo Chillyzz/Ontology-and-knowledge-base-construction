@@ -1,10 +1,10 @@
-- 共55个concept
+- 共40个concept
 
 # Basic Geometry 基础的几何元素
 ## Point,Line and Plane 点线面（关联公理及顺序公理）
 1. Point : A point is a precise location in space with no length, width, or thickness. It is usually represented by a dot and is labeled by a letter (e.g., point \(A\)).
 2. Line : A line is a straight one-dimensional figure that extends infinitely in both directions. It has no thickness and is typically represented with two arrows at the ends (e.g., line \(AB\)).
-3. Line Segment \\ on Line: A part of a line that has two endpoints. The length of a line segment can be measured.
+3. LineSegment \\ on Line: A part of a line that has two endpoints. The length of a line segment can be measured.
 4. Ray \\ on Line : A part of a line that starts at one point and extends infinitely in one direction. It has one endpoint and is represented by an arrow in one direction.
 
 5. Vector \\ on Line : A vector is a mathematical object that has both magnitude (length) and direction.
@@ -12,7 +12,7 @@
 6. Plane : A flat, two-dimensional surface that extends infinitely in all directions. It is often represented by a four-sided figure or the letter \(P\).
 7. Half-Plane \\ on Plane : A half-plane is a region of a two-dimensional plane that is divided by a straight line into two parts. One of these parts is called a half-plane, and it consists of all points on one side of the dividing line.
 
-8. Ordered Line \\ on Line : The Line having order on it, similar to the real line.
+8. OrderedLine \\ on Line : The Line having order on it, similar to the real line.
 
 ## Angle 角
 1. Angle \\ on Plane : An angle is formed by two rays (sides) that share a common endpoint (the vertex). Angles are measured in degrees (°).
@@ -23,13 +23,6 @@
 
 ## Triangle 三角形
 1. Triangle \\ in Polygon : polygon with three sides and three angles.
-2. Isosceles Triangle \\ in Triangle : Two sides are equal, and the angles opposite those sides are equal.
-3. Equilateral Triangle \\ in Isosceles Triangle : All sides are equal, and all angles are 60°.
-4. Scalene Triangle \\ in Triangle : All sides and angles are different.
-5. Acute Triangle \\ in Triangle : All angles are less than 90°.
-6. Right Triangle \\ in Triangle : One angle is exactly 90°.
-7. Obtuse Triangle \\ in Triangle : One angle is greater than 90°.
-8. Isosceles Right Triangle \\ in Isosceles Triangle, in Right Triangle : A right triangle where the two legs are equal, and the angles are 45° 45° 90°.
 
 ## Quadrilateral 四边形
 1. Quadrilateral \\ in Polygon : A polygon with four sides.
@@ -73,10 +66,8 @@
 
 ## Circle 圆
 1. Circle \\ in Ellipse : a simple, closed shape in geometry that consists of all points in a plane that are equidistant from a fixed point.
-2. Unit Circle \\ in Circle : a circle with radius 1 centered at the origin.
-3. Central Angle \\ in Angle : A central angle is an angle whose vertex is at the center of the circle and whose sides (rays) extend to the circumference of the circle. This angle subtends an arc of the circle.
-4. Inscribed Angle \\ in Angle : An inscribed angle is an angle formed by two chords in a circle that have a common endpoint. The vertex of the inscribed angle lies on the circumference of the circle, and the sides of the angle are formed by the two chords.
-5. Tangent-Secant Angle \\ in Angle : The angle between a tangent and a secant drawn from the same external point.
+2. AnnularSector : (also known as a fan-shaped region) is a specific type of geometric region bounded by two radii and an arc of a circle.
+
 
 ## Ellipse 椭圆
 1. Ellipse \\ in Conic Section : An ellipse is the set of points where the sum of the distances to two fixed points (foci) is constant.

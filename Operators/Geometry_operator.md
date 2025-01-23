@@ -1,40 +1,34 @@
-- 共68operator,在更新
+- 共110operator,在更新
 # Basic Geometry Axion 基础的几何公理
 ## Axiom of Connection 关联公理
 ### Connection 关联
-1. Connection : show that point is on a line/plane and so on / or set inclution
-   Connection : ({-,-},{-,-}) -> Bool
+1. Is_Connected_With : show that point is on a line/plane and so on / or set inclution
+   Is_Connected_With : ({-,-},{-,-}) -> Bool
 
-2. Point on : show point is on some set
-   Point on : (Point, {-,-}) -> Bool
+2. Is_Point_On : show point is on some set
+   Is_Point_On : (Point, {-,-}) -> Bool
 
-3. Line on Plane : show Line is on some plane
-   Line on Plane : (Line, Plane) -> Bool
+3. Is_Line_On_Plane : show Line is on some plane
+   Is_Line_On_Plane : (Line, Plane) -> Bool
 
 ### Point and Line 点与线
 
-1. Intersected : two geometry sets are intersected
-   Intersected : ({-,-},{-,-}) -> Bool
+1. Is_Intersected_With : two geometry sets are intersected
+   Is_Intersected_With : ({-,-},{-,-}) -> Bool
 
-2. Line Intersected : two lines are intersected
-   Line Intersected : (Line, Line) -> Bool
+2. Is_Line_Intersected : two lines are intersected
+   Is_Line_Intersected : (Line, Line) -> Bool
 
-3. Intersection Point : The intersection point of two lines is the unique point where the two lines meet in the plane.
-   Intersection Point : (Line,Line) -> Point
-
-4. Points on the same line : there exist some line that Three or more point is on it.
-   Points on the same line : (Point, Point, Point, ...) -> Bool
-
-5. Lines share a common point : there exist some point that Three or more line is containing it.
-   Lines share a common point : (Line, Line, Line, ...) -> Bool
+3. Intersection_Point_Of : The intersection point of two lines is the unique point where the two lines meet in the plane.
+   Intersection_Point_Of : (Line,Line) -> Point
 
 ### Line and Plane 线与面
 
-1. Plane Intersected : two planes are intersected
-   Plane Intersected : (Plane, Plane) -> Bool
+1. Is_Plane_Intersected : two planes are intersected
+   Is_Plane_Intersected : (Plane, Plane) -> Bool
 
-2. Intersection Line : the intersection line of two planes
-   Intersection Line : (Plane, Plane) -> Line
+2. Intersection_Line_Of : the intersection line of two planes
+   Intersection_Line_Of : (Plane, Plane) -> Line
 
 ## Axiom of Order 顺序公理
 
@@ -73,7 +67,7 @@
 3. volume of : ({-,-}) -> [0, +∞)
 
 4. lenght of : ({-,-}) -> (0, +∞)
-   (the sum of the lengths of Polynomial or the perimeter is also this one)
+   (the sum of the lengths of Polynomial or the perimeter or Circumference of circle is also this one)
 
 ### Angle 角度
 1. the degree of angle : (Angle) -> [0, 180°]
@@ -151,19 +145,27 @@
 
 3. center of Circle : (Circle) -> Point
 
-4. Radius of Circle : (Circle) -> [0, +∞)
+4. Radius Length of Circle : (Circle) -> [0, +∞)
 
-5. Diameter of Circle : (Circle) -> [0, +∞)
+5. Diameter Length of Circle : (Circle) -> [0, +∞)
 
 6. some Point on circle : (Circle) -> Point
 
-7. Circular Inferior Arc : (Point, Point, Bool) -> Set
+7. Radius of Circle : (Circle, Point) -> LineSegment
 
-8. In the middle of on circle : show a point on circle is in the middle of another two points on circle
+8. Diameter of Circle : (Circle, Point) -> LineSegment
+
+9. Circular Inferior Arc : (Point, Point, Bool) -> Set
+
+10. In the middle of on circle : show a point on circle is in the middle of another two points on circle
    In the middle of on circle : (Point, Point, Point) -> Bool
 
-9. Circular Arc Determined by Three point : when a point is in the middle of two points, then they determine an  circular arc.
+11. Circular Arc Determined by Three point : when a point is in the middle of two points, then they determine an  circular arc.
    Circular Arc Determined by Three point : (Point, Point, Point, Bool) -> Set
+
+### AnnularSector 扇环（扇形，半圆，圆环）
+1. AnnularSector_Of : the center, the central angle, the inner radius and outer one form an AnnularSector.
+   AnnularSector_Of : (Point, [0,360°], [0, +∞), [0, +∞)) -> AnnularSector
 
 ### Midpoint, perpendicular bisector, angular bisector 中点，垂直平分线，角平分线
 1. Midpoint of Line Segment : (Line Segment) -> Point
@@ -260,7 +262,7 @@
 2. 2d_Rotation : to turn a figure around a fixed point, known as the center of rotation, by a certain angle.
    2d_Rotation : ({-,-}, Point, [0,360°)) -> {-,-}
 
-3. 3d_Rotation : ({-,-}, Line, [0,360°)) -> {-,-}
+3. 3d_Rotation : ({-,-}, Ordered Line, [0,360°)) -> {-,-}
 
 4. 2d_Reflection : flipped across a line (in 2D) or a plane (in 3D), resulting in a mirror image of the original figure.
    2d_Reflection : ({-,-}, Line) -> {-,-}
@@ -271,6 +273,9 @@
    2d_Central_Symmetry : ({-,-}, Point) -> {-,-}
 
 7. 3d_Central_Symmetry : ({-,-}, Line) -> {-,-}
+
+8. Dilation : Scaling a figure up or down by a specific factor, preserving the shape but changing the size.
+   Dilation : ({-,-}, Vector) -> {-,-}
 
 # similarity and homothety 相似与位似
 1. Is Similar with : shapes that have the same shape but may differ in size.
@@ -293,6 +298,24 @@
 
 4. 3d_External_Of : ({-,-}) -> Set
 
+# distance 距离
+1. Distance_Of : the minimial distance of points in the two object.
+   Distance_Of : ({-,-}, {-,-}) -> [0, +∞)
 
+# Triangle shape 三角形形状
 
+1. Is_Isosceles_Triangle \\ in Triangle : Two sides are equal, and the angles opposite those sides are equal.
+   Is_Isosceles_Triangle : (Triangle) ->Bool
+2. Is_Equilateral_Triangle \\ in Isosceles Triangle : All sides are equal, and all angles are 60°.
+   Is_Equilateral_Triangle : (Triangle) ->Bool
+3. Is_Scalene_Triangle \\ in Triangle : All sides and angles are different.
+   Is_Scalene_Triangle : (Triangle) ->Bool
+4. Is_Acute_Triangle \\ in Triangle : All angles are less than 90°.
+   Is_Acute_Triangle : (Triangle) ->Bool
+5. Is_Right_Triangle \\ in Triangle : One angle is exactly 90°.
+   Is_Right_Triangle : (Triangle) ->Bool
+6. Is_Obtuse_Triangle \\ in Triangle : One angle is greater than 90°.
+   Is_Obtuse_Triangle : (Triangle) ->Bool
+7. Is_Isosceles_Right_Triangle \\ in Isosceles Triangle, in Right Triangle : A right triangle where the two legs are equal, and the angles are 45° 45° 90°.
+   Is_Isosceles_Right_Triangle : (Triangle) ->Bool
 
