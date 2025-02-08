@@ -319,3 +319,27 @@
 7. Is_Isosceles_Right_Triangle \\ in Isosceles Triangle, in Right Triangle : A right triangle where the two legs are equal, and the angles are 45° 45° 90°.
    Is_Isosceles_Right_Triangle : (Triangle) ->Bool
 
+# 几何图形的参数
+1. Height_Of : the height of triangle, Trapezoid, Prism, Pyramid, Frustum and so on.
+   Height_Of : ({-,-}) -> Positive Real Number
+
+2. Base_Length_Of : The base length of a triangle, Parallelogram.
+   Base_Length_Of : ({-,-}) -> Positive Real Number
+
+3. Upper_Base_Length_Of : (Trapezoid) -> Positive Real Number
+
+4. Lower_Base_Length_Of : (Trapezoid) -> Positive Real Number
+
+5. Length_Of : The length of rectangle, rectangular prism.
+   Length_Of : ({-,-}) -> Positive Real Number
+
+6. Width_Of : The width of rectangle, rectangular prism.
+   Width_Of : ({-,-}) -> Positive Real Number
+
+7. Side_Length_Of : (Rhombus) -> Positive Real Number
+
+8. Edge_Length_Of : (Cube) -> Positive Real Number
+
+9. Bottom_Area_Of : the bottom area of Prism, Pyramid, Cylinder, and Cone.
+   Bottom_Area_Of : ({-,-}) -> Positive Real Number
+
