@@ -19,6 +19,10 @@
 
 7. Log: Logtype({x: Logtype}, {y: Logtype}) -> Logtype # Log({2: Number}, {4: Number}) = 2.
 
+8. Equal: Equal({x: Concept}, {y: Concept}) -> Boolean # 比较任意两个 individual 是否相同
+
+
+
 
 #### Numbers
 
@@ -53,13 +57,13 @@
 
 3. Solve_inequation: Solve_inequation({P: Inequation}, {x: Variable}) -> Set # 输入一个不等式和对应变量, 返回解集
 
-4. Get_Value_Expression: Get_Value_Expression({P: Expression}, {x: Variable}) -> Number # 输入一个表达式和变量, 返回它的值
+4. Get_Value_Expression: Get_Value_Expression({P: Expression}, {x: Variable}) -> Number # 输入一个表达式和变量在一点的值, 返回它的值
 
 5. Simplified_Expression: Simplified_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式和变量, 返回化简后的表达式(合并同类项)
 
 6. Get_Factors_Expression: Get_Factors_Expression({P: Polynomial}) -> Expression # 输入一个表达式, 做因式分解
 
-7. Get_Variable_Range: Get_Variable_Range(x: Variable) -> Set # 输入一个变量, 获取它的取值范围
+7. Get_Variable_Value: Get_Variable_Value(x: Variable) -> Set # 输入一个变量, 获取它的取值范围
 
 8. Get_PolyDegree: Get_PolyDegree(x: Polynomial) -> Number # 输入一个多项式, 返回它的最高次幂
 
@@ -74,6 +78,7 @@
 13. Is_PolyFactor: IsPolyFactor({A: Polynomial}, {B: Polynomial}) -> Boolean # 输入两个多项式, 判断 A 是不是 B 的因子
 
 14. Is_IrreduciblePolynomial: Is_IrreduciblePolynomial({A: Polynomial}) -> Boolean # 输入一个多项式, 判断是否可约
+
 
 
 
@@ -148,6 +153,15 @@
 22. Get_Inverse_Function: Get_Inverse_Function(f: Function) -> Function
     备注: 输入一个函数 f ; 返回它的反函数
 
+23. Get_Function_Expression: Get_Function_Expression(f: Function) -> Expression
+    备注: 输入一个函数 f ; 返回它的表达式
+
+24. Get_Function_IthComposition: Get_Function_IthComposition({f: Function}, {i: Integer}) -> Function
+    备注: 输入一个函数 f 以及它的复合次数 i; 返回它的复合函数 f^{i}(x)
+
+25. Get_Function_Value: Get_Function_Value({f: Function}, {x: Number}) -> Number
+    备注: 输入一个函数 f 以及变量的值，返回函数对应的值
+
 #### Set
 
 1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set
@@ -189,7 +203,7 @@
 13. Get_Set_Sum: Get_Set_Sum({A: Set}) -> Real
     备注: 输入一个集合, 返回这个集合中所有元素的和(首先得能求和?)
 
-14. Build_Set: Build_Set({x: Variable}, {P(x): Proposition}) -> Set
+14. Build_Set: Build_Set({x: VariableType}, {P(x): Proposition}) -> Set
     备注: 输入变量 x 满足的条件, 返回 x 构成的集合
 
 15. Get_Set_Maximum: Get_Set_Maximum({A: Set}) -> Real

@@ -1,4 +1,4 @@
-(90个Concept)
+(95个Concept)
 
 # Number(数，实数、整数、自然数、小数、分数)
 
@@ -233,6 +233,8 @@
 
 7. BinomialCoefficient \\in Expression: The coefficient of the term in the expansion of \( (x + y)^n \), denoted as \( \binom{n}{k} \).  
     - *Example*: \( \binom{5}{2} = \frac{5!}{2!(5-2)!} = 10 \).
+
+8. VariableType: A set of all possible variable types. Like Number, Set, Function, Real, Integer......
 
 
 
