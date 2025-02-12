@@ -151,7 +151,7 @@
 9. Paralleled line Determined by Line and outer point : (Line, Point, Bool) -> Line
 
 ### Circle  圆
-1. Circle Determined by center and Point : (Point, Point) -> Circle
+1. Circle_Determined_By_Center_And_Point : (Point, Point) -> Circle
 
 2. Circle Determined by center and Radius : (Point, [0, +∞)) -> Circle
 

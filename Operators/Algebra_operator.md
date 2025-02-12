@@ -21,6 +21,10 @@
 
 8. Equal: Equal({x: Concept}, {y: Concept}) -> Boolean # 比较任意两个 individual 是否相同
 
+9. Sum: Sum({i: Expression}, {x: Integer}, {y: Integer}) -> Number  # 对表达式 i, 从 i = x 开始到 i = y 求和
+
+10. Product: Product({i: Expression}, {x: Integer}, {y: Integer}) -> Number  # 对表达式 i, 从 i = x 开始到 i = y 求乘积
+
 
 
 
@@ -34,6 +38,8 @@
 
 4. Abs: Abs({a: Number}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
 
+5. Get_Repeating_Decimal: Get_Repeating_Decimal({x: Integer}, {y: Integer}) -> RationalNumbers (表达一个无限循环小数, x是整数部分, y是小数部分)
+
 
 #### Compare Operation
 
@@ -46,7 +52,21 @@
 
 4. Is_LessOrEqualThan: Is_LessOrEqualThan({a: Number}, {b: Number}) -> Boolean # Is_LessOrEqualThan({4: Number}, {5: Number}) -> True
 
+5. Get_LessThan_Inequation: Get_LessThan_Inequation({p: Expression}, {q: Expression}) -> Inequation
+    备注: 输入两个Expression, 用小于号链接得到一个不等式
 
+6. Get_GreaterThan_Inequation: Get_GreaterThan_Inequation({p: Expression}, {q: Expression}) -> Inequation 
+    备注: 输入两个Expression, 用大于号链接得到一个不等式
+
+7. Get_Equation: Get_Equation({p: Expression}, {q: Expression}) -> Equation
+    备注: 输入两个Expression, 用等号链接得到一个等式
+
+8. Get_LessOrEqualThan_Inequation: Get_LessOrEqualThan_Inequation({p: Expression}, {q: Expression}) -> Inequation
+    备注: 输入两个Expression, 用小于等于号链接得到一个不等式
+
+9. Get_GreaterOrEqualThan_Inequation: Get_GreaterOrEqualThan_Inequation({p: Expression}, {q: Expression}) -> Inequation
+    备注: 输入两个Expression, 用大于等于号链接得到一个不等式
+    
 
 #### Equation and Expression
 
@@ -57,7 +77,7 @@
 
 3. Solve_inequation: Solve_inequation({P: Inequation}, {x: Variable}) -> Set # 输入一个不等式和对应变量, 返回解集
 
-4. Get_Value_Expression: Get_Value_Expression({P: Expression}, {x: Variable}) -> Number # 输入一个表达式和变量在一点的值, 返回它的值
+4. Get_Value_Expression: Get_Value_Expression({P: Expression}) -> Number # 输入一个表达式(不含变量), 返回它简化后的值
 
 5. Simplified_Expression: Simplified_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式和变量, 返回化简后的表达式(合并同类项)
 
@@ -79,12 +99,38 @@
 
 14. Is_IrreduciblePolynomial: Is_IrreduciblePolynomial({A: Polynomial}) -> Boolean # 输入一个多项式, 判断是否可约
 
+15. Get_Variable_Expression_Value: Get_Variable_Expression_Value({P: Expression}, {x: Variable}) -> Number # 输入一个表达式和变量的值, 返回对应的值
+
+16. Get_Quadratic_Discriminant: Get_Quadratic_Discriminant({P: Expression}) -> Number # 输入一个二次方程, 返回它的判别式
+
 
 
 
 #### Sequence(数列)
 
 1. Get_Sequence_Terms: Get_Sequence_Terms({s: Sequence}, {n: Integers}) -> ElementType # 输入一个数列和序号, 返回对应的数列元素
+
+2. Build_Sequence: Build_Sequence({n: Variable}, {p: Expression}) -> Sequence # 输入数列的通项公式, 返回对应的数列
+
+3. Is_ArithmeticSequence: Is_ArithmeticSequence({s: Sequence}) -> Boolean # 输入一个数列, 判断是不是等差数列
+
+4. Is_GeometricSequence: Is_GeometricSequence({s: Sequence}) -> Boolean # 输入一个数列, 判断是不是等比数列
+
+5. Is_MonotonicSequence: Is_MonotonicSequence({s: Sequence}) -> Boolean # 输入一个数列, 判断是不是单调数列
+
+6. Get_CommonDifference: Get_CommonDifference({s: ArithmeticSequence}) -> Number # 输入一个等差数列, 返回它的公差
+
+7. Get_CommonRatio: Get_CommonRatio({s: GeometricSequence}) -> Number # 输入一个等比数列, 返回它的公比
+
+8. Is_Finite: Is_Finite({s: Sequence}) -> Boolean # 输入一个数列，判断是不是有限的
+
+9. Is_Monotonic_Increasing_Sequence: Is_Monotonic_Increasing_Sequence({s: Sequence}) -> Boolean # 判断一个数列是不是单调递增的
+
+10. Is_Monotonic_Decreasing_Sequence: Is_Monotonic_Decreasing_Sequence({s: Sequence}) -> Boolean # 判断一个数列是不是单调递减的
+
+
+
+
 
 
 #### Function
@@ -162,6 +208,9 @@
 25. Get_Function_Value: Get_Function_Value({f: Function}, {x: Number}) -> Number
     备注: 输入一个函数 f 以及变量的值，返回函数对应的值
 
+26. Build_Function: Build_Function({f: Expression}, {x: Variable}) -> Function
+    备注: 输入一个表达式 f 以及变量, 返回由这个表达式对应的函数
+
 #### Set
 
 1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set
@@ -211,6 +260,15 @@
 
 16. Get_Set_Minimum: Get_Set_Minimum({B: Set}) -> Real
     备注: 输入一个集合, 返回这个集合中元素的最小值
+
+17. Check_Set_Type: Check_Set_Type({A: Set}, {B: Concept}) -> Boolean
+    备注: 检查一个集合的元素是否都属于某个 Concept
+
+18. Get_Set_Product: Get_Set_Product({A: Set}) -> Real
+    备注: 输入一个集合, 返回这个集合中所有元素的乘积(首先得能求乘积?)
+
+19. Elements_In_Set: Elements_In_Set({A: Individual}, {B: Set}) -> Boolean
+    备注: 判断某个具体的 Individual 是否属于某个 Set
 
 
 
@@ -310,7 +368,7 @@
     备注: \forall x\in 集合a, x都满足命题b
 
 3. Build_Exist_Proposition: Build_Exist_Proposition({a: Set}, {b: Proposition}) -> Proposition
-    备注: \exist x\in 集合a, x满足命题
+    备注: \exist x\in 集合a, x满足命题b
 
 4. And: And({a: Proposition}, {b: Proposition}) -> Proposition
     备注: 命题A 且 命题 B

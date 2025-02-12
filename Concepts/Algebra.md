@@ -236,6 +236,8 @@
 
 8. VariableType: A set of all possible variable types. Like Number, Set, Function, Real, Integer......
 
+9. Constant \\in Number: A fixed number, like 0, 1, 2......
+
 
 
 
@@ -266,6 +268,11 @@
 8. DivergentSequence \\in Sequence: A sequence where the terms do not approach a finite value as \(n\) approaches infinity.  
     - *Example*: The sequence \( 1, 2, 3, 4, \dots \) is divergent.
 
+9. CommonDifference \\in Number: The constant difference between consecutive terms in an ArithmeticSequence.
+    - *Example*: The sequence \( 2, 5, 8, 11, \dots \) the common difference is d = 3.
+
+10. CommonRatio \\in Number: The constant ratio between consecutive terms in a GeometricSequence.
+    - *Example*: The sequence \( 3, 6, 12, 24, \dots \) the common ratio is r = 2.
 
 
 # Angle
