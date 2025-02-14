@@ -21,7 +21,7 @@
 
 8. Equal: Equal({x: Concept}, {y: Concept}) -> Boolean # 比较任意两个 individual 是否相同
 
-9. Sum: Sum({i: Expression}, {x: Integer}, {y: Integer}) -> Number  # 对表达式 i, 从 i = x 开始到 i = y 求和
+9. Sum: Sum({A(i): Expression}, {P(i): Proposition}) -> Expression  # 对所有满足命题 P(i) 的 i, 对 A(i)求值
 
 10. Product: Product({i: Expression}, {x: Integer}, {y: Integer}) -> Number  # 对表达式 i, 从 i = x 开始到 i = y 求乘积
 
@@ -89,7 +89,7 @@
 
 9. Get_Polyroots: Get_Polyroots(x: Polynomial) -> Set # 输入一个多项式, 返回它的根的集合
 
-10. Get_PolyCoefficient: Get_PolyCoefficient(x: Polynomial) -> Set # 输入一个多项式, 返回它的系数集合
+10. Get_Term_Coefficient: Get_Term_Coefficient({x: Polynomial}, {y: PolynomialTerm}) -> Number # 输入一个多项式和对应的某一项, 返回该项的系数
 
 11. Get_PolyTerm: Get_PolyTerm(x: Polynomial) -> Set # 输入一个多项式, 返回它的项的集合
 
@@ -103,6 +103,14 @@
 
 16. Get_Quadratic_Discriminant: Get_Quadratic_Discriminant({P: Expression}) -> Number # 输入一个二次方程, 返回它的判别式
 
+17. Get_Expression_Maximum: Get_Expression_Maximum(f: Expression) -> Number # 输入一个表达式, 返回可能的最大值
+
+18. Get_Expression_Minimum: Get_Expression_Minimum(f: Expression) -> Number # 输入一个表达式, 返回可能的最小值
+
+19. Get_PolyCoefficient: Get_PolyCoefficient(x: Polynomial) -> Set # 输入一个多项式, 返回它的系数集合
+
+20. Get_Constant_Value: Get_Constant_Value(x: Constant) -> Number # 求解一个常数的值
+ 
 
 
 

@@ -241,6 +241,7 @@
 
 
 
+
 # Sequence(数列)
 
 1. Sequence \\in Set: A list of numbers arranged in a specific order, usually following a particular pattern or rule.  
