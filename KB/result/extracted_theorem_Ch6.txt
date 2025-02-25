@@ -1,0 +1,26 @@
+[
+    {
+        "Theorem": "Definition (Logarithm)",
+        "id": "6.1.1",
+        "Equation": "$$ a = \\log_{b} n $$",
+        "Content": "A logarithm is the power to which a number must be raised in order to obtain another number. In this definition, b is the base and n is the number; essentially, it asks: 'How many times must b be multiplied by itself to yield a?'"
+    },
+    {
+        "Theorem": "Converting to Logarithm and Exponents",
+        "id": "6.1.2",
+        "Equation": "$$ \\log_{x} y = a \\Longrightarrow x^{a} = y $$",
+        "Content": "This theorem shows the direct relationship between logarithmic and exponential forms. It indicates that if the logarithm of y with base x equals a, then raising x to the power a yields y."
+    },
+    {
+        "Theorem": "Important Formulas",
+        "id": "6.2.1",
+        "Equation": "$$\\begin{gathered}\n\\log_{a} a^{r}=r \\\\\n\\log_{a}(b c)=\\log_{a} b+\\log_{a} c \\\\\n\\log_{a}\\frac{b}{c}=\\log_{a} b-\\log_{a} c \\\\\n\\log_{a} b^{c}=c\\log_{a} b \\\\\n\\log_{a} b \\cdot \\log_{b} c=\\log_{a} c \\\\\n\\log_{b} a=\\frac{1}{\\log_{a} b} \\\\\n\\log_{b} a=\\frac{\\log_{d} a}{\\log_{d} b}\n\\end{gathered}$$",
+        "Content": "This collection of formulas covers the fundamental properties of logarithms: the power rule, product rule, quotient rule, and the change-of-base formulas. These identities are essential tools for simplifying and solving logarithmic expressions."
+    },
+    {
+        "Theorem": "Advanced Formulas",
+        "id": "6.2.5",
+        "Equation": "$$\\begin{gathered}\n\\log_{a^{m}} a^{n}=\\frac{n}{m} \\\\\n\\log_{a}\\left(\\frac{1}{b}\\right)=-\\log_{a} b \\\\\n\\log_{\\frac{1}{a}} b=-\\log_{a} b\n\\end{gathered}$$",
+        "Content": "These advanced formulas extend the basic logarithmic properties to scenarios involving exponentiated bases and reciprocals. They are particularly useful when dealing with more complex logarithmic expressions and transformations."
+    }
+]

@@ -1,0 +1,386 @@
+[
+    {
+        "Definition": "Mean/Average",
+        "id": "1.1.1",
+        "Equation": "$$ \\text{Mean} = \\text{average of all terms} = \\frac{\\text{sum of all terms}}{\\text{number of terms}} $$",
+        "Content": "The mean or average of a set of numbers is calculated by summing all the terms and dividing by the number of terms."
+    },
+    {
+        "Definition": "Mode",
+        "id": "1.1.2",
+        "Equation": "$$ \\text{Mode} = \\text{Most common term(s)} $$",
+        "Content": "The mode of a set of numbers is the term that appears most frequently. A set may have one mode, multiple modes, or no mode if all terms are unique."
+    },
+    {
+        "Definition": "Median",
+        "id": "1.1.4",
+        "Equation": "$$ \\text{Median} = \\text{middle number} $$",
+        "Content": "The median is the middle value in a list of numbers ordered from least to greatest. If the number of terms is even, it is the average of the two middle numbers."
+    },
+    {
+        "Definition": "Harmonic Mean of Numbers $a_{1}, a_{2}, a_{3}, \\ldots, a_{n}$",
+        "id": "1.1.5",
+        "Equation": "$$ =\\frac{1}{\\frac{\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\cdots+\\frac{1}{a_{n}}}{n}}=\\frac{n}{\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\cdots+\\frac{1}{a_{n}}} $$",
+        "Content": "The harmonic mean of a set of numbers is calculated as the number of terms divided by the sum of the reciprocals of the terms."
+    },
+    {
+        "Theorem": "nth term in an Arithmetic Sequence",
+        "id": "1.2.4",
+        "Equation": "$$ a_{n} = a_{1} + (n - 1) d $$",
+        "Content": "This theorem states that the nth term of an arithmetic sequence can be found by adding (n-1) times the common difference to the first term. It also provides a general form to calculate the nth term based on any mth term."
+    },
+    {
+        "Theorem": "Number of Terms in an Arithmetic Sequence",
+        "id": "1.2.5",
+        "Equation": "$$ n = \\frac{a_{n} - a_{1}}{d} + 1 $$",
+        "Content": "This theorem provides a formula to calculate the number of terms in an arithmetic sequence when the first term, last term, and common difference are known."
+    },
+    {
+        "Theorem": "Average of Terms in an Arithmetic Sequence",
+        "id": "1.2.6",
+        "Equation": "$$ \\text{Average of Terms} = \\frac{a_{1} + a_{n}}{2} $$\n$$ \\text{Average of Terms} = \\frac{a_{1} + a_{2} + \\cdots + a_{n}}{n} $$",
+        "Content": "This theorem states that the average of the terms in an arithmetic sequence is either the average of the first and last terms or the sum of all terms divided by the number of terms."
+    },
+    {
+        "Theorem": "Sum of all Terms in an Arithmetic Sequence",
+        "id": "1.2.7",
+        "Equation": "$$ S_{n} = \\frac{a_{1} + a_{n}}{2} \\times n $$\n$$ S_{n} = \\frac{2 a_{1} + (n - 1) \\cdot d}{2} \\times n $$",
+        "Content": "This theorem provides the formula to calculate the sum of all terms in an arithmetic sequence by multiplying the average of the first and last terms by the number of terms. It also includes an alternative expression by substituting the nth term."
+    },
+    {
+        "Definition": "Arithmetic Sequence",
+        "id": "1.2.1",
+        "Equation": "$$ 1,4,7,10,13, \\ldots, 40 $$",
+        "Content": "An arithmetic sequence is a sequence of numbers with the same difference between consecutive terms."
+    },
+    {
+        "Definition": "Arithmetic Sequence Notation",
+        "id": "1.2.3",
+        "Equation": "$$ a_{1}, a_{2}, a_{3}, a_{4}, \\ldots, a_{n} $$",
+        "Content": "In general, the terms of an arithmetic sequence can be represented with a common difference 'd' between consecutive terms and 'n' being the number of terms."
+    },
+    {
+        "Theorem": "Sum of all Terms in a Finite Geometric Sequence",
+        "id": "1.3.6",
+        "Equation": "$$ S_{n} = g_{1} \\frac{\\left(1 - r^{n}\\right)}{1 - r} $$",
+        "Content": "This theorem provides the formula to calculate the sum of all terms in a finite geometric sequence by multiplying the first term by the fraction involving the common ratio and the number of terms."
+    },
+    {
+        "Theorem": "Sum of all Terms in an Infinite Geometric Sequence",
+        "id": "1.3.7",
+        "Equation": "$$ S_{\\infty} = \\frac{g_{1}}{1 - r} $$",
+        "Content": "For a geometric sequence where the absolute value of the common ratio is less than 1, the sum of all terms in an infinite geometric sequence converges to this formula."
+    },
+    {
+        "Theorem": "Sum of Numbers Formula",
+        "id": "1.4.1",
+        "Equation": "$$ 1 + 2 + 3 + \\cdots + n = \\frac{n(n + 1)}{2} $$",
+        "Content": "This formula calculates the sum of the first 'n' natural numbers."
+    },
+    {
+        "Theorem": "Sum of Odd Numbers Formula",
+        "id": "1.4.2",
+        "Equation": "$$ 1 + 3 + 5 + \\cdots + (2n - 1) = n^{2} $$",
+        "Content": "The sum of the first 'n' odd numbers is equal to the square of 'n'."
+    },
+    {
+        "Theorem": "Sum of Even Numbers Formula",
+        "id": "1.4.3",
+        "Equation": "$$ 2 + 4 + 6 + \\cdots + 2n = n(n + 1) $$",
+        "Content": "The sum of the first 'n' even numbers is equal to 'n' multiplied by ('n' plus one)."
+    },
+    {
+        "Theorem": "Sum of Squares Formula",
+        "id": "1.4.4",
+        "Equation": "$$ 1^{2} + 2^{2} + \\cdots + n^{2} = \\frac{n(n + 1)(2n + 1)}{6} $$",
+        "Content": "This formula calculates the sum of the squares of the first 'n' natural numbers."
+    },
+    {
+        "Theorem": "Sum of Cubes Formula",
+        "id": "1.4.5",
+        "Equation": "$$ 1^{3} + 2^{3} + \\cdots + n^{3} = \\left(\\frac{n(n + 1)}{2}\\right)^{2} $$",
+        "Content": "The sum of the cubes of the first 'n' natural numbers is equal to the square of the sum of the first 'n' natural numbers."
+    },
+    {
+        "Definition": "Geometric Sequence",
+        "id": "1.3.1",
+        "Equation": "$$ 1,2,4,8,16,32, \\ldots, 1024 $$",
+        "Content": "A geometric sequence is a sequence of numbers with the same ratio between consecutive terms."
+    },
+    {
+        "Definition": "Geometric Sequence Notation",
+        "id": "1.3.2",
+        "Equation": "$$ g_{1}, g_{2}, g_{3}, g_{4}, \\ldots, g_{n} $$",
+        "Content": "In general, the terms of a geometric sequence can be represented with a common ratio 'r' between consecutive terms and 'n' being the number of terms."
+    },
+    {
+        "Theorem": "nth term in a Geometric Sequence",
+        "id": "1.3.4",
+        "Equation": "$$ g_{n} = g_{1} \\cdot r^{n-1} $$",
+        "Content": "This theorem states that the nth term of a geometric sequence is equal to the first term multiplied by the common ratio raised to the power of (n-1)."
+    },
+    {
+        "Theorem": "Number of Terms in a Finite Geometric Sequence",
+        "id": "1.3.5",
+        "Equation": "$$ n = \\log_{r}\\left(\\frac{g_{n}}{g_{1}}\\right) + 1 $$",
+        "Content": "This theorem provides a formula to calculate the number of terms in a finite geometric sequence when the first term, nth term, and common ratio are known."
+    },
+    {
+        "Theorem": "Quadratic Formula",
+        "id": "1.9.3",
+        "Equation": "$$ x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a} $$",
+        "Content": "The quadratic formula provides the solutions to the quadratic equation \( ax^{2} + bx + c = 0 \), giving the roots in terms of the coefficients a, b, and c."
+    },
+    {
+        "Theorem": "Vieta's Formula For Quadratics",
+        "id": "1.9.4",
+        "Equation": "$$ \\text{Sum of the roots} = \\frac{-b}{a} $$\n$$ \\text{Product of the roots} = \\frac{c}{a} $$",
+        "Content": "Vieta's Formula relates the sum and product of the roots of a quadratic equation \( ax^{2} + bx + c = 0 \) to its coefficients."
+    },
+    {
+        "Corollary": "Integer Root theorem",
+        "id": "1.9.7",
+        "Equation": "",
+        "Content": "In a polynomial with integral coefficients, all integer roots must divide the constant term of the polynomial."
+    },
+    {
+        "Theorem": "Rational Root theorem",
+        "id": "1.9.6",
+        "Equation": "",
+        "Content": "In a polynomial \( P(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + \\ldots + a_{1}x + a_{0} \) with integer coefficients, all rational roots \( \\pm\\frac{p}{q} \) satisfy that 'p' divides the constant term \( a_{0} \) and 'q' divides the leading coefficient \( a_{n} \)."
+    },
+    {
+        "Theorem": "Remainder Theorem",
+        "id": "1.9.9",
+        "Equation": "",
+        "Content": "The remainder when a polynomial \( P(x) \) is divided by \( x - r \) is \( P(r) \)."
+    },
+    {
+        "Corollary": "Factor Theorem",
+        "id": "1.9.10",
+        "Equation": "",
+        "Content": "$x - r$ is a factor of a polynomial \( P(x) \) if and only if \( P(r) = 0 \). This is a direct consequence of the Remainder Theorem."
+    },
+    {
+        "Theorem": "Representation of Polynomial in terms of roots",
+        "id": "1.9.11",
+        "Equation": "$$ P(x) = a_{n}(x - r_{1})(x - r_{2})(x - r_{3}) \\ldots(x - r_{n}) $$",
+        "Content": "A polynomial can be expressed as the product of its leading coefficient and factors corresponding to its roots."
+    },
+    {
+        "Corollary": "Representation of Monic Polynomial in terms of roots",
+        "id": "1.9.12",
+        "Equation": "$$ P(x) = (x - r_{1})(x - r_{2})(x - r_{3}) \\ldots(x - r_{n}) $$",
+        "Content": "For monic polynomials (leading coefficient is 1), the polynomial can be expressed as the product of factors corresponding to its roots."
+    },
+    {
+        "Theorem": "Fundamental theorem of Algebra",
+        "id": "1.9.13",
+        "Equation": "",
+        "Content": "A polynomial of degree \( n \) has exactly \( n \) complex roots, including multiplicities."
+    },
+    {
+        "Theorem": "Conjugate Root Theorem",
+        "id": "1.9.14",
+        "Equation": "",
+        "Content": "If \( a + b i \) is a root of a polynomial with real coefficients, then its conjugate \( a - b i \) is also a root."
+    },
+    {
+        "Theorem": "Simon's Favorite Factoring Trick",
+        "id": "1.10.4",
+        "Equation": "$$ xy + kx + jy + jk = (x + j)(y + k) $$",
+        "Content": "This factoring technique is useful for solving equations that include \( xy \), \( x \), and \( y \) terms by rearranging and factoring."
+    },
+    {
+        "Theorem": "Difference of Squares",
+        "id": "1.10.2",
+        "Equation": "$$ x^{2} - y^{2} = (x - y)(x + y) $$",
+        "Content": "This identity allows the factoring of a difference of two squares into the product of the sum and difference of the two terms."
+    },
+    {
+        "Theorem": "Difference of Cubes",
+        "id": "1.10.6",
+        "Equation": "$$ x^{3} - y^{3} = (x - y)(x^{2} + xy + y^{2}) $$",
+        "Content": "This identity allows the factoring of a difference of two cubes into the product of a binomial and a trinomial."
+    },
+    {
+        "Theorem": "Sum of Cubes",
+        "id": "1.10.7",
+        "Equation": "$$ x^{3} + y^{3} = (x + y)(x^{2} - xy + y^{2}) $$",
+        "Content": "This identity allows the factoring of a sum of two cubes into the product of a binomial and a trinomial."
+    },
+    {
+        "Theorem": "Sophie Germain's Identity",
+        "id": "1.10.10",
+        "Equation": "$$ x^{4} + 4y^{4} = (x^{2} - 2xy + 2y^{2})(x^{2} + 2xy + 2y^{2}) $$",
+        "Content": "This identity is useful for factoring expressions that involve fourth powers, enabling the decomposition into quadratic factors."
+    },
+    {
+        "Theorem": "Trivial Inequality",
+        "id": "1.12.1",
+        "Equation": "$$ x^{2} \\geq 0 $$",
+        "Content": "For any real number \( x \), the square of \( x \) is always non-negative."
+    },
+    {
+        "Corollary": "Completing the Square",
+        "id": "1.12.2",
+        "Equation": "",
+        "Content": "In a quadratic \( Q(x) = ax^{2} + bx + c \), if \( a > 0 \), the minimum value of \( Q(x) \) is \( c - \\frac{b^{2}}{4a} \) occurring at \( x = -\\frac{b}{2a} \). If \( a < 0 \), the maximum value is \( c - \\frac{b^{2}}{4a} \) at the same \( x \)."
+    },
+    {
+        "Theorem": "AM-GM Inequality For 2 variables",
+        "id": "1.12.4",
+        "Equation": "$$ \\frac{a + b}{2} \\geq \\sqrt{ab} $$",
+        "Content": "For non-negative real numbers \( a \) and \( b \), the arithmetic mean is always greater than or equal to the geometric mean. Equality holds when \( a = b \)."
+    },
+    {
+        "Corollary": "Minimum value of \( x + \\frac{1}{x} \\)",
+        "id": "1.12.5",
+        "Equation": "",
+        "Content": "The expression \( x + \\frac{1}{x} \) has a minimum value of 2, which occurs when \( x = 1 \)."
+    },
+    {
+        "Corollary": "When \( ab \) is constant",
+        "id": "1.12.5",
+        "Equation": "",
+        "Content": "The minimum value of \( a + b \) occurs when \( a = b \). Conversely, the maximum value of \( ab \) occurs when \( a = b \), provided \( a + b \) is constant."
+    },
+    {
+        "Theorem": "AM-GM Inequality For More Variables",
+        "id": "1.12.7",
+        "Equation": "$$ \\frac{a_{1} + a_{2} + \\cdots + a_{n}}{n} \\geq \\sqrt[n]{a_{1} \\cdot a_{2} \\cdot a_{3} \\cdots a_{n}}} $$",
+        "Content": "For non-negative real numbers \( a_{1}, a_{2}, \\ldots, a_{n} \), the arithmetic mean is always greater than or equal to the geometric mean. Equality holds when all \( a_{i} \) are equal."
+    },
+    {
+        "Theorem": "Weighted AM-GM Inequality",
+        "id": "1.12.10",
+        "Equation": "$$ \\frac{c_{1} \\cdot a_{1} + c_{2} \\cdot a_{2} + \\cdots + c_{n} \\cdot a_{n}}{c_{1} + c_{2} + \\cdots + c_{n}}} \\geq \\sqrt[c_{1} + c_{2} + \\cdots + c_{n}]{a_{1}^{c_{1}} \\cdot a_{2}^{c_{2}} \\cdot a_{3}^{c_{3}} \\cdots a_{n}^{c_{n}}}} $$",
+        "Content": "This inequality generalizes the AM-GM inequality by introducing weights \( c_{i} \). It is useful when the sum of terms is weighted differently."
+    },
+    {
+        "Theorem": "Cauchy-Schwarz Inequality",
+        "id": "1.12.13",
+        "Equation": "$$ \\left(a_{1}b_{1} + a_{2}b_{2} + \\cdots + a_{n}b_{n}\\right)^{2} \\leq \\left(a_{1}^{2} + a_{2}^{2} + \\ldots + a_{n}^{2}\\right)\\left(b_{1}^{2} + b_{2}^{2} + \\ldots + b_{n}^{2}\\right) $$",
+        "Content": "For any real numbers \( a_{i} \) and \( b_{i} \), the square of the sum of their products is less than or equal to the product of the sums of their squares. Equality holds when the ratios \( \\frac{a_{i}}{b_{i}} \) are constant for all \( i \)."
+    },
+    {
+        "Corollary": "Titu's Lemma",
+        "id": "1.12.16",
+        "Equation": "$$ \\frac{a_{1}^{2}}{b_{1}} + \\frac{a_{2}^{2}}{b_{2}} + \\cdots + \\frac{a_{n}^{2}}{b_{n}} \\geq \\frac{\\left(a_{1} + a_{2} + \\cdots + a_{n}\\right)^{2}}{b_{1} + b_{2} + \\cdots + b_{n}}} $$",
+        "Content": "Titu's Lemma is a direct consequence of the Cauchy-Schwarz Inequality and is useful for solving optimization problems involving fractions."
+    },
+    {
+        "Theorem": "Trivial Inequality",
+        "id": "1.12.1",
+        "Equation": "$$ x^{2} \\geq 0 $$",
+        "Content": "For any real number \( x \), the square of \( x \) is always non-negative."
+    },
+    {
+        "Theorem": "Rational Root theorem",
+        "id": "1.9.6",
+        "Equation": "",
+        "Content": "In a polynomial \( P(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + \\ldots + a_{1}x + a_{0} \) with integer coefficients, all rational roots \( \\pm\\frac{p}{q} \) satisfy that 'p' divides the constant term \( a_{0} \) and 'q' divides the leading coefficient \( a_{n} \)."
+    },
+    {
+        "Theorem": "Remainder Theorem",
+        "id": "1.9.9",
+        "Equation": "",
+        "Content": "The remainder when a polynomial \( P(x) \) is divided by \( x - r \) is \( P(r) \)."
+    },
+    {
+        "Corollary": "Factor Theorem",
+        "id": "1.9.10",
+        "Equation": "",
+        "Content": "$x - r$ is a factor of a polynomial \( P(x) \) if and only if \( P(r) = 0 \). This is a direct consequence of the Remainder Theorem."
+    },
+    {
+        "Theorem": "Representation of Polynomial in terms of roots",
+        "id": "1.9.11",
+        "Equation": "$$ P(x) = a_{n}(x - r_{1})(x - r_{2})(x - r_{3}) \\ldots(x - r_{n}) $$",
+        "Content": "A polynomial can be expressed as the product of its leading coefficient and factors corresponding to its roots."
+    },
+    {
+        "Corollary": "Representation of Monic Polynomial in terms of roots",
+        "id": "1.9.12",
+        "Equation": "$$ P(x) = (x - r_{1})(x - r_{2})(x - r_{3}) \\ldots(x - r_{n}) $$",
+        "Content": "For monic polynomials (leading coefficient is 1), the polynomial can be expressed as the product of factors corresponding to its roots."
+    },
+    {
+        "Theorem": "Fundamental theorem of Algebra",
+        "id": "1.9.13",
+        "Equation": "",
+        "Content": "A polynomial of degree \( n \) has exactly \( n \) complex roots, including multiplicities."
+    },
+    {
+        "Theorem": "Conjugate Root Theorem",
+        "id": "1.9.14",
+        "Equation": "",
+        "Content": "If \( a + bi \) is a root of a polynomial with real coefficients, then its conjugate \( a - bi \) is also a root."
+    },
+    {
+        "Theorem": "Sum of Cubes",
+        "id": "1.10.7",
+        "Equation": "$$ x^{3} + y^{3} = (x + y)(x^{2} - xy + y^{2}) $$",
+        "Content": "This identity allows the factoring of a sum of two cubes into the product of a binomial and a trinomial."
+    },
+    {
+        "Theorem": "Sum of odd powers",
+        "id": "1.10.9",
+        "Equation": "$$ x^{2n+1} + y^{2n+1} = (x + y)(x^{2n} - x^{2n-1}y + x^{2n-2}y^{2} - \\cdots - xy^{2n-1} + y^{2n}) $$",
+        "Content": "This identity factors the sum of two odd-powered terms into a binomial and an alternating trinomial."
+    },
+    {
+        "Theorem": "nth power Factorizations",
+        "id": "1.10.9",
+        "Equation": "$$ x^{n} - y^{n} = (x - y)(x^{n-1} + x^{n-2}y + x^{n-3}y^{2} + \\cdots + xy^{n-2} + y^{n-1}) $$",
+        "Content": "This identity factors the difference of two nth powers into the product of a binomial and a polynomial with positive terms."
+    },
+    {
+        "Theorem": "Shifted Roots",
+        "id": "1.9.17",
+        "Equation": "",
+        "Content": "If a polynomial \( Q(x) = a_{n}(x - k)^{n} + a_{n-1}(x - k)^{n-1} + \\ldots + a_{1}(x - k) + a_{0} \) has roots \( r_{1} + k, r_{2} + k, \\ldots, r_{n} + k \), it represents a shift in the roots of the original polynomial."
+    },
+    {
+        "Theorem": "Newton Sums",
+        "id": "1.9.20",
+        "Equation": "",
+        "Content": "Newton Sums provide a relationship between the sums of powers of the roots of a polynomial and its coefficients, allowing for iterative calculation of these sums without directly knowing the roots."
+    },
+    {
+        "Theorem": "Symmetric Polynomials",
+        "id": "1.9.22",
+        "Equation": "",
+        "Content": "A polynomial is symmetric if the coefficients satisfy \( a_{n} = a_{0} \), \( a_{n-1} = a_{1} \), \( a_{n-2} = a_{2} \), and so on, meaning opposite coefficients are equal."
+    },
+    {
+        "Definition": "Floor, Ceiling, and Fractional Part Functions",
+        "id": "1.11.1",
+        "Equation": "",
+        "Content": "$$ \\lfloor x \\rfloor = \\text{Greatest integer less than or equal to } x $$\n$$ \\lceil x \\rceil = \\text{Smallest integer greater than or equal to } x $$\n$$ \\{x\\} = \\text{Fractional part of } x \\text{ (the value after the decimal point)} $$"
+    },
+    {
+        "Theorem": "Distance-Speed-Time",
+        "id": "1.6.1",
+        "Equation": "$$ \\text{Distance} = \\text{Speed} \\times \\text{Time} $$\n$$ \\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}} $$\n$$ \\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} $$",
+        "Content": "These fundamental formulas relate distance, speed, and time in motion."
+    },
+    {
+        "Theorem": "Average Speed",
+        "id": "1.6.2",
+        "Equation": "$$ \\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}} $$",
+        "Content": "Average speed is calculated by dividing the total distance traveled by the total time taken."
+    },
+    {
+        "Theorem": "Work-Rate-Time",
+        "id": "1.7.1",
+        "Equation": "$$ \\text{Work} = \\text{Rate} \\times \\text{Time} $$\n$$ \\text{Rate} = \\frac{\\text{Work}}{\\text{Time}} $$\n$$ \\text{Time} = \\frac{\\text{Work}}{\\text{Rate}} $$",
+        "Content": "These formulas relate work done, the rate at which work is performed, and the time taken to complete the work."
+    },
+    {
+        "Theorem": "Partial Fraction Decomposition",
+        "id": "1.5.3",
+        "Equation": "$$ \\frac{1}{ab} = \\frac{x}{a} + \\frac{y}{b} $$",
+        "Content": "Partial fraction decomposition is a technique used to break down complex rational expressions into simpler fractions, facilitating easier integration and simplification."
+    }
+]

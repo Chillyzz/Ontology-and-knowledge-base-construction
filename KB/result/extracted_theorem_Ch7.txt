@@ -1,0 +1,152 @@
+[
+    {
+        "Theorem": "A complex number is a number that can be expressed in the form a+b i, where a and b are real numbers, and i represents the 'imaginary unit'.",
+        "id": "7.1.1",
+        "Equation": "$$a+b i$$",
+        "Content": "Here, a is the real part and b i is the imaginary part. Complex numbers are often represented by the variable z."
+    },
+    {
+        "Theorem": "Definition of the imaginary unit.",
+        "id": "7.1.2",
+        "Equation": "$$i=\\sqrt{-1},\\quad i^{2}=-1,\\quad i^{3}=-i,\\quad i^{4}=1$$",
+        "Content": "This definition establishes the basic powers of the imaginary unit, which are fundamental in complex number arithmetic."
+    },
+    {
+        "Theorem": "Adding Complex Numbers.",
+        "id": "7.1.4",
+        "Equation": "$$(a+b i)+(c+d i)=(a+c)+(b+d) i$$",
+        "Content": "This theorem shows that to add two complex numbers, one simply adds their real parts and their imaginary parts separately."
+    },
+    {
+        "Theorem": "Subtracting Complex Numbers.",
+        "id": "7.1.5",
+        "Equation": "$$(a+b i)-(c+d i)=(a-c)+(b-d) i$$",
+        "Content": "This result demonstrates that the subtraction of two complex numbers is performed component-wise by subtracting corresponding real and imaginary parts."
+    },
+    {
+        "Theorem": "Multiplying Complex Numbers.",
+        "id": "7.1.6",
+        "Equation": "$$(a+b i)\\cdot(c+d i)=(ac-bd)+(bc+ad) i$$",
+        "Content": "This theorem uses the distributive property and the definition of i to multiply two complex numbers, resulting in a new complex number expressed in standard form."
+    },
+    {
+        "Theorem": "Real and Imaginary Parts.",
+        "id": "7.1.7",
+        "Equation": "$$\\text{Real part: } a \\quad \\text{and} \\quad \\text{Imaginary part: } b$$",
+        "Content": "This definition clarifies that in a complex number a+b i, the real part is a and the imaginary part is b (without the factor i)."
+    },
+    {
+        "Theorem": "Complex Conjugate.",
+        "id": "7.2.1",
+        "Equation": "$$\\bar{z}\\text{ represents the complex conjugate of } z$$",
+        "Content": "A complex conjugate is obtained by changing the sign of the imaginary part of a complex number."
+    },
+    {
+        "Theorem": "Finding Conjugates.",
+        "id": "7.2.2",
+        "Equation": "$$\\bar{z}=\\overline{a+b i}=a-b i$$",
+        "Content": "This theorem provides the formula to determine the complex conjugate of a complex number."
+    },
+    {
+        "Theorem": "Multiplying Complex Numbers with their Conjugates.",
+        "id": "7.2.3",
+        "Equation": "$$(a+b i)(a-b i)=a^{2}+b^{2}$$",
+        "Content": "This theorem shows that the product of a complex number and its conjugate yields the sum of the squares of its real and imaginary parts, a result that is especially useful when finding magnitudes."
+    },
+    {
+        "Theorem": "Complex Roots of Polynomials.",
+        "id": "7.3.1",
+        "Equation": "$$\\text{If the discriminant is negative, the roots are complex}$$",
+        "Content": "This definition highlights that a polynomial of degree n has n roots, which may be complex. In the case of binomials, a negative discriminant indicates the presence of complex roots."
+    },
+    {
+        "Theorem": "Complex Plane Representation.",
+        "id": "7.4.1",
+        "Equation": "$$a+b i \\Longleftrightarrow (a, b)$$",
+        "Content": "This definition states that a complex number can be represented as a point (a, b) in the complex plane, where the x-axis corresponds to the real part and the y-axis to the imaginary part."
+    },
+    {
+        "Theorem": "Magnitude (Modulus) of a Complex Number (Definition).",
+        "id": "7.4.2",
+        "Equation": "$$|z|\\text{ represents the distance from the origin to }(a, b)$$",
+        "Content": "This definition explains that the magnitude of a complex number is the distance of the point (a, b) from the origin in the complex plane."
+    },
+    {
+        "Theorem": "Magnitude of a Complex Number.",
+        "id": "7.4.3",
+        "Equation": "$$|z|=|a+b i|=\\sqrt{a^{2}+b^{2}}$$",
+        "Content": "This theorem provides the formula to calculate the magnitude (or modulus) of a complex number."
+    },
+    {
+        "Theorem": "Argument of a Complex Number (Definition).",
+        "id": "7.5.1",
+        "Equation": "$$\\theta\\text{ represents the angle made with the positive real axis}$$",
+        "Content": "This definition states that the argument of a complex number is the angle between the positive real axis and the ray drawn to the point (a, b) corresponding to the complex number."
+    },
+    {
+        "Theorem": "Argument of a Complex Number.",
+        "id": "7.5.2",
+        "Equation": "$$\\tan \\theta=\\frac{b}{a}$$",
+        "Content": "This theorem expresses the relation between the real and imaginary parts of a complex number and its argument via the tangent function."
+    },
+    {
+        "Theorem": "Modulus (Distance) of a Complex Number (Definition).",
+        "id": "7.5.3",
+        "Equation": "$$r=|z|$$",
+        "Content": "This definition introduces the modulus, which is the distance from 0 to the complex number in the complex plane."
+    },
+    {
+        "Theorem": "Modulus of a Complex Number.",
+        "id": "7.5.4",
+        "Equation": "$$r=|a+b i|=\\sqrt{a^{2}+b^{2}}$$",
+        "Content": "This theorem restates the magnitude of a complex number with the same formula used in earlier sections, emphasizing its role as the distance from the origin."
+    },
+    {
+        "Theorem": "Polar Form (Definition).",
+        "id": "7.5.5",
+        "Equation": "$$z=r(\\cos\\theta+i\\sin\\theta)$$",
+        "Content": "This definition introduces the polar form representation of a complex number based on its modulus r and argument θ."
+    },
+    {
+        "Theorem": "Polar Form.",
+        "id": "7.5.6",
+        "Equation": "$$z=a+b i=r(\\cos\\theta+i\\sin\\theta)=r\\operatorname{cis}\\theta$$",
+        "Content": "This theorem establishes the equivalence between the standard form and the polar (trigonometric) form of a complex number."
+    },
+    {
+        "Theorem": "Euler's Formula.",
+        "id": "7.5.10",
+        "Equation": "$$\\cos\\theta+i\\sin\\theta=e^{i\\theta}, \\quad z=r e^{i\\theta}$$",
+        "Content": "Euler's Formula connects trigonometric functions with the complex exponential, providing an alternative way to express a complex number in polar form."
+    },
+    {
+        "Theorem": "De Moivre's Theorem.",
+        "id": "7.5.12",
+        "Equation": "$$z^{n}=(r e^{i\\theta})^{n}=r^{n}[\\cos(n\\theta)+ i\\sin(n\\theta)]$$",
+        "Content": "De Moivre's Theorem is used to raise complex numbers in polar form to integer powers by raising the modulus to the power n and multiplying the angle by n."
+    },
+    {
+        "Theorem": "Rotating a Point.",
+        "id": "7.5.15",
+        "Equation": "$$z' = z e^{i\\theta}$$",
+        "Content": "This theorem explains that to rotate a point represented by a complex number by an angle θ counterclockwise, one can multiply the number by e^(iθ) and convert back to coordinate form."
+    },
+    {
+        "Theorem": "Roots of Unity (Definition).",
+        "id": "7.6.1",
+        "Equation": "$$x^{n}=1$$",
+        "Content": "This definition states that the roots of unity are the complex solutions of the equation x^n = 1, and there are exactly n such solutions for a positive integer n."
+    },
+    {
+        "Theorem": "Roots of Unity.",
+        "id": "7.6.2",
+        "Equation": "$$e^{2\\pi i k/n}\\quad \\text{for}\\quad k\\in\\{1,2,\\ldots,n\\}$$",
+        "Content": "This theorem specifies the general form of the nth roots of unity using the complex exponential form."
+    },
+    {
+        "Theorem": "Expressions for Sin, Cos, and Tan in Terms of Complex Numbers.",
+        "id": "7.7.1",
+        "Equation": "$$\\begin{aligned} \\sin \\theta &= \\frac{e^{i \\theta}+e^{i(180-\\theta)}}{2 i},\\\\[6pt] \\cos \\theta &= \\frac{e^{i \\theta}+e^{i(-\\theta)}}{2},\\\\[6pt] \\tan \\theta &= \\frac{e^{i \\theta}+e^{i(180-\\theta)}}{e^{i \\theta}+e^{i(-\\theta)}} i \\end{aligned}$$",
+        "Content": "This theorem provides formulas to represent the sine, cosine, and tangent functions in terms of complex exponentials, offering an alternative method for evaluating trigonometric expressions."
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "Theorem": "Primes",
+        "id": "2.1.1",
+        "Equation": "",
+        "Content": "Primes are numbers that have exactly two factors: 1 and the number itself. Examples include 2, 3, 5, 7, 11, 13, 17, 19, 23, etc. Note that 1 is not a prime and 2 is the only even prime."
+    },
+    {
+        "Theorem": "Palindrome",
+        "id": "2.3.1",
+        "Equation": "",
+        "Content": "A palindrome is a number that reads the same forward and backward."
+    },
+    {
+        "Theorem": "Greatest Common Divisor",
+        "id": "2.4.1",
+        "Equation": "",
+        "Content": "The Greatest Common Divisor (GCD) of two or more integers (which are not all zero) is the largest positive integer that divides each of the integers. It is also known as the Greatest Common Factor (GCF)."
+    },
+    {
+        "Theorem": "Least Common Multiple",
+        "id": "2.4.2",
+        "Equation": "",
+        "Content": "The Least Common Multiple (LCM) of two or more integers (which are not all zero) is the smallest positive integer that is divisible by each of the numbers."
+    },
+    {
+        "Theorem": "Modular Congruence Definition",
+        "id": "2.5.1",
+        "Equation": "$$ n \\equiv a \\quad(\\bmod\\ b) $$",
+        "Content": "This definition means that the number n leaves the same remainder as a when divided by b."
+    },
+    {
+        "Theorem": "Diophantine Equation",
+        "id": "2.6.1",
+        "Equation": "",
+        "Content": "A Diophantine equation is a polynomial equation for which only the integer solutions are of interest."
+    },
+    {
+        "Theorem": "Bases",
+        "id": "2.7.1",
+        "Equation": "$$ a_{0}\\cdot n^{0}+a_{1}\\cdot n^{1}+a_{2}\\cdot n^{2}+\\ldots+a_{m}\\cdot n^{m} $$",
+        "Content": "A number expressed in base-n is represented by a sequence of digits where each digit corresponds to a power of n rather than 10."
+    },
+    {
+        "Theorem": "Vp Notation",
+        "id": "2.8.1",
+        "Equation": "",
+        "Content": "vₚ(n) is defined as the exponent of the prime p in the prime factorization of n. For example, v₅(75)=2 because 75 includes two factors of 5, and v₂(27)=0 since 27 is odd."
+    },
+    {
+        "Theorem": "Number of Factors of a Number",
+        "id": "2.1.4",
+        "Equation": "$$ \\left(e_{1}+1\\right)\\left(e_{2}+1\\right)\\ldots\\left(e_{k}+1\\right) $$",
+        "Content": "If a number has a prime factorization of the form $$ p_{1}^{e_{1}} \\times p_{2}^{e_{2}} \\times \\cdots \\times p_{k}^{e_{k}}, $$ then the total number of factors is obtained by multiplying one more than each of the exponents."
+    },
+    {
+        "Theorem": "Product of GCD and LCM",
+        "id": "2.4.4",
+        "Equation": "$$ GCD(m, n) \\cdot \\operatorname{LCM}(m, n)=m \\cdot n $$",
+        "Content": "For any two integers m and n, the product of their greatest common divisor (GCD) and least common multiple (LCM) equals the product of m and n."
+    },
+    {
+        "Theorem": "GCD with Common Factor",
+        "id": "2.4.5",
+        "Equation": "$$ \\operatorname{gcd}(a c, b c)=c \\cdot \\operatorname{gcd}(a, b) $$",
+        "Content": "If two numbers have a common factor c, then the greatest common divisor of ac and bc is equal to c multiplied by the gcd of a and b."
+    },
+    {
+        "Theorem": "Euclidean Algorithm",
+        "id": "2.4.6",
+        "Equation": "$$ \\operatorname{gcd}(x, y)=\\operatorname{gcd}(x-k y, y) $$",
+        "Content": "The Euclidean Algorithm states that the gcd of x and y is the same as the gcd of x - ky and y, where x > y and k is a positive integer. This process can be repeated to simplify the computation of the gcd."
+    },
+    {
+        "Theorem": "Bezout's Identity",
+        "id": "2.4.8",
+        "Equation": "$$ a x+b y=c $$",
+        "Content": "Integer solutions to the equation $$ ax+by=c $$ exist if and only if the gcd of a and b divides c."
+    },
+    {
+        "Theorem": "Multiplicative Property of Congruences",
+        "id": "2.5.2",
+        "Equation": "$$ a b \\equiv x y \\quad(\\bmod n) $$",
+        "Content": "If $$ a \\equiv x \\pmod{n} $$ and $$ b \\equiv y \\pmod{n}, $$ then their product satisfies the congruence $$ ab \\equiv xy \\pmod{n}. $$"
+    },
+    {
+        "Theorem": "Power Property of Congruences",
+        "id": "2.5.3",
+        "Equation": "$$ a^{m} \\equiv x^{m} \\quad(\\bmod n) $$",
+        "Content": "If $$ a \\equiv x \\pmod{n}, $$ then raising both sides to the power m preserves the congruence; that is, $$ a^{m} \\equiv x^{m} \\pmod{n}. $$"
+    },
+    {
+        "Theorem": "Euler's Totient Function",
+        "id": "2.5.4",
+        "Equation": "$$ \\phi(n)=n\\cdot\\left(1-\\frac{1}{p_{1}}\\right)\\left(1-\\frac{1}{p_{2}}\\right)\\ldots\\left(1-\\frac{1}{p_{n}}\\right) $$",
+        "Content": "Given the prime factorization of n, Euler's Totient Function φ(n) computes the number of positive integers up to n that are coprime with n."
+    },
+    {
+        "Theorem": "Euler's Totient Theorem",
+        "id": "2.5.5",
+        "Equation": "$$ a^{\\phi(n)} \\equiv 1 \\quad(\\bmod n) $$",
+        "Content": "If a and n are relatively prime, then raising a to the power of φ(n) yields a result congruent to 1 modulo n."
+    },
+    {
+        "Theorem": "Fermat's Little Theorem",
+        "id": "2.5.6",
+        "Equation": "$$ a^{p-1} \\equiv 1 \\quad(\\bmod p) $$",
+        "Content": "For a prime p and an integer a coprime with p, Fermat's Little Theorem states that a raised to the power (p-1) is congruent to 1 modulo p. This is a special case of Euler's Totient Theorem."
+    },
+    {
+        "Theorem": "Wilson's Theorem",
+        "id": "2.5.9",
+        "Equation": "$$ (p-1)! \\equiv p-1 \\equiv -1 \\quad(\\bmod p) $$",
+        "Content": "Wilson's Theorem states that for any prime p, the factorial of (p-1) is congruent to -1 modulo p."
+    },
+    {
+        "Theorem": "Chinese Remainder Theorem",
+        "id": "2.5.10",
+        "Equation": "",
+        "Content": "If a number x satisfies a system of congruences with pairwise relatively prime moduli, then there exists a unique solution for x modulo the product of the moduli."
+    },
+    {
+        "Theorem": "Chicken McNugget Theorem",
+        "id": "2.7.2",
+        "Equation": "",
+        "Content": "For relatively prime positive integers a and b, the largest number that cannot be expressed as the sum of non-negative multiples of a and b is given by ab - a - b. Moreover, there are exactly \\(\\frac{(a-1)(b-1)}{2}\\) positive integers that cannot be represented in the form ma + nb."
+    },
+    {
+        "Theorem": "Vp Exponentiation Formula",
+        "id": "2.8.2",
+        "Equation": "$$ v_{p}(n^{k})=k \\cdot v_{p}(n) $$",
+        "Content": "The formula indicates that the exponent of a prime p in n raised to the power k is k times the exponent of p in n."
+    },
+    {
+        "Theorem": "Vp Product Formula",
+        "id": "2.8.3",
+        "Equation": "$$ v_{p}(a b)=v_{p}(a)+v_{p}(b) $$",
+        "Content": "This theorem states that the exponent of prime p in the product ab is the sum of the exponents of p in a and in b."
+    },
+    {
+        "Theorem": "Vp Division Formula",
+        "id": "2.8.4",
+        "Equation": "$$ v_{p}\\left(\\frac{a}{b}\\right)=v_{p}(a)-v_{p}(b) $$",
+        "Content": "The exponent of p in the quotient a/b is the difference between the exponent of p in a and that in b."
+    },
+    {
+        "Theorem": "Vp Sum Formula",
+        "id": "2.8.5",
+        "Equation": "$$ \\text{If } v_{p}(a) \\neq v_{p}(b):\\quad v_{p}(a+b)=\\min\\left(v_{p}(a), v_{p}(b)\\right) $$",
+        "Content": "When adding two numbers, if the exponents of p in each are different, the exponent of p in the sum is the minimum of the two. If they are equal, then it holds that $$ v_{p}(a+b) \\geq \\min\\left(v_{p}(a), v_{p}(b)\\right). $$"
+    },
+    {
+        "Theorem": "Lifting the Exponent (LTE) for Odd Primes",
+        "id": "2.8.6",
+        "Equation": "$$ v_{p}\\left(a^{n}-b^{n}\\right)=v_{p}(a-b)+v_{p}(n) $$",
+        "Content": "Provided that a ≡ b (mod p) and a, b are not divisible by p, the exponent of p in a^n - b^n is given by the sum of the exponent of p in a-b and that in n."
+    },
+    {
+        "Theorem": "Lifting the Exponent (LTE) for 2",
+        "id": "2.8.8",
+        "Equation": "$$ v_{2}\\left(a^{n}-b^{n}\\right)=v_{2}\\left(a^{2}-b^{2}\\right)+v_{2}(n)-1 $$",
+        "Content": "This formula gives the exponent of 2 in a^n - b^n as the sum of the exponent of 2 in a^2 - b^2 and the exponent of 2 in n, minus 1."
+    },
+    {
+        "Theorem": "Legendre's Theorem",
+        "id": "2.8.9",
+        "Equation": "$$ v_{p}(n!)=\\left\\lfloor\\frac{n}{p}\\right\\rfloor+\\left\\lfloor\\frac{n}{p^{2}}\\right\\rfloor+\\ldots $$",
+        "Content": "Legendre's Theorem determines the exponent of a prime p in n! by summing the floor divisions of n by p, p², p³, and so on."
+    }
+]

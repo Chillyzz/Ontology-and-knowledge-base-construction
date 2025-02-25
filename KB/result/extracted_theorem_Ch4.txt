@@ -1,0 +1,506 @@
+[
+    {
+        "Theorem": "A triangle with base b and height h has an area calculated by using base and height.",
+        "id": "4.1.1",
+        "Equation": "$$\\frac{1}{2} \\cdot b \\cdot h$$",
+        "Content": "This theorem explains that the area of a triangle can be found by taking one‐half of the product of its base and height."
+    },
+    {
+        "Theorem": "Heron’s Formula: A triangle with sides a, b, c and semiperimeter s has a specific area.",
+        "id": "4.1.2",
+        "Equation": "$$\\sqrt{s(s-a)(s-b)(s-c)}$$",
+        "Content": "Heron’s formula computes the area of a triangle solely from its side lengths, where s is the semiperimeter."
+    },
+    {
+        "Theorem": "Definition: In-radius. The inradius of a triangle is the radius of its inscribed circle.",
+        "id": "4.1.3",
+        "Equation": "",
+        "Content": "The inradius is defined as the radius of the circle that touches all three sides of the triangle internally."
+    },
+    {
+        "Theorem": "Using Inradius: A triangle with inradius r and semiperimeter s has an area related to its incircle.",
+        "id": "4.1.4",
+        "Equation": "",
+        "Content": "This theorem relates the area of a triangle to its inradius along with the semiperimeter, often leading to methods to compute r if the area is known."
+    },
+    {
+        "Theorem": "Definition: Circumradius. The circumradius of a triangle is the radius of the circle in which the triangle is inscribed.",
+        "id": "4.1.6",
+        "Equation": "",
+        "Content": "This definition introduces the circumradius—the radius of the circumscribed circle about the triangle."
+    },
+    {
+        "Theorem": "Using Circumradius: A triangle with sides a, b, c and circumradius R has its area given by a formula.",
+        "id": "4.1.7",
+        "Equation": "$$\\frac{a b c}{4 R}$$",
+        "Content": "This formula connects the area of a triangle with its three sides and the radius of its circumscribed circle."
+    },
+    {
+        "Theorem": "Using Trigonometry: For a triangle with two sides a and b and included angle C, the area is defined.",
+        "id": "4.1.9",
+        "Equation": "$$\\frac{1}{2} \\cdot a \\cdot b \\cdot \\sin(C)$$",
+        "Content": "The theorem provides an alternate formula for triangle area using two sides and the sine of the included angle."
+    },
+    {
+        "Theorem": "Pick’s Theorem: The area of a lattice polygon can be computed from interior and boundary lattice points.",
+        "id": "4.1.10",
+        "Equation": "$$i + \\frac{b}{2} - 1$$",
+        "Content": "Here i is the number of interior lattice points and b is the number of boundary lattice points. This formula is very useful in discrete geometry."
+    },
+    {
+        "Theorem": "Shoelace Theorem: The area of a polygon given its vertices is computed by a determinant‐like formula.",
+        "id": "4.1.11",
+        "Equation": "$$A = \\frac{1}{2} \\left| (a_1b_2 + a_2b_3 + \\cdots + a_nb_1) - (b_1a_2 + b_2a_3 + \\cdots + b_na_1) \\right|$$",
+        "Content": "This theorem provides a systematic method to compute the area of any polygon using the coordinates of its vertices."
+    },
+    {
+        "Theorem": "Equilateral Triangle Properties: Gives formulas for height and area when side length is a.",
+        "id": "4.1.13",
+        "Equation": "$$\\text{Height} = \\frac{\\sqrt{3}}{2} a$$\n$$\\text{Area} = \\frac{\\sqrt{3}}{4} a^2$$",
+        "Content": "Using properties of a 30-60-90 triangle, the height and area of an equilateral triangle are determined."
+    },
+    {
+        "Theorem": "45-45-90 Triangle: Provides relationships for the hypotenuse and area given side length a.",
+        "id": "4.1.14",
+        "Equation": "$$\\text{Hypotenuse} = \\sqrt{2} \\cdot a$$\n$$\\text{Area} = \\frac{1}{2} a^2$$",
+        "Content": "In a right isosceles triangle, the hypotenuse is \\(\\sqrt{2}\\) times a leg and the area is half the square of a leg."
+    },
+    {
+        "Theorem": "30-60-90 Triangle: Provides side ratios and area when the shorter leg is a.",
+        "id": "4.1.15",
+        "Equation": "$$\\text{Long Leg} = \\sqrt{3} \\cdot a$$\n$$\\text{Hypotenuse} = 2a$$\n$$\\text{Area} = \\frac{\\sqrt{3}}{2} a^2$$",
+        "Content": "This theorem uses the intrinsic ratios of a 30-60-90 triangle to determine its sides and area."
+    },
+    {
+        "Theorem": "13-14-15 Triangle: Describes a triangle with sides 13, 14, 15 which can be partitioned into two right triangles with area 84.",
+        "id": "4.1.16",
+        "Equation": "",
+        "Content": "By subdividing a 13-14-15 triangle, one finds that its area is 84 using properties of right triangles."
+    },
+    {
+        "Theorem": "Pythagorean Theorem: In any right triangle with legs a, b and hypotenuse c, a fundamental relation holds.",
+        "id": "4.1.17",
+        "Equation": "$$c^2 = a^2 + b^2$$",
+        "Content": "This central theorem in geometry relates the sides of a right triangle and is crucial to many proofs and applications."
+    },
+    {
+        "Theorem": "Special Properties of Right Triangles: Establishes similarity among triangles within a right triangle and computes the altitude from the right angle.",
+        "id": "4.1.19",
+        "Equation": "$$BD = \\sqrt{\\frac{AB \\cdot BC}{AC}}$$",
+        "Content": "This theorem shows that the altitude to the hypotenuse creates smaller triangles that are similar to the original, and provides a formula for the altitude."
+    },
+    {
+        "Theorem": "Median in a Right Triangle: The median from the right angle to the hypotenuse divides the triangle into segments of equal length.",
+        "id": "4.1.20",
+        "Equation": "",
+        "Content": "This theorem reveals that the median to the hypotenuse in a right triangle equals half the hypotenuse, emphasizing the special symmetry in right triangles."
+    },
+    {
+        "Theorem": "Similarity Test for Triangles: In similar triangles, corresponding angles are equal, sides are proportional, and the area ratio equals the square of the side ratio.",
+        "id": "4.1.22",
+        "Equation": "",
+        "Content": "This result summarizes the key properties that define similar triangles and explains how ratios of sides determine area ratios."
+    },
+    {
+        "Theorem": "Angle Bisector Theorem: In a triangle, if a line bisects an angle, the ratios of the adjacent sides to the segments on the opposite side are equal.",
+        "id": "4.1.23",
+        "Equation": "$$\\frac{AB}{BD} = \\frac{AC}{CD}$$",
+        "Content": "This theorem is used to relate the segments created when an angle of a triangle is divided in half."
+    },
+    {
+        "Theorem": "Viviani’s Theorem: For any interior point in an equilateral triangle, the sum of the perpendicular distances to the sides equals the altitude.",
+        "id": "4.1.24",
+        "Equation": "$$PQ + PR + PS = h$$",
+        "Content": "This theorem highlights a unique property of equilateral triangles regarding distances from an interior point to each side."
+    },
+    {
+        "Theorem": "van Schooten’s Theorem: For a point on the minor arc of an equilateral triangle’s circumcircle, the distance to one vertex equals the sum of the distances to the other two.",
+        "id": "4.1.25",
+        "Equation": "$$PA = PB + PC$$",
+        "Content": "This result applies to equilateral triangles and provides insight into the relationships among distances from a point on the circumscribed circle."
+    },
+    {
+        "Theorem": "A relation among fourth and second powers in an equilateral triangle: For a point inside an equilateral triangle with side length s, a specific quartic relation holds.",
+        "id": "4.1.26",
+        "Equation": "$$3(PA^4 + PB^4 + PC^4 + s^4) = (PA^2 + PB^2 + PC^2 + s^2)^2$$",
+        "Content": "This advanced relation connects distances from an interior point to the vertices with the side length in an equilateral triangle."
+    },
+    {
+        "Theorem": "Area of a Square: A square with side length s has a simple area formula.",
+        "id": "4.2.1",
+        "Equation": "$$s^2$$",
+        "Content": "This formula states that the area of a square is the square of its side length."
+    },
+    {
+        "Theorem": "Area of a Rectangle: The area is calculated using the base and height, with a perimeter formula as well.",
+        "id": "4.2.2",
+        "Equation": "$$2b + 2h$$",
+        "Content": "A rectangle’s area is the product of its base and height, and its perimeter is twice the sum of its base and height."
+    },
+    {
+        "Theorem": "British Flag Theorem: In a rectangle, for any interior point, the sum of the squares of the distances to one pair of opposite vertices equals that to the other pair.",
+        "id": "4.2.3",
+        "Equation": "$$(PA)^2 + (PC)^2 = (PB)^2 + (PD)^2$$",
+        "Content": "This theorem provides a geometric relation for distances from an interior point to the vertices of a rectangle."
+    },
+    {
+        "Theorem": "Area and Perimeter of a Rhombus: A rhombus’s area is based on its diagonals and its perimeter on the diagonals as well.",
+        "id": "4.2.4",
+        "Equation": "$$\\text{Area} = \\frac{1}{2} d_1 d_2$$\n$$\\text{Perimeter} = 2\\sqrt{d_1^2+d_2^2}$$",
+        "Content": "This theorem shows that the area of a rhombus can be determined by half the product of its diagonals, and the perimeter is given by twice the square root of the sum of the squares of the diagonals."
+    },
+    {
+        "Theorem": "Area of a Parallelogram: The area is found by multiplying the base and the height.",
+        "id": "4.2.5",
+        "Equation": "$$bh$$",
+        "Content": "The area calculation for a parallelogram is straightforward as the product of its base and height."
+    },
+    {
+        "Theorem": "Area of a Trapezoid: A trapezoid with bases b₁ and b₂ and height h has a specific area.",
+        "id": "4.2.6",
+        "Equation": "$$\\frac{b_1+b_2}{2} \\cdot h$$",
+        "Content": "This formula calculates the area of a trapezoid by averaging the two bases and multiplying by the height."
+    },
+    {
+        "Theorem": "Area and Circumference of a Circle: A circle with radius r has defined formulas for area and circumference.",
+        "id": "4.3.1",
+        "Equation": "$$\\text{Area} = \\pi r^2$$",
+        "Content": "This theorem introduces the basic formulas for a circle’s area and, by implication, its circumference."
+    },
+    {
+        "Theorem": "Arcs of a Circle: Provides formulas for the area of a sector and the length of an arc given a central angle.",
+        "id": "4.3.2",
+        "Equation": "$$\\text{Sector Area} = \\pi r^2 \\cdot \\frac{a^\\circ}{360}\\quad\\text{and}\\quad\\text{Arc Length} = 2 \\pi r \\cdot \\frac{a^\\circ}{360}$$",
+        "Content": "This theorem relates the fraction of the circle represented by an arc to both its area and its length."
+    },
+    {
+        "Theorem": "Definition: Angle of an Arc. It is the angle subtended by the arc at the center of the circle.",
+        "id": "4.3.3",
+        "Equation": "",
+        "Content": "This definition clarifies that the angle of an arc is measured at the circle’s center."
+    },
+    {
+        "Theorem": "Inscribed Arc Theorem: The angle formed at the center by an arc is double the angle formed on the circle’s edge.",
+        "id": "4.3.4",
+        "Equation": "",
+        "Content": "This theorem is very useful in angle chasing, as it links central angles with inscribed angles."
+    },
+    {
+        "Theorem": "Corollary (Inscribed Right Triangle): A triangle inscribed in a circle with a diameter as one side is a right triangle.",
+        "id": "4.3.5",
+        "Equation": "",
+        "Content": "This corollary applies the inscribed angle theorem to show that the angle opposite the diameter is a right angle."
+    },
+    {
+        "Theorem": "Definition: Chord. A chord is a segment connecting any two points on a circle.",
+        "id": "4.3.6",
+        "Equation": "",
+        "Content": "This definition also notes that the diameter is the longest possible chord in a circle."
+    },
+    {
+        "Theorem": "The Perpendicular Bisector Theorem for Chords: The perpendicular bisector of any chord passes through the circle’s center.",
+        "id": "4.3.7",
+        "Equation": "",
+        "Content": "This theorem is frequently used to locate the center of a circle given its chords."
+    },
+    {
+        "Theorem": "Corollary: Congruent chords are equidistant from the center of a circle.",
+        "id": "4.3.8",
+        "Equation": "",
+        "Content": "In addition to equidistance, congruent chords also intercept equal arcs and determine equal central angles."
+    },
+    {
+        "Theorem": "A Formula for an Inscribed Angle: The angle is half the difference of two intercepted arcs.",
+        "id": "4.3.9",
+        "Equation": "$$\\angle APC = \\frac{\\wideparen{BD} - \\wideparen{AC}}{2}$$",
+        "Content": "This theorem offers a way to compute angles formed by intersecting chords using arc differences."
+    },
+    {
+        "Theorem": "Angles Formed by Intersecting Chords: The angles at the intersection are given by the average of the intercepted arcs.",
+        "id": "4.3.10",
+        "Equation": "$$\\angle BPC = \\angle APD = \\frac{\\wideparen{BC}+\\wideparen{AD}}{2}$$",
+        "Content": "This result further extends the inscribed angle principles to intersecting chords."
+    },
+    {
+        "Theorem": "Equal Chords Determine Equal Arcs: Chords of equal length subtend arcs of equal measure.",
+        "id": "4.3.14",
+        "Equation": "",
+        "Content": "This theorem reinforces the connection between chord length and the measure of the intercepted arc."
+    },
+    {
+        "Theorem": "Definition: Tangent. A tangent is a line from an external point that touches the circle at exactly one point.",
+        "id": "4.3.15",
+        "Equation": "",
+        "Content": "This definition introduces the concept of tangency, emphasizing the point of contact with the circle."
+    },
+    {
+        "Theorem": "Right Angle Tangency Theorem: The line from the center of a circle to the point of tangency is perpendicular to the tangent.",
+        "id": "4.3.16",
+        "Equation": "",
+        "Content": "This theorem is critical in solving problems involving tangents and circles as it creates a right angle."
+    },
+    {
+        "Theorem": "Power of a Point (Two Tangents): From an external point, the two tangents drawn to a circle are congruent.",
+        "id": "4.4.1",
+        "Equation": "",
+        "Content": "This theorem is useful for proving equality of segments drawn from a common external point to a circle."
+    },
+    {
+        "Theorem": "Power of a Point (Two Secants): For two secants intersecting at an external point, the products of the segments are equal.",
+        "id": "4.4.2",
+        "Equation": "$$PA \\cdot PB = PC \\cdot PD$$",
+        "Content": "This relation holds for any two secant lines drawn from a point outside a circle."
+    },
+    {
+        "Theorem": "Power of a Point (Secants and Tangents): For an external point with one tangent and one secant, a specific equality holds.",
+        "id": "4.4.3",
+        "Equation": "$$PA \\cdot PB = PC \\cdot PD = PT^2$$",
+        "Content": "This theorem combines secant and tangent properties into one unified power-of-a-point relation."
+    },
+    {
+        "Theorem": "Power of a Point (Internal Intersection): For secants intersecting inside a circle, the product relation adjusts to $$r^2 - OP^2$$.",
+        "id": "4.4.5",
+        "Equation": "$$PA \\cdot PB = PC \\cdot PD = r^2 - OP^2$$",
+        "Content": "This variant applies when the intersecting point lies within the circle."
+    },
+    {
+        "Theorem": "Power of a Point (External Intersection): For secants intersecting outside a circle, the product equals $$OP^2 - r^2$$.",
+        "id": "4.4.6",
+        "Equation": "$$PA \\cdot PB = PC \\cdot PD = OP^2 - r^2$$",
+        "Content": "This formula is used when the intersection point of the secants is located outside the circle."
+    },
+    {
+        "Theorem": "Tangential Quadrilateral Side-Sum Theorem: In a quadrilateral that admits an inscribed circle, the sum of two opposite sides equals the sum of the other two.",
+        "id": "4.4.9",
+        "Equation": "$$AB + CD = AD + BC$$",
+        "Content": "This theorem provides a necessary condition for a quadrilateral to be tangential."
+    },
+    {
+        "Theorem": "Descartes’ Theorem (Kissing Circles): Relates the curvatures (reciprocals of radii) of four mutually tangent circles.",
+        "id": "4.4.10",
+        "Equation": "$$\\left(\\frac{1}{r_1}+\\frac{1}{r_2}+\\frac{1}{r_3}-\\frac{1}{s_1}\\right)^2 = 2\\left(\\frac{1}{r_1^2}+\\frac{1}{r_2^2}+\\frac{1}{r_3^2}+\\frac{1}{s_1^2}\\right)$$",
+        "Content": "This theorem is applied to a configuration of four circles, with appropriate sign conventions for internal tangency."
+    },
+    {
+        "Theorem": "Carnot’s Theorem: In a triangle, the signed sum of the perpendicular distances from the circumcenter to the sides equals the sum of the circumradius and inradius.",
+        "id": "4.4.12",
+        "Equation": "$$OP + OQ + OR = R + r$$",
+        "Content": "This theorem is useful for connecting distances from the circumcenter with the inradius and circumradius."
+    },
+    {
+        "Theorem": "Properties of a Cyclic Quadrilateral: The sum of opposite angles in a cyclic quadrilateral is 180°.",
+        "id": "4.9.1",
+        "Equation": "",
+        "Content": "This property is a defining characteristic of cyclic quadrilaterals and is often used in circle geometry proofs."
+    },
+    {
+        "Theorem": "Ptolemy’s Theorem: In a cyclic quadrilateral, the product of the diagonals equals the sum of the products of opposite sides.",
+        "id": "4.9.2",
+        "Equation": "$$AC \\cdot BD = AB \\cdot CD + AD \\cdot BC$$",
+        "Content": "Ptolemy’s theorem is a powerful tool for solving problems involving cyclic quadrilaterals and circle geometry."
+    },
+    {
+        "Theorem": "Brahmagupta’s Formula: The area of a cyclic quadrilateral with sides a, b, c, d is given in terms of its semiperimeter.",
+        "id": "4.9.3",
+        "Equation": "$$A = \\sqrt{(s-a)(s-b)(s-c)(s-d)}$$",
+        "Content": "This formula generalizes Heron’s formula to cyclic quadrilaterals, where s is half the perimeter."
+    },
+    {
+        "Theorem": "Volume and Surface Area of a Cube: Provides formulas for volume, surface area, and the space diagonal in terms of side length a.",
+        "id": "4.10.1",
+        "Equation": "$$\\text{Volume} = a^3\\quad\\text{and}\\quad\\text{Surface Area} = 6a^2\\quad\\text{and}\\quad\\text{Diagonal} = \\sqrt{3}a$$",
+        "Content": "These formulas describe the basic 3D properties of a cube."
+    },
+    {
+        "Theorem": "Volume and Surface Area of a Rectangular Prism: The volume and surface area are given in terms of l, w, and h, with the space diagonal formula provided.",
+        "id": "4.10.2",
+        "Equation": "$$\\text{Volume} = l \\times w \\times h\\quad\\text{and}\\quad\\text{Surface Area} = 2(lw + wh + lh)\\quad\\text{and}\\quad\\text{Diagonal} = \\sqrt{l^2+b^2+h^2}$$",
+        "Content": "This theorem generalizes cubic formulas to a rectangular prism with different side lengths."
+    },
+    {
+        "Theorem": "Volume and Surface Area of a Cylinder: Defines the formulas for a cylinder in terms of its radius r and height h.",
+        "id": "4.10.3",
+        "Equation": "$$\\text{Volume} = \\pi r^2 h\\quad\\text{and}\\quad\\text{Surface Area} = 2\\pi r(r+h)$$",
+        "Content": "These formulas determine both the volume and the total surface area (including top and bottom) of a cylinder."
+    },
+    {
+        "Theorem": "Volume and Surface Area of a Cone: Provides formulas for the cone’s volume and surface area in terms of r, h, and the slant height s.",
+        "id": "4.10.4",
+        "Equation": "$$\\text{Volume} = \\frac{1}{3} \\pi r^2 h\\quad\\text{and}\\quad\\text{Surface Area} = \\pi r(r+s)$$",
+        "Content": "These expressions are used to compute the volume and lateral surface area of a cone."
+    },
+    {
+        "Theorem": "Volume and Surface Area of a Sphere: Establishes the sphere’s volume and surface area formulas.",
+        "id": "4.10.6",
+        "Equation": "$$\\text{Volume} = \\frac{4}{3} \\pi r^3\\quad\\text{and}\\quad\\text{Surface Area} = 4\\pi r^2$$",
+        "Content": "These well‐known formulas are central to the geometry of spheres."
+    },
+    {
+        "Theorem": "Volume of a Tetrahedron: The volume is given as one-third of the product of the base area and height.",
+        "id": "4.10.7",
+        "Equation": "",
+        "Content": "This simple formula applies to any tetrahedron, regardless of its shape."
+    },
+    {
+        "Theorem": "Volume of a Regular Tetrahedron: When all sides are equal, the volume has a specific formula.",
+        "id": "4.10.8",
+        "Equation": "$$\\frac{\\sqrt{2}}{12} s^3$$",
+        "Content": "This formula specializes the volume calculation for a tetrahedron with congruent edges."
+    },
+    {
+        "Theorem": "Volume of a Pyramid: The volume is one-third of the base area multiplied by its height.",
+        "id": "4.10.9",
+        "Equation": "",
+        "Content": "This general formula is applicable to any pyramid regardless of the shape of its base."
+    },
+    {
+        "Theorem": "Volume of a Regular Pyramid: For a pyramid with a square base and equal lateral edges, a specialized volume formula applies.",
+        "id": "4.10.10",
+        "Equation": "$$\\frac{\\sqrt{2}}{6} s^3$$",
+        "Content": "This result gives the volume for a regular pyramid where all sides are equal and the base is a square."
+    },
+    {
+        "Theorem": "Euler’s Polyhedron Formula: Relates the number of vertices (V), edges (E), and faces (F) via a simple equation.",
+        "id": "4.10.12",
+        "Equation": "$$E = F + V - 2$$",
+        "Content": "This formula is an essential invariant in the study of polyhedral geometry."
+    },
+    {
+        "Theorem": "Definition: Median. A median connects a vertex of a triangle to the midpoint of the opposite side.",
+        "id": "4.11.1",
+        "Equation": "",
+        "Content": "This definition is fundamental in triangle geometry and is used in several theorems involving centroids."
+    },
+    {
+        "Theorem": "Definition: Centroid. The point where the medians of a triangle intersect.",
+        "id": "4.11.2",
+        "Equation": "",
+        "Content": "The centroid is the center of mass of a triangle and divides each median in a 2:1 ratio."
+    },
+    {
+        "Theorem": "The Centroid Theorem: The centroid lies on each median at a point two-thirds of the distance from the vertex.",
+        "id": "4.11.3",
+        "Equation": "",
+        "Content": "This theorem specifies the precise location of the centroid along each median."
+    },
+    {
+        "Theorem": "Definition: Circumcenter. The intersection of the perpendicular bisectors of a triangle’s sides is the circumcenter.",
+        "id": "4.11.4",
+        "Equation": "",
+        "Content": "The circumcenter is equidistant from all three vertices and is the center of the circumscribed circle."
+    },
+    {
+        "Theorem": "Definition: Incenter. The intersection of a triangle’s angle bisectors is called the incenter.",
+        "id": "4.11.5",
+        "Equation": "",
+        "Content": "This point is the center of the inscribed circle and is equidistant from the triangle’s sides."
+    },
+    {
+        "Theorem": "Inradius of a Right Triangle: For a right triangle with legs a, b and hypotenuse c, the inradius is determined by a specific formula.",
+        "id": "4.11.6",
+        "Equation": "$$r = \\frac{1}{2}(a+b-c)$$",
+        "Content": "This formula provides a direct way to compute the inradius of a right triangle from its side lengths."
+    },
+    {
+        "Theorem": "Definition: Cevian. A cevian is a segment from a vertex to the opposite side in a triangle.",
+        "id": "4.11.7",
+        "Equation": "",
+        "Content": "Both medians and angle bisectors are examples of cevians."
+    },
+    {
+        "Theorem": "Ceva’s Theorem: In a triangle, cevians AD, BE, and CF are concurrent if and only if the product of the ratios of the divided side segments equals one.",
+        "id": "4.11.8",
+        "Equation": "$$\\frac{BD}{DC} \\cdot \\frac{CE}{EA} \\cdot \\frac{AF}{FB} = 1$$",
+        "Content": "This theorem provides a necessary and sufficient condition for three cevians to be concurrent."
+    },
+    {
+        "Theorem": "Menelaus’ Theorem: A criterion involving points on the sides (or extensions) of a triangle that are collinear.",
+        "id": "4.11.10",
+        "Equation": "$$\\frac{PB}{CP} \\cdot \\frac{QC}{QA} \\cdot \\frac{AR}{RB} = 1$$",
+        "Content": "This theorem gives a necessary and sufficient condition for three points on the sides of a triangle to be collinear."
+    },
+    {
+        "Theorem": "Stewart’s Theorem: Relates the side lengths of a triangle with a cevian drawn from one vertex.",
+        "id": "4.11.11",
+        "Equation": "$$b^2 \\cdot m + c^2 \\cdot n = a\\,(d^2 + m\\,n)$$",
+        "Content": "This theorem is a tool for relating portions of a triangle’s side when a cevian is drawn, aiding in the computation of unknown lengths."
+    },
+    {
+        "Theorem": "Corollary (Stewart’s for Angle Bisectors): For an angle bisector, a simplified form of Stewart’s theorem holds.",
+        "id": "4.11.13",
+        "Equation": "$$d^2 + m n = b c$$",
+        "Content": "This result is derived by applying Stewart’s theorem to the case of an angle bisector."
+    },
+    {
+        "Theorem": "Corollary (Stewart’s for Medians): When the cevian is a median, the formula becomes a relation involving the sides of the triangle.",
+        "id": "4.11.14",
+        "Equation": "$$d^2 = \\frac{1}{2}(b^2+c^2) - \\frac{1}{4}a^2$$",
+        "Content": "This is a specialized version of Stewart’s theorem that applies when the cevian divides the opposite side into two equal parts."
+    },
+    {
+        "Theorem": "Euler’s Geometry Theorem: Relates the distance between the circumcenter and incenter of a triangle to its radii.",
+        "id": "4.11.15",
+        "Equation": "$$d^2 = R(R-2r)$$",
+        "Content": "This theorem provides an important link between a triangle’s circumradius and inradius."
+    },
+    {
+        "Theorem": "Definition: Equation of a Line. The general form is given by ax + by + c = 0.",
+        "id": "4.12.1",
+        "Equation": "",
+        "Content": "This definition establishes the standard linear equation form in coordinate geometry."
+    },
+    {
+        "Theorem": "Definition: Slope-Intercept Form. A line can also be expressed as y = mx + b.",
+        "id": "4.12.2",
+        "Equation": "",
+        "Content": "This definition provides an alternative representation of a line that highlights its slope and y-intercept."
+    },
+    {
+        "Theorem": "Slope of a Line Through Two Points: The slope is calculated as the change in y over the change in x.",
+        "id": "4.12.3",
+        "Equation": "$$\\frac{y_2-y_1}{x_2-x_1}$$",
+        "Content": "This theorem gives the formula for computing the slope of a line given two distinct points on the line."
+    },
+    {
+        "Theorem": "Slope from an Angle: A line making an angle θ with the x-axis has a slope of tan(θ).",
+        "id": "4.12.4",
+        "Equation": "$$\\tan(\\theta)$$",
+        "Content": "This theorem connects the geometric concept of an angle with the algebraic notion of slope."
+    },
+    {
+        "Theorem": "Distance Between Two Points: The distance formula in the coordinate plane.",
+        "id": "4.12.5",
+        "Equation": "$$\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$$",
+        "Content": "This formula derives from the Pythagorean theorem and computes the distance between any two points."
+    },
+    {
+        "Theorem": "Point-to-Line Distance: The shortest distance from a point to a line is given by a specific formula.",
+        "id": "4.12.6",
+        "Equation": "$$\\frac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}$$",
+        "Content": "This formula is used to compute the perpendicular distance from a point to a given line."
+    },
+    {
+        "Theorem": "Equation of a Circle: A circle with center (a, b) and radius r satisfies a standard equation.",
+        "id": "4.12.10",
+        "Equation": "$$(x-a)^2+(y-b)^2 = r^2$$",
+        "Content": "This theorem provides the canonical form for the equation of a circle in the coordinate plane."
+    },
+    {
+        "Theorem": "Equation of a Parabola: A parabola with vertex (a, b) is expressed in vertex form.",
+        "id": "4.12.11",
+        "Equation": "$$y=k(x-a)^2+b$$",
+        "Content": "This equation represents a parabola in a form that makes the vertex readily identifiable."
+    },
+    {
+        "Theorem": "Equation of an Ellipse: An ellipse with horizontal and vertical radii a and b has a standard equation.",
+        "id": "4.12.12",
+        "Equation": "$$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$$",
+        "Content": "This is the standard form for the equation of an ellipse centered at the origin."
+    },
+    {
+        "Theorem": "Equation of a Hyperbola: A hyperbola oriented along the coordinate axes is given by a specific equation.",
+        "id": "4.12.14",
+        "Equation": "$$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$$",
+        "Content": "This represents the standard form of a hyperbola, showing its basic geometric structure."
+    }
+]

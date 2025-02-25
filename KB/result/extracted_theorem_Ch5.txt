@@ -1,0 +1,80 @@
+[
+    {
+        "Theorem": "Trigonometric Identities",
+        "id": "5.1.1",
+        "Equation": "$$\\begin{gathered}\n\\text{ Sine: } \\sin(a)=\\frac{\\text{Opposite}}{\\text{Hypotenuse}} \\\\\n\\text{ Cosine: } \\cos(a)=\\frac{\\text{Adjacent}}{\\text{Hypotenuse}} \\\\\n\\text{ Tangent: } \\tan(a)=\\frac{\\text{Opposite}}{\\text{Adjacent}}=\\frac{\\sin(a)}{\\cos(a)}\n\\end{gathered}$$",
+        "Content": "Defines the basic trigonometric functions in relation to the sides of a right triangle."
+    },
+    {
+        "Theorem": "More Trigonometric Identities",
+        "id": "5.2.1",
+        "Equation": "$$\\begin{aligned}\n\\csc(a)&=\\frac{\\text{Hypotenuse}}{\\text{Opposite}}=\\frac{1}{\\sin(a)}\\\\\n\\sec(a)&=\\frac{\\text{Hypotenuse}}{\\text{Adjacent}}=\\frac{1}{\\cos(a)}\\\\\n\\cot(a)&=\\frac{\\text{Adjacent}}{\\text{Opposite}}=\\frac{1}{\\tan(a)}=\\frac{\\cos(a)}{\\sin(a)}\n\\end{aligned}$$",
+        "Content": "Provides the reciprocal identities for the trigonometric functions: cosecant, secant, and cotangent."
+    },
+    {
+        "Theorem": "Unit Circle Identities",
+        "id": "5.4.1",
+        "Equation": "$$\\begin{gathered}\n\\sin(-a)=-\\sin(a) \\\\\n\\sin(a)=\\sin(180-a) \\\\\n\\cos(a)=\\cos(-a) \\\\\n\\cos(a)=-\\cos(180-a) \\\\\n\\tan(a)=-\\tan(180-a) \\\\\n\\tan(-a)=-\\tan(a)\n\\end{gathered}$$",
+        "Content": "States identities derived from the symmetry of the unit circle, relating trigonometric function values at negative and supplementary angles."
+    },
+    {
+        "Theorem": "Area of a Triangle using Trigonometry",
+        "id": "5.5.1",
+        "Equation": "$$\\text{Area}=\\frac{1}{2}\\cdot a\\,b\\cdot\\sin(C)$$",
+        "Content": "Provides the formula for the area of a triangle given two sides and the included angle."
+    },
+    {
+        "Theorem": "Law of Sines",
+        "id": "5.6.1",
+        "Equation": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R$$",
+        "Content": "Expresses the proportionality between the sides of a triangle and the sines of their opposite angles, with the common constant equal to twice the circumradius."
+    },
+    {
+        "Theorem": "Law of Cosines",
+        "id": "5.7.1",
+        "Equation": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+        "Content": "Extends the Pythagorean theorem to non-right triangles by relating the lengths of sides with the cosine of the included angle."
+    },
+    {
+        "Theorem": "Pythagorean Identities",
+        "id": "5.8.1",
+        "Equation": "$$\\begin{aligned}\n\\sin^2(a)+\\cos^2(a)&=1\\\\\n\\tan^2(a)+1&=\\sec^2(a)\\\\\n\\cot^2(a)+1&=\\csc^2(a)\n\\end{aligned}$$",
+        "Content": "Provides fundamental relationships among the squares of the trigonometric functions."
+    },
+    {
+        "Theorem": "Double Angle Identities",
+        "id": "5.9.1",
+        "Equation": "$$\\begin{gathered}\n\\sin(2a)=2\\sin(a)\\cos(a) \\\\\n\\cos(2a)=\\cos^2(a)-\\sin^2(a)=2\\cos^2(a)-1=1-2\\sin^2(a) \\\\\n\\tan(2a)=\\frac{2\\tan(a)}{1-\\tan^2(a)}\n\\end{gathered}$$",
+        "Content": "Gives identities that express the sine, cosine, and tangent of double an angle in terms of the functions of the original angle."
+    },
+    {
+        "Theorem": "Addition and Subtraction Identities",
+        "id": "5.10.1",
+        "Equation": "$$\\begin{gathered}\n\\sin(a+b)=\\sin(a)\\cos(b)+\\sin(b)\\cos(a) \\\\\n\\sin(a-b)=\\sin(a)\\cos(b)-\\sin(b)\\cos(a) \\\\\n\\cos(a+b)=\\cos(a)\\cos(b)-\\sin(a)\\sin(b) \\\\\n\\cos(a-b)=\\cos(a)\\cos(b)+\\sin(a)\\sin(b) \\\\\n\\tan(a+b)=\\frac{\\tan(a)+\\tan(b)}{1-\\tan(a)\\tan(b)} \\\\\n\\tan(a-b)=\\frac{\\tan(a)-\\tan(b)}{1+\\tan(a)\\tan(b)}\n\\end{gathered}$$",
+        "Content": "Provides formulas to compute the sine, cosine, and tangent of the sum or difference of two angles."
+    },
+    {
+        "Theorem": "Half Angle Identities",
+        "id": "5.11.1",
+        "Equation": "$$\\begin{aligned}\n\\sin\\left(\\frac{a}{2}\\right)&=\\pm\\sqrt{\\frac{1-\\cos(a)}{2}} \\\\\n\\cos\\left(\\frac{a}{2}\\right)&=\\pm\\sqrt{\\frac{1+\\cos(a)}{2}}\n\\end{aligned}$$",
+        "Content": "Provides formulas for determining the sine and cosine of half an angle, including the appropriate sign based on the quadrant."
+    },
+    {
+        "Theorem": "Sum to Product Identities",
+        "id": "5.12.1",
+        "Equation": "$$\\begin{aligned}\n\\sin(a)+\\sin(b)&=2\\sin\\left(\\frac{a+b}{2}\\right)\\cos\\left(\\frac{a-b}{2}\\right) \\\\\n\\sin(a)-\\sin(b)&=2\\sin\\left(\\frac{a-b}{2}\\right)\\cos\\left(\\frac{a+b}{2}\\right) \\\\\n\\cos(a)+\\cos(b)&=2\\cos\\left(\\frac{a-b}{2}\\right)\\cos\\left(\\frac{a+b}{2}\\right) \\\\\n\\cos(a)-\\cos(b)&=-2\\sin\\left(\\frac{a-b}{2}\\right)\\sin\\left(\\frac{a+b}{2}\\right)\n\\end{aligned}$$",
+        "Content": "Converts sums and differences of sine and cosine functions into products, facilitating the simplification of trigonometric expressions."
+    },
+    {
+        "Theorem": "Product to Sum Identities",
+        "id": "5.13.1",
+        "Equation": "$$\\begin{aligned}\n\\sin(a)\\sin(b)&=\\frac{1}{2}\\left[\\cos(a-b)-\\cos(a+b)\\right] \\\\\n\\cos(a)\\cos(b)&=\\frac{1}{2}\\left[\\cos(a-b)+\\cos(a+b)\\right] \\\\\n\\sin(a)\\cos(b)&=\\frac{1}{2}\\left[\\sin(a+b)+\\sin(a-b)\\right]\n\\end{aligned}$$",
+        "Content": "Expresses products of sine and cosine functions as sums or differences, which can simplify integration and other mathematical operations."
+    },
+    {
+        "Theorem": "Periodic Function",
+        "id": "5.13.2",
+        "Equation": "$$2\\pi$$",
+        "Content": "A periodic function is a trigonometric function that repeats a pattern of y-values at regular intervals. One complete repetition is called a cycle, and the period is the horizontal length of that cycle. For sine, cosine, and tangent, the period is $$2\\pi$$."
+    }
+]

@@ -1,0 +1,214 @@
+```json
+[
+    {
+        "Theorem": "The product of GCD and LCM of two numbers is equal to the product of the two numbers.",
+        "id": "2.4.4",
+        "Equation": "$$ G C D(m, n) \\cdot \\operatorname{LCM}(m, n) = m \\cdot n $$"
+    },
+    {
+        "Theorem": "If two numbers have a common factor c, then gcd(ac, bc) = c ⋅ gcd(a, b).",
+        "id": "2.4.5",
+        "Equation": "$$ \\operatorname{gcd}(ac, bc) = c \\cdot \\operatorname{gcd}(a, b) $$"
+    },
+    {
+        "Definition": "Mean/Average is the average of all terms, equal to the sum of all terms divided by the number of terms.",
+        "id": "1.1.1",
+        "Equation": "$$ \\text{Mean } = \\text{ average of all terms } = \\frac{\\text{ sum of all terms }}{\\text{ number of terms }} $$"
+    },
+    {
+        "Definition": "Mode is the most common term(s).",
+        "id": "1.1.2",
+        "Equation": "$$ \\text{Mode } = \\text{ Most common term(s) } $$"
+    },
+    {
+        "Definition": "Median is the middle number after arranging all numbers in order. If the number of terms is even, the median is the average of the middle two numbers.",
+        "id": "1.1.4",
+        "Equation": "$$ \\text{Median } = \\text{ middle number } $$"
+    },
+    {
+        "Definition": "Harmonic Mean of numbers a₁, a₂, a₃, ..., aₙ is defined as n divided by the sum of the reciprocals of all aₖ.",
+        "id": "1.1.5",
+        "Equation": "$$ \\frac{n}{\\text{sum of reciprocals of all } a_{k}} $$"
+    },
+    {
+        "Theorem": "The nth term of an arithmetic sequence is equal to the first term plus (number of terms - 1) times the common difference.",
+        "id": "1.2.4",
+        "Equation": "$$ a_{n} = a_{1} + (n-1)d $$"
+    },
+    {
+        "Theorem": "The number of terms in an arithmetic sequence is equal to (last term - first term) divided by the common difference, plus one.",
+        "id": "1.2.5",
+        "Equation": "$$ n = \\frac{a_{n} - a_{1}}{d} + 1 $$"
+    },
+    {
+        "Theorem": "The average of the terms in an arithmetic sequence is equal to the sum of the first and last terms divided by two, and also equal to the sum of all terms divided by the number of terms.",
+        "id": "1.2.6",
+        "Equation": "$$ \\text{Average of Terms} = \\frac{a_{1} + a_{n}}{2} = \\frac{a_{1} + a_{2} + \\cdots + a_{n}}{n} $$"
+    },
+    {
+        "Theorem": "The sum of all terms in an arithmetic sequence is equal to the average of the terms multiplied by the number of terms.",
+        "id": "1.2.7",
+        "Equation": "$$ S_{n} = \\frac{a_{1} + a_{n}}{2} \\times n $$"
+    },
+    {
+        "Theorem": "A geometric sequence is a sequence of numbers with the same ratio between consecutive terms.",
+        "id": "1.3.1",
+        "Equation": "$$ g_{1}, g_{2}, g_{3}, g_{4}, \\ldots, g_{n} $$"
+    },
+    {
+        "Theorem": "The nth term of a geometric sequence is equal to the first term multiplied by the common ratio raised to the (n-1) power.",
+        "id": "1.3.4",
+        "Equation": "$$ g_{n} = g_{1} \\cdot r^{n-1} $$"
+    },
+    {
+        "Theorem": "The sum of the first n terms in a geometric sequence is equal to the first term multiplied by (1 - common ratio^n) divided by (1 - common ratio).",
+        "id": "1.3.6",
+        "Equation": "$$ S_{n} = g_{1} \\frac{1 - r^{n}}{1 - r} $$"
+    },
+    {
+        "Theorem": "The sum of the first n natural numbers is equal to n(n + 1)/2.",
+        "id": "1.4.1",
+        "Equation": "$$ 1 + 2 + 3 + \\cdots + n = \\frac{n(n+1)}{2} $$"
+    },
+    {
+        "Theorem": "The sum of the first n odd numbers is equal to n².",
+        "id": "1.4.2",
+        "Equation": "$$ 1 + 3 + 5 + \\cdots + (2n - 1) = n^{2} $$"
+    },
+    {
+        "Theorem": "The sum of the first n even numbers is equal to n(n + 1).",
+        "id": "1.4.3",
+        "Equation": "$$ 2 + 4 + 6 + \\cdots + 2n = n(n+1) $$"
+    },
+    {
+        "Theorem": "The sum of the squares of the first n natural numbers is equal to n(n + 1)(2n + 1)/6.",
+        "id": "1.4.4",
+        "Equation": "$$ 1^{2} + 2^{2} + \\cdots + n^{2} = \\frac{n(n+1)(2n+1)}{6} $$"
+    },
+    {
+        "Theorem": "The sum of the cubes of the first n natural numbers is equal to (n(n + 1)/2)².",
+        "id": "1.4.5",
+        "Equation": "$$ 1^{3} + 2^{3} + \\cdots + n^{3} = \\left(\\frac{n(n+1)}{2}\\right)^{2} $$"
+    },
+    {
+        "Definition": "Telescoping is a technique where you expand the first few and last few terms of a series, allowing intermediate terms to cancel out.",
+        "id": "1.5.1",
+        "Equation": "$$ \\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1} $$"
+    },
+    {
+        "Theorem": "Work is equal to rate multiplied by time.",
+        "id": "1.7.1",
+        "Equation": "$$ \\text{Work} = \\text{Rate} \\times \\text{Time} $$"
+    },
+    {
+        "Theorem": "Volume of a triangular pyramid (tetrahedron) is equal to one third the base area multiplied by the height.",
+        "id": "2.8.1",
+        "Equation": "$$ \\text{Volume} = \\frac{1}{3} \\times \\text{base area} \\times \\text{height} $$"
+    },
+    {
+        "Theorem": "The Euclidean algorithm states that gcd(x, y) = gcd(x - ky, y) where x > y and k is a positive integer.",
+        "id": "2.4.6",
+        "Equation": "$$ \\operatorname{gcd}(x, y) = \\operatorname{gcd}(x - ky, y) $$"
+    },
+    {
+        "Theorem": "Euler's Totient function φ(n) for n with prime factorization p₁^e₁ * p₂^e₂ * ... * pₖ^eₖ is φ(n) = n(1 - 1/p₁)(1 - 1/p₂)...(1 - 1/pₖ).",
+        "id": "2.5.4",
+        "Equation": "$$ \\phi(n) = n \\cdot \\left(1 - \\frac{1}{p_{1}}\\right)\\left(1 - \\frac{1}{p_{2}}\\right) \\ldots \\left(1 - \\frac{1}{p_{n}}\\right) $$"
+    },
+    {
+        "Theorem": "Pythagorean theorem: In a right triangle with legs a and b and hypotenuse c, c² = a² + b².",
+        "id": "4.1.1",
+        "Equation": "$$ c^{2} = a^{2} + b^{2} $$"
+    },
+    {
+        "Theorem": "Law of Sines: In any triangle with sides a, b, c and opposite angles A, B, C, a/sin(A) = b/sin(B) = c/sin(C) = 2R, where R is the circumradius.",
+        "id": "5.6.1",
+        "Equation": "$$ \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R $$"
+    },
+    {
+        "Theorem": "Law of Cosines: In any triangle with sides a, b, c and opposite angle C, c² = a² + b² - 2ab cos(C).",
+        "id": "5.7.1",
+        "Equation": "$$ c^{2} = a^{2} + b^{2} - 2ab \\cos(C) $$"
+    },
+    {
+        "Theorem": "Pythagorean identities: sin²(a) + cos²(a) = 1, tan²(a) + 1 = sec²(a), cot²(a) + 1 = csc²(a).",
+        "id": "5.8.1",
+        "Equation": "$$ \\sin^{2}(a) + \\cos^{2}(a) = 1, \\tan^{2}(a) + 1 = \\sec^{2}(a), \\cot^{2}(a) + 1 = \\csc^{2}(a) $$"
+    },
+    {
+        "Theorem": "Double angle identities: sin(2a) = 2 sin(a) cos(a), cos(2a) = cos²(a) - sin²(a) = 2 cos²(a) - 1 = 1 - 2 sin²(a), tan(2a) = (2 tan(a)) / (1 - tan²(a)).",
+        "id": "5.9.1",
+        "Equation": "$$ \\sin(2a) = 2 \\sin(a) \\cos(a), \\cos(2a) = \\cos^{2}(a) - \\sin^{2}(a) = 2\\cos^{2}(a) - 1 = 1 - 2\\sin^{2}(a), \\tan(2a) = \\frac{2 \\tan(a)}{1 - \\tan^{2}(a)} $$"
+    },
+    {
+        "Theorem": "Euler's formula: e^(iθ) = cos(θ) + i sin(θ).",
+        "id": "7.5.6",
+        "Equation": "$$ e^{i\\theta} = \\cos(\\theta) + i \\sin(\\theta) $$"
+    },
+    {
+        "Theorem": "De Moivre's Theorem: (cosθ + i sinθ)^n = cos(nθ) + i sin(nθ).",
+        "id": "7.5.12",
+        "Equation": "$$ (\\cos\\theta + i \\sin\\theta)^n = \\cos(n\\theta) + i \\sin(n\\theta) $$"
+    },
+    {
+        "Theorem": "Power of a Point for two tangents: From a given external point P, the two tangents to a circle are equal in length.",
+        "id": "4.4.1",
+        "Equation": "$$ PT_1 = PT_2 $$"
+    },
+    {
+        "Theorem": "Power of a Point for two secants: If two secants AB and CD intersect at point P, then PA * PB = PC * PD.",
+        "id": "4.4.2",
+        "Equation": "$$ PA \\cdot PB = PC \\cdot PD $$"
+    },
+    {
+        "Theorem": "Power of a Point for a tangent and a secant: If PT is a tangent and PT intersects secant PAB, then PT² = PA * PB.",
+        "id": "4.4.3",
+        "Equation": "$$ PT^{2} = PA \\cdot PB $$"
+    },
+    {
+        "Theorem": "Pick's Theorem: For a polygon with integer-coordinate vertices, Area = i + b/2 - 1, where i is the number of interior lattice points and b is the number of boundary lattice points.",
+        "id": "4.3.10",
+        "Equation": "$$ \\text{Area} = i + \\frac{b}{2} - 1 $$"
+    },
+    {
+        "Theorem": "Cavalieri's Principle: If two solids have the same height and every corresponding cross-section at the same level is equal in area, then the volumes of the two solids are equal.",
+        "id": "4.10.11",
+        "Equation": "$$ \\text{Volume}_1 = \\text{Volume}_2 $$"
+    },
+    {
+        "Theorem": "Euler's Polyhedron Formula: For any convex polyhedron, V - E + F = 2, where V is the number of vertices, E is the number of edges, and F is the number of faces.",
+        "id": "4.10.12",
+        "Equation": "$$ V - E + F = 2 $$"
+    },
+    {
+        "Theorem": "Brahmagupta's Formula: The area of a cyclic quadrilateral with sides a, b, c, d and semiperimeter s is sqrt{(s-a)(s-b)(s-c)(s-d)}.",
+        "id": "4.9.3",
+        "Equation": "$$ A = \\sqrt{(s-a)(s-b)(s-c)(s-d)} $$"
+    },
+    {
+        "Theorem": "Vandermonde's Identity: The sum of binomial coefficients multiplied across two indices equals a single binomial coefficient.",
+        "id": "3.3.12",
+        "Equation": "$$ \\sum_{i=0}^{m} \\binom{n}{i} \\binom{m}{m-i} = \\binom{n+m}{m} $$"
+    },
+    {
+        "Theorem": "Principle of Inclusion Exclusion for two sets: |A ∪ B| = |A| + |B| - |A ∩ B|.",
+        "id": "3.4.13",
+        "Equation": "$$ |A \\cup B| = |A| + |B| - |A \\cap B| $$"
+    },
+    {
+        "Theorem": "Principle of Inclusion Exclusion for three sets: |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|.",
+        "id": "3.4.14",
+        "Equation": "$$ |A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |A \\cap C| - |B \\cap C| + |A \\cap B \\cap C| $$"
+    },
+    {
+        "Theorem": "Vandermonde's Identity Generalized: \\( \\sum_{i=0}^{k} \\binom{k}{i}^{2} = \\binom{2k}{k} \\)",
+        "id": "3.3.13",
+        "Equation": "$$ \\sum_{i=0}^{k} \\binom{k}{i}^{2} = \\binom{2k}{k} $$"
+    },
+    {
+        "Theorem": "Chernoff's Inequality: (Note: Specific theorem content not provided in the text.)",
+        "id": "N/A",
+        "Equation": "N/A"
+    }
+]
+```
