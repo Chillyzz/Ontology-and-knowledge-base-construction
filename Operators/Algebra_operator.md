@@ -136,6 +136,10 @@
 
 10. Is_Monotonic_Decreasing_Sequence: Is_Monotonic_Decreasing_Sequence({s: Sequence}) -> Boolean # 判断一个数列是不是单调递减的
 
+11. Get_Sequences_Length: Get_Sequences_Length({s: Sequence}) -> PositiveInteger # 计算一个数列的元素个数
+
+12. Get_Sequences_Sum: Get_Sequences_Sum({s: Sequence}, {i: Integer}) -> Number # 计算数列的前n项和
+
 
 
 
@@ -277,6 +281,18 @@
 
 19. Elements_In_Set: Elements_In_Set({A: Individual}, {B: Set}) -> Boolean
     备注: 判断某个具体的 Individual 是否属于某个 Set
+
+20. Get_Set_Means: Get_Set_Means({A: Set}) -> Real
+    备注: 输入一个集合, 返回这个集合中所有元素的均值
+
+21. Get_Set_Count: Get_Set_Count({A: Set}) -> Set
+    备注: 输入一个集合, 返回这个集合中元素出现的频率
+
+22. Get_Sorted_Set: Get_Sorted_Set({A: Set}) -> Set
+    备注: 输入一个集合, 返回排序好后的集合
+
+23. Get_SetElement_Index: Get_SetElement_Byindex({A: Set}, {i: Number}) -> Element
+    备注: 输入一个(排序好的)集合, 返回对应指标的元素
 
 
 

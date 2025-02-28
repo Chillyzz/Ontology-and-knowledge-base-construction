@@ -1,0 +1,233 @@
+[
+    {
+        "Definition": "Mean/Average",
+        "id": "1.1.1",
+        "Equation": "$$ \\text{Mean} = \\text{average of all terms} = \\frac{\\text{sum of all terms}}{\\text{number of terms}} $$",
+        "Content": "The mean or average of a set of numbers is calculated by summing all the terms and dividing by the number of terms.",
+        "Facts": "S: Set",
+        "Conclusions": "Get_Set_Means(S) = Get_Set_Sum(S)/Set_Cardinality(S)"
+
+    },
+    {
+        "Definition": "Mode",
+        "id": "1.1.2",
+        "Equation": "$$ \\text{Mode} = \\text{Most common term(s)} $$",
+        "Content": "The mode of a set of numbers is the term that appears most frequently. A set may have one mode, multiple modes, or no mode if all terms are unique.",
+        "Facts": "S: Set",
+        "Conclusions": "Mode(S) = Get_Set_Maximum(Get_Set_Count(S))"
+    },
+    {
+        "Definition": "Median",
+        "id": "1.1.4",
+        "Equation": "$$ \\text{Median} = \\text{middle number} $$",
+        "Content": "The median is the middle value in a list of numbers ordered from least to greatest. If the number of terms is even, it is the average of the two middle numbers.",
+        "Facts": "S: Set",
+        "Conclusions": "Median(S) = if S.card % 2 = 1 then Get_SetElement_Index(Get_Sorted_Set(S), S.card / 2) else (Get_SetElement_Index(Get_Sorted_Set(S), S.card / 2) + Get_SetElement_Index(Get_Sorted_Set(S), S.card / 2 - 1)) / 2"
+    },
+    {
+        "Definition": "Harmonic Mean of Numbers $a_{1}, a_{2}, a_{3}, \\ldots, a_{n}$",
+        "id": "1.1.5",
+        "Equation": "$$ =\\frac{1}{\\frac{\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\cdots+\\frac{1}{a_{n}}}{n}}=\\frac{n}{\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\cdots+\\frac{1}{a_{n}}} $$",
+        "Content": "The harmonic mean of a set of numbers is calculated as the number of terms divided by the sum of the reciprocals of the terms.",
+        "Facts": "n: Integer, A: Sequences, Get_Sequences_Length(A) = n",
+        "Conclusions": "HarmonicMean(A) = n / (∑ (1 / a_{i}) for ai in S)"
+    },
+    {
+        "Theorem": "nth term in an Arithmetic Sequence",
+        "id": "1.2.4",
+        "Equation": "$$ a_{n} = a_{1} + (n - 1) d $$",
+        "Content": "This theorem states that the nth term of an arithmetic sequence can be found by adding (n-1) times the common difference to the first term. It also provides a general form to calculate the nth term based on any mth term.",
+        "Facts":"d: Integer, A: ArithmeticSequence, n: Variable",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {A_{n} = A_{1} + (n - 1) d}) = True"
+    },
+    {
+        "Theorem": "Number of Terms in an Arithmetic Sequence",
+        "id": "1.2.5",
+        "Equation": "$$ n = \\frac{a_{n} - a_{1}}{d} + 1 $$",
+        "Content": "This theorem provides a formula to calculate the number of terms in an arithmetic sequence when the first term, last term, and common difference are known.",
+        "Facts":"d: Integer, A: ArithmeticSequence, n: Variable, Get_CommonDifference(A) = d",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {n = \\frac{A_{n} - A_{1}}{d} + 1}) = True"
+    },
+    {
+        "Theorem": "Average of Terms in an Arithmetic Sequence",
+        "id": "1.2.6",
+        "Equation": "$$ \\text{Average of Terms} = \\frac{a_{1} + a_{n}}{2} $$\n$$ \\text{Average of Terms} = \\frac{a_{1} + a_{2} + \\cdots + a_{n}}{n} $$",
+        "Content": "This theorem states that the average of the terms in an arithmetic sequence is either the average of the first and last terms or the sum of all terms divided by the number of terms.",
+        "Facts": "d: Integer, A: ArithmeticSequence, n: Variable, Get_CommonDifference(A) = d",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {Get_Set_Means(A) = \\frac{A_{1} + A_{n}}{2}}) = True, Build_Universal_Proposition({n \\in N}, {Get_Set_Means(A) = \\frac{a_{1} + a_{2} + \\cdots + a_{n}}{n}}) = True"
+    },
+    {
+        "Theorem": "Sum of all Terms in an Arithmetic Sequence",
+        "id": "1.2.7",
+        "Equation": "$$ S_{n} = \\frac{a_{1} + a_{n}}{2} \\times n $$\n$$ S_{n} = \\frac{2 a_{1} + (n - 1) \\cdot d}{2} \\times n $$",
+        "Content": "This theorem provides the formula to calculate the sum of all terms in an arithmetic sequence by multiplying the average of the first and last terms by the number of terms. It also includes an alternative expression by substituting the nth term.",
+        "Facts": "d: Integer, A: ArithmeticSequence, n: Variable, Get_CommonDifference(A) = d, Get_nthTerm(A, n) = a_n",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {Get_Sequences_Sum(A, n) = \\frac{A_{1} + A_{n}}{2} \\times n}) = True, Build_Universal_Proposition({n \\in N}, {Get_Sequences_Sum(A, n) = \\frac{2 A_{1} + (n - 1) \\cdot d}{2} \\times n}) = True"
+    },
+    {
+        "Definition": "Arithmetic Sequence",
+        "id": "1.2.1",
+        "Equation": "$$ 1,4,7,10,13, \\ldots, 40 $$",
+        "Content": "An arithmetic sequence is a sequence of numbers with the same difference between consecutive terms."
+    },
+    {
+        "Definition": "Arithmetic Sequence Notation",
+        "id": "1.2.3",
+        "Equation": "$$ a_{1}, a_{2}, a_{3}, a_{4}, \\ldots, a_{n} $$",
+        "Content": "In general, the terms of an arithmetic sequence can be represented with a common difference 'd' between consecutive terms and 'n' being the number of terms."
+    },
+    {
+        "Theorem": "Sum of all Terms in a Finite Geometric Sequence",
+        "id": "1.3.6",
+        "Equation": "$$ S_{n} = g_{1} \\frac{\\left(1 - r^{n}\\right)}{1 - r} $$",
+        "Content": "This theorem provides the formula to calculate the sum of all terms in a finite geometric sequence by multiplying the first term by the fraction involving the common ratio and the number of terms.",
+        "Facts": "r: Real, G: GeometricSequence, n: Variable, Get_CommonRatio(G) = r",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {Get_Sequence_Sum(G, n) = G_1 \\frac{1 - r^n}{1 - r}}) = True"
+    },
+    {
+        "Theorem": "Sum of all Terms in an Infinite Geometric Sequence",
+        "id": "1.3.7",
+        "Equation": "$$ S_{\\infty} = \\frac{g_{1}}{1 - r} $$",
+        "Content": "For a geometric sequence where the absolute value of the common ratio is less than 1, the sum of all terms in an infinite geometric sequence converges to this formula.",
+        "Facts": "r: Real, G: GeometricSequence, n: Variable, Get_CommonRatio(G) = r, Abs(r) < 1 = True",
+        "Conclusions": "Get_Sequence_Sum(G, \\infty) = \\frac{G_1}{1 - r}) = True"
+    },
+    {
+        "Theorem": "Sum of Numbers Formula",
+        "id": "1.4.1",
+        "Equation": "$$ 1 + 2 + 3 + \\cdots + n = \\frac{n(n + 1)}{2} $$",
+        "Content": "This formula calculates the sum of the first 'n' natural numbers.",
+        "Facts": "n: Integer, S = Build_Set({x: Integer}, 1 <= x <= n)",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {Get_Set_Sum(S) = \\frac{n(n + 1)}{2}}) = True"
+    },
+    {
+        "Theorem": "Sum of Odd Numbers Formula",
+        "id": "1.4.2",
+        "Equation": "$$ 1 + 3 + 5 + \\cdots + (2n - 1) = n^{2} $$",
+        "Content": "The sum of the first 'n' odd numbers is equal to the square of 'n'.",
+        "Facts": "n: Integer, S = Build_Set({And(x: Integer, x: Odd)}, 1 <= x <= 2n - 1)",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {Get_Set_Sum(S) = n^2}) = True"
+    },
+    {
+        "Theorem": "Sum of Even Numbers Formula",
+        "id": "1.4.3",
+        "Equation": "$$ 2 + 4 + 6 + \\cdots + 2n = n(n + 1) $$",
+        "Content": "The sum of the first 'n' even numbers is equal to 'n' multiplied by ('n' plus one).",
+        "Facts": "n: Integer, S = Build_Set({And(x: Integer, x: Even)}, 2 <= x <= 2n)",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {Get_Set_Sum(S) = n(n+1)}) = True"
+    },
+    {
+        "Theorem": "Sum of Squares Formula",
+        "id": "1.4.4",
+        "Equation": "$$ 1^{2} + 2^{2} + \\cdots + n^{2} = \\frac{n(n + 1)(2n + 1)}{6} $$",
+        "Content": "This formula calculates the sum of the squares of the first 'n' natural numbers.",
+        "Facts": "n: Integer",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {S_n = \\frac{n(n + 1)(2n + 1)}{6}}) = True"
+    },
+    {
+        "Theorem": "Sum of Cubes Formula",
+        "id": "1.4.5",
+        "Equation": "$$ 1^{3} + 2^{3} + \\cdots + n^{3} = \\left(\\frac{n(n + 1)}{2}\\right)^{2} $$",
+        "Content": "The sum of the cubes of the first 'n' natural numbers is equal to the square of the sum of the first 'n' natural numbers.",
+        "Facts": "n: Integer",
+        "Conclusions": "Build_Universal_Proposition({n \\in N}, {S_n = \\left( \\frac{n(n + 1)}{2} \\right)^2}) = True"
+    },
+    {
+        "Definition": "Geometric Sequence",
+        "id": "1.3.1",
+        "Equation": "$$ 1,2,4,8,16,32, \\ldots, 1024 $$",
+        "Content": "A geometric sequence is a sequence of numbers with the same ratio between consecutive terms."
+    },
+    {
+        "Definition": "Geometric Sequence Notation",
+        "id": "1.3.2",
+        "Equation": "$$ g_{1}, g_{2}, g_{3}, g_{4}, \\ldots, g_{n} $$",
+        "Content": "In general, the terms of a geometric sequence can be represented with a common ratio 'r' between consecutive terms and 'n' being the number of terms."
+    },
+    {
+        "Theorem": "nth term in a Geometric Sequence",
+        "id": "1.3.4",
+        "Equation": "$$ g_{n} = g_{1} \\cdot r^{n-1} $$",
+        "Content": "This theorem states that the nth term of a geometric sequence is equal to the first term multiplied by the common ratio raised to the power of (n-1).",
+        "Facts": "r: Real (common ratio), G: GeometricSequence, Abs(r) < 1 = True}",
+        "Conclusions": "Build_Universal_Proposition({r \\in R, { {G_n} = {G_1}\\cdot r^{n-1} } ) = True"
+    },
+    {
+        "Theorem": "Number of Terms in a Finite Geometric Sequence",
+        "id": "1.3.5",
+        "Equation": "$$ n = \\log_{r}\\left(\\frac{g_{n}}{g_{1}}\\right) + 1 $$",
+        "Content": "This theorem provides a formula to calculate the number of terms in a finite geometric sequence when the first term, nth term, and common ratio are known."
+    },
+    {
+        "Theorem": "Quadratic Formula",
+        "id": "1.9.3",
+        "Equation": "$$ x = \\frac{-b \\pm \\sqrt{b^{2} - 4ac}}{2a} $$",
+        "Content": "The quadratic formula provides the solutions to the quadratic equation \\( ax^{2} + bx + c = 0 \\), giving the roots in terms of the coefficients a, b, and c."
+    },
+    {
+        "Theorem": "Vieta's Formula For Quadratics",
+        "id": "1.9.4",
+        "Equation": "$$ \\text{Sum of the roots} = \\frac{-b}{a} $$\n$$ \\text{Product of the roots} = \\frac{c}{a} $$",
+        "Content": "Vieta's Formula relates the sum and product of the roots of a quadratic equation \\( ax^{2} + bx + c = 0 \\) to its coefficients."
+    },
+    {
+        "Corollary": "Integer Root theorem",
+        "id": "1.9.7",
+        "Equation": "",
+        "Content": "In a polynomial with integral coefficients, all integer roots must divide the constant term of the polynomial."
+    },
+    {
+        "Theorem": "Rational Root theorem",
+        "id": "1.9.6",
+        "Equation": "",
+        "Content": "In a polynomial \\( P(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + \\ldots + a_{1}x + a_{0} \\) with integer coefficients, all rational roots \\( \\pm\\frac{p}{q} \\) satisfy that 'p' divides the constant term \\( a_{0} \\) and 'q' divides the leading coefficient \\( a_{n} \\)."
+    },
+    {
+        "Theorem": "Remainder Theorem",
+        "id": "1.9.9",
+        "Equation": "",
+        "Content": "The remainder when a polynomial \\( P(x) \\) is divided by \\( x - r \\) is \\( P(r) \\)."
+    },
+    {
+        "Corollary": "Factor Theorem",
+        "id": "1.9.10",
+        "Equation": "",
+        "Content": "$x - r$ is a factor of a polynomial \\( P(x) \\) if and only if \\( P(r) = 0 \\). This is a direct consequence of the Remainder Theorem."
+    },
+    {
+        "Theorem": "Representation of Polynomial in terms of roots",
+        "id": "1.9.11",
+        "Equation": "$$ P(x) = a_{n}(x - r_{1})(x - r_{2})(x - r_{3}) \\ldots(x - r_{n}) $$",
+        "Content": "A polynomial can be expressed as the product of its leading coefficient and factors corresponding to its roots."
+    },
+    {
+        "Corollary": "Representation of Monic Polynomial in terms of roots",
+        "id": "1.9.12",
+        "Equation": "$$ P(x) = (x - r_{1})(x - r_{2})(x - r_{3}) \\ldots(x - r_{n}) $$",
+        "Content": "For monic polynomials (leading coefficient is 1), the polynomial can be expressed as the product of factors corresponding to its roots."
+    },
+    {
+        "Theorem": "Fundamental theorem of Algebra",
+        "id": "1.9.13",
+        "Equation": "",
+        "Content": "A polynomial of degree \\( n \\) has exactly \\( n \\) complex roots, including multiplicities."
+    },
+    {
+        "Theorem": "Conjugate Root Theorem",
+        "id": "1.9.14",
+        "Equation": "",
+        "Content": "If \\( a + b i \\) is a root of a polynomial with real coefficients, then its conjugate \\( a - b i \\) is also a root."
+    },
+    {
+        "Theorem": "Simon's Favorite Factoring Trick",
+        "id": "1.10.4",
+        "Equation": "$$ xy + kx + jy + jk = (x + j)(y + k) $$",
+        "Content": "This factoring technique is useful for solving equations that include \\( xy \\), \\( x \\), and \\( y \\) terms by rearranging and factoring."
+    },
+    {
+        "Theorem": "Difference of Squares",
+        "id": "1.10.2",
+        "Equation": "$$ x^{2} - y^{2} = (x - y)(x + y) $$",
+        "Content": "This identity allows the factoring of a difference of two squares into the product of the sum and difference of the two terms."
+    }
+]
