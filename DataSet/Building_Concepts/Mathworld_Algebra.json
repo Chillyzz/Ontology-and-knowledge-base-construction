@@ -1,1748 +1,293 @@
 [
-    {
-        "id": 189,
-        "Name": "Open Interval",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 212,
-        "Name": "Discrete Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 221,
-        "Name": "Domain",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 237,
-        "Name": "Bounded from Above",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 255,
-        "Name": "Half-Closed Interval",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 266,
-        "Name": "Closure",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 276,
-        "Name": "Injection",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 282,
-        "Name": "Interval",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 326,
-        "Name": "Continuous Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 331,
-        "Name": "Unbounded",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 338,
-        "Name": "Unit Interval",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 926,
-        "Name": "Matrix 1-Inverse",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1330,
-        "Name": "Adjacent Value",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1500,
-        "Name": "Explicit Formula",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1594,
-        "Name": "Factorization",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1607,
-        "Name": "Cofactor",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1875,
-        "Name": "Pair Sum",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1917,
-        "Name": "Power Equation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2021,
-        "Name": "Number Triangle",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2026,
-        "Name": "Pascal's Triangle",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2041,
-        "Name": "Binomial Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 39,
-        "Name": "Partial Quotient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 62,
-        "Name": "Shift Transformation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 80,
-        "Name": "Periodic Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 85,
-        "Name": "Polynomial Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 111,
-        "Name": "Iteration Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 112,
-        "Name": "Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 138,
-        "Name": "Common Difference",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 140,
-        "Name": "Common Ratio",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 142,
-        "Name": "Subsequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 156,
-        "Name": "Decreasing Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 190,
-        "Name": "Geometric Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 238,
-        "Name": "Constant",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 255,
-        "Name": "Natural Logarithm of 2",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 257,
-        "Name": "Natural Logarithm of 10",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 441,
-        "Name": "Ceiling Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 443,
-        "Name": "Floor Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 446,
-        "Name": "Nearest Integer Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 450,
-        "Name": "Quotient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 453,
-        "Name": "Truncate",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 459,
-        "Name": "Surd",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 473,
-        "Name": "Cancellation Law",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 500,
-        "Name": "Modulus",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 548,
-        "Name": "R^+",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 636,
-        "Name": "Rule of Signs",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 637,
-        "Name": "Sign",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 638,
-        "Name": "Trichotomy Law",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 670,
-        "Name": "Lattice Method",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 677,
-        "Name": "Dividend",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 678,
-        "Name": "Long Multiplication",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 679,
-        "Name": "Ruffini's Rule",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 680,
-        "Name": "Division",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 681,
-        "Name": "Division by Zero",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 683,
-        "Name": "Rule of Three",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 685,
-        "Name": "Multiplication",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 687,
-        "Name": "Elementary Operation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 690,
-        "Name": "Expanded Synthetic Division",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 694,
-        "Name": "Multiplier",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 696,
-        "Name": "Synthetic Division",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 698,
-        "Name": "Polynomial Quotient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 699,
-        "Name": "Times",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 701,
-        "Name": "Polynomial Remainder",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 702,
-        "Name": "Karatsuba Multiplication",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 703,
-        "Name": "Product",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 717,
-        "Name": "Proportional",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 721,
-        "Name": "Ratio",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 726,
-        "Name": "Half",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 733,
-        "Name": "Complex Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 734,
-        "Name": "Inversely Proportional",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 735,
-        "Name": "Constant of Proportionality",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 743,
-        "Name": "Directly Proportional",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 749,
-        "Name": "Numerator",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 753,
-        "Name": "Absolute Difference",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 754,
-        "Name": "Addend",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 755,
-        "Name": "Addition",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 757,
-        "Name": "Complex Addition",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 758,
-        "Name": "Difference",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 760,
-        "Name": "Minus",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 761,
-        "Name": "Minus Sign",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 762,
-        "Name": "Plus",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 763,
-        "Name": "Subtraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 801,
-        "Name": "Double-Angle Formulas",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 804,
-        "Name": "Half-Angle Formulas",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 816,
-        "Name": "Multiple-Angle Formulas",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 819,
-        "Name": "Newton's Formulas",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 828,
-        "Name": "Trigonometric Addition Formulas",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 839,
-        "Name": "Inverse Tangent",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 841,
-        "Name": "Inverse Trigonometric Functions",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 859,
-        "Name": "Circular Functions",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 861,
-        "Name": "Trigonometric Functions",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 868,
-        "Name": "Cotangent",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 881,
-        "Name": "Gauss's Formulas",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1001,
-        "Name": "Shift",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1052,
-        "Name": "Identity Map",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1054,
-        "Name": "Bijection",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1090,
-        "Name": "Expansion",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1121,
-        "Name": "Symmetric",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1449,
-        "Name": "Between",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1468,
-        "Name": "Real Line",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1479,
-        "Name": "Slope",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1481,
-        "Name": "Slope-Intercept Form",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1490,
-        "Name": "Standard Form",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1493,
-        "Name": "Intercept Form",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1507,
-        "Name": "Point-Slope Form",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1508,
-        "Name": "Two-Point Form",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 39,
-        "Name": "Partial Quotient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 62,
-        "Name": "Shift Transformation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 80,
-        "Name": "Periodic Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 85,
-        "Name": "Polynomial Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 111,
-        "Name": "Iteration Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 112,
-        "Name": "Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 138,
-        "Name": "Common Difference",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 140,
-        "Name": "Common Ratio",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 142,
-        "Name": "Subsequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 156,
-        "Name": "Decreasing Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 190,
-        "Name": "Geometric Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 238,
-        "Name": "Constant",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 255,
-        "Name": "Natural Logarithm of 2",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 257,
-        "Name": "Natural Logarithm of 10",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 441,
-        "Name": "Ceiling Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 443,
-        "Name": "Floor Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 446,
-        "Name": "Nearest Integer Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 450,
-        "Name": "Quotient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 453,
-        "Name": "Truncate",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 459,
-        "Name": "Surd",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 473,
-        "Name": "Cancellation Law",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 500,
-        "Name": "Modulus",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 548,
-        "Name": "R^+",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 23,
-        "Name": "Polar",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 42,
-        "Name": "Reciprocation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 391,
-        "Name": "Polynomial Curve",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 393,
-        "Name": "Quadratic Curve",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 395,
-        "Name": "Quadratic Curve Discriminant",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 397,
-        "Name": "Quartic Curve",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 408,
-        "Name": "Asymptote",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 474,
-        "Name": "Cartesian",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 497,
-        "Name": "Parametric Equations",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 500,
-        "Name": "x-Intercept",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 505,
-        "Name": "y-Intercept",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 581,
-        "Name": "Affine Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1677,
-        "Name": "Principle of Mathematical Induction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1682,
-        "Name": "Induction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1687,
-        "Name": "Proof",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1689,
-        "Name": "Proof by Contradiction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1706,
-        "Name": "Finite Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1711,
-        "Name": "Power Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1716,
-        "Name": "Proper Subset",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1724,
-        "Name": "Complement Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1726,
-        "Name": "Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1731,
-        "Name": "Set Partition",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1736,
-        "Name": "Subset",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1739,
-        "Name": "Superset",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1745,
-        "Name": "Empty Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1746,
-        "Name": "Nonempty Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1759,
-        "Name": "Operation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1765,
-        "Name": "Set Difference",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1770,
-        "Name": "Symmetric Difference",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1783,
-        "Name": "Relation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1785,
-        "Name": "Equivalence Relation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1786,
-        "Name": "Symmetric Relation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1787,
-        "Name": "Binary Relation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1789,
-        "Name": "Transitive",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1791,
-        "Name": "Reflexive",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1815,
-        "Name": "Strictly Between",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1848,
-        "Name": "Disjunction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1849,
-        "Name": "Negation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1851,
-        "Name": "Equivalent",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1854,
-        "Name": "Exclusive Disjunction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1856,
-        "Name": "Biconditional",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1857,
-        "Name": "Implies",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1860,
-        "Name": "OR",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1905,
-        "Name": "Finite",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1918,
-        "Name": "Set Theory",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1921,
-        "Name": "Simple Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1937,
-        "Name": "Axiomatic System",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1941,
-        "Name": "Naive Set Theory",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2185,
-        "Name": "Boolean Connective",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2196,
-        "Name": "Implication",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2227,
-        "Name": "Contradiction",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2234,
-        "Name": "Literal",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2252,
-        "Name": "Truth Table",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2271,
-        "Name": "Existential Quantifier",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2295,
-        "Name": "Free Variable",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2388,
-        "Name": "Absorption Law",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2389,
-        "Name": "Induction Axiom",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2390,
-        "Name": "Axiom",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2396,
-        "Name": "de Morgan's Laws",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 17,
-        "Name": "Power Polynomial",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 20,
-        "Name": "Basic Polynomial Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 28,
-        "Name": "Binomial Identity",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 54,
-        "Name": "Recurrence Relation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 56,
-        "Name": "Recursive Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 412,
-        "Name": "Ordered Pairs Representation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 458,
-        "Name": "Vertex Degree",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 563,
-        "Name": "Graph Intersection",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 904,
-        "Name": "Recursive Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1014,
-        "Name": "Ordered Pair",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1053,
-        "Name": "Algebraic Language",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1081,
-        "Name": "Inverse Permutation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1098,
-        "Name": "Choose",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1114,
-        "Name": "Transposition",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1115,
-        "Name": "Permutation Cycle",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1141,
-        "Name": "Composition",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1301,
-        "Name": "Ordering",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1312,
-        "Name": "Integer Array",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1390,
-        "Name": "Binomial Coefficient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1392,
-        "Name": "Binomial Series",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1393,
-        "Name": "Binomial Sums",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1395,
-        "Name": "Binomial Theorem",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1409,
-        "Name": "Pascal's Formula",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1475,
-        "Name": "Monotonic Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1786,
-        "Name": "Step Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1885,
-        "Name": "Piecewise Constant Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1886,
-        "Name": "Piecewise Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1957,
-        "Name": "Exponent Laws",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1959,
-        "Name": "Exponential Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2004,
-        "Name": "Constant Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2012,
-        "Name": "Elementary Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2026,
-        "Name": "Zero Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2029,
-        "Name": "Identity Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2067,
-        "Name": "Geometric Mean",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2076,
-        "Name": "Average Rate of Change",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2101,
-        "Name": "Parameter",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2109,
-        "Name": "Square Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2112,
-        "Name": "Square Root Algorithms",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2113,
-        "Name": "Principal Square Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2114,
-        "Name": "nth Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2117,
-        "Name": "Radical",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2197,
-        "Name": "Antilogarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2200,
-        "Name": "Ln",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2201,
-        "Name": "Natural Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2202,
-        "Name": "Binary Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2203,
-        "Name": "Briggsian Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2205,
-        "Name": "Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2206,
-        "Name": "Common Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2290,
-        "Name": "Exponent",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2291,
-        "Name": "Exponentiation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2294,
-        "Name": "Power",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2295,
-        "Name": "Squared",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2298,
-        "Name": "Closed Form",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 17,
-        "Name": "Power Polynomial",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 20,
-        "Name": "Basic Polynomial Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 28,
-        "Name": "Binomial Identity",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 51,
-        "Name": "Recurrence Equation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 56,
-        "Name": "Recursive Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 343,
-        "Name": "Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 412,
-        "Name": "Ordered Pairs Representation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 563,
-        "Name": "Graph Intersection",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 680,
-        "Name": "Graph Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 904,
-        "Name": "Recursive Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1014,
-        "Name": "Ordered Pair",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1053,
-        "Name": "Algebraic Language",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1080,
-        "Name": "Permutation Symbol",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1096,
-        "Name": "Lexicographic Order",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1110,
-        "Name": "Cyclic Permutation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1115,
-        "Name": "Permutation Cycle",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1141,
-        "Name": "Composition",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1390,
-        "Name": "Binomial Coefficient",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1393,
-        "Name": "Binomial Sums",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1395,
-        "Name": "Binomial Theorem",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1409,
-        "Name": "Pascal's Formula",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1475,
-        "Name": "Monotonic Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1494,
-        "Name": "Polar Representation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1783,
-        "Name": "Staircase Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1885,
-        "Name": "Piecewise Constant Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1886,
-        "Name": "Piecewise Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1925,
-        "Name": "Factorial Products",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1957,
-        "Name": "Exponent Laws",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1959,
-        "Name": "Exponential Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 1960,
-        "Name": "Exponential Growth",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2004,
-        "Name": "Constant Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2012,
-        "Name": "Elementary Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2026,
-        "Name": "Zero Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2029,
-        "Name": "Identity Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2067,
-        "Name": "Geometric Mean",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2076,
-        "Name": "Average Rate of Change",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2101,
-        "Name": "Parameter",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2113,
-        "Name": "Principal Square Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2114,
-        "Name": "nth Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2117,
-        "Name": "Radical",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2197,
-        "Name": "Antilogarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2201,
-        "Name": "Natural Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2202,
-        "Name": "Binary Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2203,
-        "Name": "Briggsian Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2205,
-        "Name": "Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2206,
-        "Name": "Common Logarithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2290,
-        "Name": "Exponent",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2291,
-        "Name": "Exponentiation",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2292,
-        "Name": "Odd Power",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2294,
-        "Name": "Power",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    },
-    {
-        "id": 2295,
-        "Name": "Squared",
-        "Suitable for K-12": "Yes",
-        "Category": "Algebra"
-    }
+    "```json\n{\n    \"Name\": \"Discrete Set\",\n    \"Definition\": \"A set of distinct, separate values, often countable and not continuous.\",\n    \"Formal Language\": \"DiscreteSet \\in Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Open Interval\",\n    \"Definition\": \"An open interval is a set of real numbers that includes all numbers between two endpoints, but not the endpoints themselves.\",\n    \"Formal Language\": \"OpenInterval = (a, b) = {x ∈ ℝ | a < x < b}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Domain\",\n    \"Definition\": \"The set of all possible input values for a function\",\n    \"Formal Language\": \"Domain \\subseteq X, \\text{ where } X \\text{ is the set of all possible inputs}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bounded from Above\",\n    \"Definition\": \"A set of numbers is said to be bounded from above if there exists a real number that is greater than or equal to every number in the set.\",\n    \"Formal Language\": \"A set S is bounded from above if there exists a number M such that ∀x ∈ S, x ≤ M.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Half-Closed Interval\",\n    \"Definition\": \"A half-closed interval is a range of numbers where one endpoint is included in the set while the other is not. This can either be left-closed and right-open or left-open and right-closed.\",\n    \"Formal Language\": \"Half-Closed Interval \\in [a, b) \\subset \\mathbb{R} \\text{ or } (a, b] \\subset \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Closure\",\n    \"Definition\": \"The property of a set in which the operation on two elements of the set produces another element of the same set.\",\n    \"Formal Language\": \"For a set S and an operation *, S is closed under * if for any a, b \\in S, a * b \\in S.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Injection\",\n    \"Definition\": \"A function f from set A to set B is called an injection (or injective function) if every element of A maps to a unique element in B.\",\n    \"Formal Language\": \"f: A \\to B \\text{ is injective} \\Leftrightarrow \\forall a_1, a_2 \\in A, f(a_1) = f(a_2) \\implies a_1 = a_2\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Interval\",\n    \"Definition\": \"A range of numbers between two specified limits, often used to represent all possible values of a variable or the domain of a function.\",\n    \"Formal Language\": \"Interval \\in Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Continuous Function\",\n    \"Definition\": \"A function is continuous if, for every point x in the domain, the limit of the function as it approaches x is equal to the function's value at x.\",\n    \"Formal Language\": \"f: X \\to Y \\text{ is continuous if } \\forall x \\in X, \\lim_{x \\to a} f(x) = f(a)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Unbounded\",\n    \"Definition\": \"In mathematics, a set or an interval is called unbounded if it does not have a finite endpoint in one or both directions. For functions, it often refers to the values not being restricted within a particular bound.\",\n    \"Formal Language\": \"Unbounded \\in Set \\cup Functions\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Unit Interval\",\n    \"Definition\": \"The unit interval is the closed interval [0, 1] which includes all real numbers from 0 to 1, inclusive.\",\n    \"Formal Language\": \"Unit Interval \\in [0, 1]\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Matrix 1-Inverse\",\n    \"Definition\": \"The inverse of a matrix A is another matrix, usually denoted as A^(-1), such that when A is multiplied by A^(-1), the result is the identity matrix.\",\n    \"Formal Language\": \"If A is an n × n matrix and there exists a matrix A^(-1) such that A * A^(-1) = I, then A^(-1) is called the inverse of A, where I is the identity matrix.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Adjacent Value\",\n    \"Definition\": \"Values that are next to each other in a sequence or dataset, often used in contexts such as adjacent angles in geometry.\",\n    \"Formal Language\": \"Adjacent Value \\in Sequence \\cup Dataset\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Explicit Formula\",\n    \"Definition\": \"An explicit formula is an equation that allows the computation of any term in a sequence directly without reference to previous terms.\",\n    \"Formal Language\": \"Explicit\\ Formula\\ :\\ a_n\\ =\\ f(n)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Factorization\",\n    \"Definition\": \"The process of breaking down a number or polynomial into a product of simpler components that, when multiplied together, give the original number or polynomial.\",\n    \"Formal Language\": \"Factorization \\in Algebra\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cofactor\",\n    \"Definition\": \"In a matrix, a cofactor is the signed minor associated with a certain element, used to compute the determinant and the matrix inverse.\",\n    \"Formal Language\": \"Cofactor \\in Matrix Operations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pair Sum\",\n    \"Definition\": \"The sum of two numbers that make up a specified total, often used in problems involving finding two numbers in an array or list that sum up to a given target.\",\n    \"Formal Language\": \"Pair Sum \\in \\{ (a, b) \\mid a + b = \\text{target} \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Power Equation\",\n    \"Definition\": \"An equation that involves terms where variables are raised to exponents. For example, in the equation y = x^n, x is raised to the power of n.\",\n    \"Formal Language\": \"PowerEquation \\in AlgebraicExpression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number Triangle\",\n    \"Definition\": \"A structured arrangement of numbers in a triangular format, often used to teach and understand patterns, arithmetic operations, and algebraic principles.\",\n    \"Formal Language\": \"NumberTriangle \\in Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pascal's Triangle\",\n    \"Definition\": \"A triangular array of the binomial coefficients. Each number is the sum of the two directly above it.\",\n    \"Formal Language\": \"Pascal's Triangle \\in Combinatorics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Number\",\n    \"Definition\": \"Binomial numbers, often referred to as binomial coefficients, give the number of possible combinations of selecting a subset of items from a larger set, without regard to order. They are usually expressed as C(n, k) or (n choose k) where n is the total number of items, and k is the number of items to choose.\",\n    \"Formal Language\": \"Binomial Number = C(n, k) = n! / (k!(n-k)!)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Partial Quotient\",\n    \"Definition\": \"Partial quotient is a division method in mathematics for finding the quotient of two numbers by subtracting multiples of the divisor from the dividend and keeping track of these multiples.\",\n    \"Formal Language\": \"Partial Quotient \\in Arithmetic \\land Division\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Shift Transformation\",\n    \"Definition\": \"A transformation that moves every point of a function or a shape in a specific direction by the same amount.\",\n    \"Formal Language\": \"Shift \\in Transformation: f(x) \\to f(x - h) + k\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Periodic Sequence\",\n    \"Definition\": \"A sequence of numbers that repeats itself after a certain period length.\",\n    \"Formal Language\": \"A sequence a_n is periodic with period T if a_{n+T} = a_n for all integers n.\"\n}\n```",
+    "{\n    \"Name\": \"Polynomial Sequence\",\n    \"Definition\": \"A sequence of terms where each term is a polynomial function of a certain degree.\",\n    \"Formal Language\": \"Polynomial Sequence: \\{ a_n(x) \\mid a_n(x) = c_n x^n + c_{n-1} x^{n-1} + ... + c_0, \\, c_i \\in \\mathbb{R} \\}\"\n}",
+    "```json\n{\n    \"Name\": \"Iteration Sequence\",\n    \"Definition\": \"A process of repeating a set of operations or calculations, often used to identify a pattern or produce a desired result.\",\n    \"Formal Language\": \"Iteration Sequence \\in Process of Repeated Operations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sequence\",\n    \"Definition\": \"An ordered list of numbers following some rule.\",\n    \"Formal Language\": \"Sequence = (a_n)_{n=1}^\\infty, where a_n is a term depending on n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Difference\",\n    \"Definition\": \"The fixed amount added to each term of an arithmetic sequence to get the next term.\",\n    \"Formal Language\": \"Common Difference \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Ratio\",\n    \"Definition\": \"The common ratio is the constant factor between consecutive terms of a geometric sequence.\",\n    \"Formal Language\": \"Common Ratio = a_{n+1} / a_n, \\, \\forall \\, n \\in \\mathbb{N}, \\, a_n \\neq 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Subsequence\",\n    \"Definition\": \"A sequence derived from another sequence by deleting some elements without changing the order of the remaining elements.\",\n    \"Formal Language\": \"Subsequence \\subseteq Sequence\"\n}\n```",
+    "{\n    \"Name\": \"Decreasing Sequence\",\n    \"Definition\": \"A sequence in which each term is less than or equal to the preceding term.\",\n    \"Formal Language\": \"A sequence (a_n) is called decreasing if for all n, a_(n+1) ≤ a_n.\"\n}",
+    "```json\n{\n    \"Name\": \"Geometric Sequence\",\n    \"Definition\": \"A sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.\",\n    \"Formal Language\": \"Geometric Sequence \\in Sequence: a_n = a_1 \\cdot r^{n-1}, \\, n \\geq 1\"\n}\n```",
+    "{\n    \"Name\": \"Constant\",\n    \"Definition\": \"A value that does not change.\",\n    \"Formal Language\": \"Constant \\in Mathematics\"\n}",
+    "```json\n{\n    \"Name\": \"Natural Logarithm of 2\",\n    \"Definition\": \"The natural logarithm of 2 is the power to which the base 'e' (approximately 2.718) must be raised to produce the number 2.\",\n    \"Formal Language\": \"ln(2) = x ⇔ e^x = 2\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Natural Logarithm of 10\",\n    \"Definition\": \"The natural logarithm of a number is the power to which the base 'e' (approximately equal to 2.71828) must be raised to obtain that number. For the number 10, this value is ln(10).\",\n    \"Formal Language\": \"ln(x) : x \\in \\mathbb{R}^+\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ceiling Function\",\n    \"Definition\": \"The ceiling function maps a real number to the smallest integer greater than or equal to it.\",\n    \"Formal Language\": \"Ceiling Function: ⌈x⌉ = min {n ∈ ℤ | n ≥ x}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Floor Function\",\n    \"Definition\": \"The floor function, denoted as ⌊x⌋, maps a real number to the largest integer less than or equal to it.\",\n    \"Formal Language\": \"Floor Function: ⌊x⌋ = max{n \\in Z | n ≤ x}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nearest Integer Function\",\n    \"Definition\": \"A function that rounds a real number to the nearest integer. If the number is equidistant between two integers, rounding may be done to the nearest even integer, or another rule may be specified.\",\n    \"Formal Language\": \"f(x) = ⌊x⌉ = \\text{round}(x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quotient\",\n    \"Definition\": \"The result obtained by dividing one number by another.\",\n    \"Formal Language\": \"Quotient = Dividend ÷ Divisor\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Truncate\",\n    \"Definition\": \"To shorten a number by cutting off digits after a certain decimal point, essentially not rounding.\",\n    \"Formal Language\": \"Truncate(n) = floor(n * 10^d) / 10^d, where d is the number of decimal places\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Surd\",\n    \"Definition\": \"A surd is an expression that includes a square root, cube root, or other root symbol where the outcome is an irrational number.\",\n    \"Formal Language\": \"Surd \\in Expression \\land Surd \\notin Rational\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cancellation Law\",\n    \"Definition\": \"The cancellation law states that in an algebraic system, if a * b = a * c implies b = c, or a + b = a + c implies b = c, then the operation is said to have the cancellation property.\",\n    \"Formal Language\": \"If a * b = a * c, then b = c, assuming a ≠ 0, or if a + b = a + c, then b = c in a given structure.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Modulus\",\n    \"Definition\": \"The modulus of a number is its absolute value, representing its distance from zero on a number line. For complex numbers, the modulus is the square root of the sum of the squares of its real and imaginary parts.\",\n    \"Formal Language\": \"Modulus(x) = |x| for real numbers; Modulus(z) = sqrt(a^2 + b^2) for a complex number z = a + bi\"\n}\n```",
+    "```json\n{\n    \"Name\": \"R^+\",\n    \"Definition\": \"The set of all positive real numbers, excluding zero.\",\n    \"Formal Language\": \"\\mathbb{R}^+ = \\{ x \\in \\mathbb{R} \\mid x > 0 \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rule of Signs\",\n    \"Definition\": \"A theorem in algebra that gives the number of positive and negative real roots of a polynomial equation.\",\n    \"Formal Language\": \"Descarte's Rule of Signs provides possible numbers of positive and negative roots based on sign changes in the sequence of coefficients.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sign\",\n    \"Definition\": \"The attribute indicating whether a number is positive, negative, or zero.\",\n    \"Formal Language\": \"Sign(x) = {-1, 0, 1} based on whether x < 0, x = 0, or x > 0.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Trichotomy Law\",\n    \"Definition\": \"The principle that states for any two real numbers a and b, one and only one of the following is true: a < b, a = b, or a > b.\",\n    \"Formal Language\": \"For any a, b ∈ ℝ, exactly one of the following is true: a < b ∨ a = b ∨ a > b\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Lattice Method\",\n    \"Definition\": \"A multiplication technique that uses a grid to help organize and calculate products.\",\n    \"Formal Language\": \"Lattice Method \\in \\text{Arithmetic Strategy}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Dividend\",\n    \"Definition\": \"The dividend is the number being divided in a division operation.\",\n    \"Formal Language\": \"Dividend \\in Arithmetic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Long Multiplication\",\n    \"Definition\": \"A method used to multiply larger numbers by breaking the problem into simpler steps, involving multiplying and adding smaller components.\",\n    \"Formal Language\": \"Long Multiplication \\in Arithmetic Operations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ruffini's Rule\",\n    \"Definition\": \"Ruffini's Rule is a shortcut method for dividing a polynomial by a linear divisor of the form x - c, especially useful when the divisor is a binomial.\",\n    \"Formal Language\": \"Ruffini's Rule \\in Polynomial Division \\subset Algebra\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Division\",\n    \"Definition\": \"An arithmetic operation that involves splitting a number into equal parts or groups.\",\n    \"Formal Language\": \"Division: a ÷ b = c, where a is the dividend, b is the divisor, and c is the quotient.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Division by Zero\",\n    \"Definition\": \"An undefined operation in mathematics as it does not give a meaningful result. Division by zero is not allowable in standard arithmetic or algebra.\",\n    \"Formal Language\": \"For any a ∈ ℝ, a/0 is undefined\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rule of Three\",\n    \"Definition\": \"A mathematical principle used to solve proportions involving three known values to find a fourth unknown value.\",\n    \"Formal Language\": \"If a/b = c/d, then d = (b * c) / a\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Multiplication\",\n    \"Definition\": \"An arithmetic operation that combines groups of equal size; it is the process of adding a number to itself a certain number of times.\",\n    \"Formal Language\": \"Multiplication \\in Arithmetic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Elementary Operation\",\n    \"Definition\": \"Elementary operations are basic operations that can be used on matrices or linear equations to simplify them or find solutions.\",\n    \"Formal Language\": \"Elementary Operation \\in Matrix Operations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Expanded Synthetic Division\",\n    \"Definition\": \"A method used to divide a polynomial by a linear binomial using fewer calculations and less written work than long division by using coefficients.\",\n    \"Formal Language\": \"Expanded Synthetic Division \\in Polynomial Division Technique\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Multiplier\",\n    \"Definition\": \"The number by which another number is multiplied in a multiplication operation.\",\n    \"Formal Language\": \"Multiplier \\in \\mathbb{N} \\cup \\mathbb{Z} \\cup \\mathbb{Q} \\cup \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Synthetic Division\",\n    \"Definition\": \"A shorthand method of polynomial division, especially useful when dividing by a linear factor and when using numerical coefficients.\",\n    \"Formal Language\": \"Synthetic Division is a technique used in polynomial \\div Linear Polynomial\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Polynomial Quotient\",\n    \"Definition\": \"The result obtained when one polynomial is divided by another polynomial.\",\n    \"Formal Language\": \"If P(x) and Q(x) are polynomials, the polynomial quotient is R(x) such that P(x) = Q(x) * R(x) + Remainder(x).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Times\",\n    \"Definition\": \"The operation of multiplying two numbers or expressions.\",\n    \"Formal Language\": \"Times: a \\\\times b = c\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Polynomial Remainder\",\n    \"Definition\": \"The remainder when a polynomial is divided by another polynomial, typically of lower degree.\",\n    \"Formal Language\": \"Remainder: P(x) = (D(x) * Q(x)) + R(x), where degree(R) < degree(D)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Karatsuba Multiplication\",\n    \"Definition\": \"Karatsuba multiplication is an algorithm that multiplies two numbers faster than the traditional long multiplication approach by using the divide and conquer technique.\",\n    \"Formal Language\": \"Karatsuba\\_Multiplication \\in Algorithmic\\_Method\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Product\",\n    \"Definition\": \"The result of multiplying two or more numbers together.\",\n    \"Formal Language\": \"Product = a * b * c * ... * n, where a, b, c, ..., n \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proportional\",\n    \"Definition\": \"A relationship between two quantities in which the ratio of one quantity to the other is constant.\",\n    \"Formal Language\": \"If quantities A and B are proportional, then A/B = k, where k is a constant.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ratio\",\n    \"Definition\": \"A ratio is a relationship between two numbers indicating how many times the first number contains the second.\",\n    \"Formal Language\": \"Ratio = a/b, where a and b are quantities, and b ≠ 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Half\",\n    \"Definition\": \"One of the two equal parts into which something can be divided.\",\n    \"Formal Language\": \"Half = 1/2 or 0.5\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Complex Fraction\",\n    \"Definition\": \"A fraction where the numerator, the denominator, or both, contain a fraction themselves.\",\n    \"Formal Language\": \"ComplexFraction \\in Fraction\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Inversely Proportional\",\n    \"Definition\": \"Two quantities are inversely proportional if an increase in one results in a proportional decrease in the other, and vice versa. This relationship means that their product is a constant.\",\n    \"Formal Language\": \"If variables x and y are inversely proportional, then \\( x \\times y = k \\), where k is a constant.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Constant of Proportionality\",\n    \"Definition\": \"The constant value that relates two proportional quantities, often represented by the symbol 'k' in the equation y = kx, where y and x are proportional variables.\",\n    \"Formal Language\": \"k \\in \\mathbb{R}, \\text{ where } y = kx \\text{ for proportional variables } x \\text{ and } y\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Directly Proportional\",\n    \"Definition\": \"A relationship between two variables where their ratio is constant. If one variable changes, the other changes in direct proportion.\",\n    \"Formal Language\": \"y \\propto x \\Rightarrow y = kx, \\text{ where } k \\text{ is a constant}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Numerator\",\n    \"Definition\": \"The number above the line in a fraction that indicates how many parts of the whole or group are being considered.\",\n    \"Formal Language\": \"Numerator \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Absolute Difference\",\n    \"Definition\": \"The absolute difference between two numbers is the non-negative difference between them, calculated as the absolute value of their subtraction.\",\n    \"Formal Language\": \"AbsoluteDifference(a, b) = |a - b|\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Addend\",\n    \"Definition\": \"A number that is added to another number to form a sum.\",\n    \"Formal Language\": \"In addition, if a + b = c, then a and b are addends.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Addition\",\n    \"Definition\": \"The mathematical operation of combining two or more numbers to obtain a total or sum.\",\n    \"Formal Language\": \"Addition: a + b = c, where a, b, c \\in \\mathbb{R} (or \\mathbb{Z}, \\mathbb{Q})\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Complex Addition\",\n    \"Definition\": \"Addition operation applied to complex numbers, involving their real and imaginary components.\",\n    \"Formal Language\": \"If z1 = a + bi and z2 = c + di, then Complex Addition z1 + z2 = (a+c) + (b+d)i\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Difference\",\n    \"Definition\": \"The result of subtracting one number or quantity from another.\",\n    \"Formal Language\": \"Difference = a - b, where a and b are numbers.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Minus\",\n    \"Definition\": \"The arithmetic operation of subtraction, often denoted by the symbol '-', which represents the operation of taking away or decreasing a quantity.\",\n    \"Formal Language\": \"Minus: a - b = c, where a, b, c \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Minus Sign\",\n    \"Definition\": \"A symbol used to indicate the operation of subtraction or to denote negative numbers.\",\n    \"Formal Language\": \"Minus Sign: '-' \\in Operators\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Plus\",\n    \"Definition\": \"An arithmetic operator used to denote addition, typically symbolized as '+'. It combines two numbers to produce their sum.\",\n    \"Formal Language\": \"Plus \\in Operator\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Subtraction\",\n    \"Definition\": \"The mathematical operation of deducting one number from another.\",\n    \"Formal Language\": \"Subtraction \\in \\{a - b = c \\mid a, b, c \\in \\mathbb{R}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Double-Angle Formulas\",\n    \"Definition\": \"Formulas that express trigonometric functions of double angles (2θ) in terms of functions of single angles (θ)\",\n    \"Formal Language\": \"Double-Angle Formulas: sin(2θ) = 2sin(θ)cos(θ), cos(2θ) = cos²(θ) - sin²(θ) = 2cos²(θ) - 1 = 1 - 2sin²(θ), tan(2θ) = (2tan(θ))/(1 - tan²(θ))\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Half-Angle Formulas\",\n    \"Definition\": \"Formulas in trigonometry used to find the sine, cosine, or tangent of half of a given angle.\", \n    \"Formal Language\": \"Half-Angle \\in Trigonometric Identities\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Multiple-Angle Formulas\",\n    \"Definition\": \"Formulas used in trigonometry to express trigonometric functions of multiple angles in terms of functions of single angles, often used to simplify expressions or solve equations.\",\n    \"Formal Language\": \"Multiple-Angle Formulas \\subseteq \\{\\sin(nx), \\cos(nx), \\tan(nx)\\}\"\n}\n```",
+    "{\n    \"Name\": \"Newton's Formulas\",\n    \"Definition\": \"A set of mathematical formulas and principles developed by Isaac Newton, including laws of motion and universal gravitation, as well as methods for approximating solutions to equations and understanding polynomial functions.\",\n    \"Formal Language\": \"Newton's Formulas \\in Mathematics\"\n}",
+    "```json\n{\n    \"Name\": \"Trigonometric Addition Formulas\",\n    \"Definition\": \"Formulas that express trigonometric functions of sums of angles in terms of trigonometric functions of individual angles.\",\n    \"Formal Language\": \"For angles A and B, sin(A + B) = sin(A)cos(B) + cos(A)sin(B) and cos(A + B) = cos(A)cos(B) - sin(A)sin(B).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Inverse Tangent\",\n    \"Definition\": \"The inverse tangent is a function that returns the angle whose tangent is a given number. It is often denoted as arctan or tan⁻¹.\",\n    \"Formal Language\": \"arctan \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Inverse Trigonometric Functions\",\n    \"Definition\": \"A set of functions which reverse the effect of the trigonometric functions, providing the angle that corresponds to a given trigonometric value.\",\n    \"Formal Language\": \"Inverse Trigonometric Functions \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Circular Functions\",\n    \"Definition\": \"Circular functions, also known as trigonometric functions, are functions of an angle and are important in the study of periodic phenomena. The primary circular functions are sine, cosine, and tangent.\",\n    \"Formal Language\": \"Circular Functions = \\{\\sin(\\theta), \\cos(\\theta), \\tan(\\theta), \\ldots\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Trigonometric Functions\",\n    \"Definition\": \"Functions related to angles, often used in studies of periodic phenomena such as waves. The primary trigonometric functions include sine, cosine, and tangent.\",\n    \"Formal Language\": \"Trigonometric Functions \\subset \\{f: \\mathbb{R} \\to \\mathbb{R}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cotangent\",\n    \"Definition\": \"In trigonometry, the cotangent of an angle in a right triangle is the ratio of the length of the adjacent side to the length of the opposite side.\",\n    \"Formal Language\": \"cot(θ) = adjacent / opposite\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Gauss's Formulas\",\n    \"Definition\": \"A set of formulas derived by Carl Friedrich Gauss used for various mathematical purposes, including arithmetic series and number theory.\",\n    \"Formal Language\": \"Gauss's Formulas \\in Formulas\"\n}\n```",
+    "{\n    \"Name\": \"Shift\",\n    \"Definition\": \"In mathematics, a 'shift' typically refers to a transformation that moves every point of a figure or a graph in a specified direction by the same distance.\",\n    \"Formal Language\": \"Shift(x, y) = f(x-a, y-b) [where (a, b) is the direction vector]\"\n}",
+    "```json\n{\n    \"Name\": \"Identity Map\",\n    \"Definition\": \"An identity map is a function that always returns the same value that was used as its input. It is a function f such that for every element x in its domain, f(x) = x.\",\n    \"Formal Language\": \"f(x) = x, \\forall x \\in \\text{Domain}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bijection\",\n    \"Definition\": \"A bijection is a function between two sets where every element of the first set is paired with a unique element of the second set, and vice versa, ensuring a one-to-one correspondence and both injective (one-to-one) and surjective (onto) properties.\",\n    \"Formal Language\": \"Bijection \\in f: A \\to B \\text{ such that } \\forall y \\in B, \\exists! x \\in A \\text{ with } f(x) = y \\text{ and } \\forall x_1, x_2 \\in A, f(x_1) = f(x_2) \\implies x_1 = x_2\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Expansion\",\n    \"Definition\": \"In mathematics, expansion often refers to expressing something in an extended form, such as expressing an algebraic expression in a long form or series.\",\n    \"Formal Language\": \"Expansion \\in Algebra\"\n}\n```",
+    "{\n    \"Name\": \"Symmetric\",\n    \"Definition\": \"A relation on a set is symmetric if, whenever one element is related to a second element, the second element is also related to the first.\",\n    \"Formal Language\": \"A relation R on a set A is symmetric if (a, b) ∈ R implies (b, a) ∈ R, for all a, b ∈ A.\"\n}",
+    "```json\n{\n    \"Name\": \"Between\",\n    \"Definition\": \"A relational operator used to express that one value lies within a specific range of two other values\",\n    \"Formal Language\": \"a < x < b or a ≤ x ≤ b\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Real Line\",\n    \"Definition\": \"The real line is a concept in mathematics that represents the set of all real numbers laid out in a continuous line. It is used to describe the real number system and can be visualized as a straight line where each point corresponds to a real number.\",\n    \"Formal Language\": \"Real Line \\subseteq \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Slope\",\n    \"Definition\": \"The rate of change between two variables, typically representing how much one variable changes on average with respect to a change in another variable.\",\n    \"Formal Language\": \"Slope = (change in y) / (change in x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Slope-Intercept Form\",\n    \"Definition\": \"A way of writing the equation of a line so that the slope and y-intercept are immediately apparent, typically written as y = mx + b, where m represents the slope and b represents the y-intercept.\",\n    \"Formal Language\": \"Slope-Intercept Form \\in Linear Equations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Standard Form\",\n    \"Definition\": \"A way of writing numbers, especially large numbers or equations, using digits with a specific notation, such as scientific notation or the most straightforward numeral form for equations.\",\n    \"Formal Language\": \"Standard Form \\in Numeric Representation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Intercept Form\",\n    \"Definition\": \"The intercept form of a line's equation is a way of expressing the equation based on its x-intercept and y-intercept on a coordinate plane.\",\n    \"Formal Language\": \"y = mx + b, where m is the slope and b is the y-intercept\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Point-Slope Form\",\n    \"Definition\": \"A linear equation format that expresses a line in terms of a point on the line and the slope of the line.\",\n    \"Formal Language\": \"y - y_1 = m(x - x_1), \\\\, \\\\text{where} \\\\, (x_1, y_1) \\\\, \\\\text{is a point on the line and} \\\\, m \\\\, \\\\text{is the slope}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Two-Point Form\",\n    \"Definition\": \"A form of the equation of a straight line passing through two given points in the coordinate plane.\",\n    \"Formal Language\": \"\\((y - y_1) = \\frac{(y_2 - y_1)}{(x_2 - x_1)}(x - x_1)\\) where \\((x_1, y_1)\\) and \\((x_2, y_2)\\) are two distinct points.\"\n}\n```",
+    "{\n    \"Name\": \"Partial Quotient\",\n    \"Definition\": \"Partial quotient is a method used in division where the dividend is repeatedly reduced by a multiple of the divisor until what remains is less than the divisor.\",\n    \"Formal Language\": \"Partial Quotient \\in Arithmetic Operations\"\n}",
+    "```json\n{\n    \"Name\": \"Shift Transformation\",\n    \"Definition\": \"A transformation that moves every point of a figure or a graph in a specified direction and by a specified amount, without changing its shape or orientation.\",\n    \"Formal Language\": \"If \\( f(x) \\) is a function, then the function \\( g(x) = f(x - h) + k \\) represents a horizontal shift by \\( h \\) units and a vertical shift by \\( k \\) units.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Periodic Sequence\",\n    \"Definition\": \"A sequence that repeats the same values in the same order at regular intervals.\",\n    \"Formal Language\": \"A sequence {a_n} is periodic with period T if there exists a positive integer T such that a_(n+T) = a_n for all integers n.\"\n}\n```",
+    "{\n    \"Name\": \"Polynomial Sequence\",\n    \"Definition\": \"A sequence of terms that are polynomial expressions, where each term is a polynomial function of a certain degree.\",\n    \"Formal Language\": \"Polynomial Sequence \\in Sequence \\text{ of } Polynomial \\text{ expressions}\"\n}",
+    "```json\n{\n    \"Name\": \"Iteration Sequence\",\n    \"Definition\": \"A sequence of values generated by the repeated application of a function or operation, often used in algorithms and computer programs.\",\n    \"Formal Language\": \"Iteration Sequence \\in Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sequence\",\n    \"Definition\": \"An ordered list of numbers, where each number is called a term.\",\n    \"Formal Language\": \"Sequence \\in List\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Difference\",\n    \"Definition\": \"The constant difference between consecutive terms in an arithmetic sequence.\",\n    \"Formal Language\": \"Common Difference \\in \\mathbb{R}, d = a_{n+1} - a_n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Ratio\",\n    \"Definition\": \"The constant factor between consecutive terms of a geometric sequence.\",\n    \"Formal Language\": \"Common Ratio \\in \\mathbb{R} \\; \\text{such that for a geometric sequence } a_n = a_1 \\cdot r^{(n-1)}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Subsequence\",\n    \"Definition\": \"A subsequence is a sequence derived from another sequence by deleting some or no elements without changing the order of the remaining elements.\",\n    \"Formal Language\": \"Subsequence \\in Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Decreasing Sequence\",\n    \"Definition\": \"A sequence in which each term is less than or equal to the preceding term.\",\n    \"Formal Language\": \"If a_n represents the nth term of the sequence, then a_n \\geq a_{n+1} \\forall n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Geometric Sequence\",\n    \"Definition\": \"A sequence of numbers where each term after the first is found by multiplying the previous one by a fixed, non-zero number called the common ratio.\",\n    \"Formal Language\": \"Geometric Sequence \\in \\{a_n = a_1 \\cdot r^{n-1}\\,|\\,n \\geq 1, r \\neq 0\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Constant\",\n    \"Definition\": \"A value that does not change. In mathematics, a constant is a number on its own, or sometimes a letter such as 'a' to represent a fixed number.\",\n    \"Formal Language\": \"Constant \\in \\mathbb{R}, \\mathbb{Z}, \\mathbb{Q}, etc.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Natural Logarithm of 2\",\n    \"Definition\": \"The logarithm to the base e (where e is the mathematical constant approximately equal to 2.71828) of the number 2. It is the power to which e must be raised to equal 2.\",\n    \"Formal Language\": \"ln(2) = x \\iff e^x = 2\"\n}\n```",
+    "{\n    \"Name\": \"Natural Logarithm of 10\",\n    \"Definition\": \"The natural logarithm of 10 is the power to which the base 'e' (approximately 2.71828) must be raised to obtain the number 10. It is denoted as ln(10).\",\n    \"Formal Language\": \"ln(10) = x \\quad \\text{such that} \\quad e^x = 10\"\n}",
+    "```json\n{\n    \"Name\": \"Ceiling Function\",\n    \"Definition\": \"The ceiling function, also known as the least integer function, maps a real number to the smallest integer greater than or equal to that number.\",\n    \"Formal Language\": \"Ceiling(x) = \\\\lceil x \\\\rceil\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Floor Function\",\n    \"Definition\": \"The floor function of a real number is the greatest integer less than or equal to the number.\",\n    \"Formal Language\": \"Floor Function: \\\\lfloor x \\\\rfloor = \\\\max\\\\{n \\\\in \\\\mathbb{Z} : n \\\\leq x\\\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nearest Integer Function\",\n    \"Definition\": \"A function that maps a real number to the nearest integer. It is often referred to as rounding or the round-off function.\",\n    \"Formal Language\": \"f(x) = Round(x) \\in \\mathbb{Z} \\quad \\text{where } x \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quotient\",\n    \"Definition\": \"The result obtained by dividing one quantity by another.\",\n    \"Formal Language\": \"Quotient = Dividend ÷ Divisor\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Truncate\",\n    \"Definition\": \"In mathematics, to truncate a number is to shorten it by removing some of the digits after the decimal point without rounding.\",\n    \"Formal Language\": \"Truncate(x, n) = \\lfloor x \\times 10^n \\rfloor \\div 10^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Surd\",\n    \"Definition\": \"A surd is a numeric expression involving roots that cannot be simplified to remove the root.\",\n    \"Formal Language\": \"Surd \\in \\{\\sqrt[n]{a} \\mid a \\in \\mathbb{R}, \\sqrt[n]{a} \\not\\in \\mathbb{Q}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cancellation Law\",\n    \"Definition\": \"A principle in algebra that allows one to 'cancel' a common factor from both sides of an equation or inequality. For example, if a * c = b * c and c is non-zero, the law allows us to conclude a = b.\",\n    \"Formal Language\": \"If a * c = b * c and c ≠ 0, then a = b; similarly for addition: if a + c = b + c, then a = b.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Modulus\",\n    \"Definition\": \"The modulus operation finds the remainder after division of one number by another.\",\n    \"Formal Language\": \"Modulus: a mod b = r, where a = bq + r and 0 <= r < b\"\n}\n```",
+    "```json\n{\n    \"Name\": \"R^+\",\n    \"Definition\": \"The set of all positive real numbers\",\n    \"Formal Language\": \"R^+ = {x ∈ R | x > 0}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Polar\",\n    \"Definition\": \"In mathematics, polar coordinates specify the location of a point in a plane through an angle and a distance from a fixed point called the pole.\",\n    \"Formal Language\": \"Polar Coordinates: (r, θ), where r is the radial distance and θ is the angular coordinate\"\n}\n```",
+    "{\n    \"Name\": \"Reciprocation\",\n    \"Definition\": \"Reciprocation refers to the mathematical operation of taking the reciprocal of a number, which is calculated as 1 divided by the number. In simpler terms, for a non-zero number x, its reciprocal is 1/x.\",\n    \"Formal Language\": \"Reciprocal \\in \\mathbb{R} \\, \\text{such that} \\, x \\neq 0 \\Rightarrow \\text{Reciprocal}(x) = \\frac{1}{x}\"\n}",
+    "```json\n{\n    \"Name\": \"Polynomial Curve\",\n    \"Definition\": \"A smooth curve represented by a polynomial equation, typically written as a sum of terms, each consisting of a variable raised to a non-negative integer power and multiplied by a coefficient.\",\n    \"Formal Language\": \"Polynomial \\in \\mathbb{R}[x]\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quadratic Curve\",\n    \"Definition\": \"A quadratic curve is the graphical representation of a quadratic function, typically shaped like a parabola and described by the equation y = ax^2 + bx + c, where a, b, and c are constants and a ≠ 0.\",\n    \"Formal Language\": \"Quadratic Curve \\in \\mathbb{R}^2\"\n}\n```",
+    "{\n    \"Name\": \"Quadratic Curve Discriminant\",\n    \"Definition\": \"A value used to determine the nature of the roots of a quadratic equation. The discriminant is given by the formula b² - 4ac for a quadratic equation ax² + bx + c = 0.\",\n    \"Formal Language\": \"Discriminant(b² - 4ac) \\in \\mathbb{R}\"\n}",
+    "```json\n{\n    \"Name\": \"Quartic Curve\",\n    \"Definition\": \"A curve that is defined by a quartic equation, or polynomial of degree four.\",\n    \"Formal Language\": \"Quartic Curve \\in {y = ax^4 + bx^3 + cx^2 + dx + e, a \\neq 0}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Asymptote\",\n    \"Definition\": \"A line that a graph approaches but never touches.\",\n    \"Formal Language\": \"Asymptote \\in AnalyticalGeometry\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cartesian\",\n    \"Definition\": \"Relating to the Cartesian coordinate system, which is used to define a location by a set of numerical coordinates.\",\n    \"Formal Language\": \"Cartesian \\in CoordinateSystems\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Parametric Equations\",\n    \"Definition\": \"Equations where one or more parameters are used to express the coordinates of the points that make up a geometric object.\",\n    \"Formal Language\": \"Parametric Equations: x = f(t), y = g(t) for parameter t\"\n}\n```",
+    "```json\n{\n    \"Name\": \"x-Intercept\",\n    \"Definition\": \"The point where a graph intersects the x-axis, at which point the y-coordinate is zero.\",\n    \"Formal Language\": \"x-Intercept \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"y-Intercept\",\n    \"Definition\": \"The y-coordinate of the point where a line, curve, or surface intersects the y-axis.\",\n    \"Formal Language\": \"y-Intercept \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Affine Function\",\n    \"Definition\": \"An affine function is a function of the form f(x) = mx + b, where m and b are constants. It represents a straight line in a two-dimensional space and is a generalization of a linear function.\",\n    \"Formal Language\": \"f(x) = mx + b, \\, m, b \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Principle of Mathematical Induction\",\n    \"Definition\": \"A method of mathematical proof typically used to establish that a given statement is true for all natural numbers.\",\n    \"Formal Language\": \"Let P(n) be a proposition such that: Base case: P(1) is true. Inductive step: For all k ≥ 1, if P(k) is true then P(k + 1) is true. Therefore, P(n) is true for all natural numbers n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Induction\",\n    \"Definition\": \"A mathematical proof technique used to prove a statement is true for all natural numbers. It consists of two steps: the base case and the inductive step.\",\n    \"Formal Language\": \"Induction is formally expressed as: If P(1) is true, and P(k) implies P(k+1), then P(n) is true for all natural numbers n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proof\",\n    \"Definition\": \"A logical argument that demonstrates the truth of a mathematical statement.\",\n    \"Formal Language\": \"Proof \\in Logical Arguments\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proof by Contradiction\",\n    \"Definition\": \"A method of proving a statement by assuming the opposite is true and showing that this assumption leads to a contradiction.\",\n    \"Formal Language\": \"Proof \\,by \\, Contradiction \\in Logic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Finite Set\",\n    \"Definition\": \"A set that contains a countable number of elements.\",\n    \"Formal Language\": \"Finite Set \\subseteq Set \\land \\lvert Finite Set \\rvert < \\infty\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Power Set\",\n    \"Definition\": \"The power set of a set is the set of all possible subsets of that set, including the empty set and the set itself.\",\n    \"Formal Language\": \"PowerSet(S) = {T | T ⊆ S}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proper Subset\",\n    \"Definition\": \"A set A is a proper subset of set B if all elements of A are in B, but B contains at least one element not in A.\",\n    \"Formal Language\": \"A \\subset B \\land A \\neq B\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Complement Set\",\n    \"Definition\": \"The complement of a set A, denoted A', is the set of all elements in the universal set that are not in A.\",\n    \"Formal Language\": \"A' = {x \\in U | x \\notin A}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Set\",\n    \"Definition\": \"A collection of distinct objects, considered as an object in its own right.\",\n    \"Formal Language\": \"Set \\in Collection\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Set Partition\",\n    \"Definition\": \"A set partition is a way of dividing a set into non-overlapping, non-empty subsets such that every element of the original set is included in exactly one subset.\",\n    \"Formal Language\": \"Set Partition \\in Set Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Subset\",\n    \"Definition\": \"A set A is a subset of a set B if all elements of A are also elements of B.\",\n    \"Formal Language\": \"A \\subseteq B\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Superset\",\n    \"Definition\": \"A set A is a superset of a set B if all elements of B are also elements of A.\",\n    \"Formal Language\": \"A \\supseteq B\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Empty Set\",\n    \"Definition\": \"The empty set is a set that contains no elements. It is also known as the null set.\",\n    \"Formal Language\": \"Empty Set = {}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonempty Set\",\n    \"Definition\": \"A set that contains at least one element.\",\n    \"Formal Language\": \"A \\neq \\emptyset \\land A \\in Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Operation\",\n    \"Definition\": \"A mathematical process such as addition, subtraction, multiplication, or division applied to numbers or variables.\",\n    \"Formal Language\": \"Operation: A \\circ B, where \\circ can be +, -, ×, ÷\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Set Difference\",\n    \"Definition\": \"The set difference between two sets A and B, denoted by A - B, is the set of elements that are in A but not in B.\",\n    \"Formal Language\": \"A - B = {x | x \\in A and x \\notin B}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Symmetric Difference\",\n    \"Definition\": \"The symmetric difference of two sets is the set of elements that are in either of the sets, but not in their intersection.\",\n    \"Formal Language\": \"A Δ B = (A ∪ B) - (A ∩ B)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Relation\",\n    \"Definition\": \"A relation is a collection of ordered pairs of elements. Commonly, it represents the association or connection between input and output in a mathematical context.\",\n    \"Formal Language\": \"Relation \\subseteq A \\times B, \\, \\text{where } A \\text{ and } B \\text{ are sets.}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Equivalence Relation\",\n    \"Definition\": \"A relation that is reflexive, symmetric, and transitive, thereby categorizing elements into equivalence classes.\",\n    \"Formal Language\": \"An equivalence relation R on a set S is a subset of the Cartesian product S×S which satisfies the properties: reflexivity (∀a ∈ S, aRa), symmetry (∀a, b ∈ S, if aRb then bRa), and transitivity (∀a, b, c ∈ S, if aRb and bRc then aRc).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Symmetric Relation\",\n    \"Definition\": \"A relation R on a set A is symmetric if for every pair (a, b) in R, the pair (b, a) is also in R.\",\n    \"Formal Language\": \"A relation R on a set A is symmetric if ∀a, b ∈ A, (aRb → bRa)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binary Relation\",\n    \"Definition\": \"A binary relation is a collection of ordered pairs of elements from two sets.\",\n    \"Formal Language\": \"Binary Relation \\subseteq Set \\times Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Transitive\",\n    \"Definition\": \"A property of a relation where if it relates one element to a second, and the second to a third, then it relates the first to the third.\",\n    \"Formal Language\": \"If (a ~ b) and (b ~ c), then (a ~ c), where ~ is the relation.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Reflexive\",\n    \"Definition\": \"In mathematics, a binary relation R on a set is reflexive if every element is related to itself. Formally, a relation R on a set A is reflexive if for every element a in A, the relationship (a, a) is in R.\",\n    \"Formal Language\": \"R is reflexive \\iff \\forall a \\in A, (a, a) \\in R\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Strictly Between\",\n    \"Definition\": \"A term used to describe a number that is greater than one value and less than another, without including the boundary values themselves.\",\n    \"Formal Language\": \"x is strictly between a and b if a < x < b\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Disjunction\",\n    \"Definition\": \"A logical operation that results in true if at least one of the operands is true.\",\n    \"Formal Language\": \"P ∨ Q, where P and Q are propositions, and P ∨ Q is true if P is true, Q is true, or both P and Q are true.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Negation\",\n    \"Definition\": \"Negation is an operation that takes a proposition p to another proposition 'not p', typically denoted as ¬p, that is true when p is false and false when p is true.\",\n    \"Formal Language\": \"Negation: \\neg p \\rightarrow \\{\\text{true, false}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Equivalent\",\n    \"Definition\": \"Two expressions, equations, or shapes that are equal in value, function, or meaning.\",\n    \"Formal Language\": \"Equivalent \\in Relations\"\n}\n```",
+    "{\n    \"Name\": \"Exclusive Disjunction\",\n    \"Definition\": \"A logical operation that outputs true only when inputs differ (one is true, the other is false). It is also known as the XOR (exclusive or) operation.\",\n    \"Formal Language\": \"Exclusive Disjunction: p ⊕ q = (p ∨ q) ∧ ¬(p ∧ q)\"\n}",
+    "```json\n{\n    \"Name\": \"Biconditional\",\n    \"Definition\": \"A logical connective between two statements, where the result is true only if both statements are either true or false.\",\n    \"Formal Language\": \"Biconditional \\iff (A \\iff B)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Implies\",\n    \"Definition\": \"Implies is a logical operation that indicates if the first statement (antecedent) is true, then the second statement (consequent) is also true. It is often expressed as 'if P, then Q'.\",\n    \"Formal Language\": \"Implies \\in LogicalOperator, P \\rightarrow Q\"\n}\n```",
+    "```json\n{\n    \"Name\": \"OR\",\n    \"Definition\": \"A logical operator that returns true if at least one of the operands is true.\",\n    \"Formal Language\": \"OR \\in Logical Operators\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Finite\",\n    \"Definition\": \"A set that has a limited number of elements.\",\n    \"Formal Language\": \"Finite \\subseteq Set \\land |Finite| < \\infty\"\n}\n```",
+    "{\n    \"Name\": \"Set Theory\",\n    \"Definition\": \"Set theory is the branch of mathematical logic that studies sets, which are collections of objects. It is fundamental in the understanding of functions, sequences, and the number systems.\",\n    \"Formal Language\": \"Set Theory \\in Mathematics\"\n}",
+    "```json\n{\n    \"Name\": \"Simple Function\",\n    \"Definition\": \"A function that relates each element of a set with exactly one element of another set, often expressed as f(x) = ax + b, where a and b are constants.\",\n    \"Formal Language\": \"Simple Function \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Axiomatic System\",\n    \"Definition\": \"A set of axioms, or basic assumptions, from which theorems can be logically derived.\",\n    \"Formal Language\": \"Axiomatic System \\in Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Naive Set Theory\",\n    \"Definition\": \"Naive set theory is an informal and intuitive approach to understanding sets and set operations without the rigorous formalism found in axiomatic set theory.\",\n    \"Formal Language\": \"Naive Set Theory \\in Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Boolean Connective\",\n    \"Definition\": \"Boolean connectives are operators used to combine or modify statements in propositional logic. Common Boolean connectives include 'and', 'or', 'not', 'if...then', and 'if and only if', which are used to form compound logical statements.\",\n    \"Formal Language\": \"Boolean Connective \\in \\{\\land, \\lor, \\neg, \\rightarrow, \\leftrightarrow\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Implication\",\n    \"Definition\": \"A logical operation that is true except when a true statement leads to a false one. In mathematics, it is often expressed as 'if p then q'.\",\n    \"Formal Language\": \"p \\rightarrow q, where p, q \\in Propositions\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Contradiction\",\n    \"Definition\": \"A logical statement that is always false, regardless of the truth values of its components.\",\n    \"Formal Language\": \"A ∧ ¬A \\equiv False\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Literal\",\n    \"Definition\": \"A literal is a notation for representing a fixed value in source code, such as a number, character, or string.\",\n    \"Formal Language\": \"Literal \\in Expression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Truth Table\",\n    \"Definition\": \"A truth table is a mathematical table used in logic to determine whether an expression is true or false based on the truth values of its variables.\",\n    \"Formal Language\": \"Truth Table \\in Logic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Existential Quantifier\",\n    \"Definition\": \"A logical quantifier expressing that a condition holds for at least one member of a domain.\",\n    \"Formal Language\": \"∃x (P(x)) indicates there exists an x such that P(x) is true.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Free Variable\",\n    \"Definition\": \"A variable in an expression that is not bound by a quantifier or scope and can take on any value within its domain.\",\n    \"Formal Language\": \"FreeVariable \\in Variable\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Absorption Law\",\n    \"Definition\": \"The Absorption Law in algebra states that a variable combined with itself through operations within an expression will yield certain simplified results, such as in the context of set theory or Boolean algebra.\",\n    \"Formal Language\": \"A ∨ (A ∧ B) = A and A ∧ (A ∨ B) = A in Boolean algebra\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Induction Axiom\",\n    \"Definition\": \"A fundamental principle used to prove mathematical statements, usually involving natural numbers. It involves showing that a statement holds for an initial value and assuming it holds for one case implies it holds for the next case.\",\n    \"Formal Language\": \"If a property holds for 0 (or another initial value) and holds for n+1 whenever it holds for n, then it holds for every natural number n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Axiom\",\n    \"Definition\": \"A statement or proposition that is regarded as being established, accepted, or self-evidently true within a mathematical system.\",\n    \"Formal Language\": \"Axiom \\in Proposition\"\n}\n```",
+    "```json\n{\n    \"Name\": \"de Morgan's Laws\",\n    \"Definition\": \"De Morgan's Laws are two transformation rules that relate conjunctions and disjunctions in logic through negation. They state that the negation of a conjunction is the disjunction of the negations, and vice versa.\",\n    \"Formal Language\": \"¬(A ∧ B) ≡ ¬A ∨ ¬B; ¬(A ∨ B) ≡ ¬A ∧ ¬B\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Power Polynomial\",\n    \"Definition\": \"A polynomial in which each term is a constant multiplied by a power of the variable, typically expressed in the form f(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0.\",\n    \"Formal Language\": \"Power Polynomial \\in Algebraic Expressions\"\n}\n```",
+    "{\n    \"Name\": \"Basic Polynomial Sequence\",\n    \"Definition\": \"A sequence where each term is given by a polynomial function of the term's index, often studied for understanding patterns and series in mathematics.\",\n    \"Formal Language\": \"Polynomial Sequence = {a_n = P(n) | n \\in \\mathbb{N}, P(n) \\text{ is a polynomial in } n}\"\n}",
+    "```json\n{\n    \"Name\": \"Binomial Identity\",\n    \"Definition\": \"A binomial identity is an equation involving binomial coefficients that holds true for any values of the indices.\",\n    \"Formal Language\": \"Binomial Identity: \\\\( \\\\binom{n}{k} + \\\\binom{n}{k-1} = \\\\binom{n+1}{k} \\\\)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recurrence Relation\",\n    \"Definition\": \"A recurrence relation is an equation that recursively defines a sequence where the next term is a function of the previous terms.\",\n    \"Formal Language\": \"RecurrenceRelation: \\, a_n = f(a_{n-1}, a_{n-2}, \\ldots, a_{n-k}), \\, n \\geq k\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recursive Sequence\",\n    \"Definition\": \"A sequence in which each term is derived from one or more of the preceding terms according to a fixed rule or formula.\",\n    \"Formal Language\": \"A sequence {a_n} is recursive if a_n = f(a_{n-1}, a_{n-2}, ..., a_1) for some function f.\"\n}\n```",
+    "{\n    \"Name\": \"Ordered Pairs Representation\",\n    \"Definition\": \"A pair of elements written in a specific order, usually to represent a relationship or function, such as coordinates in a Cartesian plane (x, y).\",\n    \"Formal Language\": \"(x, y) \\in \\mathbb{R}^2\"\n}",
+    "{\n    \"Name\": \"Vertex Degree\",\n    \"Definition\": \"The number of edges incident to a vertex in a graph.\",\n    \"Formal Language\": \"Degree(v) = |{(v,u) \\in E}| for vertex v \\in V, where E is the set of edges.\"\n}",
+    "{\n    \"Name\": \"Graph Intersection\",\n    \"Definition\": \"A point where two or more graphs meet or cross each other on a coordinate plane.\",\n    \"Formal Language\": \"GraphIntersection \\in \\{Point \\mid Graph_1(x, y) = Graph_2(x, y)\\} \\land \\{x, y \\in \\mathbb{R}\\}\"\n}",
+    "```json\n{\n    \"Name\": \"Recursive Function\",\n    \"Definition\": \"A function that refers to itself in its own definition and is defined based on its values at smaller inputs.\",\n    \"Formal Language\": \"RecursiveFunction: f(n) = base_case if n = base_condition; f(n) = f(n-1) + some_expression otherwise\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ordered Pair\",\n    \"Definition\": \"A pair of elements written in a specific order, typically as (x, y), used to denote coordinates on a plane or elements in a relation.\",\n    \"Formal Language\": \"Ordered Pair \\in Cartesian Product\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Algebraic Language\",\n    \"Definition\": \"A system of representing numbers and relationships using symbols and letters to denote variables and operations.\",\n    \"Formal Language\": \"Algebraic Language \\in Language\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Inverse Permutation\",\n    \"Definition\": \"An inverse permutation is a permutation that inverts another permutation. If a permutation π applies a function to a set, the inverse permutation undoes that function and returns the set to its original order.\",\n    \"Formal Language\": \"If π is a permutation of a set S, then its inverse, π^(-1), is such that π(π^(-1)(x)) = x for all x ∈ S.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Choose\",\n    \"Definition\": \"In combinatorics, 'choose' refers to the binomial coefficient, which counts the number of ways to choose a subset of items from a larger set, without regard to the order of selection.\",\n    \"Formal Language\": \"Choose(n, k) = C(n, k) = n! / (k!(n-k)!)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Transposition\",\n    \"Definition\": \"Transposition refers to the act of swapping two elements in a set or sequence. In matrices, it refers to switching the rows and columns.\",\n    \"Formal Language\": \"Transposition: A_{ij} = A_{ji} \\quad \\text{for a matrix } A\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Permutation Cycle\",\n    \"Definition\": \"A permutation cycle is a subset of a permutation's elements which the permutation rearranges among themselves while the remaining elements stay fixed.\",\n    \"Formal Language\": \"A cycle in a permutation is defined as a sequence of elements in a permutation such that applying the permutation repeatedly to the first element eventually produces the second element, and so on, until the sequence is repeated.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Composition\",\n    \"Definition\": \"In mathematics, specifically in relation to functions, composition is the applying of one function to the results of another.\",\n    \"Formal Language\": \"Composition: (f ∘ g)(x) = f(g(x))\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ordering\",\n    \"Definition\": \"The arrangement of elements in a particular sequence or set, often based on specified criteria like numerical magnitude or alphabetic order.\",\n    \"Formal Language\": \"Ordering \\in SetTheory \\cup OrderTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer Array\",\n    \"Definition\": \"An ordered collection of integer values, typically indexed by consecutive integers starting from zero.\",\n    \"Formal Language\": \"Integer Array \\subseteq \\mathbb{Z}^n, \\, n \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Coefficient\",\n    \"Definition\": \"A numerical factor that multiplies a term in the expansion of the binomial theorem, typically written as C(n, k) or n choose k, and represents the number of ways to choose k elements from a set of n elements without regard to order.\",\n    \"Formal Language\": \"C(n, k) = n! / (k!(n-k)!)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Series\",\n    \"Definition\": \"A Binomial Series is an infinite series expansion of the expression (1 + x)^n for any real number n, using the binomial theorem.\",\n    \"Formal Language\": \"Binomial Series \\in Infinite Series\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Sums\",\n    \"Definition\": \"Sums derived from the binomial theorem which expresses the expansion of powers of a binomial\",\n    \"Formal Language\": \"Binomial Sums \\in Algebra\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Theorem\",\n    \"Definition\": \"A theorem that provides a formula for expanding powers of binomials. It indicates how to expand expressions of the form (a + b)^n, where n is a non-negative integer.\",\n    \"Formal Language\": \"Binomial Theorem: (a+b)^n = \\\\sum_{k=0}^{n} \\\\binom{n}{k} a^{n-k} b^k\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pascal's Formula\",\n    \"Definition\": \"Pascal's Formula is a relation that gives the value of a binomial coefficient in terms of the two previous binomial coefficients: C(n, k) = C(n-1, k-1) + C(n-1, k).\",\n    \"Formal Language\": \"C(n, k) = C(n-1, k-1) + C(n-1, k) \\text{ where } C(n, k) \\in \\text{Binomial Coefficient}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Monotonic Function\",\n    \"Definition\": \"A function that is either entirely non-increasing or non-decreasing throughout its domain.\",\n    \"Formal Language\": \"A function f(x) is monotonic if for all x and y such that x ≤ y, either f(x) ≤ f(y) (non-decreasing) or f(x) ≥ f(y) (non-increasing).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Step Function\",\n    \"Definition\": \"A piecewise function that has a constant value throughout each interval of its domain, often used to model scenarios where quantities increase or decrease abruptly.\",\n    \"Formal Language\": \"Step Function: f(x) = c_i, x \\in [a_i, b_i) with i = 1, 2, ..., n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Piecewise Constant Function\",\n    \"Definition\": \"A function that is constant on each of a finite number of subdomains, the range of which could be different for each subdomain.\",\n    \"Formal Language\": \"A piecewise function f: X → R such that for each piece S_i ⊆ X, f|_{S_i} is constant: ∀ x, y ∈ S_i, f(x) = f(y).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Piecewise Function\",\n    \"Definition\": \"A function composed of multiple sub-functions, each defined over a specific interval of the function's domain.\",\n    \"Formal Language\": \"Piecewise Function: f(x) = {f1(x) if x in I1; f2(x) if x in I2; ...; fn(x) if x in In}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponent Laws\",\n    \"Definition\": \"The rules that describe how to simplify expressions involving exponents. These laws include the product of powers, power of a power, quotient of powers, and zero exponent rules.\",\n    \"Formal Language\": \"Exponent Laws \\in Rules for manipulating exponents\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponential Function\",\n    \"Definition\": \"A mathematical function in the form f(x) = a^x, where 'a' is a constant and 'x' is the variable. It is characterized by a constant ratio between successive outputs.\",\n    \"Formal Language\": \"f(x) = a^x, a > 0, a ≠ 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Constant Function\",\n    \"Definition\": \"A function that always returns the same value, regardless of the input.\",\n    \"Formal Language\": \"f(x) = c, \\; \\forall x \\in \\text{Domain}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Elementary Function\",\n    \"Definition\": \"A function built from basic functions like polynomials, exponentials, logarithms, trigonometric and their inverses through operations of addition, subtraction, multiplication, division, and function composition.\",\n    \"Formal Language\": \"Elementary Function \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Zero Function\",\n    \"Definition\": \"A function that assigns the value zero to every element in its domain.\",\n    \"Formal Language\": \"f(x) = 0, \\forall x \\in Domain(f)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Identity Function\",\n    \"Definition\": \"A function that always returns the same value that was used as its input: f(x) = x\",\n    \"Formal Language\": \"Identity Function \\in Function : f(x) = x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Geometric Mean\",\n    \"Definition\": \"The geometric mean is the nth root of the product of n numbers. It is a measure often used to find the average rate of return over time.\",\n    \"Formal Language\": \"Geometric\\ Mean = \\sqrt[n]{x_1 \\cdot x_2 \\cdot ... \\cdot x_n}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Average Rate of Change\",\n    \"Definition\": \"The average rate of change of a function over an interval is the change in the value of the function divided by the change in the input. It is often used to measure the slope of a secant line connecting two points on the graph of a function.\",\n    \"Formal Language\": \"Average Rate of Change = (f(b) - f(a)) / (b - a)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Parameter\",\n    \"Definition\": \"A parameter is a quantity that influences the output or behavior of a mathematical function but is considered a constant within the context of a specific problem.\",\n    \"Formal Language\": \"Parameter \\in Constant\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Square Root\",\n    \"Definition\": \"The square root of a number is a value that, when multiplied by itself, gives the original number.\",\n    \"Formal Language\": \"If x^2 = a, then x \\in Real, x is a square root of a.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Square Root Algorithms\",\n    \"Definition\": \"Square root algorithms refer to methods used to determine the square root of a number, either approximately or exactly. They include techniques such as the Babylonian method, which is an iterative approximation method.\",\n    \"Formal Language\": \"Square Root Algorithm \\in Numerical Methods\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Principal Square Root\",\n    \"Definition\": \"The non-negative root of a non-negative number, which is a solution to the equation x^2 = a, where a is a non-negative number.\",\n    \"Formal Language\": \"Principal Square Root: f(x) = √x, \\, x \\geq 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"nth Root\",\n    \"Definition\": \"An nth root of a number x is a number r which, when raised to the power n, equals x. In symbolic form, if r^n = x, then r is the nth root of x.\",\n    \"Formal Language\": \"nth Root r \\Rightarrow r^n = x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Radical\",\n    \"Definition\": \"An expression that uses a root, such as a square root or cube root, often represented using the radical symbol (√).\",\n    \"Formal Language\": \"Radical \\in Expression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Antilogarithm\",\n    \"Definition\": \"The antilogarithm is the inverse operation of a logarithm, used to find the original number before it had been made into a logarithm.\",\n    \"Formal Language\": \"If log_b(a) = x, then b^x = a, where b is the base.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ln\",\n    \"Definition\": \"The natural logarithm, denoted as ln, is the logarithm to the base of the mathematical constant e, where e is the irrational number approximately equal to 2.718281828459.\",\n    \"Formal Language\": \"ln(x) = \\log_{e}(x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Natural Logarithm\",\n    \"Definition\": \"The natural logarithm is the logarithm to the base e, where e is an irrational constant approximately equal to 2.71828. It is often used in mathematics to solve problems involving exponential growth and continuous compounding.\",\n    \"Formal Language\": \"Natural Logarithm: ln(x) = log_e(x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binary Logarithm\",\n    \"Definition\": \"The binary logarithm is the power to which the number 2 must be raised to obtain a given value. It is commonly used in computer science and information theory.\",\n    \"Formal Language\": \"log2(x) \\in \\mathbb{R}, \\text{ where } x > 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Briggsian Logarithm\",\n    \"Definition\": \"A logarithm to the base 10, commonly used in scientific calculations, also known as a common logarithm.\",\n    \"Formal Language\": \"Briggsian Logarithm: \\log_{10}(x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Logarithm\",\n    \"Definition\": \"The logarithm is the inverse operation to exponentiation, indicating the power to which a base number must be raised to obtain a given number.\",\n    \"Formal Language\": \"If b^y = x, then log_b(x) = y\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Logarithm\",\n    \"Definition\": \"The logarithm to the base 10, often used in scientific calculations.\",\n    \"Formal Language\": \"log_{10}(x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponent\",\n    \"Definition\": \"A mathematical notation indicating the number of times a number (the base) is multiplied by itself.\",\n    \"Formal Language\": \"If x is a number and n is a positive integer, then x^n indicates x multiplied by itself n times.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponentiation\",\n    \"Definition\": \"Exponentiation is a mathematical operation that involves raising a number (called the base) to the power of an exponent. It is a repeated multiplication of the base number as indicated by the exponent.\",\n    \"Formal Language\": \"Exponentiation \\in \\mathbb{R}^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Power\",\n    \"Definition\": \"An expression that represents repeated multiplication of the same factor; it consists of a base and an exponent\",\n    \"Formal Language\": \"Power \\equiv Base^{Exponent}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Squared\",\n    \"Definition\": \"The result of multiplying a number by itself.\",\n    \"Formal Language\": \"If x is a real number, then x squared is x^2 = x * x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Closed Form\",\n    \"Definition\": \"An expression is in closed form if it can be expressed analytically in terms of a finite number of standard operations and functions.\",\n    \"Formal Language\": \"Closed Form \\in Expression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Power Polynomial\",\n    \"Definition\": \"A power polynomial is an expression consisting of a sum of terms, each of which includes a variable raised to a non-negative integer exponent and a coefficient.\",\n    \"Formal Language\": \"Power Polynomial \\in Algebraic Expression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Basic Polynomial Sequence\",\n    \"Definition\": \"A sequence of numbers generated by polynomial functions, where the nth term is given by evaluating the polynomial at integer values.\",\n    \"Formal Language\": \"Basic Polynomial Sequence \\in Sequence \\land f(x) = ax^n + bx^{n-1} + ... + c, n \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Identity\",\n    \"Definition\": \"A binomial identity is an equation that expresses a relationship between binomial coefficients.\",\n    \"Formal Language\": \"Binomial Identity \\in \\text{Combinatorics}, \\text{ often formulated as } \\sum_{k=0}^{n} \\binom{n}{k} = 2^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recurrence Equation\",\n    \"Definition\": \"A mathematical equation that defines a sequence recursively by relating each term to one or more of its predecessors.\",\n    \"Formal Language\": \"T(n) = f(T(n-1), T(n-2), ..., n)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recursive Sequence\",\n    \"Definition\": \"A sequence in which each term is defined as a function of its preceding terms.\",\n    \"Formal Language\": \"A recursive sequence is defined by a recurrence relation along with initial conditions.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph\",\n    \"Definition\": \"A diagram representing a function, relation, or various forms of data using points, lines, curves, or a combination of these.\",\n    \"Formal Language\": \"Graph \\in Visualization\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ordered Pairs Representation\",\n    \"Definition\": \"A method of representing a relation or function, as pairs of (x, y) where x is an element from the domain and y is an element from the range.\",\n    \"Formal Language\": \"(x, y) \\in OrderedPair\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Intersection\",\n    \"Definition\": \"The point(s) where two graphs meet or cross each other on a coordinate plane.\",\n    \"Formal Language\": \"If y1 = f(x) and y2 = g(x), the intersection is given by solving f(x) = g(x) for x.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Path\",\n    \"Definition\": \"A sequence of edges that connects a sequence of vertices in a graph, where each consecutive pair of edges shares a common vertex.\",\n    \"Formal Language\": \"Path \\subseteq Graph\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recursive Function\",\n    \"Definition\": \"A function that calls itself in its own definition to solve a problem by solving smaller instances of the same problem.\",\n    \"Formal Language\": \"RecursiveFunction: f(n) = expression involving f(n-1)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ordered Pair\",\n    \"Definition\": \"An ordered pair is a pair of elements where the order in which the elements appear is significant. Typically, it's presented as (a, b) where 'a' is the first element and 'b' is the second element.\",\n    \"Formal Language\": \"Ordered Pair \\in Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Algebraic Language\",\n    \"Definition\": \"A system of symbols and operations used to represent and solve equations and expressions involving variables, numbers, and operations.\",\n    \"Formal Language\": \"Algebraic Language \\in Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Permutation Symbol\",\n    \"Definition\": \"A symbol used to represent the number of ways to arrange a set of objects.\",\n    \"Formal Language\": \"Permutation \\P(n, r) = \\frac{n!}{(n-r)!}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Lexicographic Order\",\n    \"Definition\": \"A method of ordering sequences by comparing elements from left to right, based on a predefined criterion, similar to how words are alphabetically ordered in a dictionary.\",\n    \"Formal Language\": \"LexicographicOrder \\in OrderTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cyclic Permutation\",\n    \"Definition\": \"A reordering of elements in a sequence where each element shifts a consistent number of positions.\",\n    \"Formal Language\": \"A cyclic permutation is a permutation that shifts all elements of a set in a circular fashion, maintaining their order relative to one another.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Permutation Cycle\",\n    \"Definition\": \"A permutation cycle in mathematics refers to a concept where elements are rearranged in a sequence within a permutation, such that each element is mapped to another in a closed loop.\",\n    \"Formal Language\": \"A permutation cycle is a subset of a permutation where the set elements can be cyclically permuted \\in S_n, where n is the number of elements.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Composition\",\n    \"Definition\": \"The composition of two functions f and g is a function h such that h(x) = f(g(x)).\",\n    \"Formal Language\": \"Composition: (f \\circ g)(x) = f(g(x))\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Coefficient\",\n    \"Definition\": \"A numerical factor that multiplies the successive terms in the expansion of a binomial raised to any power; also known for counting combinations in probability.\",\n    \"Formal Language\": \"Binomial Coefficient = \\(\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\\) where n and k are non-negative integers and n >= k.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Sums\",\n    \"Definition\": \"Binomial sums refer to expressions that involve the sum of terms obtained from expanding a binomial raised to a power, often expressed via the binomial theorem.\",\n    \"Formal Language\": \"Binomial Sums \\in \\text{Algebra/Combinatorics}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binomial Theorem\",\n    \"Definition\": \"The Binomial Theorem provides a formula for expanding expressions that are raised to any power in the form (a + b)^n.\",\n    \"Formal Language\": \"(a + b)^n = \\\\sum_{k=0}^{n} \\\\binom{n}{k} a^{n-k} b^k, where \\\\binom{n}{k} is a binomial coefficient\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pascal's Formula\",\n    \"Definition\": \"Pascal's Formula is a recursive relation for binomial coefficients represented in Pascal's Triangle, stating that each non-edge entry is the sum of the two entries directly above it.\",\n    \"Formal Language\": \"C(n, k) = C(n-1, k-1) + C(n-1, k)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Monotonic Function\",\n    \"Definition\": \"A function is monotonic if it is either entirely non-increasing or non-decreasing across its domain.\",\n    \"Formal Language\": \"f: X → Y is monotonic if for all x₁, x₂ in X, x₁ ≤ x₂ implies f(x₁) ≤ f(x₂) (monotonically increasing) or f(x₁) ≥ f(x₂) (monotonically decreasing).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Polar Representation\",\n    \"Definition\": \"A way of representing complex numbers in terms of their magnitude and angle from the positive x-axis, expressed in polar coordinates (r, θ) where r is the modulus and θ is the argument.\",\n    \"Formal Language\": \"Polar Representation \\in Complex Numbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Staircase Function\",\n    \"Definition\": \"A piecewise constant function that represents a step-like structure, having intervals of constancy.\",\n    \"Formal Language\": \"Staircase \\\\subseteq PiecewiseFunction : \\\\exists a_i, b_i \\in \\\\mathbb{R} \\\\text{ where } f(x) = c_i \\\\text{ if } x \\in [a_i, b_i)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Piecewise Constant Function\",\n    \"Definition\": \"A function that is defined by constant values within each of a number of intervals or regions.\",\n    \"Formal Language\": \"Piecewise Constant Function \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Piecewise Function\",\n    \"Definition\": \"A function that is defined by different expressions for different intervals of the domain.\",\n    \"Formal Language\": \"f(x) = \\\\begin{cases} expression_1 & \\\\text{if } x \\\\in interval_1 \\\\\\\\ expression_2 & \\\\text{if } x \\\\in interval_2 \\\\\\\\ \\\\end{cases}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Factorial Products\",\n    \"Definition\": \"A factorial product is the result of multiplying a series of descending natural numbers, usually represented as n!, where n is a non-negative integer.\",\n    \"Formal Language\": \"n! = n \\times (n-1) \\times (n-2) \\times \\ldots \\times 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponent Laws\",\n    \"Definition\": \"Rules governing the operations on expressions with exponents, such as the product of powers, power of a power, and quotient of powers.\",\n    \"Formal Language\": \"Exponent Laws \\in Rules[\\{(a^m \\cdot a^n = a^{m+n}), (a^m / a^n = a^{m-n}, a \\\\neq 0), ((a^m)^n = a^{m \\cdot n})\\}]\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponential Function\",\n    \"Definition\": \"A function in which an independent variable appears in the exponent, commonly taking the form f(x) = a * b^x where a is non-zero, b is positive, and b ≠ 1.\",\n    \"Formal Language\": \"ExponentialFunction \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponential Growth\",\n    \"Definition\": \"A process that increases quantity at a consistent rate over time, where the rate of growth is directly proportional to the current quantity.\",\n    \"Formal Language\": \"Exponential Growth: f(t) = a \\cdot (1 + r)^t, \\text{ where } a \\text{ is the initial amount, } r \\text{ is the growth rate, and } t \\text{ is time}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Constant Function\",\n    \"Definition\": \"A function that always returns the same value no matter what the input is.\",\n    \"Formal Language\": \"f(x) = c, \\, \\forall x \\in \\mathbb{R}, \\text{where } c \\text{ is a constant real number}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Elementary Function\",\n    \"Definition\": \"A basic function that includes polynomials, exponential functions, logarithmic functions, trigonometric functions, and their inverses, often used in calculus and algebra.\",\n    \"Formal Language\": \"ElementaryFunction \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Zero Function\",\n    \"Definition\": \"A function that always maps every input to zero. It can be defined as f(x) = 0 for all x.\",\n    \"Formal Language\": \"f(x) = 0, \\forall x \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Identity Function\",\n    \"Definition\": \"A function that always returns the same value that was used as its input\",\n    \"Formal Language\": \"f(x) = x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Geometric Mean\",\n    \"Definition\": \"The geometric mean is the nth root of the product of n numbers, often used to calculate average rates of growth or return.\",\n    \"Formal Language\": \"Geometric Mean = (Π (x_i))^(1/n) where i = 1 to n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Average Rate of Change\",\n    \"Definition\": \"The average rate of change of a function over an interval is the change in the function value divided by the change in the input values over that interval.\",\n    \"Formal Language\": \"If f is a function, the average rate of change from a to b is (f(b) - f(a))/(b - a)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Parameter\",\n    \"Definition\": \"A parameter is a quantity that influences the output or behavior of a mathematical function but is viewed as being held constant within a particular context.\",\n    \"Formal Language\": \"Parameter \\in Variable\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Principal Square Root\",\n    \"Definition\": \"The principal square root of a non-negative number x is the non-negative number that, when multiplied by itself, equals x. It is often denoted as √x.\",\n    \"Formal Language\": \"Principal Square Root \\in \\mathbb{R^+} \\cup \\{0\\}, √: [0, \\infty) \\rightarrow [0, \\infty)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"nth Root\",\n    \"Definition\": \"The nth root of a number is a value that, when raised to the power of n, gives the original number. It generalizes square root (n=2) and cube root (n=3).\",\n    \"Formal Language\": \"If x^n = a, then x is the nth root of a.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Radical\",\n    \"Definition\": \"An expression that involves the root of a number. The most common radical is the square root.\",\n    \"Formal Language\": \"Radical \\in Expression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Antilogarithm\",\n    \"Definition\": \"An antilogarithm is the inverse operation of a logarithm; it exponentiates a given logarithmic value to return the original number.\",\n    \"Formal Language\": \"If log_b(y) = x, then the antilogarithm is y = b^x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Natural Logarithm\",\n    \"Definition\": \"The natural logarithm is the logarithm to the base e, where e is an irrational and transcendental number approximately equal to 2.718281828. It is commonly used in calculus and complex analysis.\",\n    \"Formal Language\": \"log_e(x) or ln(x) \\in Real Numbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binary Logarithm\",\n    \"Definition\": \"A logarithm to the base 2, often used in computer science because it is related to binary manipulation.\",\n    \"Formal Language\": \"Binary Logarithm: log2(x) = y where 2^y = x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Briggsian Logarithm\",\n    \"Definition\": \"The base-10 logarithm, also known as the common logarithm, which is used to determine the power to which 10 must be raised to obtain a given number.\",\n    \"Formal Language\": \"Briggsian Logarithm: \\log_{10}(x) = y \\Leftrightarrow 10^y = x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Logarithm\",\n    \"Definition\": \"A logarithm is the inverse operation to exponentiation, indicating how many times a number (the base) must be multiplied by itself to produce a given number.\",\n    \"Formal Language\": \"If b^y = x, then log base b of x (log_b(x)) = y\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Logarithm\",\n    \"Definition\": \"The logarithm with base 10, commonly used in scientific calculations and represented as log(x) when the base is not specified.\",\n    \"Formal Language\": \"Common Logarithm: \\log_{10}(x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponent\",\n    \"Definition\": \"An exponent refers to the number that indicates how many times the base is multiplied by itself.\",\n    \"Formal Language\": \"Exponent \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponentiation\",\n    \"Definition\": \"Exponentiation is a mathematical operation involving two numbers, the base and the exponent. It represents repeated multiplication of the base, as many times as indicated by the exponent.\",\n    \"Formal Language\": \"Exponentiation: if a is the base and n is the exponent, then a^n = a * a * ... * a (n times)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Odd Power\",\n    \"Definition\": \"An exponent that is an odd integer, which maintains the sign of the base when raised to this exponent.\",\n    \"Formal Language\": \"Odd Power \\in \\{x \\mid x = 2n+1, n \\in \\mathbb{Z}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Power\",\n    \"Definition\": \"In mathematics, the power of a number indicates the number of times that number is multiplied by itself. It is represented as a superscript (n), where the expression a^n means that 'a' is multiplied by itself 'n' times.\",\n    \"Formal Language\": \"Power \\in \\mathbb{R} \\to \\mathbb{R}^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Squared\",\n    \"Definition\": \"The result of multiplying a number by itself.\",\n    \"Formal Language\": \"x^2 = x \\times x\"\n}\n```"
 ]

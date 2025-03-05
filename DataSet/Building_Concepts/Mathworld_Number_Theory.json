@@ -1,1820 +1,305 @@
 [
-    {
-        "id": 76,
-        "Name": "Divisible Property",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 793,
-        "Name": "Euler Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1395,
-        "Name": "Prime Products",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1397,
-        "Name": "Prime Sums",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1401,
-        "Name": "Sum of Prime Factors",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1429,
-        "Name": "Large Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1431,
-        "Name": "Round Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1433,
-        "Name": "Mersenne Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1435,
-        "Name": "Nearest Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1441,
-        "Name": "Next Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1457,
-        "Name": "Previous Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1460,
-        "Name": "Prime Power",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1525,
-        "Name": "Consecutive Number Sequences",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1526,
-        "Name": "Lucas Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1543,
-        "Name": "Palindromic Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1554,
-        "Name": "Factorial Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1557,
-        "Name": "Fermat Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1573,
-        "Name": "Prime Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1599,
-        "Name": "Prime Factor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1601,
-        "Name": "Prime Factorization",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1604,
-        "Name": "Prime Factorization Algorithms",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1609,
-        "Name": "Composite Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1612,
-        "Name": "Composite Number Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1613,
-        "Name": "Fundamental Theorem of Arithmetic",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1618,
-        "Name": "Greatest Prime Factor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1622,
-        "Name": "Distinct Prime Factorization",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1624,
-        "Name": "Distinct Prime Factors",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1625,
-        "Name": "Least Prime Factor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1630,
-        "Name": "Trial Division",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1633,
-        "Name": "Trial Divisor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1644,
-        "Name": "Factor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1680,
-        "Name": "Twin Primes",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1693,
-        "Name": "Primality Test",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1700,
-        "Name": "Sieve",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1703,
-        "Name": "Sieve of Eratosthenes",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1704,
-        "Name": "Compositeness Test",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1712,
-        "Name": "Even Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1715,
-        "Name": "Odd Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1750,
-        "Name": "Even Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1751,
-        "Name": "Odd Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1752,
-        "Name": "Parity",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1755,
-        "Name": "Divisor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1758,
-        "Name": "Euclid's Lemma",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1759,
-        "Name": "Relatively Prime",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1762,
-        "Name": "Rule of Nines",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1766,
-        "Name": "Divides",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1771,
-        "Name": "Divisibility Tests",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1774,
-        "Name": "Divisible",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1827,
-        "Name": "Least Common Denominator",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1828,
-        "Name": "Least Common Multiple",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1829,
-        "Name": "Digit Count",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1831,
-        "Name": "Fractional Part",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1833,
-        "Name": "Integer Part",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1835,
-        "Name": "Mantissa",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1836,
-        "Name": "Odd Part",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1837,
-        "Name": "Sum of Squares Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1843,
-        "Name": "Euclidean Algorithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1845,
-        "Name": "Greatest Common Divisor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1846,
-        "Name": "Greatest Common Divisor Theorem",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1913,
-        "Name": "Coin Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1926,
-        "Name": "Diophantine",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1928,
-        "Name": "Diophantine Equation",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1932,
-        "Name": "Hardy-Ramanujan Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1971,
-        "Name": "Look and Say Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1972,
-        "Name": "Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1977,
-        "Name": "Lucky Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2003,
-        "Name": "Palindromic Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2016,
-        "Name": "Number Pattern",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2018,
-        "Name": "Number Pyramid",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2058,
-        "Name": "Mersenne Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2071,
-        "Name": "Perfect Square",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2075,
-        "Name": "Square Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2088,
-        "Name": "Octahedral Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2091,
-        "Name": "Pyramidal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2093,
-        "Name": "Square Pyramidal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2095,
-        "Name": "Tetrahedral Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2099,
-        "Name": "Hexagonal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2104,
-        "Name": "Centered Square Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2109,
-        "Name": "Pentagonal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2122,
-        "Name": "Heptagonal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2124,
-        "Name": "Polygonal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2130,
-        "Name": "Star Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2133,
-        "Name": "Triangular Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2134,
-        "Name": "Hex Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2141,
-        "Name": "Cubefree",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2154,
-        "Name": "Figurate Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2155,
-        "Name": "Figurate Number Triangle",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2160,
-        "Name": "Cubic Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2197,
-        "Name": "Fibonacci Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2201,
-        "Name": "Harshad Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2254,
-        "Name": "Perfect Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2276,
-        "Name": "Proper Divisor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2279,
-        "Name": "Proper Factor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2286,
-        "Name": "Repunit",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2289,
-        "Name": "Happy Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2290,
-        "Name": "Reversal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2296,
-        "Name": "Kaprekar Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2310,
-        "Name": "Least Significant Bit",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2312,
-        "Name": "Bit Length",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2318,
-        "Name": "Deficient Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2320,
-        "Name": "Digit",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2321,
-        "Name": "Narcissistic Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2325,
-        "Name": "Pandigital",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2326,
-        "Name": "Digit Product",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2328,
-        "Name": "Digit Sum",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2329,
-        "Name": "Pandigital Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2333,
-        "Name": "Vampire Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2335,
-        "Name": "Digital Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2340,
-        "Name": "Repdigit",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2342,
-        "Name": "14",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2344,
-        "Name": "15",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2346,
-        "Name": "1",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2347,
-        "Name": "17",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2348,
-        "Name": "Hundred",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2349,
-        "Name": "2",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2350,
-        "Name": "18",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2351,
-        "Name": "Naught",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2352,
-        "Name": "3",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2354,
-        "Name": "4",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2355,
-        "Name": "30",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2356,
-        "Name": "5",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2357,
-        "Name": "42",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2358,
-        "Name": "6",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2359,
-        "Name": "7",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2361,
-        "Name": "Small Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2362,
-        "Name": "8",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2365,
-        "Name": "9",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2366,
-        "Name": "243",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2367,
-        "Name": "Thousand",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2370,
-        "Name": "11",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2371,
-        "Name": "1729",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2372,
-        "Name": "Unity",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2373,
-        "Name": "12",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2375,
-        "Name": "Zero",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2376,
-        "Name": "13",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2380,
-        "Name": "Quintillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2381,
-        "Name": "Billion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2388,
-        "Name": "Septillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2389,
-        "Name": "Sextillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2390,
-        "Name": "Decillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2392,
-        "Name": "Duodecillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2393,
-        "Name": "Million",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 0,
-        "Name": "Nonillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2,
-        "Name": "Novemdecillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 4,
-        "Name": "Trillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 5,
-        "Name": "Googol",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 6,
-        "Name": "Octillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 7,
-        "Name": "Undecillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 8,
-        "Name": "Googolplex",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 10,
-        "Name": "Vigintillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 14,
-        "Name": "Quadrillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 74,
-        "Name": "Odd Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 98,
-        "Name": "Increasing Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 104,
-        "Name": "Integer Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 331,
-        "Name": "Golden Ratio",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 332,
-        "Name": "Golden Ratio Conjugate",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 348,
-        "Name": "Golden Ratio Digits",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 349,
-        "Name": "Pi Digits",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 429,
-        "Name": "Pi Squared",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 445,
-        "Name": "Mod",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 451,
-        "Name": "Rounding",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 456,
-        "Name": "Irrational Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 474,
-        "Name": "Casting Out Nines",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 492,
-        "Name": "Modular Arithmetic",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 516,
-        "Name": "Consecutive Numbers",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 519,
-        "Name": "Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 521,
-        "Name": "Nonnegative Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 522,
-        "Name": "Nonpositive Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 523,
-        "Name": "Positive Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 524,
-        "Name": "Rational Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 526,
-        "Name": "Singly Even Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 527,
-        "Name": "Whole Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 530,
-        "Name": "Z^+",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 549,
-        "Name": "Real Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 551,
-        "Name": "Reals",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 575,
-        "Name": "Rational Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 576,
-        "Name": "Sequence Rank",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 625,
-        "Name": "Elementary Number Theory",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 628,
-        "Name": "Number Theory",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 630,
-        "Name": "Negative",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 631,
-        "Name": "Negative Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 632,
-        "Name": "Nonnegative",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 633,
-        "Name": "Nonpositive",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 634,
-        "Name": "Nonzero",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 635,
-        "Name": "Positive",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 640,
-        "Name": "Binary",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 642,
-        "Name": "Base",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 644,
-        "Name": "Number Length",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 645,
-        "Name": "Decimal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 646,
-        "Name": "Octal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 647,
-        "Name": "Decimal Expansion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 650,
-        "Name": "Duodecimal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 654,
-        "Name": "Radix",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 655,
-        "Name": "Regular Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 657,
-        "Name": "Repeating Decimal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 659,
-        "Name": "Hexadecimal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 660,
-        "Name": "Sexagesimal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 662,
-        "Name": "Sexdecillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 663,
-        "Name": "Terminating Decimal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 665,
-        "Name": "Ternary",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 672,
-        "Name": "Long Division",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 673,
-        "Name": "Reciprocal",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 676,
-        "Name": "Remainder",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 682,
-        "Name": "Multiplicand",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 684,
-        "Name": "Division Lemma",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 688,
-        "Name": "Multiplication Table",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 700,
-        "Name": "Integer Division",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 705,
-        "Name": "Arithmetic",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 707,
-        "Name": "Carry",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 712,
-        "Name": "Anomalous Cancellation",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 714,
-        "Name": "Proper Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 718,
-        "Name": "Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 719,
-        "Name": "Quarter",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 724,
-        "Name": "Reduced Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 727,
-        "Name": "Reducible Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 730,
-        "Name": "Common Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 731,
-        "Name": "Improper Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 736,
-        "Name": "Irreducible Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 740,
-        "Name": "Denominator",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 741,
-        "Name": "Mediant",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 742,
-        "Name": "Small Multiple Method",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 747,
-        "Name": "Mixed Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 751,
-        "Name": "Unit Fraction",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 756,
-        "Name": "Augend",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 759,
-        "Name": "Minuend",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2271,
-        "Name": "Truncation",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 0,
-        "Name": "Nonillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2,
-        "Name": "Novemdecillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 4,
-        "Name": "Trillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 5,
-        "Name": "Googol",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 6,
-        "Name": "Octillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 7,
-        "Name": "Undecillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 8,
-        "Name": "Googolplex",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 10,
-        "Name": "Vigintillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 14,
-        "Name": "Quadrillion",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 74,
-        "Name": "Odd Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 98,
-        "Name": "Increasing Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 104,
-        "Name": "Integer Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 331,
-        "Name": "Golden Ratio",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 332,
-        "Name": "Golden Ratio Conjugate",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 348,
-        "Name": "Golden Ratio Digits",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 349,
-        "Name": "Pi Digits",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 429,
-        "Name": "Pi Squared",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 445,
-        "Name": "Mod",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 451,
-        "Name": "Rounding",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 456,
-        "Name": "Irrational Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 474,
-        "Name": "Casting Out Nines",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 492,
-        "Name": "Modular Arithmetic",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 516,
-        "Name": "Consecutive Numbers",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 519,
-        "Name": "Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 521,
-        "Name": "Nonnegative Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 522,
-        "Name": "Nonpositive Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 523,
-        "Name": "Positive Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 524,
-        "Name": "Rational Integer",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 526,
-        "Name": "Singly Even Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 527,
-        "Name": "Whole Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 530,
-        "Name": "Z^+",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 549,
-        "Name": "Real Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 520,
-        "Name": "Conservation of Number Principle",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 624,
-        "Name": "Squaring",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 950,
-        "Name": "Crosssum",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1267,
-        "Name": "Primitive Pythagorean Triple",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1825,
-        "Name": "Ordinal Comparison",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1840,
-        "Name": "Ordinal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1841,
-        "Name": "Predecessor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1930,
-        "Name": "Successor",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1944,
-        "Name": "Natural Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1949,
-        "Name": "Counting Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1960,
-        "Name": "Infinite",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1963,
-        "Name": "Infinite Set",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1967,
-        "Name": "Cardinal Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2023,
-        "Name": "Magic Square",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2040,
-        "Name": "Factorial Sums",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2108,
-        "Name": "Conjecture",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2278,
-        "Name": "Finitely Terminating",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 964,
-        "Name": "Significand",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1017,
-        "Name": "Pair",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1096,
-        "Name": "Lexicographic Order",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1125,
-        "Name": "Factorial",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1150,
-        "Name": "Partition",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1155,
-        "Name": "Dirichlet's Box Principle",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1268,
-        "Name": "Nonnegative Partial Sum",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1681,
-        "Name": "Unitization",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1693,
-        "Name": "Modular Operator",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1925,
-        "Name": "Factorial Products",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2071,
-        "Name": "Pythagorean Means",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2110,
-        "Name": "Cube Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2289,
-        "Name": "Cubed",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2292,
-        "Name": "Odd Power",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 964,
-        "Name": "Significand",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1017,
-        "Name": "Pair",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1125,
-        "Name": "Factorial",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1150,
-        "Name": "Partition",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1155,
-        "Name": "Dirichlet's Box Principle",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1271,
-        "Name": "Number Picking",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1301,
-        "Name": "Ordering",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1412,
-        "Name": "Letter",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 1693,
-        "Name": "Modular Operator",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2071,
-        "Name": "Pythagorean Means",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2109,
-        "Name": "Square Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2110,
-        "Name": "Cube Root",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2116,
-        "Name": "Vinculum",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    },
-    {
-        "id": 2289,
-        "Name": "Cubed",
-        "Suitable for K-12": "Yes",
-        "Category": "Number Theory"
-    }
+    "```json\n{\n    \"Name\": \"Divisible Property\",\n    \"Definition\": \"A property indicating that one integer can be divided by another integer without a remainder.\",\n    \"Formal Language\": \"a is divisible by b \\iff a \\mod b = 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Euler Number\",\n    \"Definition\": \"The Euler number, denoted as \\( e \\), is a mathematical constant approximately equal to 2.71828. It is the base of the natural logarithm and is used in various mathematical and scientific applications.\",\n    \"Formal Language\": \"e \\in \\mathbb{R},\\, e \\approx 2.71828\"\n}\n```",
+    "{\n    \"Name\": \"Prime Products\",\n    \"Definition\": \"A number that is the result of multiplying one or more prime numbers together. These numbers cannot be factored further into any integers other than prime numbers.\",\n    \"Formal Language\": \"PrimeProducts = p_1 * p_2 * ... * p_n, where p_i \\in Primes\"\n}",
+    "```json\n{\n    \"Name\": \"Prime Sums\",\n    \"Definition\": \"The sum of two or more prime numbers. It is a topic often explored in the context of mathematical puzzles or number theory.\",\n    \"Formal Language\": \"Prime Sums \\in Number Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sum of Prime Factors\",\n    \"Definition\": \"The sum of prime factors involves identifying all the prime numbers that multiply together to give a particular integer and then adding these prime numbers together.\",\n    \"Formal Language\": \"Sum of Prime Factors = \\\\sum_{p_i \\\\in \\\\text{Prime}} p_i\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Large Prime\",\n    \"Definition\": \"A prime number that is significantly larger than the primes typically dealt with in elementary number theory. Large primes are particularly of interest in fields like cryptography.\",\n    \"Formal Language\": \"Large Prime \\in \\{p \\mid \\forall d \\in \\mathbb{Z}^{+}, (d \\mid p \\implies d = 1 \\lor d = p) \\text{ and } p \\text{ is large}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Round Number\",\n    \"Definition\": \"A number that has been approximated to the nearest specified place value.\",\n    \"Formal Language\": \"Round \\in Approximation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mersenne Prime\",\n    \"Definition\": \"A prime number that is one less than a power of two; it is of the form 2^p - 1, where p is a prime number.\",\n    \"Formal Language\": \"MersennePrime \\in Number \\mid M_n = 2^p - 1 \\land p \\in Prime\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nearest Prime\",\n    \"Definition\": \"The nearest prime number is the closest prime number to a given number. If two prime numbers are equidistant, both can be considered nearest.\",\n    \"Formal Language\": \"NearestPrime(n) \\in \\{p \\mid p \\text{ is prime } \\land \\min(|p-n|)\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Next Prime\",\n    \"Definition\": \"The smallest prime number greater than a given number.\",\n    \"Formal Language\": \"NextPrime(n) = p, where p is the smallest prime > n\"\n}\n```",
+    "{\n    \"Name\": \"Previous Prime\",\n    \"Definition\": \"The previous prime is a concept referring to the largest prime number that is less than a given number.\",\n    \"Formal Language\": \"PreviousPrime(p) = max({q \\in \\mathbb{P} \\mid q < p})\"\n}\n",
+    "{\n    \"Name\": \"Prime Power\",\n    \"Definition\": \"A prime power is a number of the form p^k where p is a prime number and k is a positive integer.\",\n    \"Formal Language\": \"Prime Power = p^k, p \\in Prime, k \\in \\mathbb{Z}^+\"\n}",
+    "```json\n{\n    \"Name\": \"Consecutive Number Sequences\",\n    \"Definition\": \"A sequence of numbers where each number is one more than the previous number.\",\n    \"Formal Language\": \"Consecutive Number Sequence = {n, n+1, n+2, ..., n+k} where n, k \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Lucas Number\",\n    \"Definition\": \"Sequences of integers similar to the Fibonacci numbers, where each term is the sum of its two immediate predecessors, starting with 2 and 1.\",\n    \"Formal Language\": \"L_n = L_{n-1} + L_{n-2} \\text{ with } L_0 = 2, L_1 = 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Palindromic Prime\",\n    \"Definition\": \"A palindromic prime is a prime number that is also a palindrome, meaning it remains the same when its digits are reversed.\",\n    \"Formal Language\": \"Palindromic Prime \\in \\{p \\mid p \\text{ is prime and } p \\text{ is a palindrome}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Factorial Prime\",\n    \"Definition\": \"A factorial prime is a prime number that is one less or one more than a factorial (n! ± 1).\",\n    \"Formal Language\": \"p \\in Prime, n! \\pm 1 = p\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Fermat Prime\",\n    \"Definition\": \"A Fermat prime is a prime number that can be written in the form 2^(2^n) + 1, where n is a non-negative integer.\",\n    \"Formal Language\": \"Fermat Prime \\in \\{p | p = 2^{2^n} + 1, p \\text{ is prime}, n \\in \\mathbb{Z}^{\\geq 0}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Prime Number\",\n    \"Definition\": \"A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.\",\n    \"Formal Language\": \"Prime Number \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Prime Factor\",\n    \"Definition\": \"A prime factor is a factor of a number that is a prime number itself. A prime factor cannot be divided evenly by any other numbers than 1 and itself.\",\n    \"Formal Language\": \"Prime Factor \\in Factor \\land Prime Factor \\in \\{\\text{prime numbers}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Prime Factorization\",\n    \"Definition\": \"The process of determining the prime numbers that multiply together to give a particular integer.\",\n    \"Formal Language\": \"PrimeFactorization(n) = {p_i^{a_i} | n = p_1^{a_1} \\times p_2^{a_2} \\times \\ldots \\times p_k^{a_k}}\"\n}\n```",
+    "{\n    \"Name\": \"Prime Factorization Algorithms\",\n    \"Definition\": \"Techniques or procedures used to find the prime factors of a number, which are the prime numbers that multiply together to give the original number.\",\n    \"Formal Language\": \"Prime Factorization \\in Number Theory\"\n}",
+    "```json\n{\n    \"Name\": \"Composite Number\",\n    \"Definition\": \"A positive integer that has at least one positive divisor other than one or itself.\",\n    \"Formal Language\": \"Composite \\in \\mathbb{Z^+} \\: | \\: \\exists \\: n, m \\: \\in \\mathbb{Z^+} \\: \\land \\: n \\neq 1 \\: \\land \\: m \\neq 1 \\: \\land \\: nm = \\text{Composite}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Composite Number\",\n    \"Definition\": \"A composite number is a positive integer that has at least one positive divisor other than one or itself, meaning it has more than two distinct positive divisors.\",\n    \"Formal Language\": \"Composite \\ni N, N > 1, and \\exists d (1 < d < N and d|N)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Fundamental Theorem of Arithmetic\",\n    \"Definition\": \"The Fundamental Theorem of Arithmetic states that every integer greater than 1 is either a prime number or can be uniquely factorized into prime numbers, up to the order of the factors.\",\n    \"Formal Language\": \"n = p_1^{a_1} p_2^{a_2} \\ldots p_k^{a_k}, \\, \\forall n \\in \\mathbb{Z}^+, \\, \\text{where} \\, p_i \\, \\text{are primes and} \\, a_i \\, \\text{are positive integers}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Greatest Prime Factor\",\n    \"Definition\": \"The largest prime number that divides a given number without leaving a remainder.\",\n    \"Formal Language\": \"Greatest Prime Factor \\in Prime\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Distinct Prime Factorization\",\n    \"Definition\": \"The expression of a number as a product of its prime factors, where each prime factor is used only once.\",\n    \"Formal Language\": \"Distinct Prime Factorization \\in Number Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Distinct Prime Factors\",\n    \"Definition\": \"The unique prime numbers that divide a given integer exactly, not including any repeated prime factors.\",\n    \"Formal Language\": \"Distinct Prime Factors \\subseteq \\mathbb{P}, \\text{ where } \\mathbb{P} \\text{ is the set of prime numbers}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Least Prime Factor\",\n    \"Definition\": \"The smallest prime number that divides a given integer.\",\n    \"Formal Language\": \"Least Prime Factor(n) = min {p | p is a prime, p divides n}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Trial Division\",\n    \"Definition\": \"A straightforward method of testing whether a number is prime by checking divisibility using prime numbers up to its square root.\",\n    \"Formal Language\": \"Trial Division \\in Number Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Trial Divisor\",\n    \"Definition\": \"A trial divisor is a candidate number for dividing another number, often used in factorization to determine if one number is a factor of another.\",\n    \"Formal Language\": \"Trial Divisor \\in Number Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Factor\",\n    \"Definition\": \"A factor is a number or algebraic expression that divides another number or expression evenly—without leaving a remainder.\",\n    \"Formal Language\": \"Factor \\in Integer\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Twin Primes\",\n    \"Definition\": \"Twin primes are pairs of prime numbers that have a difference of two between them, such as (3, 5) or (11, 13).\",\n    \"Formal Language\": \"Twin Primes = (p, p+2) \\text{ where both } p \\text{ and } p+2 \\text{ are primes }\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Primality Test\",\n    \"Definition\": \"A primality test is an algorithm used to determine whether a given number is prime.\",\n    \"Formal Language\": \"PrimalityTest \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sieve\",\n    \"Definition\": \"A sieve is a procedure or algorithm used to find prime numbers, most commonly known in reference to the Sieve of Eratosthenes, which efficiently finds all prime numbers up to a given limit.\",\n    \"Formal Language\": \"Sieve: a method or algorithm used to identify prime numbers, \\ncommonly denoted as Sieve \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sieve of Eratosthenes\",\n    \"Definition\": \"An ancient algorithm used to find all prime numbers up to a specified integer\",\n    \"Formal Language\": \"Sieve of Eratosthenes \\in Algorithm\"\n}\n```",
+    "{\n    \"Name\": \"Compositeness Test\",\n    \"Definition\": \"A mathematical procedure that determines whether a given integer is a composite number (a number with more than two distinct positive divisors).\",\n    \"Formal Language\": \"CompositenessTest(n) \\iff \\exists d \\in \\mathbb{Z}^+ : 1 < d < n \\land d | n\"\n}",
+    "```json\n{\n    \"Name\": \"Even Prime\",\n    \"Definition\": \"A prime number that is even; the only even prime number is 2.\",\n    \"Formal Language\": \"Even Prime \\subset \\{n \\mid n \\in \\mathbb{P} \\land n \\equiv 0 \\pmod{2} \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Odd Prime\",\n    \"Definition\": \"An odd prime is a prime number that is not divisible by 2, meaning it is a prime greater than 2.\",\n    \"Formal Language\": \"Odd Prime \\in {p \\in \\mathbb{Z}^+ : p > 2 \\land p \\text{ is prime}}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Even Number\",\n    \"Definition\": \"An integer that is exactly divisible by 2, resulting in another integer without any remainder.\",\n    \"Formal Language\": \"Even\\_Number \\in Integer \\; \\text{and}\\; \\exists k \\in \\mathbb{Z}, \\; n = 2k\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Odd Number\",\n    \"Definition\": \"An integer which is not divisible by 2.\",\n    \"Formal Language\": \"Odd \\in Integer \\land Odd \\equiv 1 \\pmod{2}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Parity\",\n    \"Definition\": \"Parity refers to the attribute of an integer being either even or odd. An integer is even if it is divisible by 2 without a remainder, and odd if it is not.\",\n    \"Formal Language\": \"Parity \\in \\{Even, Odd\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Divisor\",\n    \"Definition\": \"A divisor is a number that divides another number completely, leaving no remainder.\",\n    \"Formal Language\": \"Divisor \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Euclid's Lemma\",\n    \"Definition\": \"Euclid's Lemma states that if a prime divides the product of two numbers, then it must divide at least one of those numbers.\",\n    \"Formal Language\": \"If p is a prime and p | (a * b), then p | a or p | b, where '|' denotes 'divides'.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Relatively Prime\",\n    \"Definition\": \"Two integers are relatively prime if they have no common positive integer factors other than 1.\",\n    \"Formal Language\": \"gcd(a, b) = 1\"\n}\n```",
+    "{\n    \"Name\": \"Rule of Nines\",\n    \"Definition\": \"The Rule of Nines is a method used in medicine to estimate the total body surface area affected by burns. It divides the body into sections that are approximately multiples of nine percent.\",\n    \"Formal Language\": \"Rule of Nines \\in Medical Estimation Method\"\n}",
+    "```json\n{\n    \"Name\": \"Divides\",\n    \"Definition\": \"An integer a divides another integer b if there exists an integer k such that b = a * k.\",\n    \"Formal Language\": \"a | b \\iff \\exists k \\in \\mathbb{Z} \\text{ such that } b = a \\cdot k\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Divisibility Tests\",\n    \"Definition\": \"Rules or shortcuts that determine if one number is divisible by another without performing actual division.\",\n    \"Formal Language\": \"DivisibilityTests: \\mathbb{Z} \\rightarrow \\{0,1\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Divisible\",\n    \"Definition\": \"A number 'a' is said to be divisible by another number 'b' if the remainder of the division of 'a' by 'b' is zero.\",\n    \"Formal Language\": \"a is divisible by b if ∃k ∈ ℤ such that a = b * k, where k is an integer\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Least Common Denominator\",\n    \"Definition\": \"The least common denominator (LCD) is the lowest common multiple of the denominators of two or more fractions.\",\n    \"Formal Language\": \"LCD = \\text{lcm}(\\text{set of denominators})\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Least Common Multiple\",\n    \"Definition\": \"The smallest positive integer that is divisible by each of two or more integers.\",\n    \"Formal Language\": \"LCM(a, b) = min{n \\in ℕ | n ≡ 0 (mod a) and n ≡ 0 (mod b)}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Digit Count\",\n    \"Definition\": \"Digit count refers to the number of digits in a numerical value.\",\n    \"Formal Language\": \"Digit\\ Count(n) = \\lceil \\log_{10}(n+1) \\rceil\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Fractional Part\",\n    \"Definition\": \"The fractional part of a number is the part that remains after the integer part has been extracted. For a non-negative real number x, it is given by x - ⌊x⌋, where ⌊x⌋ is the floor of x.\",\n    \"Formal Language\": \"Fractional Part of x = x - ⌊x⌋, where x \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer Part\",\n    \"Definition\": \"The integer part of a real number is the greatest integer less than or equal to that number.\",\n    \"Formal Language\": \"Integer Part: ⌊x⌋ for a real number x, where ⌊x⌋ ∈ ℤ\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mantissa\",\n    \"Definition\": \"In logarithms, the mantissa is the fractional part of the logarithm of a number, which occurs after the decimal point.\",\n    \"Formal Language\": \"Mantissa \\in \\mathbb{R}, where 0 \\leq Mantissa < 1\"\n}\n```",
+    "{\n    \"Name\": \"Odd Part\",\n    \"Definition\": \"The odd part of a function is the component of the function that remains when the even part (symmetrical component) is subtracted, typically represented in the context of Fourier series or signal processing.\",\n    \"Formal Language\": \"Odd Part \\in Function \\: Decomposition\"\n}",
+    "{\n    \"Name\": \"Sum of Squares Function\",\n    \"Definition\": \"A function that takes a set of numbers and returns the sum of their squares.\",\n    \"Formal Language\": \"f(x_1, x_2, ..., x_n) = x_1^2 + x_2^2 + ... + x_n^2\"\n}",
+    "```json\n{\n    \"Name\": \"Euclidean Algorithm\",\n    \"Definition\": \"An efficient method for computing the greatest common divisor (GCD) of two integers, based on the principle that the GCD of two numbers also divides their difference.\",\n    \"Formal Language\": \"If a and b are integers, GCD(a, b) is computed by repeatedly applying a = b, b = a mod b, until b = 0.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Greatest Common Divisor\",\n    \"Definition\": \"The largest positive integer that divides two or more integers without leaving a remainder.\",\n    \"Formal Language\": \"GCD(a, b) = max{n ∈ ℕ | n divides both a and b}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Greatest Common Divisor Theorem\",\n    \"Definition\": \"The theorem states that if a and b are integers, not both zero, there exists integers x and y such that ax + by = gcd(a, b), where gcd(a, b) is the greatest common divisor of a and b.\",\n    \"Formal Language\": \"ax + by = gcd(a, b) where x, y \\in \\mathbb{Z}, gcd(a, b) \\in \\mathbb{Z}\"\n}\n```",
+    "{\n    \"Name\": \"Coin Problem\",\n    \"Definition\": \"A type of problem where one must determine combinations of coins to reach a certain value or make change in a specific way.\",\n    \"Formal Language\": \"Coin Problem \\in CombinatorialOptimization\"\n}",
+    "```json\n{\n    \"Name\": \"Diophantine\",\n    \"Definition\": \"A type of equation that seeks integer solutions, named after the ancient Greek mathematician Diophantus.\",\n    \"Formal Language\": \"Diophantine equation: Find integer solutions for equations of the form ax + by = c, where a, b, and c are integers.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Diophantine Equation\",\n    \"Definition\": \"A polynomial equation that allows for integer solutions only.\",\n    \"Formal Language\": \"Diophantine Equation \\in Algebra\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Hardy-Ramanujan Number\",\n    \"Definition\": \"A number, specifically 1729, that is famous for being the smallest number expressible as the sum of two cubes in two different ways.\",\n    \"Formal Language\": \"Hardy-Ramanujan Number: 1729 = 1^3 + 12^3 = 9^3 + 10^3\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Look and Say Sequence\",\n    \"Definition\": \"A sequence of numbers generated by describing the count of digits in the previous term.\",\n    \"Formal Language\": \"LookAndSaySequence: n_{i+1} = describe(n_i)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number\",\n    \"Definition\": \"A mathematical object used to count, measure, and label.\",\n    \"Formal Language\": \"Number \\in Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Lucky Number\",\n    \"Definition\": \"A number that is believed to bring good fortune.\",\n    \"Formal Language\": \"Lucky Number \\not\\in Formal Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Palindromic Number\",\n    \"Definition\": \"A number that remains the same when its digits are reversed. For example, 121 and 1331 are palindromic numbers.\",\n    \"Formal Language\": \"PalindromicNumber \\subset \\mathbb{N} \\text{ where } n = \\text{reverse}(n)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number Pattern\",\n    \"Definition\": \"A sequence or set of numbers arranged according to a particular rule or rules, often used to help understand mathematical concepts such as sequences, series, or arithmetic/geometric progression.\",\n    \"Formal Language\": \"Number Pattern \\subseteq Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number Pyramid\",\n    \"Definition\": \"A number pyramid is a triangular arrangement of numbers where each number is the sum of the two numbers directly below it. It is often used in problem-solving exercises to practice addition or understand patterns.\",\n    \"Formal Language\": \"Number Pyramid \\in Sequences/Patterns\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mersenne Number\",\n    \"Definition\": \"A Mersenne Number is a number that can be written in the form M_n = 2^n - 1, where n is a positive integer.\",\n    \"Formal Language\": \"Mersenne Number \\in \\{M_n = 2^n - 1 \\mid n \\in \\mathbb{Z^+}\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Perfect Square\",\n    \"Definition\": \"A perfect square is a number that is the square of an integer. In other words, it is the product of an integer with itself.\",\n    \"Formal Language\": \"n \\text{ is a perfect square if } \\exists k \\in \\mathbb{Z}, n = k^2\"\n}\n```",
+    "{\n    \"Name\": \"Square Number\",\n    \"Definition\": \"A square number is an integer that is the square of an integer.\",\n    \"Formal Language\": \"n^2, where n \\in \\mathbb{Z}\"\n}",
+    "```json\n{\n    \"Name\": \"Octahedral Number\",\n    \"Definition\": \"A type of figurate number that represents the shape of a regular octahedron, corresponding to the number of spheres in an octahedral arrangement.\",\n    \"Formal Language\": \"Octahedral Number = n(2n^2 + 1)/3, \\, n \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pyramidal Number\",\n    \"Definition\": \"A pyramidal number is a figurate number that represents a pyramid with a polygonal base and a given number of triangular layers. The most common type is a square pyramidal number, where the base is a square.\",\n    \"Formal Language\": \"Pyramidal Number \\in Figurate Numbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Square Pyramidal Number\",\n    \"Definition\": \"A square pyramidal number is a figurate number that represents the number of stacked squares that form a pyramid with a square base.\",\n    \"Formal Language\": \"Square Pyramidal Number = 1^2 + 2^2 + 3^2 + ... + n^2 = \\\\frac{n(n+1)(2n+1)}{6}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Tetrahedral Number\",\n    \"Definition\": \"A figurate number that represents a pyramid with a triangular base and three sides (a tetrahedron). The nth tetrahedral number is the sum of the first n triangular numbers.\",\n    \"Formal Language\": \"T_n = \\\\frac{n(n+1)(n+2)}{6}, \\\\; n \\\\in \\\\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Hexagonal Number\",\n    \"Definition\": \"A hexagonal number is a figurate number that represents a hexagon with a dot at each vertex and additional dots filling the hexagonal layers.\",\n    \"Formal Language\": \"H_n = n(2n - 1), where n is a positive integer\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Centered Square Number\",\n    \"Definition\": \"A centered square number is a centered figurate number that represents a square with a dot in the center and all other dots surrounding the center dot in successive square layers.\",\n    \"Formal Language\": \"CenteredSquareNumber \\in FigurativeNumbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pentagonal Number\",\n    \"Definition\": \"A pentagonal number is a figurate number that extends the concept of triangular and square numbers to the pentagon, but, unlike the others, the dots or pebbles represent a pentagon.\",\n    \"Formal Language\": \"PentagonalNumber(n) = (3n^2 - n) / 2, n \\in ℕ\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Heptagonal Number\",\n    \"Definition\": \"A heptagonal number is a figurate number that represents a heptagon. The n-th heptagonal number is given by the formula: n(5n−3)/2.\",\n    \"Formal Language\": \"Heptagonal Number \\in Integer\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Polygonal Number\",\n    \"Definition\": \"A number that can be arranged in the shape of a regular polygon. The \\(n\\)-th \\(s\\)-gonal number represents a polygon with \\(s\\) sides and is calculated using a specific formula based on \\(n\\).\",\n    \"Formal Language\": \"P(s, n) = \\\\frac{(s - 2)n^2 - (s - 4)n}{2}, \\, n \\geq 1, \\, s \\geq 3\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Star Number\",\n    \"Definition\": \"A star number is a centered figurate number that represents a centered hexagram (six-pointed star), such as the Star of David, or a similar 6-pointed star. The nth star number is given by the formula: 6n(n - 1) + 1.\",\n    \"Formal Language\": \"StarNumber(n) = 6n(n - 1) + 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Triangular Number\",\n    \"Definition\": \"A triangular number is a number that can be represented in the form of a triangle with dots: the first row contains one dot, the second row two dots, the third row three dots, and so on.\",\n    \"Formal Language\": \"T_n = \\frac{n(n+1)}{2}, \\, n \\in \\mathbb{N}\"\n}\n```",
+    "\n{\n    \"Name\": \"Hex Number\",\n    \"Definition\": \"A hexadecimal number is a base-16 number system that uses the digits 0-9 and the letters A-F.\",\n    \"Formal Language\": \"HexNumber \\in NumberSystems\"\n}",
+    "```json\n{\n    \"Name\": \"Cubefree\",\n    \"Definition\": \"A number is considered cubefree if it is not divisible by any perfect cube other than 1.\",\n    \"Formal Language\": \"Cubefree \\in Number \\mid x \\nmid n^3 \\, \\forall \\, n \\in \\mathbb{Z}, n^3 > 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Figurate Number\",\n    \"Definition\": \"A number that can form a regular and distinct geometric shape, such as triangular, square, or pentagonal numbers.\",\n    \"Formal Language\": \"FigurateNumber \\in Sequence\"\n}\n```",
+    "{\n    \"Name\": \"Figurate Number Triangle\",\n    \"Definition\": \"Figurate Numbers are numbers that can be represented by a regular geometric arrangement of equally spaced points. A Figurate Number Triangle is a triangular arrangement where every row contains figurate numbers.\",\n    \"Formal Language\": \"Figurate Number Triangle \\in Number Theory; Triangle \\in Geometry\"\n}",
+    "```json\n{\n    \"Name\": \"Cubic Number\",\n    \"Definition\": \"A cubic number is a number that is the cube of an integer, or a number that can be expressed as the product of some integer with itself twice.\",\n    \"Formal Language\": \"n^3 \\in \\mathbb{Z} \\quad \\text{where} \\quad n \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Fibonacci Number\",\n    \"Definition\": \"A sequence of numbers where each number is the sum of the two preceding ones, starting from 0 and 1.\",\n    \"Formal Language\": \"Fibonacci \\in Sequence: F_0 = 0, F_1 = 1, F_n = F_{n-1} + F_{n-2} \\text{ for } n \\geq 2\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Harshad Number\",\n    \"Definition\": \"A number that is divisible by the sum of its digits\",\n    \"Formal Language\": \"n \\equiv 0 \\ (\\mathrm{mod} \\ \\sum\\text{digits of } n)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Perfect Number\",\n    \"Definition\": \"A positive integer that is equal to the sum of its proper divisors, excluding itself.\",\n    \"Formal Language\": \"Perfect Number \\in Number Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proper Divisor\",\n    \"Definition\": \"A proper divisor of a number is a divisor that is not equal to the number itself.\",\n    \"Formal Language\": \"If d is a divisor of n and d ≠ n, then d is a proper divisor of n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proper Factor\",\n    \"Definition\": \"A proper factor of a number is a factor that is not the number itself.\",\n    \"Formal Language\": \"Proper Factor \\in \\{f \\mid f \\text{ is a factor of } n \\text{ and } f \\neq n\\}\"\n}\n```",
+    "{\n    \"Name\": \"Repunit\",\n    \"Definition\": \"A repunit is a number consisting entirely of the digit 1 in a given base. For example, in base 10, the numbers 1, 11, 111 are repunits.\",\n    \"Formal Language\": \"Repunit_n = \\\\frac{10^n - 1}{9} \\\\, (\\\\text{in base 10)}\"\n}",
+    "```json\n{\n    \"Name\": \"Happy Number\",\n    \"Definition\": \"A happy number is a number which eventually reaches 1 when replaced by the sum of the square of each digit. If it does not reach 1, it is called an unhappy or sad number.\",\n    \"Formal Language\": \"HappyNumber: \\mathbb{N} \\rightarrow \\mathbb{B}, \\text{where } \\mathbb{B} \\text{ is a Boolean value indicating happiness}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Reversal\",\n    \"Definition\": \"The process of changing the order of elements in a sequence, such as a string or list, to be opposite from what it was originally.\",\n    \"Formal Language\": \"Reversal \\in Sequence Manipulation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Kaprekar Number\",\n    \"Definition\": \"A non-negative integer whose square can be split into two parts that add up to the original number itself. For a number 'n' with 'd' digits, it becomes a Kaprekar number if there exists a split point such that the sum of the left and right partitions of its square equals the original number.\",\n    \"Formal Language\": \"Kaprekar \\in \\{ n : \\exists d \\in \\mathbb{N}, \\text{where } n^2 = x \\cdot 10^d + y \\text{ and } x+y=n \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Least Significant Bit\",\n    \"Definition\": \"The least significant bit is the bit in a binary numeral with the lowest value position. It is the bit that represents the smallest value in a binary number and typically refers to the right-most bit in the binary number.\",\n    \"Formal Language\": \"LSB \\in \\{0, 1\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bit Length\",\n    \"Definition\": \"The number of bits necessary to represent an integer in binary.\",\n    \"Formal Language\": \"Bit Length = ⌈log2(n + 1)⌉ where n is a positive integer.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Deficient Number\",\n    \"Definition\": \"A positive integer that is greater than the sum of its proper divisors, excluding itself.\",\n    \"Formal Language\": \"A number n is deficient if σ(n) < 2n, where σ(n) is the sum of the divisors of n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Digit\",\n    \"Definition\": \"A digit is an individual symbol used to make up numbers in the base-ten number system, which includes 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.\",\n    \"Formal Language\": \"Digit \\in Number \\space System\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Narcissistic Number\",\n    \"Definition\": \"A narcissistic number is a number that is the sum of its own digits each raised to the power of the number of digits.\",\n    \"Formal Language\": \"Let n be a d-digit number. Then n is a narcissistic number if n = a_1^d + a_2^d + ... + a_d^d where a_i represents the ith digit of n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pandigital\",\n    \"Definition\": \"A number that contains each digit from 0 to 9 exactly once. In some contexts, a pandigital number might only need to contain each digit from 1 to n, once each.\",\n    \"Formal Language\": \"Pandigital \\in Integer \\ni \\in \\{0, 1, 2, ..., 9\\} \\implies \\forall i, \\exists! j : j \\text{ is a digit in the number}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Digit Product\",\n    \"Definition\": \"The product of all the digits of a given integer number.\",\n    \"Formal Language\": \"DigitProduct(n) = Π_{i=1}^{k} d_i, where n is a k-digit number and d_i are the digits of n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Digit Sum\",\n    \"Definition\": \"The sum of all the digits in a number. For example, the digit sum of 1234 is 1 + 2 + 3 + 4 = 10.\",\n    \"Formal Language\": \"DigitSum: \\mathbb{N} \\rightarrow \\mathbb{N}, \\text{ where digit sum of } n = \\sum \\text{ (digits of } n \\text{)}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pandigital Number\",\n    \"Definition\": \"A number that contains each of the digits from 0 to 9 at least once.\",\n    \"Formal Language\": \"Pandigital Number \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Vampire Number\",\n    \"Definition\": \"A composite natural number v with an even number of digits n that can be factored into two natural numbers x and y, each with n/2 digits and not both ending in zero, such that the digits of v are a permutation of the digits of x and y. The numbers x and y are called the fangs.\",\n    \"Formal Language\": \"Vampire Number \\in NumberTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Digital Root\",\n    \"Definition\": \"The digital root of a number is the single digit obtained by an iterative process of summing digits, on each iteration using the result from the previous iteration to compute the digit sum. The process continues until a single-digit number is reached.\",\n    \"Formal Language\": \"DigitalRoot(N) = N - 9 * floor((N-1)/9)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Repdigit\",\n    \"Definition\": \"A natural number composed of repeated instances of the same digit in a positional number system.\",\n    \"Formal Language\": \"Repdigit \\in \\{n \\in \\mathbb{N} \\mid \\exists d \\in \\{0,...,9\\}, n = d \\cdot \\frac{10^k - 1}{9}, k \\in \\mathbb{Z}^+\\}\"\n}\n```",
+    "I'm sorry for the misunderstanding. It appears that the input provided does not contain a clear mathematical concept or operator that I can assess for suitability in the K-12 curriculum. To assist you better, please provide a math-related term or concept name. The given input seems to be a dictionary with an ID and a name that doesn't directly pertain to a mathematical concept. Could you please provide a more specific term from the domain of mathematics for me to evaluate?",
+    "```json\n{\n    \"Name\": \"15\",\n    \"Definition\": \"The number 15 is a natural number following 14 and preceding 16.\",\n    \"Formal Language\": \"15 \\in \\mathbb{N}\"\n}\n```",
+    "I'm sorry, it seems there was an issue with the input provided. If your aim is to list terms related to education and mathematics for evaluation, please input them as a list of individual terms. For example:\n\n```\n[\n    {\"Name\": \"Domain\"},\n    {\"Name\": \"Interval\"},\n    {\"Name\": \"Function\"}\n]\n```\n\nOnce you provide the terms in the correct format, I will provide the definitions and formal language for each concept as requested. Let me know how you would like to proceed!",
+    "{\n    \"Name\": \"17\",\n    \"Definition\": \"The number 17 is a whole number following 16 and preceding 18. It is a prime number.\",\n    \"Formal Language\": \"17 \\in \\mathbb{Z}, 17 \\in \\mathbb{P}\"\n}",
+    "```json\n{\n    \"Name\": \"Hundred\",\n    \"Definition\": \"Hundred is the numerical value of 100, representing the tenth power of ten.\",\n    \"Formal Language\": \"100\"\n}\n```",
+    "```json\n{\n    \"Name\": \"2\",\n    \"Definition\": \"A numeral representing the integer that comes after 1 and before 3, and is the first even number.\",\n    \"Formal Language\": \"2 \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"18\",\n    \"Definition\": \"The natural number following 17 and preceding 19.\",\n    \"Formal Language\": \"18 \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Naught\",\n    \"Definition\": \"The term 'naught' traditionally means zero or nothing.\",\n    \"Formal Language\": \"Naught = 0\"\n}\n```",
+    "To provide the extracted information in the required JSON format, a recognizable and defined mathematical or educational term should be provided as input. The current input seems to be formatted as a JSON object but does not offer a clear term that requires a definition or formal language description. Please provide a relevant mathematical concept or term.\n\nIf \"3\" refers to the number three, here is an example of how that would be formatted:\n\n```json\n{\n    \"Name\": \"Number 3\",\n    \"Definition\": \"The integer immediately following 2 and preceding 4 on the number line\",\n    \"Formal Language\": \"3 \\in \\mathbb{Z} \\subseteq \\mathbb{R}\"\n}\n```\n\nNote: \\(\\mathbb{Z}\\) represents the set of all integers, and \\(\\mathbb{R}\\) represents the set of all real numbers.",
+    "```json\n{\n    \"Name\": \"4\",\n    \"Definition\": \"4 is a numerical digit and a symbol used to denote the number four, which is one more than three and one less than five.\",\n    \"Formal Language\": \"4 \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"30\",\n    \"Definition\": \"The number 30 is a natural number following 29 and preceding 31.\",\n    \"Formal Language\": \"30 \\in \\mathbb{N}\"\n}\n```",
+    "To clarify, the input provided doesn't specify a mathematical concept or operator by name. It seems like a potential reference or identifier. However, assuming you want to know about the number \"5\" as a concept in mathematics, I can provide information in that context recognizing \"5\" in its numerical and mathematical significance.\n\n```json\n{\n    \"Name\": \"Number 5\",\n    \"Definition\": \"5 is a numerical value representing a quantity or position in a set or series. It's part of the natural numbers, integers, and rational numbers.\",\n    \"Formal Language\": \"5 \\in \\mathbb{N}, \\mathbb{Z}, \\mathbb{Q}\"\n}\n```\n\nShould you have another specific concept in mind, please clarify or provide additional specifics.",
+    "{\n    \"Name\": \"42\",\n    \"Definition\": \"The number 42 is often considered a basic concept representing a whole number in mathematics. In a cultural context, it's also recognized as 'the answer to life, the universe, and everything' from Douglas Adams' 'The Hitchhiker's Guide to the Galaxy.'\",\n    \"Formal Language\": \"42 \\in \\mathbb{Z}\"\n}",
+    "{\n    \"Name\": \"6\",\n    \"Definition\": \"A numeric digit and a number that represents a quantity or position in a sequence; it is the natural number following 5 and preceding 7.\",\n    \"Formal Language\": \"6 \\in \\mathbb{N}, \\mathbb{Z}, \\mathbb{Q}, \\mathbb{R}, \\mathbb{C}\"\n}",
+    "{\n    \"Name\": \"7\",\n    \"Definition\": \"A prime number and also a natural number which appears as a digit in many numerical systems.\",\n    \"Formal Language\": \"7 \\in \\mathbb{N} \\wedge 7 \\in \\mathbb{P}\"\n}",
+    "```json\n{\n    \"Name\": \"Small Number\",\n    \"Definition\": \"A term used to describe a number that is relatively lesser in value compared to another or a given set context.\",\n    \"Formal Language\": \"Small Number \\in Real Numbers\"\n}\n```",
+    "{\n    \"Name\": \"8\",\n    \"Definition\": \"In mathematics, the number 8 is a numeral that comes after 7 and before 9. It is an even number and often used in basic arithmetic and counting.\",\n    \"Formal Language\": \"8 \\in \\mathbb{N}\"\n}",
+    "{\n    \"Name\": \"9\",\n    \"Definition\": \"The number that comes after 8 and before 10; a digit in the decimal number system.\",\n    \"Formal Language\": \"9 \\in \\mathbb{Z}\"\n}",
+    "```json\n{\n    \"Name\": \"243\",\n    \"Definition\": \"243 is a natural number that comes after 242 and before 244.\",\n    \"Formal Language\": \"243 \\in \\mathbb{N}\"\n}\n```",
+    "{\n    \"Name\": \"Thousand\",\n    \"Definition\": \"The number equal to 10^3, or 1000, used in various units of measurement and in rounding numbers.\",\n    \"Formal Language\": \"Thousand \\in \\mathbb{N}\"\n}",
+    "\"[Error] Input format seems incorrect. Please provide a list of mathematical terms or operators for analysis using JSON format, ensuring each term has its own entry.\"",
+    "```json\n{\n    \"Name\": \"1729\",\n    \"Definition\": \"The number 1729 is known as the Hardy-Ramanujan number, famous for being the smallest number expressible as the sum of two cubes in two different ways: 1^3 + 12^3 and 9^3 + 10^3.\",\n    \"Formal Language\": \"1729 = 1^3 + 12^3 = 9^3 + 10^3\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Unity\",\n    \"Definition\": \"Unity is typically referred to as the number 1, which is the multiplicative identity in mathematics. It is the number that, when multiplied by any other number, leaves the other number unchanged.\",\n    \"Formal Language\": \"Unity = 1 \\land \\forall a \\in \\mathbb{R}, a \\cdot 1 = a\"\n}\n```",
+    "{\n    \"Name\": \"12\",\n    \"Definition\": \"12 is a natural number following 11 and preceding 13.\",\n    \"Formal Language\": \"12 \\in \\mathbb{N}\"\n}",
+    "```json\n{\n    \"Name\": \"Zero\",\n    \"Definition\": \"The integer that represents no quantity or amount; it is the number between positive and negative numbers on the number line.\",\n    \"Formal Language\": \"Zero \\in Integer\"\n}\n```",
+    "{\n    \"Name\": \"13\",\n    \"Definition\": \"The natural number following 12 and preceding 14. It is often introduced in early arithmetic as part of counting and basic operations.\",\n    \"Formal Language\": \"13 \\in \\mathbb{N}\"\n}",
+    "```json\n{\n    \"Name\": \"Quintillion\",\n    \"Definition\": \"A number equal to 10 to the 18th power in the US, or 10 to the 30th power in many other countries.\",\n    \"Formal Language\": \"Quintillion \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Billion\",\n    \"Definition\": \"A billion is a numerical value equal to 1,000 million, or 10^9.\",\n    \"Formal Language\": \"Billion = 10^9\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Septillion\",\n    \"Definition\": \"A septillion is a number equal to 1 followed by 24 zeros (1,000,000,000,000,000,000,000,000) in the short scale used by the United States; it's 1 followed by 42 zeros (1,000,000,000,000,000,000,000,000,000,000,000,000,000,000) in the long scale used in parts of Europe.\",\n    \"Formal Language\": \"Septillion \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sextillion\",\n    \"Definition\": \"A large number equal to 10^21 in the short scale used in the United States, or 10^36 in the long scale used in some European countries.\",\n    \"Formal Language\": \"Sextillion = 10^{21} (short scale) or 10^{36} (long scale)\"\n}\n```",
+    "{\n    \"Name\": \"Decillion\",\n    \"Definition\": \"A number represented as one followed by 33 zeros in the American system or one followed by 60 zeros in the European system.\",\n    \"Formal Language\": \"Decillion \\in \\mathbb{N}\"\n}",
+    "```json\n{\n    \"Name\": \"Duodecillion\",\n    \"Definition\": \"A large number in the short scale that is 10^39 in the American and modern British system. In the long scale, used in some European countries, it refers to 10^72.\",\n    \"Formal Language\": \"Duodecillion \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Million\",\n    \"Definition\": \"A numerical value equal to one thousand thousands, or 10^6.\",\n    \"Formal Language\": \"Million = 10^6\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonillion\",\n    \"Definition\": \"A nonillion is a large number equal to 10 to the 30th power (1 followed by 30 zeros) in the short scale, commonly used in mathematical contexts to express very large quantities.\",\n    \"Formal Language\": \"Nonillion \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Novemdecillion\",\n    \"Definition\": \"A number with 60 zeros after it in the American system, and 114 zeros in the European system. It is represented as 10^60 in the American system.\",\n    \"Formal Language\": \"Novemdecillion \\in Large Number System\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Trillion\",\n    \"Definition\": \"Trillion is a numerical value represented as 1,000,000,000,000 in the decimal system, equivalent to 10^12.\",\n    \"Formal Language\": \"Trillion \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Googol\",\n    \"Definition\": \"A large number representing 10 to the power of 100, or 1 followed by 100 zeros.\",\n    \"Formal Language\": \"Googol = 10^{100}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Octillion\",\n    \"Definition\": \"A cardinal number represented by 1 followed by 27 zeros (in the short scale) or 1 followed by 48 zeros (in the long scale)\",\n    \"Formal Language\": \"Octillion \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Undecillion\",\n    \"Definition\": \"A very large number equal to 10^36 in the short scale, commonly used in countries like the United States, or 10^66 in the long scale, used in traditional British and European usage.\",\n    \"Formal Language\": \"Undecillion = 10^{36} (short scale) or Undecillion = 10^{66} (long scale)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Googolplex\",\n    \"Definition\": \"A googolplex is the number 10 to the power of a googol, which is 10^10^100.\",\n    \"Formal Language\": \"Googolplex = 10^{10^{100}}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Vigintillion\",\n    \"Definition\": \"A vigintillion is a number equal to 10 to the power of 63 in the short scale used in the United States, and 10 to the power of 120 in the long scale used in Europe.\",\n    \"Formal Language\": \"Vigintillion \\in Numerals\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quadrillion\",\n    \"Definition\": \"Quadrillion is a numerical value representing 1,000 trillion or 10^15.\",\n    \"Formal Language\": \"Quadrillion \\in Real \\ Numbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Odd Sequence\",\n    \"Definition\": \"A sequence of numbers in which every term is an odd number. For example, 1, 3, 5, 7, 9, ...\",\n    \"Formal Language\": \"Odd Sequence \\subseteq \\{2n + 1 \\mid n \\in \\mathbb{Z}\\}, \\, \\text{where each element is of the form } 2n + 1 \\text{ for } n \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Increasing Sequence\",\n    \"Definition\": \"A sequence in which each term is greater than or equal to the one before it.\",\n    \"Formal Language\": \"If a sequence {a_n}, then a_n ≤ a_(n+1) for all n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer Sequence\",\n    \"Definition\": \"A sequence is an ordered list of numbers, and an integer sequence is a sequence where each element is an integer.\",\n    \"Formal Language\": \"Integer Sequence \\in Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio\",\n    \"Definition\": \"A special number approximately equal to 1.618 that is often encountered in mathematics, art, and architecture. It is obtained when a line is divided into two parts such that the whole length divided by the long part is also equal to the long part divided by the short part.\",\n    \"Formal Language\": \"Golden Ratio \\varphi = \\frac{1+\\sqrt{5}}{2} \\approx 1.618\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio Conjugate\",\n    \"Definition\": \"The Golden Ratio Conjugate is the complementary value to the Golden Ratio, typically denoted by φ (phi), which is calculated as φ = 1 - Φ, where Φ is the Golden Ratio (approximately 1.61803). The Golden Ratio Conjugate itself is approximately 0.61803 and is often encountered in aesthetic proportions and natural phenomena.\",\n    \"Formal Language\": \"Golden Ratio Conjugate \\approx 0.61803 \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio Digits\",\n    \"Definition\": \"The decimal expansion of the golden ratio, which is an irrational number approximately equal to 1.618033988749895; it represents the constant ratio seen in many natural and artistic patterns.\",\n    \"Formal Language\": \"Digits(\\u03C6) \\approx 1.618033988749895\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pi Digits\",\n    \"Definition\": \"The digits that represent the mathematical constant π (pi), which is the ratio of a circle's circumference to its diameter, approximately 3.14159. In the educational context, students may learn about the first few decimal places.\",\n    \"Formal Language\": \"π \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pi Squared\",\n    \"Definition\": \"The mathematical constant pi (π) raised to the power of 2, often appearing in geometric and trigonometric formulas.\",\n    \"Formal Language\": \"π^2 \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mod\",\n    \"Definition\": \"The modulo operation, which finds the remainder after division of one number by another.\",\n    \"Formal Language\": \"Mod(a, b) = r where a = bq + r and 0 <= r < b\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rounding\",\n    \"Definition\": \"The process of adjusting a numerical value to a specified degree of precision, often to make it simpler or to fit a given requirement.\",\n    \"Formal Language\": \"Rounding \\in Approximation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Irrational Number\",\n    \"Definition\": \"A number that cannot be expressed as a fraction of two integers. It has a decimal expansion that does not terminate or repeat.\",\n    \"Formal Language\": \"Irrational \\notin \\mathbb{Q}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Casting Out Nines\",\n    \"Definition\": \"Casting out nines is a method of checking arithmetic calculations, specifically addition, subtraction, multiplication, and sometimes division, by using the properties of modulo 9.\",\n    \"Formal Language\": \"Casting Out Nines \\in VerificationMethod\"\n}\n```",
+    "{\n    \"Name\": \"Modular Arithmetic\",\n    \"Definition\": \"A system of arithmetic for integers, where numbers wrap around after they reach a certain value, called the modulus.\",\n    \"Formal Language\": \"a ≡ b (mod m) \\Leftrightarrow m | (a-b) \\text{ where } a, b, m \\in \\mathbb{Z}\"\n}",
+    "```json\n{\n    \"Name\": \"Consecutive Numbers\",\n    \"Definition\": \"Numbers that follow each other in order, differing by 1. For example, 3, 4, 5 are consecutive numbers.\",\n    \"Formal Language\": \"If n is an integer, then n, n+1, n+2,... are consecutive numbers.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer\",\n    \"Definition\": \"A whole number that can be positive, negative, or zero, and does not have a fractional or decimal part.\",\n    \"Formal Language\": \"Integer \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonnegative Integer\",\n    \"Definition\": \"An integer that is greater than or equal to zero. Nonnegative integers include zero and all positive integers.\",\n    \"Formal Language\": \"Nonnegative Integer \\in \\mathbb{Z}^{0+} = \\{0, 1, 2, 3, \\ldots\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonpositive Integer\",\n    \"Definition\": \"An integer that is less than or equal to zero. This includes all negative integers and zero.\",\n    \"Formal Language\": \"Nonpositive Integer \\in \\mathbb{Z} \\mid x \\leq 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Positive Integer\",\n    \"Definition\": \"A positive integer is any whole number greater than zero.\",\n    \"Formal Language\": \"Positive Integer \\in \\{1, 2, 3, \\ldots\\}\"\n}\n```",
+    "{\n    \"Name\": \"Rational Integer\",\n    \"Definition\": \"An integer is a rational number that can be expressed as a fraction where the denominator is 1.\",\n    \"Formal Language\": \"Rational Integer \\subseteq \\mathbb{Z} \\cap \\mathbb{Q}\"\n}",
+    "```json\n{\n    \"Name\": \"Singly Even Number\",\n    \"Definition\": \"A number that is divisible by 2 but not by 4, making it even but not evenly divisible by 4.\",\n    \"Formal Language\": \"Singly Even Number \\in { n \\mid n = 2k, k \\in \\mathbb{Z} \\land n \\not\\equiv 0 \\pmod{4} }\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Whole Number\",\n    \"Definition\": \"Whole numbers are non-negative integers, including zero. They are countable numbers without fractions or decimals.\",\n    \"Formal Language\": \"Whole Number \\in \\{0, 1, 2, 3, \\ldots\\}\"\n}\n```",
+    "{\n    \"Name\": \"Z^+\",\n    \"Definition\": \"The set of all positive integers, often referred to as the positive whole numbers.\",\n    \"Formal Language\": \"Z^+ = {1, 2, 3, ...} \\subseteq Z\"\n}",
+    "```json\n{\n    \"Name\": \"Real Number\",\n    \"Definition\": \"A value that represents a quantity along a continuous line, including all rational and irrational numbers.\",\n    \"Formal Language\": \"Real Number \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Reals\",\n    \"Definition\": \"The set of all rational and irrational numbers, which includes integers, fractions, and decimals both terminating and non-terminating.\",\n    \"Formal Language\": \"Reals \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rational Number\",\n    \"Definition\": \"A number that can be expressed as the quotient or fraction of two integers, where the numerator is an integer and the denominator is a non-zero integer.\",\n    \"Formal Language\": \"Rational Number \\in \\{ \\frac{a}{b} \\mid a, b \\in \\mathbb{Z}, b \\neq 0 \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sequence Rank\",\n    \"Definition\": \"Sequence rank refers to the position of a term within a sequence, often used to describe the order of elements.\",\n    \"Formal Language\": \"Sequence Rank \\in Integer\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Elementary Number Theory\",\n    \"Definition\": \"The branch of mathematics dedicated to the study of the integers and related concepts like divisibility, prime numbers, greatest common divisors, and modular arithmetic.\",\n    \"Formal Language\": \"Elementary Number Theory \\subset Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number Theory\",\n    \"Definition\": \"A branch of mathematics dealing with the properties and relationships of numbers, especially integers.\",\n    \"Formal Language\": \"NumberTheory \\subseteq \\mathbb{Z}\"\n}\n```",
+    "{\n    \"Name\": \"Negative\",\n    \"Definition\": \"Numbers less than zero.\",\n    \"Formal Language\": \"Negative \\in \\mathbb{R}: x < 0\"\n}",
+    "```json\n{\n    \"Name\": \"Negative Integer\",\n    \"Definition\": \"An integer that is less than zero, often represented with a negative sign in front of it, such as -1, -2, -3, etc.\",\n    \"Formal Language\": \"Negative Integer \\in \\mathbb{Z}^-, \\, \\forall x \\in \\mathbb{Z}, \\, x < 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonnegative\",\n    \"Definition\": \"A nonnegative number is a real number that is either positive or zero.\",\n    \"Formal Language\": \"Nonnegative \\in \\{x \\in \\mathbb{R} \\mid x \\geq 0\\}\"\n}\n```",
+    "{\n    \"Name\": \"Nonpositive\",\n    \"Definition\": \"A number is nonpositive if it is less than or equal to zero.\",\n    \"Formal Language\": \"Nonpositive \\in \\{x \\mid x \\leq 0\\}\"\n}",
+    "```json\n{\n    \"Name\": \"Nonzero\",\n    \"Definition\": \"A number or element that is not equal to zero.\",\n    \"Formal Language\": \"Nonzero \\in \\mathbb{R} \\setminus \\{0\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Positive\",\n    \"Definition\": \"A positive number is greater than zero.\",\n    \"Formal Language\": \"Positive \\in \\mathbb{R}^+\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binary\",\n    \"Definition\": \"A numeral system that represents numeric values using two symbols: 0 and 1. It is the base-2 numeral system used in computer science and digital electronics.\",\n    \"Formal Language\": \"Binary \\in NumeralSystem\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Base\",\n    \"Definition\": \"In mathematics, the base of a number system refers to the number of unique digits, including zero, used to represent numbers. For instance, base 10 is the decimal system, using digits 0-9.\",\n    \"Formal Language\": \"Base \\in NumberSystem\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number Length\",\n    \"Definition\": \"Refers to the number of digits or characters in a number when written in standard form.\",\n    \"Formal Language\": \"Number Length \\in Numeric Properties\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Decimal\",\n    \"Definition\": \"A number expressed in the base-10 numeral system, which uses ten symbols (0 through 9). Decimals can represent fractions using a decimal point.\",\n    \"Formal Language\": \"Decimal \\in Numbers \\subset \\mathbb{R}\"\n}\n```",
+    "{\n    \"Name\": \"Octal\",\n    \"Definition\": \"Octal is a base-8 number system used in mathematics and computing, employing the digits 0 to 7.\",\n    \"Formal Language\": \"Octal \\in Number Systems\"\n}",
+    "{\n    \"Name\": \"Decimal Expansion\",\n    \"Definition\": \"The representation of a real number as a series of digits separated by a decimal point. It includes both finite decimals and repeating decimals.\",\n    \"Formal Language\": \"Decimal Expansion \\in Real Numbers\"\n}",
+    "```json\n{\n    \"Name\": \"Duodecimal\",\n    \"Definition\": \"A numeral system with a base of 12, also known as the dozenal system.\",\n    \"Formal Language\": \"Duodecimal \\in NumeralSystem\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Radix\",\n    \"Definition\": \"The base of a number system, indicating the number of unique digits, including zero, used to represent numbers.\",\n    \"Formal Language\": \"Radix \\in Number System\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Regular Number\",\n    \"Definition\": \"A regular number is a positive integer whose prime factors are only 2, 3, or 5.\",\n    \"Formal Language\": \"RegularNumber \\in \\{ n \\in \\mathbb{Z}^+ | n = 2^a \\cdot 3^b \\cdot 5^c, \\, a, b, c \\in \\mathbb{Z}^0 \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Repeating Decimal\",\n    \"Definition\": \"A decimal in which a digit or group of digits repeats indefinitely.\",\n    \"Formal Language\": \"Repeating Decimal = a \\in \\mathbb{R} \\;|\\; a = n + m/10^k, \\; m = m_1m_2...m_k, \\; m_i \\text{ repeats}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Hexadecimal\",\n    \"Definition\": \"A base-16 number system that uses digits 0-9 and letters A-F, often used in computing as a more human-friendly representation of binary-coded values.\",\n    \"Formal Language\": \"Hexadecimal \\in Number Systems\"\n}\n```",
+    "{\n    \"Name\": \"Sexagesimal\",\n    \"Definition\": \"A numeral system with a base of 60, used in ancient civilizations and still used today in measuring time, angles, and geographic coordinates.\",\n    \"Formal Language\": \"Sexagesimal \\in Number System\"\n}",
+    "```json\n{\n    \"Name\": \"Sexdecillion\",\n    \"Definition\": \"A cardinal number represented by 10 to the power of 51 in the short scale system, and 10 to the power of 96 in the long scale system.\",\n    \"Formal Language\": \"Sexdecillion = 10^{51} \\text{ (short scale)}; Sexdecillion = 10^{96} \\text{ (long scale)}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Terminating Decimal\",\n    \"Definition\": \"A decimal number that has digits that do not go on forever. It ends after a certain number of digits.\",\n    \"Formal Language\": \"Terminating Decimal \\in NumberSystem\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ternary\",\n    \"Definition\": \"Relating to the number three, often used to describe a type of operator or numeral system involving three parts or elements.\",\n    \"Formal Language\": \"Ternary \\in Numeral System; Ternary Operator \\in Programming\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Long Division\",\n    \"Definition\": \"A method for dividing one multi-digit number by another, producing a quotient and a remainder.\",\n    \"Formal Language\": \"Long Division \\in Arithmetic\"\n}\n```",
+    "{\n    \"Name\": \"Reciprocal\",\n    \"Definition\": \"The reciprocal of a number is 1 divided by that number. It's the multiplicative inverse of the number.\",\n    \"Formal Language\": \"Reciprocal of a \\in Real numbers is 1/a where a ≠ 0\"\n}",
+    "```json\n{\n    \"Name\": \"Remainder\",\n    \"Definition\": \"The remainder is the amount left over after division when one number does not evenly divide into another.\",\n    \"Formal Language\": \"Remainder \\in Integer\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Multiplicand\",\n    \"Definition\": \"The number that is to be multiplied by another number (the multiplier) in a multiplication operation.\",\n    \"Formal Language\": \"Multiplicand \\in \\mathbb{R}, \\text{ used in } a \\times b = c \\text{ where } a \\text{ is the multiplicand}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Division Lemma\",\n    \"Definition\": \"A statement that for any two integers a and b (b ≠ 0), there exist unique integers q (quotient) and r (remainder) such that a = bq + r, where 0 ≤ r < |b|.\",\n    \"Formal Language\": \"For integers a, b with b ≠ 0, ∃! q, r ∈ ℤ such that a = bq + r and 0 ≤ r < |b|\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Multiplication Table\",\n    \"Definition\": \"A multiplication table is a table showing a list of multiplications between numbers, usually from 1 to 10 or 1 to 12, and is used to define numbers in a systematic and simplified way.\",\n    \"Formal Language\": \"Multiplication Table \\in Arithmetic\"\n}\n```",
+    "{\n    \"Name\": \"Integer Division\",\n    \"Definition\": \"Integer division is the division of one integer by another in which the resulting quotient is also an integer, with the remainder discarded.\",\n    \"Formal Language\": \"Integer Division: a // b = q where a, b, q \\in \\mathbb{Z} and a = bq + r, where 0 <= r < |b|\"\n}",
+    "```json\n{\n    \"Name\": \"Arithmetic\",\n    \"Definition\": \"A branch of mathematics that deals with numbers and the basic operations: addition, subtraction, multiplication, and division.\",\n    \"Formal Language\": \"Arithmetic \\in Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Carry\",\n    \"Definition\": \"In arithmetic, the carry is a digit that is transferred from one column of digits to another column of more significant digits during a calculation process.\",\n    \"Formal Language\": \"Carry \\in Arithmetic Operations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Anomalous Cancellation\",\n    \"Definition\": \"An incorrect mathematical simplification in which digits are mistakenly cancelled from both the numerator and the denominator of a fraction, often leading to a correct result by coincidence.\",\n    \"Formal Language\": \"Anomalous cancellation is not a formally accepted operation in standard arithmetic but is considered a mathematical curiosity.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Proper Fraction\",\n    \"Definition\": \"A fraction where the numerator is less than the denominator, meaning it represents a part of a whole.\",\n    \"Formal Language\": \"Proper Fraction = \\\\frac{a}{b}, a < b, a, b \\\\in \\\\mathbb{Z}^{+}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Fraction\",\n    \"Definition\": \"A representation of a part of a whole, consisting of a numerator and a denominator.\",\n    \"Formal Language\": \"Fraction = Numerator / Denominator\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quarter\",\n    \"Definition\": \"A fraction representing one of four equal parts of a whole.\",\n    \"Formal Language\": \"Quarter = 1/4\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Reduced Fraction\",\n    \"Definition\": \"A fraction in which the numerator and denominator have no common factors other than 1.\",\n    \"Formal Language\": \"Reduced \\frac{a}{b} \\text{ where gcd}(a, b) = 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Reducible Fraction\",\n    \"Definition\": \"A fraction that can be simplified or reduced by dividing both the numerator and the denominator by a common factor greater than 1.\",\n    \"Formal Language\": \"Reducible Fraction \\in Rational Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Common Fraction\",\n    \"Definition\": \"A way of expressing a number as the quotient of two integers, where the numerator is divided by the denominator. It is also known as a simple or vulgar fraction.\",\n    \"Formal Language\": \"Common Fraction \\in \\mathbb{Q}\"\n}\n```",
+    "{\n    \"Name\": \"Improper Fraction\",\n    \"Definition\": \"A fraction where the numerator is greater than or equal to the denominator.\",\n    \"Formal Language\": \"Improper Fraction \\in \\mathbb{Q}, \\text{where } \\frac{a}{b}, a \\geq b, b \\neq 0\"\n}",
+    "```json\n{\n    \"Name\": \"Irreducible Fraction\",\n    \"Definition\": \"A fraction in which the numerator and the denominator are coprime; meaning their greatest common divisor is 1, and it cannot be simplified further.\",\n    \"Formal Language\": \"If a fraction is \\(\\frac{a}{b}\\), then gcd(a, b) = 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Denominator\",\n    \"Definition\": \"The bottom part of a fraction, which indicates into how many equal parts the whole is divided.\",\n    \"Formal Language\": \"Denominator \\in Fraction\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mediant\",\n    \"Definition\": \"The mediant is a fraction formed by adding the numerators of two fractions and adding the denominators of those fractions to form a new fraction.\",\n    \"Formal Language\": \"If two fractions are \\\\( \\\\frac{a}{b} \\\\) and \\\\( \\\\frac{c}{d} \\\\), the mediant is \\\\( \\\\frac{a+c}{b+d} \\\\).\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Small Multiple Method\",\n    \"Definition\": \"A method used to find the least common multiple (LCM) of two or more integers by listing multiples of the numbers until a common multiple is found.\",\n    \"Formal Language\": \"SmallMultipleMethod \\subset \\mathbb{N} \\times \\mathbb{N} \\rightarrow \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mixed Fraction\",\n    \"Definition\": \"A mixed fraction is a whole number combined with a fraction, such as 1 3/4.\",\n    \"Formal Language\": \"Mixed Fraction = Integer + Proper Fraction\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Unit Fraction\",\n    \"Definition\": \"A fraction where the numerator is 1 and the denominator is a positive integer.\",\n    \"Formal Language\": \"Unit Fraction = \\\\frac{1}{n}, \\\\, n \\\\in \\\\mathbb{Z}^+\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Augend\",\n    \"Definition\": \"A number to which another number, the addend, is added.\",\n    \"Formal Language\": \"Augend \\u2208 \\u2115, \\u2116 \\u2208 \\u2115\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Minuend\",\n    \"Definition\": \"In subtraction, the minuend is the number from which another number (the subtrahend) is to be subtracted.\",\n    \"Formal Language\": \"Minuend - Subtrahend = Difference\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Truncation\",\n    \"Definition\": \"A mathematical process of limiting the number of digits right of the decimal point by removing some of them, effectively cutting off part of the number.\",\n    \"Formal Language\": \"Truncation \\in Approximation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonillion\",\n    \"Definition\": \"A nonillion is a cardinal number represented in the U.S. system as 1 followed by 30 zeros, or 10^30; in the European system, it is 1 followed by 54 zeros, or 10^54.\",\n    \"Formal Language\": \"Nonillion \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Novemdecillion\",\n    \"Definition\": \"A very large number in the number system. Specifically, in the American system, a novemdecillion is 10^60, while in the British system, it traditionally signifies 10^114.\",\n    \"Formal Language\": \"Novemdecillion \\in Large Numbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Trillion\",\n    \"Definition\": \"A trillion is a number equal to one thousand billion, or 10^12.\",\n    \"Formal Language\": \"Trillion \\in \\mathbb{N} \\text{ where } Trillion = 10^{12}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Googol\",\n    \"Definition\": \"A large number represented as 10 raised to the power of 100; it's 1 followed by 100 zeros.\",\n    \"Formal Language\": \"Googol = 10^{100}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Octillion\",\n    \"Definition\": \"An octillion is a number equal to 10^27 in the short scale or 10^48 in the long scale.\",\n    \"Formal Language\": \"Octillion \\in \\mathbb{N} (Number)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Undecillion\",\n    \"Definition\": \"A number equal to 10 to the 36th power (1 followed by 36 zeros in the short scale used in the United States, and 1 followed by 66 zeros in the long scale used in some European countries).\",\n    \"Formal Language\": \"Undecillion = 10^{36} (short scale) or 10^{66} (long scale)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Googolplex\",\n    \"Definition\": \"A googolplex is a mathematical term for 10 raised to the power of a googol, which is 10^100.\",\n    \"Formal Language\": \"Googolplex = 10^{10^{100}}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Vigintillion\",\n    \"Definition\": \"Vigintillion is a large number equivalent to 10^63 in the American numeral system.\",\n    \"Formal Language\": \"Vigintillion \\in Large Numbers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quadrillion\",\n    \"Definition\": \"A quadrillion is a thousand trillion, or 1 followed by 15 zeros in the short scale used in English-speaking countries.\",\n    \"Formal Language\": \"Quadrillion = 10^{15}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Odd Sequence\",\n    \"Definition\": \"A sequence of numbers where each term is an odd number, typically presented in an increasing order such as 1, 3, 5, 7, etc.\",\n    \"Formal Language\": \"Odd Sequence \\subseteq \\mathbb{Z} \\wedge \\forall n \\in \\mathbb{N}, \\, a_n = 2n - 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Increasing Sequence\",\n    \"Definition\": \"A sequence of numbers where each successive term is greater than or equal to the preceding term.\",\n    \"Formal Language\": \"A sequence {a_n} is increasing if a_{n+1} ≥ a_n for all n.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer Sequence\",\n    \"Definition\": \"A sequence whose terms are integers, usually defined by a specific rule or pattern.\",\n    \"Formal Language\": \"Integer Sequence \\in Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio\",\n    \"Definition\": \"The golden ratio is a mathematical constant approximately equal to 1.618033988749895, which is often denoted by the Greek letter phi (φ). It is defined such that a/b = (a+b)/a for positive numbers a and b, where a > b.\",\n    \"Formal Language\": \"φ = (1 + √5) / 2\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio Conjugate\",\n    \"Definition\": \"The golden ratio conjugate is the smaller of the two roots of the quadratic equation x^2 - x - 1 = 0, typically denoted by the Greek letter phi (φ') and is approximately equal to 0.6180339887. It is the reciprocal of the golden ratio (1.6180339887).\",\n    \"Formal Language\": \"Golden Ratio Conjugate φ' = \\\\frac{1}{\\\\phi} = \\\\phi - 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio Digits\",\n    \"Definition\": \"The digits of the golden ratio, an irrational number often denoted by the Greek letter phi (φ), approximately equal to 1.6180339887.\",\n    \"Formal Language\": \"Digits \\in \\mathbb{R}, \\Phi = \\frac{1 + \\sqrt{5}}{2}\"\n}\n```",
+    "{\n    \"Name\": \"Pi Digits\",\n    \"Definition\": \"The digits of the mathematical constant pi (π), which represent the ratio of a circle's circumference to its diameter.\",\n    \"Formal Language\": \"π = 3.14159... (an infinite non-repeating decimal)\"\n}",
+    "```json\n{\n    \"Name\": \"Pi Squared\",\n    \"Definition\": \"The value obtained by squaring the mathematical constant pi (π), approximately 9.8696.\",\n    \"Formal Language\": \"(\\u03C0)^2 \\in \\mathbb{R}\"\n}\n```",
+    "{\n    \"Name\": \"Mod\",\n    \"Definition\": \"The remainder after division of one number by another.\",\n    \"Formal Language\": \"Mod \\equiv b \\bmod a\"\n}",
+    "```json\n{\n    \"Name\": \"Rounding\",\n    \"Definition\": \"The process of adjusting a number to make it simpler and to reflect the value to its nearest specified place value.\",\n    \"Formal Language\": \"Rounding: \\text{Round}(x, n) \\rightarrow \\text{Adjust } x \\text{ to } n \\text{ decimal places or nearest unit}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Irrational Number\",\n    \"Definition\": \"A number that cannot be expressed as a fraction of two integers. Its decimal form is non-terminating and non-repeating.\",\n    \"Formal Language\": \"Irrational \\in \\mathbb{R} \\setminus \\mathbb{Q}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Casting Out Nines\",\n    \"Definition\": \"A quick method to check the correctness of arithmetic operations, specifically addition, subtraction, multiplication, and division, using properties of number congruences with respect to 9.\",\n    \"Formal Language\": \"Casting Out Nines \\in Arithmetic Verification\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Modular Arithmetic\",\n    \"Definition\": \"A system of arithmetic for integers, where numbers 'wrap around' upon reaching a certain value, the modulus.\",\n    \"Formal Language\": \"a ≡ b (mod n) \\iff n \\mid (a - b)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Consecutive Numbers\",\n    \"Definition\": \"Numbers that follow each other in order, without any gaps, from smallest to largest. For example, 1, 2, 3, and so on.\",\n    \"Formal Language\": \"Consecutive Numbers: n, n+1, n+2, \\ldots\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer\",\n    \"Definition\": \"A whole number that can be positive, negative, or zero, not including fractions or decimals.\",\n    \"Formal Language\": \"Integer \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonnegative Integer\",\n    \"Definition\": \"A nonnegative integer is an integer that is either zero or positive.\",\n    \"Formal Language\": \"Nonnegative Integer \\in \\{0, 1, 2, 3, \\ldots\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nonpositive Integer\",\n    \"Definition\": \"An integer that is either zero or negative, i.e., less than or equal to zero.\",\n    \"Formal Language\": \"Nonpositive Integer \\in \\{x \\mid x \\in \\mathbb{Z}, x \\leq 0\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Positive Integer\",\n    \"Definition\": \"A positive integer is any whole number greater than zero.\",\n    \"Formal Language\": \"Positive Integer \\in \\{1, 2, 3, \\ldots\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rational Integer\",\n    \"Definition\": \"A rational integer is one of the set of numbers consisting of the positive integers, negative integers, and zero, commonly known as the integers.\",\n    \"Formal Language\": \"Rational Integer \\in \\mathbb{Z}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Singly Even Number\",\n    \"Definition\": \"A singly even number is a number that is divisible by 2 but not by 4.\",\n    \"Formal Language\": \"SinglyEvenNumber = {x | x = 2k, x ≠ 4m for integers k, m}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Whole Number\",\n    \"Definition\": \"Whole numbers are non-negative numbers without any fractional or decimal part, including zero.\",\n    \"Formal Language\": \"Whole Number \\in \\mathbb{W} = \\{0, 1, 2, 3, \\ldots\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Z^+\",\n    \"Definition\": \"The set of all positive integers.\",\n    \"Formal Language\": \"Z^+ = \\\\{1, 2, 3, 4, ...\\\\}, where Z^+ \\subseteq Z\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Real Number\",\n    \"Definition\": \"A real number is any number that can be found on the number line. This includes all the rational and irrational numbers.\",\n    \"Formal Language\": \"Real Number \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Conservation of Number Principle\",\n    \"Definition\": \"A fundamental concept in cognitive development indicating that the number of objects remains the same even when they are rearranged or moved. This concept is typically understood by children as they develop numeracy skills.\",\n    \"Formal Language\": \"Not representable in formal numerical or set theory language, but is a fundamental principle underlying number cognition.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Squaring\",\n    \"Definition\": \"The mathematical operation of multiplying a number by itself.\",\n    \"Formal Language\": \"If x is a real number, squaring is represented as x^2 = x * x.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Crosssum\",\n    \"Definition\": \"The sum of the digits in a number. For example, the crosssum of 1234 is 1+2+3+4=10.\",\n    \"Formal Language\": \"Crosssum(n) = sum(d_i) for n = d_k d_{k-1} ... d_1 in decimal representation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Primitive Pythagorean Triple\",\n    \"Definition\": \"A primitive Pythagorean triple consists of three positive integers (a, b, c), such that a^2 + b^2 = c^2 and gcd(a, b, c) = 1.\",\n    \"Formal Language\": \"PrimitivePythagoreanTriple = {(a, b, c) \\in \\mathbb{Z}^3 : a^2 + b^2 = c^2, \\gcd(a, b, c) = 1}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ordinal Comparison\",\n    \"Definition\": \"Ordinal comparison involves evaluating the relative position or order of elements without considering the actual numerical difference between them.\",\n    \"Formal Language\": \"Ordinal comparison \\in Order theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ordinal Number\",\n    \"Definition\": \"A number that indicates the position or order of something in a list, such as first, second, third, etc.\",\n    \"Formal Language\": \"Ordinal \\in Number \\text{ with position context}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Predecessor\",\n    \"Definition\": \"A predecessor is a number that comes immediately before another number in a sequence. For any integer n, the predecessor is n-1.\",\n    \"Formal Language\": \"Predecessor(n) = n - 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Successor\",\n    \"Definition\": \"The successor of a number is the number that comes immediately after it in a given sequence, often obtained by adding one to it.\",\n    \"Formal Language\": \"Successor(n) = n + 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Natural Number\",\n    \"Definition\": \"The set of positive integers, often including zero, denoted by symbols like 0, 1, 2, 3, and so on.\",\n    \"Formal Language\": \"Natural Number \\in \\mathbb{N}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Counting Number\",\n    \"Definition\": \"Counting numbers are the set of positive integers that start from 1 and increase incrementally by 1 (i.e., 1, 2, 3, ...). They are used for counting objects.\",\n    \"Formal Language\": \"Counting Number \\in \\{1, 2, 3, \\ldots\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Infinite\",\n    \"Definition\": \"A concept describing something without any limit or end, often used to describe numbers larger than any real number.\",\n    \"Formal Language\": \"Infinite \\in Concept\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Infinite Set\",\n    \"Definition\": \"An infinite set is a set that does not have a finite number of elements. In other words, the elements of the set cannot be counted or precisely determined.\",\n    \"Formal Language\": \"Infinite Set \\infra Set\"\n}\n```",
+    "{\n    \"Name\": \"Cardinal Number\",\n    \"Definition\": \"A cardinal number is a number that expresses quantity, indicating how many of something there are, as opposed to an ordinal number, which indicates position or order.\",\n    \"Formal Language\": \"Cardinal Number \\in \\mathbb{N} \\cup \\{0\\}\"\n}",
+    "```json\n{\n    \"Name\": \"Magic Square\",\n    \"Definition\": \"A magic square is a grid of numbers where the sums of numbers in each row, column, and diagonal are the same.\",\n    \"Formal Language\": \"MagicSquare \\in \\text{Matrix} : \\sum \\text{Row} = \\sum \\text{Column} = \\sum \\text{Diagonal}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Factorial Sums\",\n    \"Definition\": \"The sum of factorials is the addition of multiple factorial expressions. A factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.\",\n    \"Formal Language\": \"Factorial \\in n! = n \\cdot (n-1) \\cdot ... \\cdot 2 \\cdot 1\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Conjecture\",\n    \"Definition\": \"An unproven statement that is based on observations or logical reasoning and is proposed as a true statement but lacks proof.\",\n    \"Formal Language\": \"Conjecture \\in Logic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Finitely Terminating\",\n    \"Definition\": \"A process or sequence that comes to an end after a finite number of steps or iterations.\",\n    \"Formal Language\": \"Finitely Terminating \\in Process\"\n}\n```",
+    "{\n    \"Name\": \"Significand\",\n    \"Definition\": \"The part of a floating-point number that represents the significant digits of the number.\",\n    \"Formal Language\": \"Significand \\in Float\"\n}",
+    "```json\n{\n    \"Name\": \"Pair\",\n    \"Definition\": \"A set of two related or associated elements\",\n    \"Formal Language\": \"Pair \\in Set\"\n}\n```",
+    "{\n    \"Name\": \"Lexicographic Order\",\n    \"Definition\": \"A generalization of the way words are alphabetically ordered in dictionaries to sequences of ordered elements.\",\n    \"Formal Language\": \"Lexicographic order \\in Ordering\"\n}",
+    "{\n    \"Name\": \"Factorial\",\n    \"Definition\": \"The product of all positive integers up to a given number n, denoted by n!\",\n    \"Formal Language\": \"n! = n \\cdot (n-1) \\cdot (n-2) \\cdot ... \\cdot 1, for n \\in \\mathbb{N}\"\n}",
+    "```json\n{\n    \"Name\": \"Partition\",\n    \"Definition\": \"A way of dividing a set or entity into discrete parts that do not overlap and cover the entire set\",\n    \"Formal Language\": \"Partition \\subset S: S = A_1 \\cup A_2 \\cup \\dots \\cup A_n and A_i \\cap A_j = \\emptyset for all i ≠ j\"\n}\n```",
+    "{\n    \"Name\": \"Dirichlet's Box Principle\",\n    \"Definition\": \"A principle stating that if n items are put into m containers, with n > m, then at least one container must contain more than one item.\",\n    \"Formal Language\": \"Dirichlet's Box Principle \\in Countable Sets\"\n}",
+    "{\n    \"Name\": \"Nonnegative Partial Sum\",\n    \"Definition\": \"The sum of a specified number of initial terms of a sequence, where all terms are nonnegative.\",\n    \"Formal Language\": \"Nonnegative Partial Sum \\in Sequence, Sum\"\n}",
+    "{\n    \"Name\": \"Unitization\",\n    \"Definition\": \"The process of converting a set of items into a defined unit of measure.\",\n    \"Formal Language\": \"Unitization \\in Measurement\"\n}",
+    "{\n    \"Name\": \"Modular Operator\",\n    \"Definition\": \"An operator that returns the remainder of the division of one number by another.\",\n    \"Formal Language\": \"a % b = c, where a, b \\in Integers and c is the remainder when a is divided by b\"\n}",
+    "```json\n{\n    \"Name\": \"Factorial Products\",\n    \"Definition\": \"The product of all positive integers up to a given number n, denoted as n!. For example, 5! = 5 × 4 × 3 × 2 × 1 = 120.\",\n    \"Formal Language\": \"Factorial(n) = n! = n × (n-1) × ... × 1\"\n}\n```",
+    "{\n    \"Name\": \"Pythagorean Means\",\n    \"Definition\": \"A set of three classical means - arithmetic mean, geometric mean, and harmonic mean, which relate to basic measurements of central tendency\",\n    \"Formal Language\": \"Pythagorean Means \\in Statistics\"\n}",
+    "{\n    \"Name\": \"Cube Root\",\n    \"Definition\": \"The cube root of a number is a value that, when multiplied by itself twice, gives the original number.\",\n    \"Formal Language\": \"Cube root of x = \\u221Bx\"\n}",
+    "{\n    \"Name\": \"Cubed\",\n    \"Definition\": \"The result of multiplying a number by itself twice\",\n    \"Formal Language\": \"Cubed \\in Exponentiation: x^3 = x * x * x\"\n}",
+    "{\n    \"Name\": \"Odd Power\",\n    \"Definition\": \"The result of raising a number to an odd exponent. It will have the same sign as the base number.\",\n    \"Formal Language\": \"If n is an odd integer, a^n where a is any real number and n ∈ ℤ, then a^n will maintain the sign of a.\"\n}",
+    "{\n    \"Name\": \"Significand\",\n    \"Definition\": \"The part of a number in scientific notation or floating-point representation that contains its significant digits. It is multiplied by a power of the base (usually 2 or 10) to give the original number.\",\n    \"Formal Language\": \"Significand \\in [Base-1,Base)\"\n}",
+    "{\n    \"Name\": \"Pair\",\n    \"Definition\": \"A set of two related numbers or elements.\",\n    \"Formal Language\": \"Pair ∈ Set\"\n}",
+    "{\n    \"Name\": \"Factorial\",\n    \"Definition\": \"The product of an integer and all the integers below it, denoted by n! and defined as n! = n × (n − 1) × (n − 2) × ... × 1 for n ≥ 1 and 0! = 1.\",\n    \"Formal Language\": \"n! = n × (n − 1) × ... × 1, ∀n ≥ 1 with 0! = 1\"\n}",
+    "{\n    \"Name\": \"Partition\",\n    \"Definition\": \"A division of a set into non-overlapping, non-empty subsets such that every element is included in one of the subsets.\",\n    \"Formal Language\": \"Partition \\in Set \\to \\{ S_1, S_2, ..., S_n \\} \\mid \\forall i,j (S_i \\bigcap S_j = \\emptyset \\text{ if } i \\neq j) \\land \\bigcup_{i=1}^n S_i = Set\"\n}",
+    "{\n    \"Name\": \"Dirichlet's Box Principle\",\n    \"Definition\": \"A principle in mathematics stating that if n items are put into m containers, with n > m, then at least one container must contain more than one item.\",\n    \"Formal Language\": \"Dirichlet's Box Principle \\in Combinatorics\"\n}",
+    "{\n    \"Name\": \"Number Picking\",\n    \"Definition\": \"Number Picking is a concept where one selects a number, often within a particular range or set, commonly used in probability, statistics, and games.\",\n    \"Formal Language\": \"Number Picking \\in ProbabilityTheory\"\n}",
+    "{\n    \"Name\": \"Ordering\",\n    \"Definition\": \"The arrangement or sequence of objects or numbers based on a particular criterion, such as ascending or descending.\",\n    \"Formal Language\": \"Ordering \\in Sequence\"\n}",
+    "Here is the extracted information in JSON format:\n\n```json\n{\n    \"Name\": \"Letter\",\n    \"Definition\": \"A symbol or character that is used in writing and printing to represent one or more of the sounds used in speech, part of the alphabet.\",\n    \"Formal Language\": \"Letter \\in Symbol\"\n}\n```",
+    "{\n    \"Name\": \"Modular Operator\",\n    \"Definition\": \"An operator that returns the remainder of a division operation between two numbers.\",\n    \"Formal Language\": \"Mod(x, y) = r where x = qy + r and 0 ≤ r < y\"\n}",
+    "{\n    \"Name\": \"Pythagorean Means\",\n    \"Definition\": \"A set of three classical means in mathematics: the arithmetic mean, geometric mean, and harmonic mean.\",\n    \"Formal Language\": \"Pythagorean Means = {Arithmetic Mean, Geometric Mean, Harmonic Mean}\"\n}",
+    "{\n    \"Name\": \"Square Root\",\n    \"Definition\": \"A number which produces a specified quantity when multiplied by itself.\",\n    \"Formal Language\": \"Square Root of a = √a\"\n}",
+    "{\n    \"Name\": \"Cube Root\",\n    \"Definition\": \"A cube root of a number is a value that, when multiplied by itself three times, gives the original number.\",\n    \"Formal Language\": \"Cube Root \\in Number \\ni\\sqrt[3]{x} = y \\leftarrow y^3 = x\"\n}",
+    "{\n    \"Name\": \"Vinculum\",\n    \"Definition\": \"A horizontal line used in mathematical notation, frequently placed over a group of terms to indicate they should be considered together or over repeating decimal digits.\",\n    \"Formal Language\": \"Vinculum \\in Operator\"\n}",
+    "{\n    \"Name\": \"Cubed\",\n    \"Definition\": \"The result of a number multiplied by itself twice (the number raised to the third power).\",\n    \"Formal Language\": \"Cubed: a^3 where a is any real number\"\n}"
 ]

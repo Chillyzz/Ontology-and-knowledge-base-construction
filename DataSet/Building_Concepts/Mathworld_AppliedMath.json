@@ -1,1622 +1,272 @@
 [
-    {
-        "id": 510,
-        "Name": "Loop",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 627,
-        "Name": "String Figure",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 850,
-        "Name": "Run-Length Encoding",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 870,
-        "Name": "Moving Average",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 895,
-        "Name": "Time Series",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 919,
-        "Name": "Linear Regression",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 943,
-        "Name": "Root-Mean-Square",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 978,
-        "Name": "Standard Unit",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1150,
-        "Name": "Absolute Error",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1157,
-        "Name": "Error",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1159,
-        "Name": "Estimate",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1163,
-        "Name": "Percentage Error",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1164,
-        "Name": "Precision",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1165,
-        "Name": "Relative Error",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1167,
-        "Name": "Significant Digits",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1976,
-        "Name": "Word Sequence",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2345,
-        "Name": "Gross",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 287,
-        "Name": "e",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 352,
-        "Name": "Golden Ratio Approximations",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 386,
-        "Name": "Moving Ladder Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 416,
-        "Name": "Pi Approximations",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 452,
-        "Name": "Roundoff Error",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 558,
-        "Name": "Integration Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 577,
-        "Name": "Enumerate",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 686,
-        "Name": "Russian Multiplication",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 706,
-        "Name": "Borrow",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 708,
-        "Name": "Reverse Polish Notation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 710,
-        "Name": "Percentage Point",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 711,
-        "Name": "Permil",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 723,
-        "Name": "Golden Rule",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 752,
-        "Name": "Percent",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 872,
-        "Name": "Inverse Sine",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 971,
-        "Name": "Cake Cutting",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 990,
-        "Name": "Three Jug Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1023,
-        "Name": "Billiards",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1143,
-        "Name": "Cell",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1697,
-        "Name": "Spider and Fly Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1699,
-        "Name": "Acceleration",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1706,
-        "Name": "Angular Acceleration",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1709,
-        "Name": "Angular Velocity",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1811,
-        "Name": "Temperature",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1824,
-        "Name": "Velocity",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1847,
-        "Name": "Latitude",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1857,
-        "Name": "Longitude",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1859,
-        "Name": "Meridian",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1896,
-        "Name": "South Pole",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 287,
-        "Name": "e",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 352,
-        "Name": "Golden Ratio Approximations",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 386,
-        "Name": "Moving Ladder Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 416,
-        "Name": "Pi Approximations",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 452,
-        "Name": "Roundoff Error",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 19,
-        "Name": "Anamorphic Art",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 417,
-        "Name": "Simple Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 451,
-        "Name": "Right-Hand Rule",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 472,
-        "Name": "Log Plot",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 557,
-        "Name": "Robinson Projection",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 563,
-        "Name": "Cartography",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 572,
-        "Name": "Map Projection",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 575,
-        "Name": "Mercator Projection",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1462,
-        "Name": "Uniform Circular Motion",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1662,
-        "Name": "Q.E.D.",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1667,
-        "Name": "Reductio ad Absurdum",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1675,
-        "Name": "Theorem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1702,
-        "Name": "Fallacy",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1742,
-        "Name": "Element",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1766,
-        "Name": "Conjunction",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1776,
-        "Name": "Union",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1850,
-        "Name": "AND",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1855,
-        "Name": "NOR",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1858,
-        "Name": "NOT",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1859,
-        "Name": "Inclusive Disjunction",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1866,
-        "Name": "XOR",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1869,
-        "Name": "NAND",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1964,
-        "Name": "Infinity",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2016,
-        "Name": "Latin Square",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2027,
-        "Name": "Mastermind",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2032,
-        "Name": "Tower of Hanoi",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2076,
-        "Name": "Checkers",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2109,
-        "Name": "Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2114,
-        "Name": "Mathematics Contests",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2165,
-        "Name": "Game of Logic",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2169,
-        "Name": "Analogy",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2194,
-        "Name": "Sentence",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2205,
-        "Name": "Interpretation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2209,
-        "Name": "Conclusion",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2230,
-        "Name": "Contradiction Law",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2235,
-        "Name": "Tautology",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2237,
-        "Name": "Logic",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2249,
-        "Name": "Deduction",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2257,
-        "Name": "Model",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2260,
-        "Name": "Modus Ponens",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2282,
-        "Name": "Premise",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2286,
-        "Name": "For All",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2293,
-        "Name": "Formula",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 46,
-        "Name": "Quota Rule",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 101,
-        "Name": "Noise",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 123,
-        "Name": "15 Puzzle",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 156,
-        "Name": "Weighted Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 158,
-        "Name": "Network",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 159,
-        "Name": "Weighted Tree",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 181,
-        "Name": "Bipartite Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 230,
-        "Name": "Map Coloring",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 236,
-        "Name": "Acyclic Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 270,
-        "Name": "Tree Height",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 274,
-        "Name": "Complete Binary Tree",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 332,
-        "Name": "Grid Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 346,
-        "Name": "Graph Bar",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 355,
-        "Name": "Graph Edge",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 360,
-        "Name": "Resistor Network",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 383,
-        "Name": "Adjacency List",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 422,
-        "Name": "Route",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 428,
-        "Name": "Shortest Path Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 436,
-        "Name": "Hamming Distance",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 556,
-        "Name": "Depth-First Traversal",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 577,
-        "Name": "Simple Directed Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 600,
-        "Name": "Undirected Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 601,
-        "Name": "Directed Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 655,
-        "Name": "Travel Time",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 680,
-        "Name": "Graph Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 686,
-        "Name": "Distance Matrix",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 687,
-        "Name": "Shortest Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 693,
-        "Name": "Eulerian Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 696,
-        "Name": "K\u679anigsberg Bridge Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 737,
-        "Name": "Matching",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 755,
-        "Name": "Graph Cycle",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 763,
-        "Name": "Circuit",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 890,
-        "Name": "Simple Program",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 897,
-        "Name": "Algorithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 903,
-        "Name": "Encoding",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 922,
-        "Name": "Computation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 924,
-        "Name": "Computation Time",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 931,
-        "Name": "Binary Search",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 937,
-        "Name": "Pancake Sorting",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 940,
-        "Name": "Searching",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 941,
-        "Name": "Selection Sort",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 943,
-        "Name": "Sorting",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 953,
-        "Name": "Floating-Point Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 956,
-        "Name": "Floating-Point Representation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 958,
-        "Name": "NaN",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 972,
-        "Name": "Cryptography",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 986,
-        "Name": "Bit",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 988,
-        "Name": "Bit Rate",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 991,
-        "Name": "Byte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 992,
-        "Name": "Kilobyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 993,
-        "Name": "Queue",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 994,
-        "Name": "List",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 997,
-        "Name": "Mebibyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 999,
-        "Name": "Megabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1002,
-        "Name": "Stack",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1009,
-        "Name": "Nibble",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1012,
-        "Name": "Terabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1016,
-        "Name": "Gibibyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1018,
-        "Name": "Gigabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1025,
-        "Name": "Recursion",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1031,
-        "Name": "Program",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1036,
-        "Name": "Iteration",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1047,
-        "Name": "Exhaustive Search",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1072,
-        "Name": "Concatenation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1073,
-        "Name": "Weighing",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1091,
-        "Name": "Juggling",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1105,
-        "Name": "Combination Lock",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1183,
-        "Name": "Domino",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1226,
-        "Name": "Wave",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1271,
-        "Name": "Number Picking",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1275,
-        "Name": "Backtracking",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1276,
-        "Name": "Handshake Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1286,
-        "Name": "Rooks Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1287,
-        "Name": "Series-Parallel Network",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1321,
-        "Name": "Knights Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1336,
-        "Name": "Lights Out Puzzle",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1411,
-        "Name": "Alphabet",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1421,
-        "Name": "Checksum",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1423,
-        "Name": "Code",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1430,
-        "Name": "UPC",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1463,
-        "Name": "Game of Life",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1515,
-        "Name": "Riemann Sum",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1516,
-        "Name": "Energy",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1660,
-        "Name": "Current",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1781,
-        "Name": "Square Wave",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1958,
-        "Name": "Exponential Decay",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1960,
-        "Name": "Exponential Growth",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2116,
-        "Name": "Vinculum",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 101,
-        "Name": "Noise",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 123,
-        "Name": "15 Puzzle",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 156,
-        "Name": "Weighted Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 158,
-        "Name": "Network",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 181,
-        "Name": "Bipartite Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 228,
-        "Name": "Vertex Coloring",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 230,
-        "Name": "Map Coloring",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 236,
-        "Name": "Acyclic Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 248,
-        "Name": "Binary Tree",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 261,
-        "Name": "Ternary Tree",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 278,
-        "Name": "Complete Tree",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 346,
-        "Name": "Graph Bar",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 355,
-        "Name": "Graph Edge",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 360,
-        "Name": "Resistor Network",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 368,
-        "Name": "Graph Vertex",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 387,
-        "Name": "Graph Diameter",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 405,
-        "Name": "Graph Order",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 422,
-        "Name": "Route",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 428,
-        "Name": "Shortest Path Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 436,
-        "Name": "Hamming Distance",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 491,
-        "Name": "Adjacency Matrix",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 549,
-        "Name": "Breadth-First Traversal",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 556,
-        "Name": "Depth-First Traversal",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 577,
-        "Name": "Simple Directed Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 598,
-        "Name": "Outdegree",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 600,
-        "Name": "Undirected Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 601,
-        "Name": "Directed Graph",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 655,
-        "Name": "Travel Time",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 687,
-        "Name": "Shortest Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 693,
-        "Name": "Eulerian Path",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 696,
-        "Name": "K\u679anigsberg Bridge Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 755,
-        "Name": "Graph Cycle",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 763,
-        "Name": "Circuit",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 890,
-        "Name": "Simple Program",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 897,
-        "Name": "Algorithm",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 903,
-        "Name": "Encoding",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 922,
-        "Name": "Computation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 924,
-        "Name": "Computation Time",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 931,
-        "Name": "Binary Search",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 936,
-        "Name": "Merge Sort",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 939,
-        "Name": "Radix Sort",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 940,
-        "Name": "Searching",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 941,
-        "Name": "Selection Sort",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 943,
-        "Name": "Sorting",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 949,
-        "Name": "Floating-Point Arithmetic",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 953,
-        "Name": "Floating-Point Number",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 973,
-        "Name": "Cryptology",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 986,
-        "Name": "Bit",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 989,
-        "Name": "Kibibyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 991,
-        "Name": "Byte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 992,
-        "Name": "Kilobyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 993,
-        "Name": "Queue",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 994,
-        "Name": "List",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 999,
-        "Name": "Megabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1000,
-        "Name": "Database",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1002,
-        "Name": "Stack",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1005,
-        "Name": "String",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1009,
-        "Name": "Nibble",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1012,
-        "Name": "Terabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1018,
-        "Name": "Gigabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1021,
-        "Name": "Petabyte",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1025,
-        "Name": "Recursion",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1031,
-        "Name": "Program",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1036,
-        "Name": "Iteration",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1047,
-        "Name": "Exhaustive Search",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1072,
-        "Name": "Concatenation",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1073,
-        "Name": "Weighing",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1105,
-        "Name": "Combination Lock",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1183,
-        "Name": "Domino",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1226,
-        "Name": "Wave",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1276,
-        "Name": "Handshake Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1286,
-        "Name": "Rooks Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1287,
-        "Name": "Series-Parallel Network",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1312,
-        "Name": "Integer Array",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1321,
-        "Name": "Knights Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1336,
-        "Name": "Lights Out Puzzle",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1383,
-        "Name": "Bracketing",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1423,
-        "Name": "Code",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1516,
-        "Name": "Energy",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1660,
-        "Name": "Current",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1768,
-        "Name": "Book Stacking Problem",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1781,
-        "Name": "Square Wave",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1786,
-        "Name": "Step Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1793,
-        "Name": "Rectangle Function",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1794,
-        "Name": "Triangle Wave",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 1958,
-        "Name": "Exponential Decay",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2112,
-        "Name": "Square Root Algorithms",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    },
-    {
-        "id": 2200,
-        "Name": "Ln",
-        "Suitable for K-12": "Yes",
-        "Category": "Applied Math"
-    }
+    "```json\n{\n    \"Name\": \"Loop\",\n    \"Definition\": \"A sequence of instructions that is continually repeated until a certain condition is reached, often used in computer programming.\",\n    \"Formal Language\": \"Loop ∈ ProgrammingConstruct\"\n}\n```",
+    "```json\n{\n    \"Name\": \"String Figure\",\n    \"Definition\": \"A string figure is a design created by weaving and manipulating a loop of string, often on the fingers. It's typically a cultural and recreational activity rather than a formal mathematical concept.\",\n    \"Formal Language\": \"String Figure \\notin Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Run-Length Encoding\",\n    \"Definition\": \"A data compression technique that represents consecutive repeated characters or values with a single character or value followed by the count of repetitions.\",\n    \"Formal Language\": \"RLE: S -> (c, n) where c is a character and n is the count of repetitions\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Moving Average\",\n    \"Definition\": \"A moving average is a statistical calculation used to analyze data points by creating averages of different subsets of the full data set. It is often used in time series data to smooth out short-term fluctuations and highlight longer-term trends or cycles.\",\n    \"Formal Language\": \"MovingAverage(X, n) = (X_{1}+X_{2}+...+X_{n})/n \\quad where \\, X \\, is \\, a \\, data \\, set \\, and \\, n \\, is \\, the \\, number \\, of \\, data \\, points.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Time Series\",\n    \"Definition\": \"A time series is a sequence of data points typically measured at successive times, spaced at uniform time intervals.\",\n    \"Formal Language\": \"Time Series \\in \\mathbb{R}^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Linear Regression\",\n    \"Definition\": \"A statistical method used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data.\",\n    \"Formal Language\": \"Linear Regression: y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ + ε, where y is the dependent variable, x₁, x₂, ..., xₙ are independent variables, β₀, β₁, ..., βₙ are coefficients, and ε is the error term.\"\n}\n```",
+    "{\n    \"Name\": \"Root-Mean-Square\",\n    \"Definition\": \"A statistical measure of the magnitude of a varying quantity. It is especially useful in contexts where the average of absolute values is required, such as in engineering and physics.\",\n    \"Formal Language\": \"RMS = \\\\sqrt{\\\\frac{1}{n} \\\\sum_{i=1}^{n} x_i^2}\"\n}",
+    "```json\n{\n    \"Name\": \"Standard Unit\",\n    \"Definition\": \"A standard unit is a unit of measurement that is recognized and used consistently in a system. Examples include meters for length, kilograms for mass, and seconds for time.\",\n    \"Formal Language\": \"Standard Unit \\in Measurement\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Absolute Error\",\n    \"Definition\": \"The absolute value of the difference between the measured value and the true value.\",\n    \"Formal Language\": \"Absolute Error = |Measured value - True value|\"\n}\n```",
+    "{\n    \"Name\": \"Error\",\n    \"Definition\": \"In mathematics, an error is the difference between a computed, estimated, or measured value and the true, specified, or theoretically correct value.\",\n    \"Formal Language\": \"Error \\in Numerical Analysis\"\n}",
+    "```json\n{\n    \"Name\": \"Estimate\",\n    \"Definition\": \"An educated guess or approximation of a quantity based on known information or calculations.\",\n    \"Formal Language\": \"Estimate \\in Approximation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Percentage Error\",\n    \"Definition\": \"The difference between the approximate or measured value and the exact or known value, expressed as a percentage of the known value.\",\n    \"Formal Language\": \"Percentage Error = |(Measured Value - True Value) / True Value| × 100%\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Precision\",\n    \"Definition\": \"Precision refers to the level of detail in a numerical measurement, specifically how finely measured or exact the value is. It is about the repeatability of the measurement results.\",\n    \"Formal Language\": \"Precision \\in Measurement\\ Accuracy\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Relative Error\",\n    \"Definition\": \"The measure of the uncertainty of a measurement compared to the size of the measurement. It is often expressed as a percentage.\",\n    \"Formal Language\": \"Relative Error = \\\\frac{| \\text{approximate value} - \\text{exact value} |}{| \\text{exact value} |} \\\\times 100\\\\%\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Significant Digits\",\n    \"Definition\": \"The numbers that carry meaning contributing to its accuracy. This includes all non-zero numbers, zeros between significant digits, and trailing zeros in a decimal.\",\n    \"Formal Language\": \"Significant Digits \\in Measurement\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Word Sequence\",\n    \"Definition\": \"An ordered list of words typically arranged to form a coherent sentence or a structured list.\",\n    \"Formal Language\": \"Word Sequence \\in Language\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Gross\",\n    \"Definition\": \"Gross refers to the total amount before any deductions are made, such as taxes or costs.\",\n    \"Formal Language\": \"Gross \\in Financial Concepts\"\n}\n```",
+    "```json\n{\n    \"Name\": \"e\",\n    \"Definition\": \"The constant approximately equal to 2.71828, which is the base of the natural logarithm.\",\n    \"Formal Language\": \"e ∈ ℝ, where e \\approx 2.71828\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio Approximations\",\n    \"Definition\": \"Golden Ratio Approximations refer to numerical methods or sequences that estimate the value of the golden ratio, a special number approximately equal to 1.618033988749895, which exhibits unique mathematical properties and appears in various patterns in nature, art, and architecture.\",\n    \"Formal Language\": \"Golden Ratio Approximations ∈ Numerical Methods\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Moving Ladder Problem\",\n    \"Definition\": \"A classic rate-of-change problem often used to illustrate concepts in calculus involving a ladder sliding down a wall with the constraints of fixed lengths and angles changing over time.\",\n    \"Formal Language\": \"Related Rates \\in Calculus\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pi Approximations\",\n    \"Definition\": \"The process of estimating the numerical value of Pi (π), which is the ratio of the circumference of a circle to its diameter.\",\n    \"Formal Language\": \"Pi Approximations \\approx \\frac{C}{D}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Roundoff Error\",\n    \"Definition\": \"The difference between the calculated approximation of a number and its exact mathematical value due to rounding.\",\n    \"Formal Language\": \"Roundoff Error \\in \\Real \\to \\Real\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integration\",\n    \"Definition\": \"The process of finding the integral of a function, which represents the accumulation of quantities and the area under a curve.\",\n    \"Formal Language\": \"Integral \\in Calculus\"\n}\n```",
+    "{\n    \"Name\": \"Enumerate\",\n    \"Definition\": \"To list or count off one by one. In mathematics, it often involves listing elements in a set or sequence.\",\n    \"Formal Language\": \"Enumerate \\in Operations\"\n}",
+    "```json\n{\n    \"Name\": \"Russian Multiplication\",\n    \"Definition\": \"An ancient multiplication technique involving halving one number and doubling the other, discarding halves under 1, and summing appropriate values.\",\n    \"Formal Language\": \"Russian Multiplication involves halving and doubling: For an integer pair (a, b) to find a*b, halve a discarding remainders, double b, and sum the b's where a is odd.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Borrow\",\n    \"Definition\": \"In subtraction, borrowing is a process used when a digit in a column is too small to subtract the corresponding digit in the other number, so 10 is borrowed from the next higher place value.\",\n    \"Formal Language\": \"Borrow \\in Arithmetic Operation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Reverse Polish Notation\",\n    \"Definition\": \"A method of writing mathematical expressions in which operators follow their operands.\",\n    \"Formal Language\": \"Expression \\rightarrow Operand Operand Operator\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Percentage Point\",\n    \"Definition\": \"A unit for the arithmetic difference of two percentages. It is used to express the difference between two percentage values.\",\n    \"Formal Language\": \"Percentage Point \\in Difference(P, P') \\where P, P' \\in Percentage\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Permil\",\n    \"Definition\": \"Permil is a unit representing one part in a thousand, similar to a percentage which represents one part in a hundred.\",\n    \"Formal Language\": \"Permil \\equiv x/1000\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Rule\",\n    \"Definition\": \"A principle that encourages individuals to treat others as they would like to be treated themselves.\",\n    \"Formal Language\": \"Golden Rule \\in Ethics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Percent\",\n    \"Definition\": \"A way of expressing a number as a fraction of 100, often denoted using the percent symbol (%)\",\n    \"Formal Language\": \"Percent \\in Ratio\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Inverse Sine\",\n    \"Definition\": \"The inverse sine function, denoted as arcsin or sin⁻¹, is the function that reverses the sine function, returning the angle whose sine is a given number.\",\n    \"Formal Language\": \"arcsin(x) = y \\Leftrightarrow sin(y) = x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cake Cutting\",\n    \"Definition\": \"A fair division problem which involves dividing a heterogeneous resource, like a cake, among several people so that each person believes they have received a fair amount according to a specific notion of fairness.\",\n    \"Formal Language\": \"Cake Cutting \\in Fair Division Problems\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Three Jug Problem\",\n    \"Definition\": \"A classic problem in recreational mathematics and logic involving measuring and transferring liquid using three jugs of different capacities to achieve a desired amount.\",\n    \"Formal Language\": \"Three Jug Problem \\in Problem Solving\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Billiards\",\n    \"Definition\": \"A cue sport that is played on a table covered with felt, involving balls that are struck with cues.\",\n    \"Formal Language\": \"Billiards \\in RecreationalActivity\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cell\",\n    \"Definition\": \"The basic structural, functional, and biological unit of all known living organisms; the smallest unit of life.\",\n    \"Formal Language\": \"Cell \\in Biology\"\n}\n```",
+    "{\n    \"Name\": \"Spider and Fly Problem\",\n    \"Definition\": \"A classic mathematical problem that involves finding the shortest path between two points on a polyhedron, often a cube, representing three-dimensional space.\",\n    \"Formal Language\": \"Spider and Fly Problem \\in Problem \\cap Geometry \\cap Optimization\"\n}",
+    "```json\n{\n    \"Name\": \"Acceleration\",\n    \"Definition\": \"Acceleration is the rate of change of velocity of an object with respect to time.\",\n    \"Formal Language\": \"a = Δv / Δt\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Angular Acceleration\",\n    \"Definition\": \"Angular acceleration is the rate of change of angular velocity with respect to time.\",\n    \"Formal Language\": \"Angular Acceleration = \\frac{d\\omega}{dt} \\quad \\text{where } \\omega \\text{ is the angular velocity}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Angular Velocity\",\n    \"Definition\": \"The rate of change of angular position of a rotating body, usually measured in radians per second.\",\n    \"Formal Language\": \"Angular Velocity \\(\\omega = \\frac{\\Delta \\theta}{\\Delta t}\\) where \\(\\Delta \\theta\\) is the change in angular position and \\(\\Delta t\\) is the change in time.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Temperature\",\n    \"Definition\": \"A measure of the average kinetic energy of the particles in a sample of matter, indicating how hot or cold the matter is.\",\n    \"Formal Language\": \"Temperature \\in Physical_Quantities\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Velocity\",\n    \"Definition\": \"The rate at which an object changes its position. It is a vector quantity, meaning it has both magnitude and direction.\",\n    \"Formal Language\": \"Velocity \\in \\mathbb{R}^n, \\text{ where } n \\text{ is the number of dimensions}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Latitude\",\n    \"Definition\": \"The angular distance of a place north or south of the earth's equator, usually expressed in degrees and minutes.\",\n    \"Formal Language\": \"Latitude ∈ [−90°, 90°]\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Longitude\",\n    \"Definition\": \"Longitude is the geographic coordinate that specifies the east-west position of a point on the Earth's surface. It is an angular measurement, usually expressed in degrees.\",\n    \"Formal Language\": \"Longitude \\in GeographicCoordinateSystem\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Meridian\",\n    \"Definition\": \"A line of longitude which are imaginary circles that run from the North Pole to the South Pole on the Earth's surface.\",\n    \"Formal Language\": \"Meridian \\in Geography\"\n}\n```",
+    "```json\n{\n    \"Name\": \"South Pole\",\n    \"Definition\": \"The South Pole is the southernmost point on the surface of the Earth, located at 90 degrees south latitude, where Earth's axis of rotation intersects its surface.\",\n    \"Formal Language\": \"South Pole \\in Geography\"\n}\n```",
+    "```json\n{\n    \"Name\": \"e\",\n    \"Definition\": \"The mathematical constant e is the base of the natural logarithm, approximately equal to 2.718. It is an irrational number commonly used in exponential growth and decay problems.\",\n    \"Formal Language\": \"e \\in \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Golden Ratio Approximations\",\n    \"Definition\": \"Approximations of the Golden Ratio, a special number approximately equal to 1.618, often denoted as φ (phi), which can be expressed as a continued fraction or sequence of ratios found in Fibonacci numbers.\",\n    \"Formal Language\": \"Golden Ratio Approximations \\approx 1.618\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Moving Ladder Problem\",\n    \"Definition\": \"A classic related rates problem in calculus where one examines the rates of change of distances and angles as a ladder slides down a wall.\",\n    \"Formal Language\": \"Moving Ladder Problem \\in Calculus \\land Related Rates\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pi Approximations\",\n    \"Definition\": \"Methods and values used to estimate the mathematical constant Pi, which represents the ratio of a circle's circumference to its diameter. Common approximations include values like 3.14 or 22/7.\",\n    \"Formal Language\": \"Pi \\approx \\frac{22}{7}, \\pi \\approx 3.14\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Roundoff Error\",\n    \"Definition\": \"The difference between an approximation of a number used in computations and its exact value, often due to limitations of floating-point representation.\",\n    \"Formal Language\": \"Roundoff Error \\in Numerical Analysis\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Anamorphic Art\",\n    \"Definition\": \"A form of art that distorts the image or artwork such that it can be viewed in its original form only from a specific angle or using specific devices.\",\n    \"Formal Language\": \"Anamorphic Art \\in Art_{Distortion \\\\ Techniques}\"\n}\n```",
+    "{\n    \"Name\": \"Simple Path\",\n    \"Definition\": \"A path in a graph that does not repeat any vertices, except possibly the first and last vertices if they are the same.\",\n    \"Formal Language\": \"SimplePath \\subseteq Path \\land \\text{no repeated vertices except potentially the first and last when they are equal}\"\n}",
+    "```json\n{\n    \"Name\": \"Right-Hand Rule\",\n    \"Definition\": \"The rule that assigns a direction to the magnetic field or a rotation in space, often used in vector analysis and physics to determine the orientation of the magnetic field or the rotation of a vector field.\",\n    \"Formal Language\": \"Right-Hand Rule \\in Vector Analysis, \\in Physics\"\n}\n```",
+    "{\n    \"Name\": \"Log Plot\",\n    \"Definition\": \"A graphical representation of data using a logarithmic scale for one or both axes, often used to display data that covers a large range of values.\",\n    \"Formal Language\": \"LogPlot \\in GraphType\"\n}",
+    "```json\n{\n    \"Name\": \"Robinson Projection\",\n    \"Definition\": \"A type of map projection that presents an entire world map with an attempt to balance different types of distortion, such as shape, area, and distance.\",\n    \"Formal Language\": \"Robinson Projection \\in Map Projections\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cartography\",\n    \"Definition\": \"The science or practice of drawing maps.\",\n    \"Formal Language\": \"Cartography \\in Geography\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Map Projection\",\n    \"Definition\": \"A method used to represent the curved surface of the Earth on a flat surface.\",\n    \"Formal Language\": \"Map Projection \\in Geography/Cartography\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mercator Projection\",\n    \"Definition\": \"A type of map projection introduced by Gerardus Mercator in 1569, used for navigation because it represents lines of constant course as straight segments.\",\n    \"Formal Language\": \"Mercator Projection \\in Map Projections\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Uniform Circular Motion\",\n    \"Definition\": \"The motion of an object traveling at a constant speed on a circular path.\",\n    \"Formal Language\": \"Uniform Circular Motion \\in Mechanics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Q.E.D.\",\n    \"Definition\": \"An abbreviation of the Latin phrase 'quod erat demonstrandum,' used to signify that a mathematical proof is complete.\",\n    \"Formal Language\": \"Q.E.D. \\in Proof terminology\"\n}\n```",
+    "{\n    \"Name\": \"Reductio ad Absurdum\",\n    \"Definition\": \"A form of argument in which a statement is disproven by following its implications to a logical but absurd conclusion.\",\n    \"Formal Language\": \"Reductio ad Absurdum \\in Logic\"\n}",
+    "{\n    \"Name\": \"Theorem\",\n    \"Definition\": \"A statement or proposition that has been proven based on previously established statements or accepted mathematical principles.\",\n    \"Formal Language\": \"Theorem \\in Proposition \\cup Proofs\"\n}",
+    "```json\n{\n    \"Name\": \"Fallacy\",\n    \"Definition\": \"A fallacy is a flaw in reasoning that renders an argument logically invalid.\",\n    \"Formal Language\": \"Fallacy \\in Logical Argument\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Element\",\n    \"Definition\": \"An individual object within a set.\",\n    \"Formal Language\": \"Element \\in Set\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Conjunction\",\n    \"Definition\": \"A logical operator that results in true if both of the operands are true, otherwise it is false. In natural language, it corresponds to the concept of 'and'.\",\n    \"Formal Language\": \"Conjunction \\in LogicalOperator\"\n}\n```",
+    "{\n    \"Name\": \"Union\",\n    \"Definition\": \"The union of two sets is a set containing all elements from both sets.\",\n    \"Formal Language\": \"A ∪ B = {x | x ∈ A or x ∈ B}\"\n}",
+    "```json\n{\n    \"Name\": \"AND\",\n    \"Definition\": \"A logical operator used in boolean algebra that returns true if both operands are true.\",\n    \"Formal Language\": \"AND \\in Boolean Logic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"NOR\",\n    \"Definition\": \"NOR is a Boolean logic operator that results in true only if both operands are false. It is the negation of the OR operator.\",\n    \"Formal Language\": \"NOR(A, B) = ¬(A ∨ B)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"NOT\",\n    \"Definition\": \"A logical operator that negates or inverts the truth value of its operand. If the operand is true, the NOT operation results in false, and vice-versa.\",\n    \"Formal Language\": \"NOT \\in Boolean \\; \\text{Logic Operator}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Inclusive Disjunction\",\n    \"Definition\": \"A logical operation that results in true if at least one of the propositions is true.\",\n    \"Formal Language\": \"Inclusive Disjunction \\in Logical Operator, denoted as 'A ∨ B', where '∨' represents the logical OR.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"XOR\",\n    \"Definition\": \"XOR is a logical operator that outputs true only when inputs differ (one is true, the other is false). In binary operations, XOR stands for 'exclusive or', which outputs true or 1 only when the number of true inputs is odd.\",\n    \"Formal Language\": \"XOR : \\{0, 1\\} \\times \\{0, 1\\} \\to \\{0, 1\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"NAND\",\n    \"Definition\": \"A logic gate that outputs true or high (1) only when not all inputs are true or high.\",\n    \"Formal Language\": \"NAND \\in Logic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Infinity\",\n    \"Definition\": \"Infinity is a concept in mathematics that describes something without any bound or larger than any natural number.\",\n    \"Formal Language\": \"Infinity \\in \\mathbb{R} \\cup \\{\\infty, -\\infty\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Latin Square\",\n    \"Definition\": \"A Latin Square is an n × n array filled with n different symbols, each occurring exactly once in each row and exactly once in each column.\",\n    \"Formal Language\": \"Latin Square \\in Combinatorics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mastermind\",\n    \"Definition\": \"Mastermind is a code-breaking game where one player creates a code and the other tries to guess it within a certain number of turns. It usually consists of colored pegs used to guess the sequence and position of other hidden pegs.\",\n    \"Formal Language\": \"Mastermind \\notin Formal Mathematical Language\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Tower of Hanoi\",\n    \"Definition\": \"A mathematical puzzle consisting of three rods and a number of disks of different sizes which can slide onto any rod, with the objective of moving the entire stack to another rod following certain rules.\",\n    \"Formal Language\": \"Tower of Hanoi \\in Puzzle\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Checkers\",\n    \"Definition\": \"Checkers is a strategy board game for two players which involves diagonal moves of uniform game pieces and mandatory captures by jumping over opponent pieces.\",\n    \"Formal Language\": \"Checkers \\in Game\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Problem\",\n    \"Definition\": \"A question or situation that requires a solution, often used in mathematics to describe a question or task that needs to be solved or completed.\",\n    \"Formal Language\": \"Problem \\in {Challenge, Question}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mathematics Contests\",\n    \"Definition\": \"Competitive events where students solve challenging mathematical problems, often beyond the standard curriculum.\",\n    \"Formal Language\": \"MathematicsContests \\in ExtracurricularActivities\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Game of Logic\",\n    \"Definition\": \"A conceptual framework used to explore logical reasoning through games, often involving puzzles or structured games to illustrate logical deduction.\",\n    \"Formal Language\": \"Game of Logic \\in Logic and Reasoning\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Analogy\",\n    \"Definition\": \"A comparison between two things, typically for the purpose of explanation or clarification.\",\n    \"Formal Language\": \"Analogy \\in Comparative Analysis\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sentence\",\n    \"Definition\": \"A group of words that expresses a complete thought, typically consisting of a subject and a predicate.\",\n    \"Formal Language\": \"Sentence \\in Literature \\land Language Arts\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Interpretation\",\n    \"Definition\": \"The process of explaining or understanding the meaning of something, often used in the context of analyzing data or texts.\",\n    \"Formal Language\": \"Interpretation \\in Analysis\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Conclusion\",\n    \"Definition\": \"The statement or judgment that follows logically from the evidence or argument provided.\",\n    \"Formal Language\": \"Conclusion \\in Argumentation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Contradiction Law\",\n    \"Definition\": \"A rule in logic stating that a statement and its negation cannot both be true at the same time.\",\n    \"Formal Language\": \"For any proposition P, P ∧ ¬P is always false.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Tautology\",\n    \"Definition\": \"A tautology is a formula or assertion that is true in every possible interpretation, often used in logic and propositional calculus.\",\n    \"Formal Language\": \"Tautology \\in Logic\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Logic\",\n    \"Definition\": \"Logic is the branch of philosophy that deals with the principles and criteria of valid inference and demonstration. It is also fundamental to mathematics and computer science, focusing on formal systems, deduction, and reasoning.\",\n    \"Formal Language\": \"Logic \\in Formal System\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Deduction\",\n    \"Definition\": \"A process of reasoning from one or more statements (premises) to reach a logically certain conclusion\",\n    \"Formal Language\": \"Deduction: (P_1, P_2, ..., P_n) ⊢ Q\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Model\",\n    \"Definition\": \"A mathematical representation or simulation of a real-world process, system, or phenomenon, often used to predict or describe behavior.\",\n    \"Formal Language\": \"Model \\in Representation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Modus Ponens\",\n    \"Definition\": \"A form of argument in logic where if 'P implies Q' and 'P' is asserted to be true, then 'Q' must be true.\",\n    \"Formal Language\": \"(P → Q) ∧ P ⊢ Q\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Premise\",\n    \"Definition\": \"A statement or proposition from which another is inferred or follows as a conclusion in logical reasoning.\",\n    \"Formal Language\": \"Premise \\in Proposition\"\n}\n```",
+    "```json\n{\n    \"Name\": \"For All\",\n    \"Definition\": \"A universal quantifier used in mathematics to indicate that a proposition or property holds for all elements in a given set.\",\n    \"Formal Language\": \"∀ (symbol used to denote 'For All') \\in Quantifiers\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Formula\",\n    \"Definition\": \"A mathematical relationship or rule expressed in symbols.\",\n    \"Formal Language\": \"Formula \\in Expression\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Quota Rule\",\n    \"Definition\": \"The quota rule in apportionment methods ensures that the number of seats allocated to a group is close to its fair share, based on its proportion of the total population.\",\n    \"Formal Language\": \"Quota \\approxeq (total\\ population \\times group\\ proportion)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Noise\",\n    \"Definition\": \"Unwanted or random disturbances that obscure or reduce the clarity of a signal or information.\",\n    \"Formal Language\": \"Noise \\in Information Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"15 Puzzle\",\n    \"Definition\": \"A sliding puzzle consisting of a frame of numbered square tiles in random order with one tile missing, with the objective of placing the tiles in order by making sliding moves that use the empty space.\",\n    \"Formal Language\": \"15 Puzzle \\in Combinatorial Games\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Weighted Graph\",\n    \"Definition\": \"A graph in which each edge is assigned a numerical value, called a weight, that represents the cost or value of traversing that edge.\",\n    \"Formal Language\": \"WeightedGraph(G) = (V, E, W) where W: E -> \\u211D\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Network\",\n    \"Definition\": \"A network is a collection of interconnected points, often used in the context of graph theory or computer science to represent relationships or connections.\",\n    \"Formal Language\": \"Network \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Weighted Tree\",\n    \"Definition\": \"A tree data structure where each edge has a numerical weight associated with it, usually representing cost, length, or capacity.\",\n    \"Formal Language\": \"Weighted Tree \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bipartite Graph\",\n    \"Definition\": \"A type of graph in which the set of vertices can be divided into two disjoint sets such that no two graph vertices within the same set are adjacent.\",\n    \"Formal Language\": \"Bipartite Graph \\in Graph Theory, G = (U ∪ V, E) where U ∩ V = ∅\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Map Coloring\",\n    \"Definition\": \"The problem of assigning colors to the regions of a map so that no adjacent regions have the same color, often related to graph theory.\",\n    \"Formal Language\": \"Map Coloring \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Acyclic Graph\",\n    \"Definition\": \"A graph with no cycles, meaning there is no path that starts and ends at the same vertex traversing at least one edge.\",\n    \"Formal Language\": \"Acyclic_Graph \\subseteq Graph\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Tree Height\",\n    \"Definition\": \"In graph theory, the height of a tree is the number of edges on the longest downward path between the root and a leaf.\",\n    \"Formal Language\": \"Height(T) = max_{v \\in leaf(T)} depth(v)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Complete Binary Tree\",\n    \"Definition\": \"A type of binary tree where every level, except possibly the last, is completely filled, and all nodes are as far left as possible.\",\n    \"Formal Language\": \"CompleteBinaryTree \\subseteq BinaryTree\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Grid Graph\",\n    \"Definition\": \"A graph in which the vertices are arranged in a grid pattern, typically used in discrete mathematics to visualize adjacency and paths.\",\n    \"Formal Language\": \"Grid Graph \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Bar\",\n    \"Definition\": \"A visual representation of data using bars of different heights or lengths.\",\n    \"Formal Language\": \"Graph Bar \\in Data Visualization\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Edge\",\n    \"Definition\": \"A connection between two vertices in a graph, representing a relationship or connection between the entities that the vertices represent.\",\n    \"Formal Language\": \"Edge \\in GraphTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Resistor Network\",\n    \"Definition\": \"An arrangement of resistors interconnected in a circuit to achieve desired electrical resistance values.\",\n    \"Formal Language\": \"Resistor Network \\in Circuit Design\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Adjacency List\",\n    \"Definition\": \"An adjacency list is a collection of unordered lists used to represent a finite graph. Each list corresponds to a vertex in the graph and contains a list of its adjacent vertices.\",\n    \"Formal Language\": \"AdjacencyList(G) = { (v, Adj(v)) | v ∈ V(G), Adj(v) is the set of vertices adjacent to v }\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Route\",\n    \"Definition\": \"In mathematics, particularly in graph theory, a route refers to a sequence of edges that connects a sequence of vertices in a graph. It is commonly used to describe paths or ways of traveling between points in a network.\",\n    \"Formal Language\": \"Route \\in Graph\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Shortest Path Problem\",\n    \"Definition\": \"The problem of finding the shortest path or minimum distance between two nodes in a graph.\",\n    \"Formal Language\": \"Shortest Path \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Hamming Distance\",\n    \"Definition\": \"The Hamming distance is a metric for comparing two binary data strings. While comparing two binary strings of equal length, it measures the number of bit positions in which they differ.\",\n    \"Formal Language\": \"Hamming Distance \\in Metric Space\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Depth-First Traversal\",\n    \"Definition\": \"Depth-First Traversal is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node and explores as far as possible along each branch before backtracking.\",\n    \"Formal Language\": \"DepthFirstTraversal(Graph) -> Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Simple Directed Graph\",\n    \"Definition\": \"A type of graph in which each edge has a direction, going from one vertex to another, without loops or multiple arrows in the same direction between any two vertices.\",\n    \"Formal Language\": \"Simple Directed Graph \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Undirected Graph\",\n    \"Definition\": \"A graph in which the edges have no direction, meaning the connection between two vertices is bidirectional.\",\n    \"Formal Language\": \"Undirected Graph = (V, E)，\\forall (u, v) \\in E \\Rightarrow (v, u) \\in E\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Directed Graph\",\n    \"Definition\": \"A directed graph is a set of vertices connected by edges, where the edges have a direction associated with them.\",\n    \"Formal Language\": \"DirectedGraph \\in GraphTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Travel Time\",\n    \"Definition\": \"The amount of time it takes to move from one location to another, often calculated using speed and distance.\",\n    \"Formal Language\": \"Travel Time = Distance / Speed\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Path\",\n    \"Definition\": \"A sequence of edges in a graph that connects a sequence of vertices, with all vertices distinct and no repeat edges.\",\n    \"Formal Language\": \"Graph Path \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Distance Matrix\",\n    \"Definition\": \"A matrix representation that defines the distance between elements in a set, typically between points in a metric space.\",\n    \"Formal Language\": \"Distance \\in Matrix\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Shortest Path\",\n    \"Definition\": \"In graph theory, the shortest path between two vertices in a graph is the path that has the least total weight among all possible paths.\",\n    \"Formal Language\": \"Shortest Path \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Eulerian Path\",\n    \"Definition\": \"A path in a graph that visits every edge exactly once\",\n    \"Formal Language\": \"Eulerian Path \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Königsberg Bridge Problem\",\n    \"Definition\": \"A historical problem in graph theory asking whether a walk through the city of Königsberg can cross each of its seven bridges once and only once.\",\n    \"Formal Language\": \"Königsberg Bridge Problem \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Matching\",\n    \"Definition\": \"A relationship between two sets, where each member of one set pairs with one member of another set, often within the context of graph theory or 1-to-1 correspondence.\",\n    \"Formal Language\": \"Matching \\subseteq Edge Set \\, | \\, \\forall u \\in U, \\exists e \\in E, \\, e=(u,v)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Cycle\",\n    \"Definition\": \"A sequence of edges and vertices wherein a vertex is reachable from itself, forming a closed loop.\",\n    \"Formal Language\": \"GraphCycle \\subseteq Graph\"\n}\n```",
+    "{\n    \"Name\": \"Circuit\",\n    \"Definition\": \"A closed loop through which an electric current flows or may flow.\",\n    \"Formal Language\": \"Circuit \\in Physics\"\n}",
+    "```json\n{\n    \"Name\": \"Simple Program\",\n    \"Definition\": \"A basic sequence of instructions designed to perform a specific task.\",\n    \"Formal Language\": \"SimpleProgram \\in ComputationalTask\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Algorithm\",\n    \"Definition\": \"A step-by-step procedure or formula for solving a problem.\",\n    \"Formal Language\": \"Algorithm \\in Procedure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Encoding\",\n    \"Definition\": \"Encoding is the process of converting information into a different form or code so that it can be easily transferred or processed by a computer or system.\",\n    \"Formal Language\": \"Encoding \\in Theory of Computation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Computation\",\n    \"Definition\": \"The process of performing mathematical calculations to derive a result.\",\n    \"Formal Language\": \"Computation \\in Process\"\n}\n```",
+    "{\n    \"Name\": \"Computation Time\",\n    \"Definition\": \"Computation time refers to the duration or amount of time it takes for a computer or algorithm to complete a task or solve a problem.\",\n    \"Formal Language\": \"ComputationTime \\in Analysis\"\n}",
+    "```json\n{\n    \"Name\": \"Binary Search\",\n    \"Definition\": \"A search algorithm that finds the position of a target value within a sorted array by repeatedly dividing the search interval in half.\",\n    \"Formal Language\": \"Binary Search \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Pancake Sorting\",\n    \"Definition\": \"Pancake sorting is the process of sorting a disordered stack of pancakes in order of size, using a spatula that can flip over several pancakes at the same time.\",\n    \"Formal Language\": \"Pancake Sorting \\in Algorithm\"\n}\n```",
+    "{\n    \"Name\": \"Searching\",\n    \"Definition\": \"The process of finding a specific item in a collection of items, which can be in a sequence or a structure.\",\n    \"Formal Language\": \"Searching \\in Algorithm\"\n}",
+    "```json\n{\n    \"Name\": \"Selection Sort\",\n    \"Definition\": \"Selection Sort is a comparison-based sorting algorithm. It divides the input list into a sorted and an unsorted region. Initially, the sorted region is empty, and the unsorted region is the entire list. The algorithm repeatedly selects the smallest or largest element (depending on sorting order) from the unsorted region and moves it to the end of the sorted region.\",\n    \"Formal Language\": \"SelectionSort \\subset Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Sorting\",\n    \"Definition\": \"The process of arranging data in a particular order, such as ascending or descending.\",\n    \"Formal Language\": \"Sorting \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Floating-Point Number\",\n    \"Definition\": \"A number that has a decimal point and can represent fractional values. Floating-point numbers are used in computing to approximate real numbers.\",\n    \"Formal Language\": \"Floating-Point Number \\in \\mathbb{R} \\approx \\text{Real Number}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Floating-Point Representation\",\n    \"Definition\": \"A system for representing real numbers that supports a wide range of values by using a fixed number of significant digits and an exponent.\",\n    \"Formal Language\": \"Floating-Point Representation \\in Number Representation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"NaN\",\n    \"Definition\": \"NaN stands for 'Not a Number', which is a value used to represent an undefined or unrepresentable value, especially in floating-point calculations.\",\n    \"Formal Language\": \"NaN \\in Number\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cryptography\",\n    \"Definition\": \"The practice and study of techniques for securing communication and information from third parties and adversaries.\",\n    \"Formal Language\": \"Cryptography \\in Information Security\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bit\",\n    \"Definition\": \"A bit is the most basic unit of data in computing and can have a value of either 0 or 1.\",\n    \"Formal Language\": \"Bit \\in \\{0, 1\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bit Rate\",\n    \"Definition\": \"Bit Rate is the number of bits that are conveyed or processed per unit of time in a digital network or system.\",\n    \"Formal Language\": \"Bit Rate \\in Digital Communication\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Byte\",\n    \"Definition\": \"A unit of digital information in computing and telecommunications that most commonly consists of eight bits.\",\n    \"Formal Language\": \"Byte \\in DataUnit\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Kilobyte\",\n    \"Definition\": \"A unit of digital information equal to 1,024 bytes, commonly used to quantify digital information in computing.\",\n    \"Formal Language\": \"Kilobyte = 1,024 \\text{ bytes}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Queue\",\n    \"Definition\": \"A queue is a linear data structure that follows the First In First Out (FIFO) principle, where elements are added at one end called the rear and removed from the other end called the front.\",\n    \"Formal Language\": \"Queue \\in Data Structure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"List\",\n    \"Definition\": \"A collection of elements that can be ordered and has a specific size, often used in computer science but also applicable in mathematics for sequences and sets.\",\n    \"Formal Language\": \"List: [a1, a2, ..., an] where ai represents the elements of the list.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Mebibyte\",\n    \"Definition\": \"A mebibyte is a unit of digital information storage which is equal to 2^20 bytes or 1,048,576 bytes.\",\n    \"Formal Language\": \"1 Mebibyte = 2^20 Bytes = 1,048,576 Bytes\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Megabyte\",\n    \"Definition\": \"Megabyte is a unit of digital information storage equal to 1,024 kilobytes or 1,048,576 bytes.\",\n    \"Formal Language\": \"1 MB = 1,024 KB = 1,048,576 bytes\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Stack\",\n    \"Definition\": \"A data structure that follows the Last In, First Out (LIFO) principle, where elements are added and removed from the same end.\",\n    \"Formal Language\": \"Stack \\in Data Structure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nibble\",\n    \"Definition\": \"A group of four bits in binary numbering, equivalent to half of a byte.\",\n    \"Formal Language\": \"Nibble \\in Bit Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Terabyte\",\n    \"Definition\": \"A terabyte is a unit of digital information storage equivalent to approximately 1 trillion bytes or 1024 gigabytes.\",\n    \"Formal Language\": \"1 Terabyte = 10^12 bytes or 2^40 bytes\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Gibibyte\",\n    \"Definition\": \"A gibibyte (GiB) is a unit of digital information storage that is equal to 2^30 (1,073,741,824) bytes. It is based on the binary system and is often used in computing to more accurately describe capacities of computer data storage.\",\n    \"Formal Language\": \"Gibibyte \\in \\text{Unit of Measurement}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Gigabyte\",\n    \"Definition\": \"A gigabyte is a unit of digital information storage equivalent to 1,024 megabytes or approximately one billion bytes.\",\n    \"Formal Language\": \"1 Gigabyte (GB) = 1,024 Megabytes (MB)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recursion\",\n    \"Definition\": \"Recursion is a process in which a function calls itself directly or indirectly in order to solve a problem. It is often used in programming and mathematics to simplify complex problems by breaking them down into simpler sub-problems.\",\n    \"Formal Language\": \"Recursion \\in Algorithm \\land Programming\"\n}\n```",
+    "{\n    \"Name\": \"Program\",\n    \"Definition\": \"A sequence of instructions written to perform a specified task with a computer.\",\n    \"Formal Language\": \"Program \\in Algorithm\"\n}",
+    "```json\n{\n    \"Name\": \"Iteration\",\n    \"Definition\": \"Iteration refers to the process of repeating a set of instructions or a sequence of operations in a program or process until a specific result is achieved or a condition is met.\",\n    \"Formal Language\": \"Iteration is often used in computer programming and mathematics to repeat a process or loop.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exhaustive Search\",\n    \"Definition\": \"A brute-force search method that involves examining all possible solutions to find the most suitable one.\",\n    \"Formal Language\": \"Exhaustive Search \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Concatenation\",\n    \"Definition\": \"The operation of joining two strings, sequences, or array-like objects end-to-end.\",\n    \"Formal Language\": \"Concatenation: Sequence × Sequence → Sequence\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Weighing\",\n    \"Definition\": \"The process of measuring the weight of an object using tools such as scales or balances.\",\n    \"Formal Language\": \"Weighing \\in Measurement\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Juggling\",\n    \"Definition\": \"Juggling is the skill of manipulation using one or more hands with one or more objects, with juggling often involving balls, rings, clubs, or other objects. It is a form of dexterity and physical coordination.\",\n    \"Formal Language\": \"Juggling \\in Physical_Skill\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Combination Lock\",\n    \"Definition\": \"A lock that opens with a sequence of numbers or symbols, typically used to secure valuables.\",\n    \"Formal Language\": \"CombinationLock \\in SecurityDevice\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Domino\",\n    \"Definition\": \"A small rectangular tile used in a game typically involving matching numbers of pips to adjacent tiles.\",\n    \"Formal Language\": \"Domino \\in Game\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Wave\",\n    \"Definition\": \"A wave is a disturbance or oscillation that travels through space and matter, accompanied often by a transfer of energy.\",\n    \"Formal Language\": \"Wave \\in Physics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Number Picking\",\n    \"Definition\": \"Number Picking typically refers to a game or activity where participants select numbers, often used in educational contexts for teaching number sense and operation skills\",\n    \"Formal Language\": \"Number Picking \\in Game/Activity\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Backtracking\",\n    \"Definition\": \"Backtracking is an algorithmic technique for solving problems incrementally, by trying partial solutions and then abandoning them if they are not feasible, effectively searching for a solution recursively.\",\n    \"Formal Language\": \"Backtracking \\in Algorithm \\subset Computational Problem Solving\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Handshake Problem\",\n    \"Definition\": \"A problem that involves finding the total number of handshakes if each person in a group shakes hands with every other person exactly once.\",\n    \"Formal Language\": \"Handshake \\in Combinatorics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rooks Problem\",\n    \"Definition\": \"A classic problem in combinatorics and chess which involves placing rooks on a chessboard such that no two rooks can attack each other.\",\n    \"Formal Language\": \"Rooks Problem \\in Combinatorics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Series-Parallel Network\",\n    \"Definition\": \"A type of electrical circuit that is a combination of series circuits and parallel circuits.\",\n    \"Formal Language\": \"Series-Parallel Network \\in Circuit \\land Circuit = Series \\cup Parallel\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Knights Problem\",\n    \"Definition\": \"The Knights Problem is a type of chess puzzle involving the placement of knights on a chessboard so that no two knights threaten each other.\",\n    \"Formal Language\": \"Knights Problem \\in Combinatorial Optimization\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Lights Out Puzzle\",\n    \"Definition\": \"A logic puzzle involving a grid of lights that can be toggled on or off, with the goal of turning all lights off.\",\n    \"Formal Language\": \"Lights Out Puzzle \\in Game \\wedge Puzzle\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Alphabet\",\n    \"Definition\": \"A set of letters or characters used in a language to form words.\",\n    \"Formal Language\": \"Alphabet \\in Language\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Checksum\",\n    \"Definition\": \"A value used to verify the integrity of a data set, calculated via an algorithm based on the data's content.\",\n    \"Formal Language\": \"Checksum \\in Data Integrity\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Code\",\n    \"Definition\": \"A system of symbols and rules used to represent instructions to a computer.\",\n    \"Formal Language\": \"Code \\in Language\"\n}\n```",
+    "```json\n{\n    \"Name\": \"UPC\",\n    \"Definition\": \"UPC stands for Universal Product Code, a barcode symbology used for tracking trade items in stores.\",\n    \"Formal Language\": \"UPC \\in Barcode Symbology\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Game of Life\",\n    \"Definition\": \"The Game of Life, devised by mathematician John Conway, is a cellular automaton game where players observe the evolution of patterns on a grid based on specific rules regarding the state of each cell and its neighbors.\",\n    \"Formal Language\": \"Game of Life \\in Cellular Automaton\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Riemann Sum\",\n    \"Definition\": \"A Riemann sum is a method for approximating the definite integral of a function, often used in the context of calculus to estimate the area under a curve using a finite sum of rectangles.\",\n    \"Formal Language\": \"Riemann Sum = \\\\sum_{i=1}^{n} f(x_i^*) \\Delta x\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Energy\",\n    \"Definition\": \"Energy is a quantitative property transferred to objects to perform work, manifesting as kinetic, thermal, potential, electrical, and other forms.\",\n    \"Formal Language\": \"Energy \\in Physics_Concept\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Current\",\n    \"Definition\": \"The flow of electric charge, measured in amperes.\",\n    \"Formal Language\": \"Current \\in Physics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Square Wave\",\n    \"Definition\": \"A square wave is a non-sinusoidal periodic waveform that alternates between fixed maximum and minimum values, with the same duration at each level, hence forming a shape similar to a square.\",\n    \"Formal Language\": \"Square Wave \\in Waveform\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponential Decay\",\n    \"Definition\": \"A mathematical function describing a process that decreases at a rate proportional to its current value.\",\n    \"Formal Language\": \"If a quantity decreases at a rate proportional to its value, it is modeled by the equation y(t) = y_0 * e^(-kt), where y_0 is the initial amount, k > 0 is the decay constant, and t is time.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponential Growth\",\n    \"Definition\": \"A process that increases quantity over time at a rate proportional to its current value, often expressed in the form y = a(1 + r)^x, where a is the initial amount and r is the growth rate.\",\n    \"Formal Language\": \"Exponential Growth \\in Function\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Vinculum\",\n    \"Definition\": \"A vinculum is a horizontal line used in mathematical notation. It can serve as a grouping symbol or be used to denote repeating digits in a decimal or as a fraction bar.\",\n    \"Formal Language\": \"Vinculum \\in Mathematical Notation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Noise\",\n    \"Definition\": \"Unwanted or random disturbances that obscure or reduce the clarity of a signal or data set\",\n    \"Formal Language\": \"Noise is often considered in terms of signal-to-noise ratio, commonly in data analysis or signal processing fields\"\n}\n```",
+    "```json\n{\n    \"Name\": \"15 Puzzle\",\n    \"Definition\": \"A sliding puzzle consisting of a frame of numbered square tiles in random order with one tile missing, with the goal to arrange them into order by making sliding moves that use the empty space.\",\n    \"Formal Language\": \"15 Puzzle \\in Combinatorial Game Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Weighted Graph\",\n    \"Definition\": \"A graph in which each edge is assigned a numerical value or weight, often used to represent real-world situations where connections have some sort of cost, distance, or other measure associated with them.\",\n    \"Formal Language\": \"WeightedGraph = (V, E, w); w: E \\rightarrow \\mathbb{R}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Network\",\n    \"Definition\": \"A network in mathematics usually refers to a collection of points (vertices) connected by lines (edges), often used to describe relationships or pathways.\",\n    \"Formal Language\": \"Network \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bipartite Graph\",\n    \"Definition\": \"A graph whose vertices can be divided into two disjoint and independent sets such that every edge connects a vertex in the first set to one in the second set.\",\n    \"Formal Language\": \"BipartiteGraph \\in GraphTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Vertex Coloring\",\n    \"Definition\": \"Vertex coloring is a way of coloring the vertices of a graph such that no two adjacent vertices share the same color.\",\n    \"Formal Language\": \"Vertex Coloring \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Map Coloring\",\n    \"Definition\": \"A graph-theoretical problem of assigning colors to regions on a map so that no adjacent regions have the same color\",\n    \"Formal Language\": \"Map Coloring \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Acyclic Graph\",\n    \"Definition\": \"An acyclic graph is a graph that contains no cycles. In other words, it is a graph in which there is no path that starts and finishes at the same vertex and traverses each edge only once.\",\n    \"Formal Language\": \"AcyclicGraph \\in GraphTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binary Tree\",\n    \"Definition\": \"A data structure in which each node has at most two children, referred to as the left child and the right child.\",\n    \"Formal Language\": \"Binary Tree \\in Data Structures\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ternary Tree\",\n    \"Definition\": \"A tree data structure in which each node has at most three children.\",\n    \"Formal Language\": \"Ternary Tree \\in Data Structure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Complete Tree\",\n    \"Definition\": \"A complete tree is a type of binary tree in which all levels are completely filled except possibly for the last level, which is filled from left to right.\",\n    \"Formal Language\": \"Complete Tree \\subseteq Binary Tree\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Bar\",\n    \"Definition\": \"A visual display of data using rectangular bars to show the frequency or value of different categories.\",\n    \"Formal Language\": \"GraphBar \\in DataVisualization\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Edge\",\n    \"Definition\": \"In graph theory, an edge is a connection between two vertices in a graph. Edges can be directed or undirected, and they represent relationships or connections in various contexts, such as network diagrams.\",\n    \"Formal Language\": \"Edge \\in Graph\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Resistor Network\",\n    \"Definition\": \"A resistor network is an electrical circuit composed of multiple resistors. These resistors can be connected in various configurations such as series, parallel, or a combination of both to create specific resistances.\",\n    \"Formal Language\": \"Resistor Network \\in Circuit Theory\"\n}\n```",
+    "{\n    \"Name\": \"Graph Vertex\",\n    \"Definition\": \"A point in a graph where two or more edges meet.\",\n    \"Formal Language\": \"Vertex \\in Graph\"\n}",
+    "```json\n{\n    \"Name\": \"Graph Diameter\",\n    \"Definition\": \"The greatest distance between any pair of vertices in a graph.\",\n    \"Formal Language\": \"Diameter(G) = max{dist(u, v) | u, v \\in V(G)} where dist(u, v) is the shortest path between vertices u and v.\"\n}\n```",
+    "{\n    \"Name\": \"Graph Order\",\n    \"Definition\": \"In graph theory, the order of a graph is the number of vertices in the graph.\",\n    \"Formal Language\": \"Graph Order = |V|, where V represents the set of vertices\"\n}",
+    "```json\n{\n    \"Name\": \"Route\",\n    \"Definition\": \"In mathematics, a route typically refers to a path or a way from one point to another, often used in the context of graph theory or path optimization problems.\",\n    \"Formal Language\": \"Route \\subseteq Path\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Shortest Path Problem\",\n    \"Definition\": \"The shortest path problem involves finding the quickest or least-cost path between two nodes in a graph.\",\n    \"Formal Language\": \"Shortest \\: Path \\: Problem \\triangleq \\min_{p \\in P(s, t)} \\sum_{(u, v) \\in p} w(u, v)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Hamming Distance\",\n    \"Definition\": \"The Hamming Distance between two strings of equal length is the number of positions at which the corresponding symbols differ.\",\n    \"Formal Language\": \"Hamming Distance \\in Metric\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Adjacency Matrix\",\n    \"Definition\": \"An adjacency matrix is a square matrix used to represent a finite graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph.\",\n    \"Formal Language\": \"AdjacencyMatrix \\in Matrix, where AdjacencyMatrix[i][j] = 1 \\text{ if vertices } i \\text{ and } j \\text{ are connected, otherwise } 0\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Breadth-First Traversal\",\n    \"Definition\": \"A graph traversal method that explores all of the neighbor nodes at the present depth prior to moving on to nodes at the next depth level.\",\n    \"Formal Language\": \"BFS \\in GraphAlgorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Depth-First Traversal\",\n    \"Definition\": \"A method of exploring a graph by starting at the root (or an arbitrary node) and exploring as far as possible along each branch before backtracking.\",\n    \"Formal Language\": \"Depth-First Traversal \\in Graph \\, Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Simple Directed Graph\",\n    \"Definition\": \"A type of graph where each edge has a direction, going from one vertex to another, without any multiple edges or loops.\",\n    \"Formal Language\": \"Simple Directed Graph \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Outdegree\",\n    \"Definition\": \"The number of edges leaving a vertex in a directed graph.\",\n    \"Formal Language\": \"Outdegree(v) = |{(v, u) ∈ E}| for vertex v in graph G = (V, E)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Undirected Graph\",\n    \"Definition\": \"A graph in which edges have no direction. The edges just connect two vertices without a specified direction.\",\n    \"Formal Language\": \"UndirectedGraph \\subseteq Graph (V, E), \\forall e \\in E, e = {u, v} = {v, u}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Directed Graph\",\n    \"Definition\": \"A set of vertices connected by edges, where the edges have a direction associated with them.\",\n    \"Formal Language\": \"DirectedGraph \\in GraphTheory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Travel Time\",\n    \"Definition\": \"The duration or time it takes to move from one location to another.\",\n    \"Formal Language\": \"Travel Time \\in \\mathbb{R}^{+}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Shortest Path\",\n    \"Definition\": \"The shortest path between two vertices in a graph is the path with the minimum sum of weights of its edges.\",\n    \"Formal Language\": \"Shortest Path \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Eulerian Path\",\n    \"Definition\": \"An Eulerian path is a trail in a graph that visits every edge exactly once.\",\n    \"Formal Language\": \"Eulerian \\ Path \\in Graph \\ Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Königsberg Bridge Problem\",\n    \"Definition\": \"A historical problem in mathematics that asks whether it is possible to walk through the city of Königsberg and cross each of its seven bridges once and only once.\",\n    \"Formal Language\": \"Graph Theory \\in Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Graph Cycle\",\n    \"Definition\": \"A graph cycle is a path of edges and vertices wherein a vertex is reachable from itself. The cycle comprises at least one edge and the starting and ending vertex are the same.\",\n    \"Formal Language\": \"Graph Cycle \\in Graph Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Circuit\",\n    \"Definition\": \"A path or loop that allows electric current to flow through it, used in the study of electricity and electronics.\",\n    \"Formal Language\": \"Circuit \\in Electronics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Simple Program\",\n    \"Definition\": \"A basic sequence of instructions written in a programming language designed to perform a specific task or solve a specific problem.\",\n    \"Formal Language\": \"SimpleProgram \\in Program \\wedge Program \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Algorithm\",\n    \"Definition\": \"A step-by-step procedure or formula for solving a problem.\",\n    \"Formal Language\": \"Algorithm \\in Procedure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Encoding\",\n    \"Definition\": \"The process of converting data from one form to another, often from human-readable or conceptual form into a format that can be understood by computers\",\n    \"Formal Language\": \"Encoding \\in Data Transformation Process\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Computation\",\n    \"Definition\": \"The action of mathematical calculation, which involves problem-solving using algorithms and operations such as addition, subtraction, multiplication, and division.\",\n    \"Formal Language\": \"Computation \\in Mathematical Operations\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Computation Time\",\n    \"Definition\": \"The amount of time taken by a computing process to complete a specific task.\",\n    \"Formal Language\": \"ComputationTime \\in TimeMeasurement\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Binary Search\",\n    \"Definition\": \"A search algorithm that finds the position of a target value within a sorted array, by repeatedly dividing the search interval in half.\",\n    \"Formal Language\": \"Binary Search \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Merge Sort\",\n    \"Definition\": \"Merge Sort is a comparison-based sorting algorithm that divides the array into halves, sorts them, and then merges them back together.\",\n    \"Formal Language\": \"MergeSort(A, l, m, r) where A is an array, and l, m, r are indices\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Radix Sort\",\n    \"Definition\": \"Radix sort is a non-comparative integer sorting algorithm that sorts data with integer keys by processing individual digits.\",\n    \"Formal Language\": \"RadixSort: \\mathbb{Z}^n \\rightarrow \\mathbb{Z}^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Searching\",\n    \"Definition\": \"The process of finding a particular item or items within a structured collection of data, such as a list or database.\",\n    \"Formal Language\": \"Searching \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Selection Sort\",\n    \"Definition\": \"Selection Sort is an in-place comparison sorting algorithm. It divides the input list into two parts: a sorted sublist of items already processed and a sublist of items remaining to be sorted, and repeatedly selects the smallest (or largest) element from the unsorted sublist, exchanging it with the leftmost unsorted element, and moving the sublist boundaries one element to the right.\",\n    \"Formal Language\": \"SelectionSort \\in SortingAlgorithm\"\n}\n```",
+    "{\n    \"Name\": \"Sorting\",\n    \"Definition\": \"The process of arranging data in a particular order, typically ascending or descending.\",\n    \"Formal Language\": \"Sorting \\in Algorithm\"\n}",
+    "```json\n{\n    \"Name\": \"Floating-Point Arithmetic\",\n    \"Definition\": \"A numerical representation and operations used to approximate real numbers using a fixed number of digits, involving a trade-off between range and precision.\",\n    \"Formal Language\": \"Floating-Point Arithmetic \\in Approximation\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Floating-Point Number\",\n    \"Definition\": \"A number that has a decimal point, used in representing real numbers that cannot be expressed as integers.\",\n    \"Formal Language\": \"Floating-Point Number \\in Number System\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Cryptology\",\n    \"Definition\": \"The study of secure communication techniques that protect information from third parties.\",\n    \"Formal Language\": \"Cryptology \\in InformationSecurity\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bit\",\n    \"Definition\": \"A bit is the most basic unit of data in computing and digital communications, which can have a value of either 0 or 1.\",\n    \"Formal Language\": \"Bit \\in \\{0, 1\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Kibibyte\",\n    \"Definition\": \"A unit of data storage equal to 1,024 bytes, used in computing to measure digital information.\",\n    \"Formal Language\": \"1 Kibibyte = 2^10 bytes\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Byte\",\n    \"Definition\": \"A byte is a unit of digital information that consists of 8 bits. It is the basic addressable element in many computer architectures.\",\n    \"Formal Language\": \"Byte \\in InformationUnit\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Kilobyte\",\n    \"Definition\": \"A unit of digital information storage equal to 1024 bytes\",\n    \"Formal Language\": \"Kilobyte \\in DataSizeUnit\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Queue\",\n    \"Definition\": \"A data structure that follows the First In First Out (FIFO) principle, where the first element added is the first one to be removed.\",\n    \"Formal Language\": \"Queue \\in Data Structures\"\n}\n```",
+    "```json\n{\n    \"Name\": \"List\",\n    \"Definition\": \"An ordered collection of elements, which can be of any type.\",\n    \"Formal Language\": \"List \\in Data Structure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Megabyte\",\n    \"Definition\": \"A unit of digital information storage, equal to approximately one million bytes or 1,024 kilobytes.\",\n    \"Formal Language\": \"Megabyte \\in DataStorageUnit\"\n}\n```",
+    "{\n    \"Name\": \"Database\",\n    \"Definition\": \"A structured collection of data that is organized for easy access, management, and updating.\",\n    \"Formal Language\": \"Database \\in Computer Science\"\n}",
+    "```json\n{\n    \"Name\": \"Stack\",\n    \"Definition\": \"A stack is a data structure that stores a collection of elements, with two primary operations: push (to add an element) and pop (to remove the top element), following the Last-In-First-Out (LIFO) principle.\",\n    \"Formal Language\": \"Stack \\in Data Structure\"\n}\n```",
+    "```json\n{\n    \"Name\": \"String\",\n    \"Definition\": \"A sequence of characters, either as a literal constant or as some kind of variable.\",\n    \"Formal Language\": \"String \\in Data Structures\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Nibble\",\n    \"Definition\": \"A unit of digital information that consists of 4 bits, which is half of a byte.\",\n    \"Formal Language\": \"Nibble \\in Digital Units, where 1 Nibble = 4 Bits\"\n}\n```",
+    "{\n    \"Name\": \"Terabyte\",\n    \"Definition\": \"A unit of digital information storage equal to approximately one trillion bytes (1,024 gigabytes).\",\n    \"Formal Language\": \"Terabyte \\in Unit \\text{ of Measurement for Digital Information}\"\n}",
+    "```json\n{\n    \"Name\": \"Gigabyte\",\n    \"Definition\": \"A unit of digital information storage, equivalent to 1,024 megabytes or 1,073,741,824 bytes.\",\n    \"Formal Language\": \"Gigabyte \\in Unit of Information Storage\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Petabyte\",\n    \"Definition\": \"A petabyte is a unit of digital information storage equivalent to 1,024 terabytes or 2^50 bytes.\",\n    \"Formal Language\": \"Petabyte \\in DigitalStorageUnits\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Recursion\",\n    \"Definition\": \"A method of defining functions in which the function being defined is applied within its own definition.\",\n    \"Formal Language\": \"Recursion: f(x) = function(f(x), x)\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Program\",\n    \"Definition\": \"A set of instructions that a computer can execute to perform a specific task.\",\n    \"Formal Language\": \"Program \\in Algorithmics \\cup Computer Science\"\n}\n```",
+    "{\n    \"Name\": \"Iteration\",\n    \"Definition\": \"The process of repeating a set of instructions or operations until a specific result is achieved.\",\n    \"Formal Language\": \"Iteration \\in Process\"\n}",
+    "```json\n{\n    \"Name\": \"Exhaustive Search\",\n    \"Definition\": \"A problem-solving technique that involves trying out all possible solutions and selecting the best one. It is a brute-force search method often used in computational algorithms.\",\n    \"Formal Language\": \"Exhaustive Search \\in Algorithm\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Concatenation\",\n    \"Definition\": \"The operation of joining two or more strings or sequences in programming and mathematics.\",\n    \"Formal Language\": \"Concatenation: For strings, if s1 and s2 are strings, then s1 + s2 denotes their concatenation.\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Weighing\",\n    \"Definition\": \"The process of determining the weight or mass of an object, usually using a scale or balance.\",\n    \"Formal Language\": \"Weighing \\in Measurement\"\n}\n```",
+    "{\n    \"Name\": \"Combination Lock\",\n    \"Definition\": \"A security device that requires a sequence of numbers or symbols to open. It is often used to discuss permutations and combinations in mathematics.\",\n    \"Formal Language\": \"Combination Lock \\in SecurityDevice\"\n}",
+    "```json\n{\n    \"Name\": \"Domino\",\n    \"Definition\": \"A small, rectangular tile with a line dividing its face into two square ends, each marked with a number of spots or blank. Used in certain games or as a mathematical tool.\",\n    \"Formal Language\": \"Domino \\in GameTile \\cup MathematicalTool\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Wave\",\n    \"Definition\": \"A wave is a disturbance that transfers energy through matter or space, often described by its amplitude, wavelength, frequency, and speed.\",\n    \"Formal Language\": \"Wave \\in Physical Phenomenon\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Handshake Problem\",\n    \"Definition\": \"A classic problem in combinatorics that involves determining the total number of handshakes possible in a group, often used to illustrate the concept of combinations.\",\n    \"Formal Language\": \"Handshake Problem \\in Combinatorics\"\n}\n```",
+    "{\n    \"Name\": \"Rooks Problem\",\n    \"Definition\": \"The Rooks Problem is a classic chess-related problem that examines the maximum number of rooks that can be placed on a chessboard such that no two rooks can attack each other. In mathematical terms, it is about arranging non-threatening rooks on an n x n grid.\",\n    \"Formal Language\": \"Rooks Problem \\in Combinatorics\"\n}",
+    "```json\n{\n    \"Name\": \"Series-Parallel Network\",\n    \"Definition\": \"A combination of circuits that are connected together in series and parallel arrangements. Components in series shares the same current while in parallel shares the same voltage.\",\n    \"Formal Language\": \"Series-Parallel Network \\in Circuit Theory\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Integer Array\",\n    \"Definition\": \"An ordered collection of integers, where each integer is stored at a specific index.\",\n    \"Formal Language\": \"Integer Array \\subseteq \\mathbb{Z}^n\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Knights Problem\",\n    \"Definition\": \"A classic problem in computer science and recreational mathematics concerning the movement of a knight on a chessboard, typically finding a sequence of moves such that the knight visits every square exactly once.\",\n    \"Formal Language\": \"Knights Problem \\in Problem\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Lights Out Puzzle\",\n    \"Definition\": \"A puzzle game where the objective is to turn off all the lights on a grid by pressing them, noting that pressing one light will toggle it and its adjacent lights.\",\n    \"Formal Language\": \"Lights Out Puzzle \\in Recreational Mathematics\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Bracketing\",\n    \"Definition\": \"Bracketing is generally a method used in numerical analysis to find the root of a function. It involves identifying two points that lie on opposite sides of a root and continuously narrowing the interval.\",\n    \"Formal Language\": \"Bracketing \\in Numerical_Methods\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Code\",\n    \"Definition\": \"A set of instructions written in a programming language for a computer to execute.\",\n    \"Formal Language\": \"Code \\in Program\"\n}\n```",
+    "{\n    \"Name\": \"Energy\",\n    \"Definition\": \"In physics, energy is the quantitative property that must be transferred to an object in order to perform work on, or to heat, the object. It can exist in various forms such as kinetic, potential, thermal, electrical, chemical, nuclear, etc.\",\n    \"Formal Language\": \"Energy \\in Physics, ~E \\in \\mathbb{R}^{+}\"\n}",
+    "```json\n{\n    \"Name\": \"Current\",\n    \"Definition\": \"In physics and electrical engineering, current is the rate at which electric charge flows past a point or through a region.\",\n    \"Formal Language\": \"Current \\in ElectricalEngineering\"\n}\n```",
+    "{\n    \"Name\": \"Book Stacking Problem\",\n    \"Definition\": \"The book stacking problem, also known as the book tower problem, is a classic problem in probability and geometric series, involving stacking books over the edge of a table to achieve the maximum overhang without the stack falling.\",\n    \"Formal Language\": \"Book Stacking Problem \\in Optimization \\cup Problem Solving\"\n}",
+    "```json\n{\n    \"Name\": \"Square Wave\",\n    \"Definition\": \"A square wave is a non-sinusoidal periodic waveform that alternates between a fixed maximum and minimum value at a steady frequency, characterized by its distinct equal-duration high and low intervals.\",\n    \"Formal Language\": \"Square Wave \\in \\{ \\text{Waveforms with periodic alternation between two levels} \\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Step Function\",\n    \"Definition\": \"A function that increases or decreases abruptly from one constant value to another, resembling a series of steps.\",\n    \"Formal Language\": \"Step Function \\in \\{f: \\mathbb{R} \\to \\mathbb{R} \\mid f(x) = c_i \\text{ for intervals } (a_i, b_i)\\}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Rectangle Function\",\n    \"Definition\": \"A piecewise function, often used in signal processing, which is 1 on an interval and 0 elsewhere.\",\n    \"Formal Language\": \"Rectangle Function : \\mathbb{R} \\rightarrow \\{0, 1\\}, \\, \\text{where} \\, f(x) = 1 \\, \\text{for} \\, a \\leq x \\leq b \\, \\text{and} \\, 0 \\, \\text{elsewhere}\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Triangle Wave\",\n    \"Definition\": \"A non-sinusoidal waveform named for its triangular shape, often used in signal processing or music synthesis.\",\n    \"Formal Language\": \"Triangle Wave \\in Waveforms\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Exponential Decay\",\n    \"Definition\": \"A process in which a quantity decreases at a rate proportional to its current value. It is often modeled by the function y = a * e^(−kt), where 'a' is the initial amount, 'e' is the base of the natural logarithm, 'k' is the decay rate, and 't' is time.\",\n    \"Formal Language\": \"Exponential Decay \\in Functions\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Square Root Algorithms\",\n    \"Definition\": \"Methods or procedures used to find the square root of a number.\",\n    \"Formal Language\": \"SquareRootAlgorithms \\in Algorithms\"\n}\n```",
+    "```json\n{\n    \"Name\": \"Ln\",\n    \"Definition\": \"The natural logarithm is the logarithm to the base 'e', where 'e' is an irrational and transcendental constant approximately equal to 2.71828.\",\n    \"Formal Language\": \"Ln(x) = log_e(x)\"\n}\n```"
 ]
