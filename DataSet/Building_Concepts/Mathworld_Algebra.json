@@ -1,0 +1,1748 @@
+[
+    {
+        "id": 189,
+        "Name": "Open Interval",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 212,
+        "Name": "Discrete Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 221,
+        "Name": "Domain",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 237,
+        "Name": "Bounded from Above",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 255,
+        "Name": "Half-Closed Interval",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 266,
+        "Name": "Closure",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 276,
+        "Name": "Injection",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 282,
+        "Name": "Interval",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 326,
+        "Name": "Continuous Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 331,
+        "Name": "Unbounded",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 338,
+        "Name": "Unit Interval",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 926,
+        "Name": "Matrix 1-Inverse",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1330,
+        "Name": "Adjacent Value",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1500,
+        "Name": "Explicit Formula",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1594,
+        "Name": "Factorization",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1607,
+        "Name": "Cofactor",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1875,
+        "Name": "Pair Sum",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1917,
+        "Name": "Power Equation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2021,
+        "Name": "Number Triangle",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2026,
+        "Name": "Pascal's Triangle",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2041,
+        "Name": "Binomial Number",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 39,
+        "Name": "Partial Quotient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 62,
+        "Name": "Shift Transformation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 80,
+        "Name": "Periodic Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 85,
+        "Name": "Polynomial Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 111,
+        "Name": "Iteration Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 112,
+        "Name": "Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 138,
+        "Name": "Common Difference",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 140,
+        "Name": "Common Ratio",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 142,
+        "Name": "Subsequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 156,
+        "Name": "Decreasing Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 190,
+        "Name": "Geometric Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 238,
+        "Name": "Constant",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 255,
+        "Name": "Natural Logarithm of 2",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 257,
+        "Name": "Natural Logarithm of 10",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 441,
+        "Name": "Ceiling Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 443,
+        "Name": "Floor Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 446,
+        "Name": "Nearest Integer Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 450,
+        "Name": "Quotient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 453,
+        "Name": "Truncate",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 459,
+        "Name": "Surd",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 473,
+        "Name": "Cancellation Law",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 500,
+        "Name": "Modulus",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 548,
+        "Name": "R^+",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 636,
+        "Name": "Rule of Signs",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 637,
+        "Name": "Sign",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 638,
+        "Name": "Trichotomy Law",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 670,
+        "Name": "Lattice Method",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 677,
+        "Name": "Dividend",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 678,
+        "Name": "Long Multiplication",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 679,
+        "Name": "Ruffini's Rule",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 680,
+        "Name": "Division",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 681,
+        "Name": "Division by Zero",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 683,
+        "Name": "Rule of Three",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 685,
+        "Name": "Multiplication",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 687,
+        "Name": "Elementary Operation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 690,
+        "Name": "Expanded Synthetic Division",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 694,
+        "Name": "Multiplier",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 696,
+        "Name": "Synthetic Division",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 698,
+        "Name": "Polynomial Quotient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 699,
+        "Name": "Times",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 701,
+        "Name": "Polynomial Remainder",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 702,
+        "Name": "Karatsuba Multiplication",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 703,
+        "Name": "Product",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 717,
+        "Name": "Proportional",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 721,
+        "Name": "Ratio",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 726,
+        "Name": "Half",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 733,
+        "Name": "Complex Fraction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 734,
+        "Name": "Inversely Proportional",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 735,
+        "Name": "Constant of Proportionality",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 743,
+        "Name": "Directly Proportional",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 749,
+        "Name": "Numerator",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 753,
+        "Name": "Absolute Difference",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 754,
+        "Name": "Addend",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 755,
+        "Name": "Addition",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 757,
+        "Name": "Complex Addition",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 758,
+        "Name": "Difference",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 760,
+        "Name": "Minus",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 761,
+        "Name": "Minus Sign",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 762,
+        "Name": "Plus",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 763,
+        "Name": "Subtraction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 801,
+        "Name": "Double-Angle Formulas",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 804,
+        "Name": "Half-Angle Formulas",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 816,
+        "Name": "Multiple-Angle Formulas",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 819,
+        "Name": "Newton's Formulas",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 828,
+        "Name": "Trigonometric Addition Formulas",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 839,
+        "Name": "Inverse Tangent",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 841,
+        "Name": "Inverse Trigonometric Functions",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 859,
+        "Name": "Circular Functions",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 861,
+        "Name": "Trigonometric Functions",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 868,
+        "Name": "Cotangent",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 881,
+        "Name": "Gauss's Formulas",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1001,
+        "Name": "Shift",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1052,
+        "Name": "Identity Map",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1054,
+        "Name": "Bijection",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1090,
+        "Name": "Expansion",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1121,
+        "Name": "Symmetric",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1449,
+        "Name": "Between",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1468,
+        "Name": "Real Line",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1479,
+        "Name": "Slope",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1481,
+        "Name": "Slope-Intercept Form",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1490,
+        "Name": "Standard Form",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1493,
+        "Name": "Intercept Form",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1507,
+        "Name": "Point-Slope Form",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1508,
+        "Name": "Two-Point Form",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 39,
+        "Name": "Partial Quotient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 62,
+        "Name": "Shift Transformation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 80,
+        "Name": "Periodic Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 85,
+        "Name": "Polynomial Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 111,
+        "Name": "Iteration Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 112,
+        "Name": "Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 138,
+        "Name": "Common Difference",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 140,
+        "Name": "Common Ratio",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 142,
+        "Name": "Subsequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 156,
+        "Name": "Decreasing Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 190,
+        "Name": "Geometric Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 238,
+        "Name": "Constant",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 255,
+        "Name": "Natural Logarithm of 2",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 257,
+        "Name": "Natural Logarithm of 10",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 441,
+        "Name": "Ceiling Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 443,
+        "Name": "Floor Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 446,
+        "Name": "Nearest Integer Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 450,
+        "Name": "Quotient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 453,
+        "Name": "Truncate",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 459,
+        "Name": "Surd",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 473,
+        "Name": "Cancellation Law",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 500,
+        "Name": "Modulus",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 548,
+        "Name": "R^+",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 23,
+        "Name": "Polar",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 42,
+        "Name": "Reciprocation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 391,
+        "Name": "Polynomial Curve",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 393,
+        "Name": "Quadratic Curve",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 395,
+        "Name": "Quadratic Curve Discriminant",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 397,
+        "Name": "Quartic Curve",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 408,
+        "Name": "Asymptote",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 474,
+        "Name": "Cartesian",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 497,
+        "Name": "Parametric Equations",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 500,
+        "Name": "x-Intercept",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 505,
+        "Name": "y-Intercept",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 581,
+        "Name": "Affine Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1677,
+        "Name": "Principle of Mathematical Induction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1682,
+        "Name": "Induction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1687,
+        "Name": "Proof",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1689,
+        "Name": "Proof by Contradiction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1706,
+        "Name": "Finite Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1711,
+        "Name": "Power Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1716,
+        "Name": "Proper Subset",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1724,
+        "Name": "Complement Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1726,
+        "Name": "Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1731,
+        "Name": "Set Partition",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1736,
+        "Name": "Subset",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1739,
+        "Name": "Superset",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1745,
+        "Name": "Empty Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1746,
+        "Name": "Nonempty Set",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1759,
+        "Name": "Operation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1765,
+        "Name": "Set Difference",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1770,
+        "Name": "Symmetric Difference",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1783,
+        "Name": "Relation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1785,
+        "Name": "Equivalence Relation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1786,
+        "Name": "Symmetric Relation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1787,
+        "Name": "Binary Relation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1789,
+        "Name": "Transitive",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1791,
+        "Name": "Reflexive",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1815,
+        "Name": "Strictly Between",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1848,
+        "Name": "Disjunction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1849,
+        "Name": "Negation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1851,
+        "Name": "Equivalent",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1854,
+        "Name": "Exclusive Disjunction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1856,
+        "Name": "Biconditional",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1857,
+        "Name": "Implies",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1860,
+        "Name": "OR",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1905,
+        "Name": "Finite",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1918,
+        "Name": "Set Theory",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1921,
+        "Name": "Simple Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1937,
+        "Name": "Axiomatic System",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1941,
+        "Name": "Naive Set Theory",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2185,
+        "Name": "Boolean Connective",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2196,
+        "Name": "Implication",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2227,
+        "Name": "Contradiction",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2234,
+        "Name": "Literal",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2252,
+        "Name": "Truth Table",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2271,
+        "Name": "Existential Quantifier",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2295,
+        "Name": "Free Variable",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2388,
+        "Name": "Absorption Law",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2389,
+        "Name": "Induction Axiom",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2390,
+        "Name": "Axiom",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2396,
+        "Name": "de Morgan's Laws",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 17,
+        "Name": "Power Polynomial",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 20,
+        "Name": "Basic Polynomial Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 28,
+        "Name": "Binomial Identity",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 54,
+        "Name": "Recurrence Relation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 56,
+        "Name": "Recursive Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 412,
+        "Name": "Ordered Pairs Representation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 458,
+        "Name": "Vertex Degree",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 563,
+        "Name": "Graph Intersection",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 904,
+        "Name": "Recursive Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1014,
+        "Name": "Ordered Pair",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1053,
+        "Name": "Algebraic Language",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1081,
+        "Name": "Inverse Permutation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1098,
+        "Name": "Choose",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1114,
+        "Name": "Transposition",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1115,
+        "Name": "Permutation Cycle",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1141,
+        "Name": "Composition",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1301,
+        "Name": "Ordering",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1312,
+        "Name": "Integer Array",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1390,
+        "Name": "Binomial Coefficient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1392,
+        "Name": "Binomial Series",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1393,
+        "Name": "Binomial Sums",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1395,
+        "Name": "Binomial Theorem",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1409,
+        "Name": "Pascal's Formula",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1475,
+        "Name": "Monotonic Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1786,
+        "Name": "Step Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1885,
+        "Name": "Piecewise Constant Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1886,
+        "Name": "Piecewise Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1957,
+        "Name": "Exponent Laws",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1959,
+        "Name": "Exponential Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2004,
+        "Name": "Constant Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2012,
+        "Name": "Elementary Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2026,
+        "Name": "Zero Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2029,
+        "Name": "Identity Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2067,
+        "Name": "Geometric Mean",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2076,
+        "Name": "Average Rate of Change",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2101,
+        "Name": "Parameter",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2109,
+        "Name": "Square Root",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2112,
+        "Name": "Square Root Algorithms",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2113,
+        "Name": "Principal Square Root",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2114,
+        "Name": "nth Root",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2117,
+        "Name": "Radical",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2197,
+        "Name": "Antilogarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2200,
+        "Name": "Ln",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2201,
+        "Name": "Natural Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2202,
+        "Name": "Binary Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2203,
+        "Name": "Briggsian Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2205,
+        "Name": "Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2206,
+        "Name": "Common Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2290,
+        "Name": "Exponent",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2291,
+        "Name": "Exponentiation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2294,
+        "Name": "Power",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2295,
+        "Name": "Squared",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2298,
+        "Name": "Closed Form",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 17,
+        "Name": "Power Polynomial",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 20,
+        "Name": "Basic Polynomial Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 28,
+        "Name": "Binomial Identity",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 51,
+        "Name": "Recurrence Equation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 56,
+        "Name": "Recursive Sequence",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 343,
+        "Name": "Graph",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 412,
+        "Name": "Ordered Pairs Representation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 563,
+        "Name": "Graph Intersection",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 680,
+        "Name": "Graph Path",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 904,
+        "Name": "Recursive Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1014,
+        "Name": "Ordered Pair",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1053,
+        "Name": "Algebraic Language",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1080,
+        "Name": "Permutation Symbol",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1096,
+        "Name": "Lexicographic Order",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1110,
+        "Name": "Cyclic Permutation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1115,
+        "Name": "Permutation Cycle",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1141,
+        "Name": "Composition",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1390,
+        "Name": "Binomial Coefficient",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1393,
+        "Name": "Binomial Sums",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1395,
+        "Name": "Binomial Theorem",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1409,
+        "Name": "Pascal's Formula",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1475,
+        "Name": "Monotonic Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1494,
+        "Name": "Polar Representation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1783,
+        "Name": "Staircase Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1885,
+        "Name": "Piecewise Constant Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1886,
+        "Name": "Piecewise Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1925,
+        "Name": "Factorial Products",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1957,
+        "Name": "Exponent Laws",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1959,
+        "Name": "Exponential Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 1960,
+        "Name": "Exponential Growth",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2004,
+        "Name": "Constant Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2012,
+        "Name": "Elementary Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2026,
+        "Name": "Zero Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2029,
+        "Name": "Identity Function",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2067,
+        "Name": "Geometric Mean",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2076,
+        "Name": "Average Rate of Change",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2101,
+        "Name": "Parameter",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2113,
+        "Name": "Principal Square Root",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2114,
+        "Name": "nth Root",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2117,
+        "Name": "Radical",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2197,
+        "Name": "Antilogarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2201,
+        "Name": "Natural Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2202,
+        "Name": "Binary Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2203,
+        "Name": "Briggsian Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2205,
+        "Name": "Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2206,
+        "Name": "Common Logarithm",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2290,
+        "Name": "Exponent",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2291,
+        "Name": "Exponentiation",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2292,
+        "Name": "Odd Power",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2294,
+        "Name": "Power",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    },
+    {
+        "id": 2295,
+        "Name": "Squared",
+        "Suitable for K-12": "Yes",
+        "Category": "Algebra"
+    }
+]
