@@ -39,7 +39,7 @@
 5. Rhombus \\ in Parallelogram : A parallelogram with all sides equal.
 6. Square \\ in Rectangle, in Rhombus : Four equal sides and four right angles.
 
-# 3D figure 3维图形
+# Solid Geometry 立体几何
 
 ## Polyhedron 多面体
 1. Polyhedron : A polyhedron is a three-dimensional geometric solid made up of flat polygonal faces. The edges of these polygons are straight lines, and the faces themselves meet at vertices (points where edges intersect).
@@ -89,7 +89,10 @@
 
 # Coordinate System 坐标系
 
-
 1. CoordinateSystem
 
 2. RectangularPlaneCoordinateSystem
+
+
+
+

@@ -36,9 +36,11 @@
 
 3. Get_Number_Ceil: Get_Number_Ceil({x: Real}) -> Integer  # Get_Number_Ceil(3.8) = 4 (向下取整)
 
-4. Abs: Abs({a: Number}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
+4. Get_Number_Round: Get_Number_Round({x: Real}) -> Integer # Get_Number_Round(4.1) = 4 (最接近的整数)  
 
-5. Get_Repeating_Decimal: Get_Repeating_Decimal({x: Integer}, {y: Integer}) -> RationalNumbers (表达一个无限循环小数, x是整数部分, y是小数部分)
+5. Abs: Abs({a: Number}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
+
+6. Get_Repeating_Decimal: Get_Repeating_Decimal({x: Integer}, {y: Integer}) -> RationalNumbers (表达一个无限循环小数, x是整数部分, y是小数部分)
 
 
 #### Compare Operation
@@ -140,6 +142,9 @@
 
 12. Get_Sequences_Sum: Get_Sequences_Sum({s: Sequence}, {i: Integer}) -> Number # 计算数列的前n项和
 
+13. ExplicitFormula: ExplicitFormula({s: Sequence}) -> Expression #直接计算数列的通项公式  
+    *Example:* A: Sequence, ExplicitFormula(A) = 2n + 1
+
 
 
 
@@ -223,6 +228,12 @@
 26. Build_Function: Build_Function({f: Expression}, {x: Variable}) -> Function
     备注: 输入一个表达式 f 以及变量, 返回由这个表达式对应的函数
 
+27. Bijection
+
+28. Injection
+
+29. Surjection
+
 #### Set
 
 1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set
@@ -293,6 +304,12 @@
 
 23. Get_SetElement_Index: Get_SetElement_Byindex({A: Set}, {i: Number}) -> Element
     备注: 输入一个(排序好的)集合, 返回对应指标的元素
+
+24. Is_Set_BoundedFromAbove: Is_Set_BoundedFromAbove({A: Set}) -> Boolean
+    备注: 判断集合是否有上界
+
+25. Is_Set_Unbounded: Is_Set_Unbounded({A: Set}) -> Boolean
+    备注: 判断集合是否为无界
 
 
 
@@ -413,3 +430,9 @@
 
 
 
+
+
+#### Combination (组合相关)
+
+1. Get_BinomialNumber: Get_BinomialNumber({A: PositiveInteger}, {B: PositiveInteger}) -> PositiveInteger
+   *Example:* A: BinomialNumber, $C(5, 2) = 10$ ; B: Set, $B = \{1, 2, 3, 4, 5\}$ 

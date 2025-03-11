@@ -252,8 +252,8 @@
 8. Excenter of triangle : center of one of the excircles.
    Excenter of triangle : (Triangle, Point) -> Point
 
-9. circumcenter of triangle : the point of intersection of the perpendicular bisectors of the sides of the triangle.
-   circumcenter of triangle : (Triangle) -> Point
+9. Circumcenter of Triangle : the point of intersection of the perpendicular bisectors of the sides of the triangle.
+   Circumcenter of Triangle : (Triangle) -> Point
 
 # Translation, Rotation, Symmetry, and Central Symmetry 平移，旋转，对称，中心对称
 1. Translation : to move every point of a figure the same distance in the same direction(Determined by a Vector).
@@ -306,16 +306,22 @@
 
 1. Is_Isosceles_Triangle \\ in Triangle : Two sides are equal, and the angles opposite those sides are equal.
    Is_Isosceles_Triangle : (Triangle) ->Bool
+
 2. Is_Equilateral_Triangle \\ in Isosceles Triangle : All sides are equal, and all angles are 60°.
    Is_Equilateral_Triangle : (Triangle) ->Bool
+
 3. Is_Scalene_Triangle \\ in Triangle : All sides and angles are different.
    Is_Scalene_Triangle : (Triangle) ->Bool
+
 4. Is_Acute_Triangle \\ in Triangle : All angles are less than 90°.
    Is_Acute_Triangle : (Triangle) ->Bool
+
 5. Is_Right_Triangle \\ in Triangle : One angle is exactly 90°.
    Is_Right_Triangle : (Triangle) ->Bool
+
 6. Is_Obtuse_Triangle \\ in Triangle : One angle is greater than 90°.
    Is_Obtuse_Triangle : (Triangle) ->Bool
+
 7. Is_Isosceles_Right_Triangle \\ in Isosceles Triangle, in Right Triangle : A right triangle where the two legs are equal, and the angles are 45° 45° 90°.
    Is_Isosceles_Right_Triangle : (Triangle) ->Bool
 
