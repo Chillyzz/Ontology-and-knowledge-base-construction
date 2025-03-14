@@ -1,82 +1,71 @@
 (Operator 数论部分 26个)
 
-### Numbers
 
-1. Get_LeastCommonDenominator: Get_LeastCommonDenominator(f1: Fraction, f2: Fraction) -> Integer  
-   备注: 获取两个或多个分数的最小公分母  
-   - 返回两个或多个分数的分母的最小公倍数。  
-   - 例：`Get_LeastCommonDenominator(1/4, 1/6) = 12`
+### Numbers_Property
 
-2. Get_LeastCommonMultiple: Get_LeastCommonMultiple(a: Integer, b: Integer) -> Integer  
-   备注: 获取两个或多个数的最小公倍数  
-   - 返回两个或多个数的最小正整数倍。  
-   - 例：`Get_LeastCommonMultiple(6, 8) = 24`
+1. Is_Odd_Number: Is_Odd_Number(a: Integer) -> Boolean
+   备注: 判断 a 是不是奇数
 
-3. Get_DigitCount: Get_DigitCount(n: Integer) -> Integer  
-   备注: 获取一个数的数字个数  
-   - 返回一个数字的总位数。  
-   - 例：`Get_DigitCount(12345) = 5`
+2. Is_Even_Number: Is_Even_Number(a: Integer) -> Boolean
+   备注: 判断 a 是不是偶数
 
-4. Get_FractionalPart: Get_FractionalPart(x: Real) -> Real  
+3. Is_Prime_Number: Is_Prime_Number(a: Integer) -> Boolean
+   备注: 判断 a 是不是素数
+
+4. Is_Composite: Is_Composite(x: Integer) -> Boolean  
+   备注: 判断 `x` 是否为合数  
+   - 若 `x` 是合数（大于 1 且不是素数的数），返回 `True`，否则返回 `False`。  
+   - 例：`Is_Composite(10) = True`
+
+
+### Fractions
+
+1. Get_FractionalPart: Get_FractionalPart(x: Real) -> Real  
    备注: 获取一个数的小数部分  
    - 返回数字的小数部分。  
    - 例：`Get_FractionalPart(12.34) = 0.34`
 
-5. Get_IntegerPart: Get_IntegerPart(x: Real) -> Integer  
+2. Get_IntegerPart: Get_IntegerPart(x: Real) -> Integer  
    备注: 获取一个数的整数部分  
    - 返回数字的小数点左边部分。  
    - 例：`Get_IntegerPart(12.34) = 12`
 
-6. Get_Mantissa: Get_Mantissa(x: Real) -> Real  
+3. Get_Mantissa: Get_Mantissa(x: Real) -> Real  
    备注: 获取一个数的尾数  
    - 对于实数 `x`，尾数定义为 \( x - \lfloor x \rfloor \)。  
    - 例：`Get_Mantissa(3.14159) = 0.14159`
 
-7. Get_OddPart: Get_OddPart(n: Integer) -> Integer  
+4. Get_LeastCommonDenominator: Get_LeastCommonDenominator(f1: Fraction, f2: Fraction) -> Integer  
+   备注: 获取两个或多个分数的最小公分母  
+   - 返回两个或多个分数的分母的最小公倍数。  
+   - 例：`Get_LeastCommonDenominator(1/4, 1/6) = 12`
+
+
+
+### Numbers
+
+1. Get_LeastCommonMultiple: Get_LeastCommonMultiple(a: Integer, b: Integer) -> Integer  
+   备注: 获取两个或多个数的最小公倍数  
+   - 返回两个或多个数的最小正整数倍。  
+   - 例：`Get_LeastCommonMultiple(6, 8) = 24`
+
+2. Get_OddPart: Get_OddPart(n: Integer) -> Integer  
    备注: 获取一个数的最大奇因子  
    - 返回一个数的最大奇因子。  
    - 例：`Get_OddPart(24) = 3`（因为 \( 24 = 3 \times 2^3 \)）
 
-8. Get_GreatestCommonDivisor: Get_GreatestCommonDivisor(a: Integer, b: Integer) -> Integer  
+3. Get_GreatestCommonDivisor: Get_GreatestCommonDivisor(a: Integer, b: Integer) -> Integer  
    备注: 获取两个或多个数的最大公约数  
    - 返回两个或多个数的最大公约数。  
    - 例：`Get_GreatestCommonDivisor(18, 24) = 6`
 
-9. Get_DigitProduct: Get_DigitProduct(n: Integer) -> Integer  
-   备注: 获取一个数的数字积  
-   - 返回一个数字中所有数字的乘积。  
-   - 例：`Get_DigitProduct(234) = 24`（因为 \( 2 \times 3 \times 4 = 24 \)）
-
-10. Get_DigitSum: Get_DigitSum(n: Integer) -> Integer  
-    备注: 获取一个数的数字和  
-    - 返回一个数字中所有数字的和。  
-    - 例：`Get_DigitSum(234) = 9`（因为 \( 2 + 3 + 4 = 9 \)）
-
-11. Get_DigitalRoot: Get_DigitalRoot(n: Integer) -> Integer  
-    备注: 获取一个数的数字根  
-    - 通过反复将数字的各位数相加直到只剩下一个数字，得到数字根。  
-    - 例：`Get_DigitalRoot(987) = 6`（因为 \( 9 + 8 + 7 = 24 \)，然后 \( 2 + 4 = 6 \)）
-
-12. Get_PandigitalNumber: Get_PandigitalNumber(n: Integer) -> Boolean  
-    备注: 判断一个数是否为全数字  
-    - 若该数包含所有的 0 到 9 的数字且每个数字出现一次，则返回 `True`。  
-    - 例：`Get_PandigitalNumber(9876543210) = True`
-
-13. Get_Pandigital: Get_Pandigital(n: Integer) -> Boolean  
-    备注: 判断一个数是否为潘多数字  
-    - 若该数包含所有的 0 到 9 的数字至少一次，则返回 `True`。  
-    - 例：`Get_Pandigital(1023456789) = True`
-
-14. Get_SumOfSquares: Get_SumOfSquares(n: Integer) -> Integer  
+4. Get_SumOfSquares: Get_SumOfSquares(n: Integer) -> Integer  
     备注: 获取一个数的平方和  
     - 返回从 1 到 `n` 的平方和。  
     - 例：`Get_SumOfSquares(3) = 14`（因为 \(1^2 + 2^2 + 3^2 = 14\)）
 
-15. Convert_Number_Base: Convert_Number_Base({n: Integer}, {a: Base}, {b: Base}) -> Integer
-    备注：将数字从a进制转换到b进制
 
-16. Get_Ones_Digit: Get_Ones_Digit({n: Integer}) -> Integer
-    备注: 获取一个数的最后一位数字
+
 
 ### Primes 
 
@@ -110,16 +99,6 @@
    - 返回 `x` 的所有素因子。  
    - 例：`Get_Prime_Factorization(12) = {2, 3}`
 
-7. Is_Prime: Is_Prime(x: Integer) -> Boolean  
-   备注: 判断 `x` 是否为素数  
-   - 若 `x` 是素数，则返回 `True`，否则返回 `False`。  
-   - 例：`Is_Prime(7) = True`
-
-8. Is_Composite: Is_Composite(x: Integer) -> Boolean  
-   备注: 判断 `x` 是否为合数  
-   - 若 `x` 是合数（大于 1 且不是素数的数），返回 `True`，否则返回 `False`。  
-   - 例：`Is_Composite(10) = True`
-
 9. Is_Twin_Prime: Is_Twin_Prime(p: Prime) -> Boolean  
    备注: 判断 `p` 是否为孪生素数  
    - 若 `p` 与 `p±2` 也是素数，则返回 `True`。  
@@ -135,19 +114,53 @@
     - 若 `p` 形如 `n! ± 1`，则返回 `True`。  
     - 例：`Is_Factorial_Prime(5) = True`（因 `4! + 1 = 25`，`5` 是素数）
 
-12. Apply_Sieve_of_Eratosthenes: Apply_Sieve_of_Eratosthenes(n: Integer) -> Set(Prime)  
-    备注: 应用埃拉托色尼筛法找出 `n` 以内的所有素数  
-    - 通过标记非素数的方法，筛选出 `n` 以内的所有素数。  
-    - 例：`Apply_Sieve_of_Eratosthenes(10) = {2, 3, 5, 7}`
-
-
-
-## Module
-
-1. Get_Module
-
-2. Is_ModularInverse
 
 
 
 
+### Module
+
+   1. Get_Module
+
+   2. Is_ModularInverse
+
+
+
+
+### Digits
+
+1. Get_DigitCount: Get_DigitCount(n: Integer) -> Integer  
+   备注: 获取一个数的数字个数  
+   - 返回一个数字的总位数。  
+   - 例：`Get_DigitCount(12345) = 5`
+
+2. Get_DigitProduct: Get_DigitProduct(n: Integer) -> Integer  
+   备注: 获取一个数的数字积  
+   - 返回一个数字中所有数字的乘积。  
+   - 例：`Get_DigitProduct(234) = 24`（因为 \( 2 \times 3 \times 4 = 24 \)）
+
+3. Get_DigitSum: Get_DigitSum(n: Integer) -> Integer  
+    备注: 获取一个数的数字和  
+    - 返回一个数字中所有数字的和。  
+    - 例：`Get_DigitSum(234) = 9`（因为 \( 2 + 3 + 4 = 9 \)）
+
+4. Get_DigitalRoot: Get_DigitalRoot(n: Integer) -> Integer  
+    备注: 获取一个数的数字根  
+    - 通过反复将数字的各位数相加直到只剩下一个数字，得到数字根。  
+    - 例：`Get_DigitalRoot(987) = 6`（因为 \( 9 + 8 + 7 = 24 \)，然后 \( 2 + 4 = 6 \)）
+
+5. Get_PandigitalNumber: Get_PandigitalNumber(n: Integer) -> Boolean  
+    备注: 判断一个数是否为全数字  
+    - 若该数包含所有的 0 到 9 的数字且每个数字出现一次，则返回 `True`。  
+    - 例：`Get_PandigitalNumber(9876543210) = True`
+
+6. Get_Pandigital: Get_Pandigital(n: Integer) -> Boolean  
+    备注: 判断一个数是否为潘多数字  
+    - 若该数包含所有的 0 到 9 的数字至少一次，则返回 `True`。  
+    - 例：`Get_Pandigital(1023456789) = True`
+
+7. Convert_Number_Base: Convert_Number_Base({n: Integer}, {a: Base}, {b: Base}) -> Integer
+    备注：将数字从a进制转换到b进制
+
+8. Get_Ones_Digit: Get_Ones_Digit({n: Integer}) -> Integer
+    备注: 获取一个数的最后一位数字

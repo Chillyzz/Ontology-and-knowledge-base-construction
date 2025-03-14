@@ -1,6 +1,6 @@
 (23个 Concepts)
 
-## Numbers
+### Numbers
 
 1. PalindromicNumber: A number that remains the same when its digits are reversed.  
    Example: 121 and 1331 are palindromic numbers.
@@ -14,21 +14,18 @@
 4. SinglyEvenNumber: A singly even number is a number that is divisible by 2 but not by 4.  
     Example: 6 is a singly even number because \( 6 \div 2 = 3 \) but \( 6 \div 4 \) is not an integer.
 
-5. Predecessor: A predecessor is a number that comes immediately before another number in a sequence. For any integer \( n \), the predecessor is \( n-1 \).  
+5. Predecessor: A predecessor is a number that comes immediately before another number in a sequence. For any integer \( n \), the predecessor is \( n-1 \). (涉及语义理解)  
     Example: The predecessor of 5 is 4.
 
-6. Successor: The successor of a number is the number that comes immediately after it in a given sequence, often obtained by adding one to it.  
+6. Successor: The successor of a number is the number that comes immediately after it in a given sequence, often obtained by adding one to it. (涉及语义理解) 
     Example: The successor of 7 is 8.
 
-7. Reciprocal: The reciprocal of a number is 1 divided by that number. It's the multiplicative inverse of the number.  
-   Example: The reciprocal of 5 is \( \frac{1}{5} \).
-
-8. Remainder: The remainder is the amount left over after division when one number does not evenly divide into another.  
+8. Remainder: The remainder is the amount left over after division when one number does not evenly divide into another.  (考虑建模成算子)
    Example: When dividing 10 by 3, the remainder is 1.
 
 
 
-## Primes
+### Primes
 
 1. Twin_Primes: Pairs of prime numbers that have a difference of two.  
    **Example:** \( (3, 5) \) and \( (11, 13) \) are twin primes.  
@@ -46,8 +43,7 @@
    **Example:** \( 5 = 3! + 1 \) is a factorial prime.  
 
 
-## Fractions
-
+### Fractions
 
 1. Mediant: The mediant is a fraction formed by adding the numerators of two fractions and adding the denominators of those fractions to form a new fraction.  
     Example: The mediant of \( \frac{1}{4} \) and \( \frac{2}{5} \) is \( \frac{3}{9} \).
@@ -80,9 +76,11 @@
     Example: \( \frac{7}{11} \) is an irreducible fraction because gcd(7, 11) = 1.
 
 
-## Module
+### Module
 
 1. ModularInverse
 
 
-## Base
+### Base
+
+### Digit

@@ -61,9 +61,6 @@
    1. ImaginaryNumbers \\in Complex Numbers: Numbers of the form \(bi\), where \(b\) is a real number and \(i^2 = -1\).  
     *Example:* \(2i, -5i\).
 
-
-
-
 # Polynomial(多项式，系数)
 
 1. Polynomial \\in Expression: Mathematical expression consisting of variables(numbers) and coefficients, combined using operations. 
@@ -99,23 +96,30 @@
 1. Function: A mathematical relationship where each input (from the domain) corresponds to exactly one output (in the codomain).  
    *Example:* \(f(x) = x^2\), where \(f(2) = 4\).
 
-2. InverseFunction ∈ Function: A function that reverses the input-output mapping of another function, represented as \(f^{-1}(x)\), where \(f(f^{-1}(x)) = x\).  
-   *Example:* If \(f(x) = 2x + 3\), then \(f^{-1}(x) = \frac{x - 3}{2}\).
+   2. InverseFunction ∈ Function: A function that reverses the input-output mapping of another function, represented as \(f^{-1}(x)\), where \(f(f^{-1}(x)) = x\).  
+      *Example:* If \(f(x) = 2x + 3\), then \(f^{-1}(x) = \frac{x - 3}{2}\).
 
-3. ConstantFunction ∈ Function: A function that always outputs the same value, regardless of the input, represented as \(f(x) = c\).  
-   *Example:* \(f(x) = 5\).
+   3. ConstantFunction ∈ Function: A function that always outputs the same value, regardless of the input, represented as \(f(x) = c\).  
+      *Example:* \(f(x) = 5\).
 
-4. IdentityFunction ∈ Function: A function that maps every input to itself, represented as \(f(x) = x\).  
-   *Example:* \(f(x) = x\).
+   4. IdentityFunction ∈ Function: A function that maps every input to itself, represented as \(f(x) = x\).  
+      *Example:* \(f(x) = x\).
 
-5. PeriodicFunction ∈ Function: A function that repeats its values at regular intervals, such as trigonometric functions.  
-   *Example:* \(f(x) = \sin(x)\), with period \(2\pi\).
+   5. PeriodicFunction ∈ Function: A function that repeats its values at regular intervals, such as trigonometric functions.  
+      *Example:* \(f(x) = \sin(x)\), with period \(2\pi\).
 
-6. IncreasingFunction ∈ Function: A function where the output increases as the input increases.  
-   *Example:* \(f(x) = 2x\).
+   6. IncreasingFunction ∈ Function: A function where the output increases as the input increases.  
+      *Example:* \(f(x) = 2x\).
 
-7. DecreasingFunction ∈ Function: A function where the output decreases as the input increases.  
-   *Example:* \(f(x) = -x\).
+   7. DecreasingFunction ∈ Function: A function where the output decreases as the input increases.  
+      *Example:* \(f(x) = -x\).
+
+   8. OddFunction ∈ Function: A function that satisfies the condition \(f(-x) = -f(x)\) for all \(x\) in its domain.  
+      *Example:* \(f(x) = x^3\), where \(f(-2) = -8\) and \(f(2) = 8\).
+
+   9. EvenFunction ∈ Function: A function that satisfies the condition \(f(-x) = f(x)\) for all \(x\) in its domain.  
+      *Example:* \(f(x) = x^2\), where \(f(-2) = 4\) and \(f(2) = 4\).
+
 
 8. Domain ∈ Set: The set of all possible input values for a function.  
    *Example:* For \(f(x) = \sqrt{x}\), the domain is \(x \geq 0\).
@@ -123,13 +127,7 @@
 9. Range ∈ Set: The set of all possible output values for a function.  
    *Example:* For \(f(x) = x^2\), the range is \(y \geq 0\).
 
-10. OddFunction ∈ Function: A function that satisfies the condition \(f(-x) = -f(x)\) for all \(x\) in its domain.  
-    *Example:* \(f(x) = x^3\), where \(f(-2) = -8\) and \(f(2) = 8\).
-
-11. EvenFunction ∈ Function: A function that satisfies the condition \(f(-x) = f(x)\) for all \(x\) in its domain.  
-    *Example:* \(f(x) = x^2\), where \(f(-2) = 4\) and \(f(2) = 4\).
-
-12. FunctionZeroPoint ∈ Set: The set of all values of x for which \(f(x) = 0\).  
+10. FunctionZeroPoint ∈ Set: The set of all values of x for which \(f(x) = 0\).  
     *Example:* \(f(x) = x^2 + 2x + 1\), ZeroPoint is \(x = -1\).
 
 
@@ -165,46 +163,18 @@
 9. OrderedSet \\in Set: A set where the arrangement of elements matters.  
    *Example:* \( A = \{1, 2, 3\} \) is ordered if we consider the set as a sequence, like \( A = (1, 2, 3) \).
 
-10. Event \\in Set: A set in probability theory, used to compute the value of probability.
-
-11. Interval \\in Set: A useful set often used when learning function.
+10. Interval \\in Set: A useful set often used when learning function.
    *Example:* A: Interval, $A = [1, 2]$ ; B: Interval, $B = (3, 5]$ 
 
-12. OpenInterval \\in Interval: An open interval is a set of real numbers that includes all numbers between two endpoints, but not the endpoints 
+11. OpenInterval \\in Interval: An open interval is a set of real numbers that includes all numbers between two endpoints, but not the endpoints 
    *Example:* A: OpenInterval, $A = (1, 2)$ ; B: Interval, $B = (3, 5)$ 
 
-13. HalfClosedInterval \\in Interval: A half-closed interval is a range where one endpoint is included, and the other is not.  
+12. HalfClosedInterval \\in Interval: A half-closed interval is a range where one endpoint is included, and the other is not.  
    *Example:* A: Half-ClosedInterval, $A = [1, 2)$ ; B: Interval, $B = (3, 4]$ 
 
 
 
 
-# Expression(表达式)
-
-1. Expression: A mathematical phrase consisting of numbers, variables, and operators (such as +, *) that represents a value or relationship.  
-   *Example:* \(3x + 5\) is an algebraic expression where \(x\) is a variable.
-
-2. Variable: A symbol, often a letter, used to represent an unknown or changeable value in mathematical expressions or equations.  
-   *Example:* In the expression \(3x + 5\), \(x\) is a variable.
-
-3. Formula: A declarative sentence that can be either true or false. A statement often refers to an equation, inequality, or other assertion.  
-   *Example:* \(x = 2\) is a statement that asserts \(x\) equals 2.
-
-4. Equation \\in Formula: A statement where two expressions are set equal to each other. 
-   *Example:* \(2x + 3 = 7\) is an equation where we can solve for \(x\).
-
-5. Inequation \\in Formula: A statement where two expressions are compared using inequality signs (>, <, ≥, ≤, ≠) instead of equality.  
-   *Example:* \(2x + 3 > 7\) is an inequation where we can solve for \(x\) to find values that satisfy the inequality.
-
-6. Factorial \\in Expression: The product of all positive integers less than or equal to a given positive integer \(n\), denoted as \(n!\).  
-    - *Example*: \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\).
-
-7. BinomialCoefficient \\in Expression: The coefficient of the term in the expansion of \( (x + y)^n \), denoted as \( \binom{n}{k} \).  
-    - *Example*: \( \binom{5}{2} = \frac{5!}{2!(5-2)!} = 10 \).
-
-8. VariableType: A set of all possible variable types. Like Number, Set, Function, Real, Integer......
-
-9. Constant \\in Number: A fixed number, like 0, 1, 2......
 
 
 
@@ -251,6 +221,20 @@
 
 13. DecreasingSequence \\in Sequence: A sequence where each term is less than or equal to the preceding term.  
    *Example:* A: DecreasingSequence, $A = \{5, 4, 3, 2, 1\}$ ; B: Sequence, $B = \{10, 9, 8, 7\}$  
+
+
+
+
+# Expression
+
+1. Expression: A mathematical phrase consisting of numbers, variables, and operators (such as +, *) that represents a value or relationship.  
+   *Example:* \(3x + 5\) is an algebraic expression where \(x\) is a variable.
+
+2. Equation \\in Formula: A statement where two expressions are set equal to each other. 
+   *Example:* \(2x + 3 = 7\) is an equation where we can solve for \(x\).
+
+3. Inequation \\in Formula: A statement where two expressions are compared using inequality signs (>, <, ≥, ≤, ≠) instead of equality.  
+   *Example:* \(2x + 3 > 7\) is an inequation where we can solve for \(x\) to find values that satisfy the inequality.
 
 
 # Angle

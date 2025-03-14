@@ -1,122 +1,56 @@
 (共100个 Operator)
 
-# Operator
+### Numbers
 
-#### Arithmetical Operation
+1. Get_Number_Floor: Get_Number_Floor({x: Real}) -> Integer  # Get_Number_Floor(3.8) = 4 (向上取整)
 
-1. Add: Add({x: Addtype}, {y: Addtype}) -> Addtype     # Add({3: Numbers} , {5:Numbers}) = 8.
-    备注: Addtype作为一个集合会单独给出, 下同
+2. Get_Number_Ceil: Get_Number_Ceil({x: Real}) -> Integer  # Get_Number_Ceil(3.8) = 4 (向下取整)
 
-2. Minus: Minus({x: Addtype}, {y: Addtype}) -> Addtype  # Minus({8: Numbers}, {5: Numbers}) = 3.
+3. Get_Number_Round: Get_Number_Round({x: Real}) -> Integer # Get_Number_Round(4.1) = 4 (最接近的整数)  
 
-3. Multiply: Multiply({x: Addtype}, {y: Addtype}) -> Addtype  # Multiply({8: Numbers}, {5: Numbers}) = 40.
+4. Abs: Abs({a: Real}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
 
-4. Divide: Divide({x: Addtype}, {y: Addtype}) -> Addtype  # Divide({8: Numbers}, {2: Numbers}) = 4.
+5. Log: Log({x: Real}, {y: Real}) -> Real # Log({2: Real}, {4: Real}) = 2.   (Lean中的 Real.log)
 
-5. Power: Power({x: Powertype}, {y: Powertype}) -> Powertype # Power({2: Numbers}, {4: Numbers}) = 16. 
+6. Factorial：Factorial({x: NaturalNumbers}) -> NaturalNumbers : The product of all positive integers less than or equal to a given positive integer \(n\) as \(n!\).  
+    - *Example*: \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\).
 
-6. Radical: Radical({x: Radicaltype}, {y: Radicaltype}) -> Radicaltype # Radical({x^2: Expression}, {2: Number}) = x.
+7. Get_Combination: Get_Combination({x: NaturalNumbers}, {y: NaturalNumbers}): The coefficient of the term in the expansion of \( (x + y)^n \), as \( \binom{n}{k} \).  
+    - *Example*: \( Get_Combination(5, 2) = \binom{5}{2} = \frac{5!}{2!(5-2)!} = 10 \).
 
-7. Log: Logtype({x: Logtype}, {y: Logtype}) -> Logtype # Log({2: Number}, {4: Number}) = 2.
+### Equation and Expression
 
-8. Equal: Equal({x: Concept}, {y: Concept}) -> Boolean # 比较任意两个 individual 是否相同
+1. Solve_equation: Solve_equation({x: Variable}, {P: Equation}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
 
-9. Sum: Sum({A(i): Expression}, {P(i): Proposition}) -> Expression  # 对所有满足命题 P(i) 的 i, 对 A(i)求值
+2. Solve_inequation: Solve_inequation({x: Variable}, {P: Inequation}) -> Set # 输入一个不等式和对应变量, 返回解集 (可扩展到多元, 但方程个数必须等于变量数)
 
-10. Product: Product({i: Expression}, {x: Integer}, {y: Integer}) -> Number  # 对表达式 i, 从 i = x 开始到 i = y 求乘积
+3. Get_Value_Expression: Get_Value_Expression({P: Expression}) -> Number # 输入一个表达式(不含未知变量), 求它的值(Query时使用的算子)
 
+4. Get_Expression_Maximum: Get_Expression_Maximum(f: Expression) -> Number # 输入一个表达式, 返回可能的最大值
 
+5. Get_Expression_Minimum: Get_Expression_Minimum(f: Expression) -> Number # 输入一个表达式, 返回可能的最小值
 
+### Polynomial(多项式)
 
-#### Numbers
+1. Get_PolyDegree: Get_PolyDegree(x: Polynomial) -> Number # 输入一个多项式, 返回它的最高次幂
 
-1. Get_Reciprocal: Get_Reciprocal({x: Number}) -> Number #  Get_Reciprocal(4) = 1/4 (取倒数)
+2. Get_Polyroots: Get_Polyroots(x: Polynomial) -> Set # 输入一个多项式, 返回它的根的集合
 
-2. Get_Number_Floor: Get_Number_Floor({x: Real}) -> Integer  # Get_Number_Floor(3.8) = 4 (向上取整)
+3. Get_Term_Coefficient: Get_Term_Coefficient({x: Polynomial}, {y: PolynomialTerm}) -> Number # 输入一个多项式和对应的某一项, 返回该项的系数
 
-3. Get_Number_Ceil: Get_Number_Ceil({x: Real}) -> Integer  # Get_Number_Ceil(3.8) = 4 (向下取整)
+4. Get_PolyTerm: Get_PolyTerm(x: Polynomial) -> Set # 输入一个多项式, 返回它的项的集合
 
-4. Get_Number_Round: Get_Number_Round({x: Real}) -> Integer # Get_Number_Round(4.1) = 4 (最接近的整数)  
+5. Get_ConstantTerm: Get_ConstantTerm(x: Polynomial) -> Number # 输入一个多项式, 返回它的常数项
 
-5. Abs: Abs({a: Number}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
+6. Is_PolyFactor: IsPolyFactor({A: Polynomial}, {B: Polynomial}) -> Boolean # 输入两个多项式, 判断 A 是不是 B 的因子
 
-6. Get_Repeating_Decimal: Get_Repeating_Decimal({x: Integer}, {y: Integer}) -> RationalNumbers (表达一个无限循环小数, x是整数部分, y是小数部分)
+7. Is_IrreduciblePolynomial: Is_IrreduciblePolynomial({A: Polynomial}) -> Boolean # 输入一个多项式, 判断是否可约
 
+8. Get_PolyCoefficient: Get_PolyCoefficient(x: Polynomial) -> Set # 输入一个多项式, 返回它的系数集合
 
-#### Compare Operation
+9. Eval_Value_Polynomial: Eval_Value_Expression({P: Polynomial(a)}, {x: Prop(a)}) -> Number # 输入一个多项式和变量在某处的值, 返回对应的值
 
-1. Is_GreaterThan: Is_Greaterthan({a: Number}, {b: Number}) -> Boolean  # Is_Greaterthan({3: Number}, {5: Number}) -> False.
-    备注: 判断 a > b 是否成立, 成立返回 True 反正 False, 下同
-
-2. Is_LessThan: Is_Lessthan({a: Number}, {b: Number}) -> Boolean # Is_Lessthan({3: Number}, {5: Number}) -> True
-
-3. Is_GreaterOrEqualThan: Is_GreaterOrEqualThan({a: Number}, {b: Number}) -> Boolean # Is_GreaterOrEqualThan({5: Number}, {5: Number}) -> True
-
-4. Is_LessOrEqualThan: Is_LessOrEqualThan({a: Number}, {b: Number}) -> Boolean # Is_LessOrEqualThan({4: Number}, {5: Number}) -> True
-
-5. Get_LessThan_Inequation: Get_LessThan_Inequation({p: Expression}, {q: Expression}) -> Inequation
-    备注: 输入两个Expression, 用小于号链接得到一个不等式
-
-6. Get_GreaterThan_Inequation: Get_GreaterThan_Inequation({p: Expression}, {q: Expression}) -> Inequation 
-    备注: 输入两个Expression, 用大于号链接得到一个不等式
-
-7. Get_Equation: Get_Equation({p: Expression}, {q: Expression}) -> Equation
-    备注: 输入两个Expression, 用等号链接得到一个等式
-
-8. Get_LessOrEqualThan_Inequation: Get_LessOrEqualThan_Inequation({p: Expression}, {q: Expression}) -> Inequation
-    备注: 输入两个Expression, 用小于等于号链接得到一个不等式
-
-9. Get_GreaterOrEqualThan_Inequation: Get_GreaterOrEqualThan_Inequation({p: Expression}, {q: Expression}) -> Inequation
-    备注: 输入两个Expression, 用大于等于号链接得到一个不等式
-    
-
-#### Equation and Expression
-
-1. Get_Variable_Type: Get_Variable_Type(x: Variable) -> Concept # 变量x为一个正整数, Get_Variable_Type(x) -> Integer
-    备注: Get_Variable_Type函数的返回值类型应该单独注明
-
-2. Solve_equation: Solve_equation({P: Equation}, {x: Variable}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
-
-3. Solve_inequation: Solve_inequation({P: Inequation}, {x: Variable}) -> Set # 输入一个不等式和对应变量, 返回解集
-
-4. Get_Value_Expression: Get_Value_Expression({P: Expression}) -> Number # 输入一个表达式(不含变量), 返回它简化后的值
-
-5. Simplified_Expression: Simplified_Expression({P: Expression}, {x: Variable}) -> Expression # 输入一个表达式和变量, 返回化简后的表达式(合并同类项)
-
-6. Get_Factors_Expression: Get_Factors_Expression({P: Polynomial}) -> Expression # 输入一个表达式, 做因式分解
-
-7. Get_Variable_Value: Get_Variable_Value(x: Variable) -> Set # 输入一个变量, 获取它的取值范围
-
-8. Get_PolyDegree: Get_PolyDegree(x: Polynomial) -> Number # 输入一个多项式, 返回它的最高次幂
-
-9. Get_Polyroots: Get_Polyroots(x: Polynomial) -> Set # 输入一个多项式, 返回它的根的集合
-
-10. Get_Term_Coefficient: Get_Term_Coefficient({x: Polynomial}, {y: PolynomialTerm}) -> Number # 输入一个多项式和对应的某一项, 返回该项的系数
-
-11. Get_PolyTerm: Get_PolyTerm(x: Polynomial) -> Set # 输入一个多项式, 返回它的项的集合
-
-12. Get_ConstantTerm: Get_ConstantTerm(x: Polynomial) -> Number # 输入一个多项式, 返回它的常数项
-
-13. Is_PolyFactor: IsPolyFactor({A: Polynomial}, {B: Polynomial}) -> Boolean # 输入两个多项式, 判断 A 是不是 B 的因子
-
-14. Is_IrreduciblePolynomial: Is_IrreduciblePolynomial({A: Polynomial}) -> Boolean # 输入一个多项式, 判断是否可约
-
-15. Get_Variable_Expression_Value: Get_Variable_Expression_Value({P: Expression}, {x: Variable}) -> Number # 输入一个表达式和变量的值, 返回对应的值
-
-16. Get_Quadratic_Discriminant: Get_Quadratic_Discriminant({P: Expression}) -> Number # 输入一个二次方程, 返回它的判别式
-
-17. Get_Expression_Maximum: Get_Expression_Maximum(f: Expression) -> Number # 输入一个表达式, 返回可能的最大值
-
-18. Get_Expression_Minimum: Get_Expression_Minimum(f: Expression) -> Number # 输入一个表达式, 返回可能的最小值
-
-19. Get_PolyCoefficient: Get_PolyCoefficient(x: Polynomial) -> Set # 输入一个多项式, 返回它的系数集合
-
-20. Get_Constant_Value: Get_Constant_Value(x: Constant) -> Number # 求解一个常数的值
- 
-
-
-
-#### Sequence(数列)
+### Sequence(数列)
 
 1. Get_Sequence_Terms: Get_Sequence_Terms({s: Sequence}, {n: Integers}) -> ElementType # 输入一个数列和序号, 返回对应的数列元素
 
@@ -132,7 +66,7 @@
 
 7. Get_CommonRatio: Get_CommonRatio({s: GeometricSequence}) -> Number # 输入一个等比数列, 返回它的公比
 
-8. Is_Finite: Is_Finite({s: Sequence}) -> Boolean # 输入一个数列，判断是不是有限的
+8. Is_Finite_Sequence: Is_Finite({s: Sequence}) -> Boolean # 输入一个数列，判断是不是有限的
 
 9. Is_Monotonic_Increasing_Sequence: Is_Monotonic_Increasing_Sequence({s: Sequence}) -> Boolean # 判断一个数列是不是单调递增的
 
@@ -142,18 +76,11 @@
 
 12. Get_Sequences_Sum: Get_Sequences_Sum({s: Sequence}, {i: Integer}) -> Number # 计算数列的前n项和
 
-13. ExplicitFormula: ExplicitFormula({s: Sequence}) -> Expression #直接计算数列的通项公式  
-    *Example:* A: Sequence, ExplicitFormula(A) = 2n + 1
 
+### Function
 
-
-
-
-
-#### Function
-
-1. Get_Function_Domain: Get_Function_Domain(f: Function) -> Set
-    备注: 输入一个函数, 返回一个集合(它的定义域)
+1. Function_Domain: Function_Domain(f: Function) -> Set
+    备注: 表示一个函数的定义域集合(无法计算, 只能 Query或赋值)
 
 2. Get_Function_Range: Get_Function_Range(f: Function) -> Set
     备注: 输入一个函数, 返回一个集合(它的值域)
@@ -163,78 +90,59 @@
 
 4. Get_Function_Minimum: Get_Function_Minimum(f: Function) -> Number
     备注: 输入一个函数, 返回一个数字(它的最小值)
-
-(暂定)
-5. Get_Function_Continuity: Get_Function_Continuity({f: Function}, {D: Interval}) -> Boolean  
-   备注: 输入一个函数, 判断该函数在给定的区间内是否连续。返回布尔值，`True`表示函数在定义域内连续，`False`表示不连续。  
-
-6. Get_Function_Derivative: Get_Function_Derivative(f: Function) -> Function  
-   备注: 输入一个函数, 返回该函数的导数（作为新的函数）。  
-
-7. Get_Function_Integral: Get_Function_Integral(f: Function) -> Function  
-   备注: 输入一个函数, 返回该函数的积分（作为新的函数）。  
-
-8. Get_Function_InflectionPoints: Get_Function_InflectionPoints(f: Function) -> Set  
-   备注: 输入一个函数, 返回该函数的拐点集合。  
-
-9. Get_Function_Asymptotes: Get_Function_Asymptotes(f: Function) -> Set  
-   备注: 输入一个函数, 返回该函数的渐近线集合。  
  
-10. Get_Function_Symmetry: Get_Function_Symmetry(f: Function) -> String  
+5. Get_Function_Symmetry: Get_Function_Symmetry(f: Function) -> String  
     备注: 输入一个函数, 判断该函数是否具有对称性。返回字符串 "symmetrical" 或 "asymmetrical"。  
 
-11. Get_Function_Zeroes: Get_Function_Zeroes(f: Function) -> Set  
+6. Get_Function_Zeroes: Get_Function_Zeroes(f: Function) -> Set  
     备注: 输入一个函数, 返回该函数的零点集合，即使得函数值为零的输入值集合。  
 
-13. Get_Function_TangentLine: Get_Function_TangentLine(f: Function, x: Number) -> Function  
-    备注: 输入一个函数 \( f \) 和一个数字 \( x \), 返回在点 \( x \) 处的切线方程。返回一个新的函数表示切线。 
-
-14. Is_Increasing_Function: Is_Increasing_Function({f: Function}, {D: Interval}) -> Boolean
+7. Is_Increasing_Function: Is_Increasing_Function({f: Function}, {D: Interval}) -> Boolean
     备注: 输入一个函数 f 和一个区间 D; 判断函数 f 在区间 D 上是否是增函数
 
-15. Is_Decreasing_Function: Is_Decreasing_Function({f: Function}, {D: Interval}) -> Boolean
+8. Is_Decreasing_Function: Is_Decreasing_Function({f: Function}, {D: Interval}) -> Boolean
     备注: 输入一个函数 f 和一个区间 D; 判断函数 f 在区间 D 上是否是减函数
 
-16. Is_OddFunction: Is_OddFunction(f: Function) -> Boolean
+9. Is_OddFunction: Is_OddFunction(f: Function) -> Boolean
     备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是奇函数
 
-17. Is_EvenFunction: Is_EvenFunction(f: Function) -> Boolean
+10. Is_EvenFunction: Is_EvenFunction(f: Function) -> Boolean
     备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是偶函数
 
-18. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
+11. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
     备注: 输入两个函数 f g; 返回它们的复合函数 f(g(x))
 
-19. Is_Periodic_Function: Is_Periodic_Function(f: Function) -> Boolean
+12. Is_Periodic_Function: Is_Periodic_Function(f: Function) -> Boolean
     备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是周期函数
 
-20. Get_Function_Minimalperiod: Get_Function_Minimalperiod(f: Function) -> Real
+13. Get_Function_Minimalperiod: Get_Function_Minimalperiod(f: Function) -> Real
     备注: 输入一个函数 f ; 返回它的最小正周期
 
-21. Get_Function_CriticalPoint: Get_Function_CriticalPoint(f: Function) -> Set
+14. Get_Function_CriticalPoint: Get_Function_CriticalPoint(f: Function) -> Set
     备注: 输入一个函数 f ; 返回它零点的集合
 
-22. Get_Inverse_Function: Get_Inverse_Function(f: Function) -> Function
+15. Get_Inverse_Function: Get_Inverse_Function(f: Function) -> Function
     备注: 输入一个函数 f ; 返回它的反函数
 
-23. Get_Function_Expression: Get_Function_Expression(f: Function) -> Expression
-    备注: 输入一个函数 f ; 返回它的表达式
-
-24. Get_Function_IthComposition: Get_Function_IthComposition({f: Function}, {i: Integer}) -> Function
+16. Get_Function_IthComposition: Get_Function_IthComposition({f: Function}, {i: Integer}) -> Function
     备注: 输入一个函数 f 以及它的复合次数 i; 返回它的复合函数 f^{i}(x)
 
-25. Get_Function_Value: Get_Function_Value({f: Function}, {x: Number}) -> Number
+17. Get_Function_Value: Get_Function_Value({f: Function}, {x: Number}) -> Number
     备注: 输入一个函数 f 以及变量的值，返回函数对应的值
 
-26. Build_Function: Build_Function({f: Expression}, {x: Variable}) -> Function
-    备注: 输入一个表达式 f 以及变量, 返回由这个表达式对应的函数
+18. Is_Bijection: Is_Bijection(f: Function) -> Boolean  
+    备注: 输入一个函数 f ; 若 f 是双射（即同时是单射和满射），返回 true，否则返回 false  
 
-27. Bijection
+19. Is_Injection: Is_Injection(f: Function) -> Boolean  
+    备注: 输入一个函数 f ; 若 f 是单射（即任意 x₁ ≠ x₂ 都满足 f(x₁) ≠ f(x₂)），返回 true，否则返回 false  
 
-28. Injection
+20. Is_Surjection: Is_Surjection(f: Function) -> Boolean  
+    备注: 输入一个函数 f ; 若 f 是满射（即对于 f 的值域中的每个 y，都存在 x 使得 f(x) = y），返回 true，否则返回 false 
 
-29. Surjection
+21. Get_Quadratic_Discriminant: Get_Quadratic_Discriminant({P: Quadratic}) -> Number 
+    备注：输入一个二次方程, 返回它的判别式
 
-#### Set
+### Set
 
 1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set
     备注: 输入两个集合, 返回它们的并集( A \cup B)
@@ -312,15 +220,12 @@
     备注: 判断集合是否为无界
 
 
-
-#### Probability (概率)
+### Probability (概率)
 
 1. Probability: Probability({P: Event}) -> PositiveNumbers
     备注: 输入一个集合 Event, 返回一个正实数(对应的概率)
 
-
-
-#### Angle (三角函数)
+### Angle (三角函数)
 
 1. Get_Angle_DegreeMeasure: Get_Angle_DegreeMeasure({A: Angle}) -> DegreeMeasure
     备注: 输入一个角A, 返回它的度数(角度制)
@@ -347,7 +252,7 @@
     备注: 输入一个角度, 返回对应的余切值
 
 
-#### Vector (向量)
+### Vector (向量)
 
 1. Build_Plane_Vector: Build_Plane_Vector({A: Point}, {B: Point}) -> Vector
     备注: 输入平面直角坐标系两个点, 返回对应的向量
@@ -372,7 +277,7 @@
 
 
 
-#### Statistics & Probability (概率统计)
+### Statistics & Probability (概率统计)
 
 1. Get_Dataset_Range: Get_Dataset_Range({D: Dataset}) -> Real
     备注: 输入一个数据集, 返回它的极差
@@ -400,7 +305,7 @@
 
 
 
-#### Logic (逻辑相关)
+### Logic (逻辑相关)
 
 1. Negation: Negation({a: Proposition}) -> Proposition
     备注: 对原命题进行取反
@@ -432,7 +337,9 @@
 
 
 
-#### Combination (组合相关)
 
-1. Get_BinomialNumber: Get_BinomialNumber({A: PositiveInteger}, {B: PositiveInteger}) -> PositiveInteger
-   *Example:* A: BinomialNumber, $C(5, 2) = 10$ ; B: Set, $B = \{1, 2, 3, 4, 5\}$ 
+
+
+
+
+
