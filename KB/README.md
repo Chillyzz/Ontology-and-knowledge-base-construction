@@ -9,9 +9,11 @@
 
 5. Get_Factors_Expression: Get_Factors_Expression({P: Polynomial}) -> Expression # 输入一个表达式, 做因式分解
 
-3. 无限循环小数 （OK吗？）
+3. 无限循环小数 （OK吗？）    2. RepatingDecimals \\in Decimals: Numbers like $0.4\\overline{4}$ (无法表示); 小数的某些性质，数位也未必能表示
 
 6. Get_Repeating_Decimal: Get_Repeating_Decimal({x: Integer}, {y: Integer}) -> RationalNumbers (表达一个无限循环小数, x是整数部分, y是小数部分)
+
+小数部分（例如小数点后几位这种，直接扔掉；表示不了一点）
 
 推理时用的算子
 
@@ -22,9 +24,35 @@
 13. ExplicitFormula: ExplicitFormula({s: Sequence}) -> Expression #直接计算数列的通项公式  
     *Example:* A: Sequence, ExplicitFormula(A) = 2n + 1
 
+数列的长度问题
+
+二次函数 -- 15. Get_Quadratic_Discriminant: Get_Quadratic_Discriminant({P: Quadratic}) -> Number
+-- 8. Get_Function_CriticalPoint: Get_Function_CriticalPoint(f: Function) -> Set
+
+求表达式最大值最小值（转成函数）
+
+4. Get_Expression_Maximum: Get_Expression_Maximum(f: Expression) -> Number # 输入一个表达式, 返回可能的最大值
+
+5. Get_Expression_Minimum: Get_Expression_Minimum(f: Expression) -> Number # 输入一个表达式, 返回可能的最小值
+
+有序集合（List？）
+
+-- 22. Get_Sorted_Set: Get_Sorted_Set({A: Set}) -> Set 
+
+函数定义域的问题 (不进行单独建模，或者说无法单独建模；根据题目条件去做)
+
+1. Function_Domain: Function_Domain(f: Function) -> Set
+    备注: 表示一个函数的定义域集合(无法计算, 只能 Query或赋值)
+
 默认的运算符
 
 加减乘除乘方开方；大于小于大于等于小于等于
+
+有限集合无限集合如何互相转换
+
+暂时没有能力做单位转换的工作
+
+知识方程的规范，Query是结论未知；Proof是结论已知
 
 #### Arithmetical Operation(更新，基本算数运算符的算子取消；加减乘除乘方取消)
 

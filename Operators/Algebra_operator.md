@@ -1,4 +1,4 @@
-(共100个 Operator)
+(代数 + 数论大约135个 Operator 可用)
 
 ### Numbers
 
@@ -10,13 +10,22 @@
 
 4. Abs: Abs({a: Real}) -> NonNegativeNumbers # Abs(-3.5) = 3,5 (取绝对值)
 
-5. Log: Log({x: Real}, {y: Real}) -> Real # Log({2: Real}, {4: Real}) = 2.   (Lean中的 Real.log)
+5. Log: Log({x: Real}, {y: Real}) -> Real # Log({2: Real}, {4: Real}) = 2.   (Lean中的 Real.logb)
 
-6. Factorial：Factorial({x: NaturalNumbers}) -> NaturalNumbers : The product of all positive integers less than or equal to a given positive integer \(n\) as \(n!\).  
+6. NaturalLog: NaturalLog({x: Real}) -> Real # Log(e^2) = 2.   (Lean中的 Real.log)
+
+7. Factorial：Factorial({x: NaturalNumbers}) -> NaturalNumbers : The product of all positive integers less than or equal to a given positive integer \(n\) as \(n!\).  
     - *Example*: \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\).
 
-7. Get_Combination: Get_Combination({x: NaturalNumbers}, {y: NaturalNumbers}): The coefficient of the term in the expansion of \( (x + y)^n \), as \( \binom{n}{k} \).  
+8. Get_Combination: Get_Combination({x: NaturalNumbers}, {y: NaturalNumbers}): The coefficient of the term in the expansion of \( (x + y)^n \), as \( \binom{n}{k} \).  
     - *Example*: \( Get_Combination(5, 2) = \binom{5}{2} = \frac{5!}{2!(5-2)!} = 10 \).
+
+9. Get_Reciprocal: Get_Reciprocal({x: Real}) -> Real:  A number that, when multiplied by the original number, results in 1.  
+    *Example:* The reciprocal of \(4\) is \(\frac{1}{4}\).
+
+10. Get_Sum({S: Finset}, {L: LamdaExpression}) -> ℝ     # Get_Sum (Set.Icc 1 10).toFinset (λ x : ℕ => x ^ 2 + 1)
+
+11. Get_Prod({S: Finset}, {L: LamdaExpression}) -> ℝ    # Get_Prod (Set.Icc 1 10).toFinset (λ x : ℕ => x ^ 2 + 1)
 
 ### Equation and Expression
 
@@ -26,9 +35,6 @@
 
 3. Get_Value_Expression: Get_Value_Expression({P: Expression}) -> Number # 输入一个表达式(不含未知变量), 求它的值(Query时使用的算子)
 
-4. Get_Expression_Maximum: Get_Expression_Maximum(f: Expression) -> Number # 输入一个表达式, 返回可能的最大值
-
-5. Get_Expression_Minimum: Get_Expression_Minimum(f: Expression) -> Number # 输入一个表达式, 返回可能的最小值
 
 ### Polynomial(多项式)
 
@@ -50,180 +56,132 @@
 
 9. Eval_Value_Polynomial: Eval_Value_Expression({P: Polynomial(a)}, {x: Prop(a)}) -> Number # 输入一个多项式和变量在某处的值, 返回对应的值
 
+10. RationalRoot \\in Polyroots: A root of the polynomial that can be expressed as a fraction of integers.
+   *Example:* For \(x^2 - 3x + 2\), the roots \(x = 1\) and \(x = 2\) are rational.
+
+11. IrrationalRoot \\in Polyroots: A root of the polynomial that cannot be expressed as a fraction.
+    *Example:* The roots of \(x^2 - 2 = 0\) are \(x = \pm \sqrt{2}\), which are irrational.
+
+12. Solve_equation: Solve_equation({x: Variable}, {P: Equation}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
+
+13. Solve_inequation: Solve_inequation({x: Variable}, {P: Inequation}) -> Set # 输入一个不等式和对应变量, 返回解集 (可扩展到多元, 但方程个数必须等于变量数)
+
+14. Is_Root: Is_Root({P: Polynomial}, {x: Variable}) -> Boolean # 判断 x 是不是多项式 P 的根
+
 ### Sequence(数列)
 
-1. Get_Sequence_Terms: Get_Sequence_Terms({s: Sequence}, {n: Integers}) -> ElementType # 输入一个数列和序号, 返回对应的数列元素
+-- 1. Get_Sequence_Terms: Get_Sequence_Terms({s: Sequence}, {n: Integers}) -> ElementType
+--    获取数列的第 `n` 项
 
-2. Build_Sequence: Build_Sequence({n: Variable}, {p: Expression}) -> Sequence # 输入数列的通项公式, 返回对应的数列
+-- 2. Get_Sequence_Sum: Get_Sequences_Sum({s: Sequence}, {i: Integer}) -> Number
+--    获取数列前 `i` 项的和
 
-3. Is_ArithmeticSequence: Is_ArithmeticSequence({s: Sequence}) -> Boolean # 输入一个数列, 判断是不是等差数列
+-- 3. Is_ArithmeticSequence: Is_ArithmeticSequence({s: Sequence}) -> Boolean
+--    判断数列是否为等差数列
 
-4. Is_GeometricSequence: Is_GeometricSequence({s: Sequence}) -> Boolean # 输入一个数列, 判断是不是等比数列
+-- 4. Is_GeometricSequence: Is_GeometricSequence({s: Sequence}) -> Boolean
+--    判断数列是否为等比数列
 
-5. Is_MonotonicSequence: Is_MonotonicSequence({s: Sequence}) -> Boolean # 输入一个数列, 判断是不是单调数列
+-- 5. Is_MonotonicSequence: Is_MonotonicSequence({s: Sequence}) -> Boolean
+--    判断数列是否为单调数列
 
-6. Get_CommonDifference: Get_CommonDifference({s: ArithmeticSequence}) -> Number # 输入一个等差数列, 返回它的公差
+-- 6. Get_CommonDifference: Get_CommonDifference({s: ArithmeticSequence}) -> Number
+--    获取等差数列的公差
 
-7. Get_CommonRatio: Get_CommonRatio({s: GeometricSequence}) -> Number # 输入一个等比数列, 返回它的公比
+-- 7. Get_CommonRatio: Get_CommonRatio({s: GeometricSequence}) -> Number
+--    获取等比数列的公比
 
-8. Is_Finite_Sequence: Is_Finite({s: Sequence}) -> Boolean # 输入一个数列，判断是不是有限的
+-- 8. Is_Monotonic_Increasing_Sequence: Is_Monotonic_Increasing_Sequence({s: Sequence}) -> Boolean
+--    判断数列是否为单调递增数列
 
-9. Is_Monotonic_Increasing_Sequence: Is_Monotonic_Increasing_Sequence({s: Sequence}) -> Boolean # 判断一个数列是不是单调递增的
+-- 9. Is_Monotonic_Decreasing_Sequence: Is_Monotonic_Decreasing_Sequence({s: Sequence}) -> Boolean
+--    判断数列是否为单调递减数列
 
-10. Is_Monotonic_Decreasing_Sequence: Is_Monotonic_Decreasing_Sequence({s: Sequence}) -> Boolean # 判断一个数列是不是单调递减的
-
-11. Get_Sequences_Length: Get_Sequences_Length({s: Sequence}) -> PositiveInteger # 计算一个数列的元素个数
-
-12. Get_Sequences_Sum: Get_Sequences_Sum({s: Sequence}, {i: Integer}) -> Number # 计算数列的前n项和
+-- 10. Get_FiniteSequences_Length: Get_FiniteSequences_Length({s: Sequence}) -> PositiveInteger
+--     获取有限数列的长度
 
 
 ### Function
 
-1. Function_Domain: Function_Domain(f: Function) -> Set
-    备注: 表示一个函数的定义域集合(无法计算, 只能 Query或赋值)
+-- 1. Get_Function_Range: Get_Function_Range(f: Function) -> Set
 
-2. Get_Function_Range: Get_Function_Range(f: Function) -> Set
-    备注: 输入一个函数, 返回一个集合(它的值域)
+-- 2. Get_Function_Maximum: Get_Function_Maximum(f: Function) -> Number
 
-3. Get_Function_Maximum: Get_Function_Maximum(f: Function) -> Number
-    备注: 输入一个函数, 返回一个数字(它的最大值)
+-- 3. Get_Function_Minimum: Get_Function_Minimum(f: Function) -> Number
 
-4. Get_Function_Minimum: Get_Function_Minimum(f: Function) -> Number
-    备注: 输入一个函数, 返回一个数字(它的最小值)
- 
-5. Get_Function_Symmetry: Get_Function_Symmetry(f: Function) -> String  
-    备注: 输入一个函数, 判断该函数是否具有对称性。返回字符串 "symmetrical" 或 "asymmetrical"。  
+-- 4. Get_Function_Symmetry: Get_Function_Symmetry(f: Function) -> String
 
-6. Get_Function_Zeroes: Get_Function_Zeroes(f: Function) -> Set  
-    备注: 输入一个函数, 返回该函数的零点集合，即使得函数值为零的输入值集合。  
+-- 5. Get_Function_Zeroes: Get_Function_Zeroes(f: Function) -> Set
 
-7. Is_Increasing_Function: Is_Increasing_Function({f: Function}, {D: Interval}) -> Boolean
-    备注: 输入一个函数 f 和一个区间 D; 判断函数 f 在区间 D 上是否是增函数
+-- 6. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
 
-8. Is_Decreasing_Function: Is_Decreasing_Function({f: Function}, {D: Interval}) -> Boolean
-    备注: 输入一个函数 f 和一个区间 D; 判断函数 f 在区间 D 上是否是减函数
+-- 7. Get_Function_Minimalperiod: Get_Function_Minimalperiod(f: Function) -> Real
 
-9. Is_OddFunction: Is_OddFunction(f: Function) -> Boolean
-    备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是奇函数
+-- 8. Get_Inverse_Function: Get_Inverse_Function(f: Function) -> Function
 
-10. Is_EvenFunction: Is_EvenFunction(f: Function) -> Boolean
-    备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是偶函数
+-- 9. Get_Function_IthComposition: Get_Function_IthComposition({f: Function}, {i: Integer}) -> Function
 
-11. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
-    备注: 输入两个函数 f g; 返回它们的复合函数 f(g(x))
+-- 10. Get_Function_Value: Get_Function_Value({f: Function}, {x: Number}) -> Number
 
-12. Is_Periodic_Function: Is_Periodic_Function(f: Function) -> Boolean
-    备注: 输入一个函数 f ; 判断函数 f 在定义域上是否是周期函数
+-- 11. Is_Bijection: Is_Bijection(f: Function) -> Boolean
 
-13. Get_Function_Minimalperiod: Get_Function_Minimalperiod(f: Function) -> Real
-    备注: 输入一个函数 f ; 返回它的最小正周期
+-- 12. Is_Injection: Is_Injection(f: Function) -> Boolean
 
-14. Get_Function_CriticalPoint: Get_Function_CriticalPoint(f: Function) -> Set
-    备注: 输入一个函数 f ; 返回它零点的集合
+-- 13. Is_Surjection: Is_Surjection(f: Function) -> Boolean
 
-15. Get_Inverse_Function: Get_Inverse_Function(f: Function) -> Function
-    备注: 输入一个函数 f ; 返回它的反函数
-
-16. Get_Function_IthComposition: Get_Function_IthComposition({f: Function}, {i: Integer}) -> Function
-    备注: 输入一个函数 f 以及它的复合次数 i; 返回它的复合函数 f^{i}(x)
-
-17. Get_Function_Value: Get_Function_Value({f: Function}, {x: Number}) -> Number
-    备注: 输入一个函数 f 以及变量的值，返回函数对应的值
-
-18. Is_Bijection: Is_Bijection(f: Function) -> Boolean  
-    备注: 输入一个函数 f ; 若 f 是双射（即同时是单射和满射），返回 true，否则返回 false  
-
-19. Is_Injection: Is_Injection(f: Function) -> Boolean  
-    备注: 输入一个函数 f ; 若 f 是单射（即任意 x₁ ≠ x₂ 都满足 f(x₁) ≠ f(x₂)），返回 true，否则返回 false  
-
-20. Is_Surjection: Is_Surjection(f: Function) -> Boolean  
-    备注: 输入一个函数 f ; 若 f 是满射（即对于 f 的值域中的每个 y，都存在 x 使得 f(x) = y），返回 true，否则返回 false 
-
-21. Get_Quadratic_Discriminant: Get_Quadratic_Discriminant({P: Quadratic}) -> Number 
-    备注：输入一个二次方程, 返回它的判别式
 
 ### Set
 
-1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set
-    备注: 输入两个集合, 返回它们的并集( A \cup B)
+-- 1. Set_Union: Set_Union({A: Set}, {B: Set}) -> Set  
 
-2. Set_Intersection: Set_Intersection({A: Set}, {B: Set}) -> Set
-    备注: 输入两个集合, 返回它们的交集( A \cap B)
+-- 2. Set_Intersection: Set_Intersection({A: Set}, {B: Set}) -> Set  
 
-3. Set_Difference: Set_Difference({A: Set}, {B: Set}) -> Set 
-    备注: 输入两个集合, 返回它们的差集
+-- 3. Set_Difference: Set_Difference({A: Set}, {B: Set}) -> Set  
 
-4. Set_SymmetricDifference: Set_SymmetricDifference({A: Set}, {B: Set}) -> Set  
-   备注: 输入两个集合, 返回它们的对称差集 (\( A \Delta B \))  
+-- 4. Set_SymmetricDifference: Set_SymmetricDifference({A: Set}, {B: Set}) -> Set  
 
-5. Set_Subset: Set_Subset({A: Set}, {B: Set}) -> Boolean  
-   备注: 输入两个集合, 判断集合 \( A \) 是否为集合 \( B \) 的子集 (\( A \subseteq B \))  
+-- 5. Set_Subset: Set_Subset({A: Set}, {B: Set}) -> Boolean  
 
-6. Set_ProperSubset: Set_ProperSubset({A: Set}, {B: Set}) -> Boolean  
-   备注: 输入两个集合, 判断集合 \( A \) 是否为集合 \( B \) 的真子集 (\( A \subset B \))  
+-- 6. Set_ProperSubset: Set_ProperSubset({A: Set}, {B: Set}) -> Boolean  
 
-7. Set_Superset: Set_Superset({A: Set}, {B: Set}) -> Boolean  
-   备注: 输入两个集合, 判断集合 \( A \) 是否为集合 \( B \) 的超集 (\( A \supseteq B \))  
+-- 7. Set_Superset: Set_Superset({A: Set}, {B: Set}) -> Boolean  
 
-8. Set_ProperSuperset: Set_ProperSuperset({A: Set}, {B: Set}) -> Boolean  
-   备注: 输入两个集合, 判断集合 \( A \) 是否为集合 \( B \) 的真超集 (\( A \supset B \))  
+-- 8. Set_ProperSuperset: Set_ProperSuperset({A: Set}, {B: Set}) -> Boolean  
 
-9. Set_Cardinality: Set_Cardinality({A: Set}) -> Number  
-   备注: 输入一个集合, 返回该集合的基数 (\( |A| \))  
+-- 9. Set_Cardinality: Set_Cardinality({A: Set}) -> Number  
 
-10. Set_PowerSet: Set_PowerSet({A: Set}) -> Set  
-    备注: 输入一个集合, 返回该集合的幂集 (\( \mathcal{P}(A) \)) 
+-- 10. Set_PowerSet: Set_PowerSet({A: Set}) -> Set  
 
-11. Set_Complement: Set_Complement({A: Set}, {U: Set}) -> Set 
-    备注: 输入一个集合 \( A \) 和全集 \( U \), 返回集合 \( A \) 相对于全集 \( U \) 的补集; 公式表示为：\( A' = U \setminus A \)。  
+-- 11. Set_Complement: Set_Complement({A: Set}, {U: Set}) -> Set  
 
-12. Set_Equality: Set_Equality({A: Set}, {B: Set}) -> Boolean  
-    备注: 输入两个集合, 判断它们是否相等 (\( A = B \)); 如果两个集合的元素完全相同且没有重复元素, 则它们相等。
+-- 12. Set_Equality: Set_Equality({A: Set}, {B: Set}) -> Boolean  
 
-13. Get_Set_Sum: Get_Set_Sum({A: Set}) -> Real
-    备注: 输入一个集合, 返回这个集合中所有元素的和(首先得能求和?)
+-- 13. Get_Set_Sum: Get_Set_Sum({A: Set}) -> Real  
 
-14. Build_Set: Build_Set({x: VariableType}, {P(x): Proposition}) -> Set
-    备注: 输入变量 x 满足的条件, 返回 x 构成的集合
+-- 14. Get_Set_Product: Get_Set_Product({A: Set}) -> Real  
 
-15. Get_Set_Maximum: Get_Set_Maximum({A: Set}) -> Real
-    备注: 输入一个集合, 返回这个集合中元素的最大值
+-- 15. Build_Set: Build_Set({x: VariableType}, {P(x): Proposition}) -> Set  
 
-16. Get_Set_Minimum: Get_Set_Minimum({B: Set}) -> Real
-    备注: 输入一个集合, 返回这个集合中元素的最小值
+-- 16. Get_Set_Maximum: Get_Set_Maximum({A: Set}) -> Real  
 
-17. Check_Set_Type: Check_Set_Type({A: Set}, {B: Concept}) -> Boolean
-    备注: 检查一个集合的元素是否都属于某个 Concept
+-- 17. Get_Set_Minimum: Get_Set_Minimum({B: Set}) -> Real  
 
-18. Get_Set_Product: Get_Set_Product({A: Set}) -> Real
-    备注: 输入一个集合, 返回这个集合中所有元素的乘积(首先得能求乘积?)
+-- 18. Elements_In_Set: Elements_In_Set({A: Individual}, {B: Set}) -> Boolean  
 
-19. Elements_In_Set: Elements_In_Set({A: Individual}, {B: Set}) -> Boolean
-    备注: 判断某个具体的 Individual 是否属于某个 Set
+-- 19. Get_Set_Means: Get_Set_Means({A: Set}) -> Real  
 
-20. Get_Set_Means: Get_Set_Means({A: Set}) -> Real
-    备注: 输入一个集合, 返回这个集合中所有元素的均值
+-- 20. Is_Set_BoundedFromAbove: Is_Set_BoundedFromAbove({A: Set}) -> Boolean  
 
-21. Get_Set_Count: Get_Set_Count({A: Set}) -> Set
-    备注: 输入一个集合, 返回这个集合中元素出现的频率
+-- 21. Is_Set_Unbounded: Is_Set_Unbounded({A: Set}) -> Boolean  
 
-22. Get_Sorted_Set: Get_Sorted_Set({A: Set}) -> Set
-    备注: 输入一个集合, 返回排序好后的集合
+-- 22. UniversalSet \\in Set: The set that contains all the elements under consideration for a particular context.  
 
-23. Get_SetElement_Index: Get_SetElement_Byindex({A: Set}, {i: Number}) -> Element
-    备注: 输入一个(排序好的)集合, 返回对应指标的元素
+-- 23. Get_Set_Inf
 
-24. Is_Set_BoundedFromAbove: Is_Set_BoundedFromAbove({A: Set}) -> Boolean
-    备注: 判断集合是否有上界
+-- 24. Get_Set_Sup
 
-25. Is_Set_Unbounded: Is_Set_Unbounded({A: Set}) -> Boolean
-    备注: 判断集合是否为无界
+-- 25. Range: Range({a: NaturalNumber}, {b: NaturalNumber}) -> FiniteSet         #备注: Range(a, b) = {a, a + 1, ... , b} ⊆ ℕ; a < b 时合法; 用于求和时书写对应集合
 
-
-### Probability (概率)
-
-1. Probability: Probability({P: Event}) -> PositiveNumbers
-    备注: 输入一个集合 Event, 返回一个正实数(对应的概率)
 
 ### Angle (三角函数)
 
@@ -330,16 +288,8 @@
 
 
 
+### Probability (概率)
 
-
-
-
-
-
-
-
-
-
-
-
+1. Probability: Probability({P: Event}) -> PositiveNumbers
+    备注: 输入一个集合 Event, 返回一个正实数(对应的概率)
 
