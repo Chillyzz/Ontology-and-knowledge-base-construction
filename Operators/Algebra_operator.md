@@ -2,9 +2,9 @@
 
 ### Numbers
 
-1. Get_Number_Floor: Get_Number_Floor({x: Real}) -> Integer  # Get_Number_Floor(3.8) = 4 (向上取整)
+1. Get_Number_Floor: Get_Number_Floor({x: Real}) -> Integer  # Get_Number_Floor(3.8) = 3 (向下取整)
 
-2. Get_Number_Ceil: Get_Number_Ceil({x: Real}) -> Integer  # Get_Number_Ceil(3.8) = 4 (向下取整)
+2. Get_Number_Ceil: Get_Number_Ceil({x: Real}) -> Integer  # Get_Number_Ceil(3.8) = 4 (向上取整)
 
 3. Get_Number_Round: Get_Number_Round({x: Real}) -> Integer # Get_Number_Round(4.1) = 4 (最接近的整数)  
 
@@ -68,6 +68,8 @@
 
 14. Is_Root: Is_Root({P: Polynomial}, {x: Variable}) -> Boolean # 判断 x 是不是多项式 P 的根
 
+15. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
+
 ### Sequence(数列)
 
 -- 1. Get_Sequence_Terms: Get_Sequence_Terms({s: Sequence}, {n: Integers}) -> ElementType
@@ -100,6 +102,8 @@
 -- 10. Get_FiniteSequences_Length: Get_FiniteSequences_Length({s: Sequence}) -> PositiveInteger
 --     获取有限数列的长度
 
+-- 11. Get_Sequence_Infinite_Sum: Get_Sequence_Infinite_Sum({s: Sequence}) -> Real
+--     获取数列的无限求和
 
 ### Function
 
@@ -128,6 +132,13 @@
 -- 12. Is_Injection: Is_Injection(f: Function) -> Boolean
 
 -- 13. Is_Surjection: Is_Surjection(f: Function) -> Boolean
+
+-- 14. Get_QuadraticFunction_Discriminant: Get_QuadraticFunction_Discriminant(f: QuadraticFunction) -> Real # 求二次函数的判别式
+
+-- 15. Get_Function_Expression: Get_Function_Expression(f: Function) -> Expression # 获取函数的表达式
+
+-- 16. Get_StepFunction_Expression: Get_StepFunction_Expression({f: Function}, {P: Proposition}) -> Expression
+
 
 
 ### Set

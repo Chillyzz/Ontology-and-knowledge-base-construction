@@ -44,6 +44,17 @@
 1. Function_Domain: Function_Domain(f: Function) -> Set
     备注: 表示一个函数的定义域集合(无法计算, 只能 Query或赋值)
 
+{
+    "problem": "Compute the domain of the real-valued function \\[f(x)=\\sqrt{1-\\sqrt{2-\\sqrt{x}}}.\\]",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "For the contents of the innermost square root to be nonnegative, we must have $x\\geq 0$.  To satisfy the middle square root, we must have  $$2-\\sqrt{x}\\geq 0\\Rightarrow 4\\geq x.$$ Finally, the outermost square root requires $$1-\\sqrt{2-\\sqrt{x}}\\geq 0.$$ This gives us $$1\\geq 2-\\sqrt{x}\\Rightarrow x\\geq 1.$$ Combining our inequalities, we get ${1\\leq x\\leq 4}$, or $x \\in \\boxed{[1, 4]}$ in interval notation.",
+    "Declarations": "",
+    "Facts": "",
+    "Query": "",
+    "Proof": ""
+},
+
 默认的运算符
 
 加减乘除乘方开方；大于小于大于等于小于等于
@@ -53,6 +64,52 @@
 暂时没有能力做单位转换的工作
 
 知识方程的规范，Query是结论未知；Proof是结论已知
+
+
+    {
+        "problem": "Suppose the roots of the polynomial $x^2 - mx + n$ are positive prime integers (not necessarily distinct). Given that $m < 20,$ how many possible values of $n$ are there?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "Let $p$ and $q$ be the prime roots. Then, we know that $m = p+q$ and $n = pq$. Since $m < 20$, the primes $p$ and $q$ must both be less than $20$.\n\nThe primes less than $20$ are $2,$ $3,$ $5,$ $7,$ $11,$ $13,$ $17,$ $19.$ Now we list all possible pairs $(p, q)$ such that $p + q < 20$, remembering to also include the cases in which $p=q$: \\[\\begin{aligned} & (2,2),(2,3),(2,5),(2,7),(2,11),(2,13),(2,17) \\\\\n&(3,3),(3,5),(3,7),(3,11),(3,13) \\\\\n&(5,5),(5,7),(5,11),(5,13) \\\\\n&(7,7),(7,11) \\end{aligned}\\]There are $7 + 5 + 4 + 2 = 18$ pairs in total. Each pair produces a value for $n$, and furthermore, these values are all distinct, because every positive integer has a unique prime factorization. Therefore, there are $\\boxed{18}$ possible values for $n$.",
+        "Declarations": "p: PrimeNumbers; q: PrimeNumbers; m: Real; n: Real; P: Polynomial",
+        "Facts": "P = x^2 - m *x + n; Is_Root(P, p) = True; Is_Root(P, q) = True; p + q < 20",
+        "Query": "Set_Cardinality(Build_Set(n, Exist((p, q),  Is_Prime(p) ∧ Is_Prime(q) ∧ p + q < 20 ) ))",
+        "Proof": ""
+    },
+
+关于集合的问题，规范（不报错）
+
+多项式和函数的歧义
+
+多项式和函数和集合的类型问题
+
+阶梯函数
+
+解析几何题目做不了
+
+    {
+        "problem": "Let $P=(a,b)$ be the point of intersection of the line $y=2x-10$ and the line through $(7,8)$ and $(9,0)$.  Compute $a+b$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The slope of the line through $(7,8)$ and $(9,0)$ is $\\frac{8-0}{7-9}=\\frac{8}{-2}=-4$.  Thus, the line has equation $y=-4x+b$ for some $b$.  Since $B(9,0)$ lies on this line, we have $0=-4(9)+b \\Rightarrow b=36$, and thus the equation of the line is $y=-4x+36$.\n\nTo determine the point of intersection between the lines having equations $y=-4x+36$ and $y=2x-10$, we set the two expressions for $y$ equal to each other and solve for $x$.  We have $-4x+36=2x-10 \\Rightarrow x = \\frac{23}{3}$.  It follows that  $y=2x-10=2\\left(\\frac{23}{3}\\right)-10 = \\frac{46}{3}-\\frac{30}{3}=\\frac{16}{3}$.\n\nThus, $P=(\\frac{23}{3},\\frac{16}{3})$ and $a+b=\\frac{23}{3}+\\frac{16}{3}=\\frac{39}{3}=\\boxed{13}$.",
+        "Declarations": "",
+        "Facts": "",
+        "Query": "",
+        "Proof": ""
+    },
+
+变量的定义，变量不能在declaration中声明？ 变量用于 集合、不等式、方程等等
+
+    {
+        "problem": "The graphs of two linear functions, $f(x)$ and $g(x)$, are shown here on one set of axes: [asy]\nsize(150);\nreal ticklen=3;\nreal tickspace=2;\n\nreal ticklength=0.1cm;\nreal axisarrowsize=0.14cm;\npen axispen=black+1.3bp;\nreal vectorarrowsize=0.2cm;\nreal tickdown=-0.5;\nreal tickdownlength=-0.15inch;\nreal tickdownbase=0.3;\nreal wholetickdown=tickdown;\nvoid rr_cartesian_axes(real xleft, real xright, real ybottom, real ytop, real xstep=1, real ystep=1, bool useticks=false, bool complexplane=false, bool usegrid=true) {\n\nimport graph;\n\nreal i;\n\nif(complexplane) {\n\nlabel(\"$\\textnormal{Re}$\",(xright,0),SE);\n\nlabel(\"$\\textnormal{Im}$\",(0,ytop),NW);\n\n} else {\n\nlabel(\"$x$\",(xright+0.4,-0.5));\n\nlabel(\"$y$\",(-0.5,ytop+0.2));\n\n}\n\nylimits(ybottom,ytop);\n\nxlimits( xleft, xright);\n\nreal[] TicksArrx,TicksArry;\n\nfor(i=xleft+xstep; i<xright; i+=xstep) {\n\nif(abs(i) >0.1) {\n\nTicksArrx.push(i);\n\n}\n\n}\n\nfor(i=ybottom+ystep; i<ytop; i+=ystep) {\n\nif(abs(i) >0.1) {\n\nTicksArry.push(i);\n\n}\n\n}\n\nif(usegrid) {\n\nxaxis(BottomTop(extend=false), Ticks(\"%\", TicksArrx ,pTick=gray(0.22),extend=true),p=invisible);//,above=true);\n\nyaxis(LeftRight(extend=false),Ticks(\"%\", TicksArry ,pTick=gray(0.22),extend=true), p=invisible);//,Arrows);\n\n}\n\nif(useticks) {\n\nxequals(0, ymin=ybottom, ymax=ytop, p=axispen, Ticks(\"%\",TicksArry , pTick=black+0.8bp,Size=ticklength), above=true, Arrows(size=axisarrowsize));\n\nyequals(0, xmin=xleft, xmax=xright, p=axispen, Ticks(\"%\",TicksArrx , pTick=black+0.8bp,Size=ticklength), above=true, Arrows(size=axisarrowsize));\n\n} else {\n\nxequals(0, ymin=ybottom, ymax=ytop, p=axispen, above=true, Arrows(size=axisarrowsize));\n\nyequals(0, xmin=xleft, xmax=xright, p=axispen, above=true, Arrows(size=axisarrowsize));\n\n}\n};\nrr_cartesian_axes(-5,5,-5,5);\nreal f(real x) {return (4-x)/2;}\nreal g(real x) {return 2x-4;}\ndraw(graph(f,-5,5,operator ..), blue+1.25);\ndraw(graph(g,-1/2,9/2,operator ..), orange+1.25);\ndraw((-3,-6)--(-1,-6),blue+1.25); label(\"$y=f(x)$\",(-1,-6),E);\ndraw((-3,-7)--(-1,-7),orange+1.25); label(\"$y=g(x)$\",(-1,-7),E);\n[/asy] Each small box in the grid is $1$ unit by $1$ unit.\n\nEvaluate $f(g(1))\\cdot g(f(1))$.",
+        "level": "Level 4",
+        "type": "Algebra",
+        "solution": "The point $(1,-2)$ is on the graph of $y=g(x)$, and the point $(-2,3)$ is on the graph of $y=f(x)$, so $$f(g(1)) = f(-2) = 3.$$ The point $(1,1.5)$ is on the graph of $y=f(x)$, and the point $(1.5,-1)$ is on the graph of $y=g(x)$, so $$g(f(1)) = g(1.5) = -1.$$ Thus, $$f(g(1))\\cdot g(f(1)) = (3)(-1) = \\boxed{-3}.$$",
+        "Declarations": "",
+        "Facts": "",
+        "Query": "",
+        "Proof": ""
+    },
 
 #### Arithmetical Operation(更新，基本算数运算符的算子取消；加减乘除乘方取消)
 

@@ -60,17 +60,27 @@
 6. ComplexNumbers \\in Number: Numbers of the form \(a + bi\), where \(a\) and \(b\) are real numbers, and \(i\) is the imaginary unit.  
     *Example:* \(3 + 4i, -2i\).
 
-   1. ImaginaryNumbers \\in Complex Numbers: Numbers of the form \(bi\), where \(b\) is a real number and \(i^2 = -1\).  
+   1. ImaginaryNumbers \\in ComplexNumbers: Numbers of the form \(bi\), where \(b\) is a real number and \(i^2 = -1\).  
     *Example:* \(2i, -5i\).
+
+   2. ComplexUnit \\in ComplexNumbers: The imaginary unit i
 
 # Polynomial(多项式)
 
 1. Polynomial \\in Expression: Mathematical expression consisting of variables(numbers) and coefficients, combined using operations. 
+      *Example:*  P: Polynomial [Optional Ring] -- A Polynomial in a given ring(like R)
 
    1. Monomial \\in Polynomial: A polynomial with only one term, such as 3x^2 or 5.
 
    2. IrreduciblePolynomial \\in Polynomial: A polynomial that cannot be factored into polynomials of lower degree with coefficients in a field.  
       *Example:* \(x^2 + 1\) is irreducible over the real numbers.
+
+
+2. QuadraticPolynomial: A polynomial whose expression has the form \( ax^2 + bx + c \), where \( a, b, c \) are constants, and \( a \neq 0 \).
+   *Example*: \( 2x^2 + 3x - 5 \), \( x^2 - 4x + 4 \)
+
+3. CubicPolynomial: A polynomial whose expression has the form \( ax^3 + bx^2 + cx + d \), where \( a, b, c, d \) are constants, and \( a \neq 0 \).
+   *Example*: \( x^3 - 3x^2 + 2x - 7 \), \( 4x^3 + x^2 - 2x + 1 \)
 
 # Function(函数)
 
@@ -104,6 +114,11 @@
    10. EvenFunction ∈ Function: A function that satisfies the condition \(f(-x) = f(x)\) for all \(x\) in its domain.  
    *Example:* \(f(x) = x^2\), where \(f(-2) = 4\) and \(f(2) = 4\).
 
+2. QuadraticFunction: A function that its expression has the form of ax^2 + bx + c
+   *Example:* 2x^2 + 1; 3x^2 -4x + 1
+
+3. CubicFunction: A function that its expression has the form of ax^3 + bx^2 + cx + d
+   *Example:* 2x^3 + 1
 
 
 # Sets and Logic(集合)
