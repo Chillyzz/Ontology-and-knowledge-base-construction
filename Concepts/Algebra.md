@@ -65,9 +65,15 @@
 
    2. ComplexUnit \\in ComplexNumbers: The imaginary unit i
 
+7. Infinity : A concept about infinite numbers.
+
+   1. PositiveInfinity: + \infty    -- (Constant)
+
+   2. NegativeInfinity: - \infty    -- (Constant)
+
 # Polynomial(多项式)
 
-1. Polynomial \\in Expression: Mathematical expression consisting of variables(numbers) and coefficients, combined using operations. 
+1. Polynomial : Mathematical expression consisting of variables(numbers) and coefficients, combined using operations. 
       *Example:*  P: Polynomial [Optional Ring] -- A Polynomial in a given ring(like R)
 
    1. Monomial \\in Polynomial: A polynomial with only one term, such as 3x^2 or 5.
@@ -76,10 +82,10 @@
       *Example:* \(x^2 + 1\) is irreducible over the real numbers.
 
 
-2. QuadraticPolynomial: A polynomial whose expression has the form \( ax^2 + bx + c \), where \( a, b, c \) are constants, and \( a \neq 0 \).
+2. QuadraticPolynomial \\in Polynomial: A polynomial whose expression has the form \( ax^2 + bx + c \), where \( a, b, c \) are constants, and \( a \neq 0 \).
    *Example*: \( 2x^2 + 3x - 5 \), \( x^2 - 4x + 4 \)
 
-3. CubicPolynomial: A polynomial whose expression has the form \( ax^3 + bx^2 + cx + d \), where \( a, b, c, d \) are constants, and \( a \neq 0 \).
+3. CubicPolynomial \\in Polynomial: A polynomial whose expression has the form \( ax^3 + bx^2 + cx + d \), where \( a, b, c, d \) are constants, and \( a \neq 0 \).
    *Example*: \( x^3 - 3x^2 + 2x - 7 \), \( 4x^3 + x^2 - 2x + 1 \)
 
 # Function(函数)
@@ -114,10 +120,10 @@
    10. EvenFunction ∈ Function: A function that satisfies the condition \(f(-x) = f(x)\) for all \(x\) in its domain.  
    *Example:* \(f(x) = x^2\), where \(f(-2) = 4\) and \(f(2) = 4\).
 
-2. QuadraticFunction: A function that its expression has the form of ax^2 + bx + c
+2. QuadraticFunction \\in Function: A function that its expression has the form of ax^2 + bx + c
    *Example:* 2x^2 + 1; 3x^2 -4x + 1
 
-3. CubicFunction: A function that its expression has the form of ax^3 + bx^2 + cx + d
+3. CubicFunction \\in Function: A function that its expression has the form of ax^3 + bx^2 + cx + d
    *Example:* 2x^3 + 1
 
 
@@ -181,16 +187,12 @@
    - General Form: \( a_n = a_1 \cdot r^{n-1} \), where \(a_1\) is the first term, \(r\) is the common ratio, and \(n\) is the term number.  
    - *Example*: \(3, 6, 12, 24, \dots\) with common ratio \(r = 2\).
 
-4. HarmonicSequence \\in Sequence: A sequence where each term is the reciprocal of a natural number, i.e., \(\frac{1}{2}, \frac{1}{3}, \dots \).
-   - General Form: \( a_n = \frac{1}{n} \), where \(a_1\) is the first term, \(n\) is the term number.  
-   - *Example*: \(1, \frac{1}{2}, \frac{1}{3} \).
-
-5. ConvergentSequence \\in Sequence
+4. ConvergentSequence \\in Sequence
       structure ConvergentSequence (s : ℕ → ℝ) where
          (L : ℝ)                            -- 极限 L
          (lim : ∀ ε > 0, ∃ N : ℕ, ∀ n ≥ N, |s n - L| < ε)
 
-6. DivergentSequence \\in Sequence
+5. DivergentSequence \\in Sequence
       structure DivergentSequence (s : ℕ → ℝ) where
          (diverges_to_infinity : ∀ M > 0, ∃ N : ℕ, ∀ n ≥ N, s n > M)
 
@@ -207,6 +209,12 @@
 
 4. LambdaExpression: A function definition expressed in lambda notation, mapping an input to an output using a concise functional syntax.
    Example: λ x : ℕ => x ^ 2 + 1 is a lambda expression that takes a natural number x and returns x ^ 2 + 1
+
+
+# Logic
+
+1. Propostion: A statement that is whether true or false.
+   - *Example*: " 2 + 2 = 4 "
 
 # Angle
 

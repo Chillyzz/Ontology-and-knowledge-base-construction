@@ -111,6 +111,24 @@
         "Proof": ""
     },
 
+
+        {
+        "problem": "The domain of the function $h(x) = \\sqrt{25-x^2}+\\sqrt{-(x-2)}$ is an interval of what width?",
+        "level": "Level 5",
+        "type": "Algebra",
+        "solution": "A real number $x$ is in the domain of $h$ if and only if $25-x^2$ and $-(x-2)$ are both nonnegative.\n\nThe solutions to $25-x^2\\ge 0$ are given by $-5\\le x\\le 5$.\n\nThe solutions to $-(x-2)\\ge 0$ are given by $x\\le 2$.\n\nThe overlap of these solution sets is the interval $[-5,2]$, which has width $\\boxed{7}$.",
+        "Declarations": "",
+        "Facts": "",
+        "Query": "",
+        "Proof": ""
+    },
+
+10. RationalRoot \\in Polyroots: A root of the polynomial that can be expressed as a fraction of integers.
+   *Example:* For \(x^2 - 3x + 2\), the roots \(x = 1\) and \(x = 2\) are rational.
+
+11. IrrationalRoot \\in Polyroots: A root of the polynomial that cannot be expressed as a fraction.
+    *Example:* The roots of \(x^2 - 2 = 0\) are \(x = \pm \sqrt{2}\), which are irrational.
+
 #### Arithmetical Operation(更新，基本算数运算符的算子取消；加减乘除乘方取消)
 
 1. Add: Add({x: Addtype}, {y: Addtype}) -> Addtype     # Add({3: Numbers} , {5:Numbers}) = 8.

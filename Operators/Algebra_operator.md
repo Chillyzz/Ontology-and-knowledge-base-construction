@@ -27,6 +27,8 @@
 
 11. Get_Prod({S: Finset}, {L: LamdaExpression}) -> ℝ    # Get_Prod (Set.Icc 1 10).toFinset (λ x : ℕ => x ^ 2 + 1)
 
+12. Exp: Exp({x: Real}) -> Real     # Exp(e ^ 2) = 2
+
 ### Equation and Expression
 
 1. Solve_equation: Solve_equation({x: Variable}, {P: Equation}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
@@ -42,7 +44,7 @@
 
 2. Get_Polyroots: Get_Polyroots(x: Polynomial) -> Set # 输入一个多项式, 返回它的根的集合
 
-3. Get_Term_Coefficient: Get_Term_Coefficient({x: Polynomial}, {y: PolynomialTerm}) -> Number # 输入一个多项式和对应的某一项, 返回该项的系数
+3. Get_Term_Coefficient: Get_Term_Coefficient({x: Polynomial}, {y: NaturalNumber}) -> Real # 输入一个多项式和对应的项次数, 返回该项的系数
 
 4. Get_PolyTerm: Get_PolyTerm(x: Polynomial) -> Set # 输入一个多项式, 返回它的项的集合
 
@@ -54,21 +56,17 @@
 
 8. Get_PolyCoefficient: Get_PolyCoefficient(x: Polynomial) -> Set # 输入一个多项式, 返回它的系数集合
 
-9. Eval_Value_Polynomial: Eval_Value_Expression({P: Polynomial(a)}, {x: Prop(a)}) -> Number # 输入一个多项式和变量在某处的值, 返回对应的值
+9. Eval_Value_Polynomial: Eval_Value_Expression({P: Polynomial}, {x: Number}) -> Number # 输入一个多项式和变量在某处的值, 返回对应的值
 
-10. RationalRoot \\in Polyroots: A root of the polynomial that can be expressed as a fraction of integers.
-   *Example:* For \(x^2 - 3x + 2\), the roots \(x = 1\) and \(x = 2\) are rational.
+10. Solve_equation: Solve_equation({x: Variable}, {P: Equation}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
 
-11. IrrationalRoot \\in Polyroots: A root of the polynomial that cannot be expressed as a fraction.
-    *Example:* The roots of \(x^2 - 2 = 0\) are \(x = \pm \sqrt{2}\), which are irrational.
+11. Solve_inequation: Solve_inequation({x: Variable}, {P: Inequation}) -> Set # 输入一个不等式和对应变量, 返回解集 (可扩展到多元, 但方程个数必须等于变量数)
 
-12. Solve_equation: Solve_equation({x: Variable}, {P: Equation}) -> Set # 输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)
+12. Is_Polynomial_Root: Is_Polynomial_Root({P: Polynomial}, {x: Number}) -> Boolean # 判断 x 是不是多项式 P 的根
 
-13. Solve_inequation: Solve_inequation({x: Variable}, {P: Inequation}) -> Set # 输入一个不等式和对应变量, 返回解集 (可扩展到多元, 但方程个数必须等于变量数)
+13. Get_Polynomial_Composition: Get_Polynomial_Composition({f: Polynomial}, {g: Polynomial}) -> Polynomial
 
-14. Is_Root: Is_Root({P: Polynomial}, {x: Variable}) -> Boolean # 判断 x 是不是多项式 P 的根
-
-15. Get_Function_Composition: Get_Function_Composition({f: Function}, {g: Function}) -> Function
+14. Get_Polynomial_Leading_Coefficient: Get_Polynomial_Leading_Coefficient(x: Polynomial) -> Number # 输入一个多项式, 返回最高项系数
 
 ### Sequence(数列)
 
@@ -139,6 +137,9 @@
 
 -- 16. Get_StepFunction_Expression: Get_StepFunction_Expression({f: Function}, {P: Proposition}) -> Expression
 
+-- 17. Is_Function_Root: Is_Function_Root({P: Function}, {x: Number}) -> Boolean # 判断 x 是不是多项式 P 的根
+
+-- 18. Get_Function_InDomain_Range: Get_Function_InDomain_Range({f: Function}, {A: Set}) -> Set # 求函数在集合A下的像 B
 
 
 ### Set
@@ -185,13 +186,57 @@
 
 -- 21. Is_Set_Unbounded: Is_Set_Unbounded({A: Set}) -> Boolean  
 
--- 22. UniversalSet \\in Set: The set that contains all the elements under consideration for a particular context.  
+-- 22. Get_UniversalSet: Get_UniversalSet({A: Concept}) -> Set # The set that contains all the elements under consideration for a particular context.  
 
--- 23. Get_Set_Inf
+-- 23. Get_Set_Inf  
 
--- 24. Get_Set_Sup
+-- 24. Get_Set_Sup  
 
--- 25. Range: Range({a: NaturalNumber}, {b: NaturalNumber}) -> FiniteSet         #备注: Range(a, b) = {a, a + 1, ... , b} ⊆ ℕ; a < b 时合法; 用于求和时书写对应集合
+-- 25. Range: Range({a: NaturalNumber}, {b: NaturalNumber}) -> FiniteSet         #备注: Range(a, b) = {a, a + 1, ... , b} ⊆ ℕ; a < b 时合法; 用于求和时书写对应集合  
+
+-- 26. Get_Open_Interval(a: Number, b: Number) -> Interval  
+
+-- 27. Get_LeftClosedRightOpen_Interval(a: Number, b: Number) -> Interval  
+
+-- 28. Get_LeftOpenRightClosed_Interval(a: Number, b: Number) -> Interval  
+
+-- 29. Get_Closed_Interval(a: Number, b: Number) -> Interval  
+
+-- 30. Get_RightOpen_Interval(b: Number) -> Interval  
+
+-- 31. Get_RightClosed_Interval(b: Number) -> Interval  
+
+-- 32. Get_LeftOpen_Interval(a: Number) -> Interval  
+
+-- 33. Get_LeftClosed_Interval(a: Number) -> Interval  
+
+
+
+### Logic (逻辑相关)
+
+1. Negation: Negation({a: Proposition}) -> Proposition
+    备注: 对原命题进行取反
+
+2. Build_Universal_Proposition: Build_Universal_Proposition({a: Set}, {b: Proposition}) -> Proposition
+    备注: \forall x\in 集合a, x都满足命题b
+
+3. Build_Exist_Proposition: Build_Exist_Proposition({a: Set}, {b: Proposition}) -> Proposition
+    备注: \exist x\in 集合a, x满足命题b
+
+4. And: And({a: Proposition}, {b: Proposition}) -> Proposition
+    备注: 命题A 且 命题 B
+
+5. Or: Or({a: Proposition}, {b: Proposition}) -> Proposition
+    备注: 命题A 或 命题 B
+
+6. Implication: Implication({p: Proposition}, {q: Proposition}) -> Proposition
+    备注: 命题 P 蕴含 命题 Q
+
+7. Equivalence: Equivalence({p: Proposition}, {q: Proposition}) -> Proposition
+    备注: 命题 P 和命题 Q 等价
+
+8. Build_UniqueExist_Proposition: Build_UniqueExist_Proposition({a: Set}, {b: Proposition}) -> Proposition
+    备注: 存在唯一 x\in 集合a, x满足命题b
 
 
 ### Angle (三角函数)
@@ -271,31 +316,6 @@
 
 8. Is_Event_Exclusive: Is_Event_Exclusive({A: Event}, {B: Event}) -> Boolean
     备注: 输入两个事件 A, B; 判断它们是否互斥
-
-
-
-### Logic (逻辑相关)
-
-1. Negation: Negation({a: Proposition}) -> Proposition
-    备注: 对原命题进行取反
-
-2. Build_Universal_Proposition: Build_Universal_Proposition({a: Set}, {b: Proposition}) -> Proposition
-    备注: \forall x\in 集合a, x都满足命题b
-
-3. Build_Exist_Proposition: Build_Exist_Proposition({a: Set}, {b: Proposition}) -> Proposition
-    备注: \exist x\in 集合a, x满足命题b
-
-4. And: And({a: Proposition}, {b: Proposition}) -> Proposition
-    备注: 命题A 且 命题 B
-
-5. Or: Or({a: Proposition}, {b: Proposition}) -> Proposition
-    备注: 命题A 或 命题 B
-
-6. Implication: Implication({p: Proposition}, {q: Proposition}) -> Proposition
-    备注: 命题 P 蕴含 命题 Q
-
-7. Equivalence: Equivalence({p: Proposition}, {q: Proposition}) -> Proposition
-    备注: 命题 P 和命题 Q 等价
 
 
 
