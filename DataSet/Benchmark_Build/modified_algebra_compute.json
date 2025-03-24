@@ -115,7 +115,7 @@
         "type": "Algebra",
         "solution": "\\begin{align*}\nf(f(f(f(512))))\n&=f(f(f(-8)))\\\\\n&=f(f(64))\\\\\n&=f(-4)\\\\\n&=\\boxed{16}.\n\\end{align*}",
         "Declarations": "f: Function",
-        "Facts": "Get_StepFunction_Expression(f, x >= 0) = - x ^ (1 /3); Get_StepFunction_Expression(f, x < 0) = x ^ 2",
+        "Facts": "Get_StepFunction_Expression(f, ∀ x >= 0) = - x ^ (1 /3); Get_StepFunction_Expression(f, ∀ x < 0) = x ^ 2",
         "Query": "Get_Function_Value(f, Get_Function_Composition(f, Get_Function_Composition(f, Get_Function_Composition(f, 512))))",
         "Proof": ""
     },
