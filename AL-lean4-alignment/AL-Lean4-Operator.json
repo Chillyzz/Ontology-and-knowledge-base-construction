@@ -1,0 +1,557 @@
+[
+    {
+        "Assertional_Logic": "Get_Number_Floor({x: Real}) -> Integer",
+        "Lean4_Code": "variable (a: ℝ)(ha: ℝ := ⌊a⌋)",
+        "Explanation": "向下取整"
+    },
+    {
+        "Assertional_Logic": "Get_Number_Ceil({x: Real}) -> Integer",
+        "Lean4_Code": "variable (a: ℝ)(ha: ℝ := ⌈a⌉)",
+        "Explanation": "向上取整"
+    },
+    {
+        "Assertional_Logic": "Get_Number_Round({x: Real}) -> Integer",
+        "Lean4_Code": "#check round (3.3: ℝ)  -- 结果: 3 #eval round (3.1: ℚ)",
+        "Explanation": "最接近的整数"
+    },
+    {
+        "Assertional_Logic": "Abs({a: Real}) -> NonNegativeNumbers",
+        "Lean4_Code": "def Abs (a : ℝ) : ℝ := |a|",
+        "Explanation": "取a的绝对值"
+    },
+    {
+        "Assertional_Logic": "Log({x: Real}, {y: Real}) -> Real",
+        "Lean4_Code": "variable (hl: Real.logb 2 4 = 2)",
+        "Explanation": "取对数值 Log({2: Real}, {4: Real}) = 2. (Lean中的 Real.logb)"
+    },
+    {
+        "Assertional_Logic": "NaturalLog({x: Real}) -> Real",
+        "Lean4_Code": "variable (hl: Real.log (exp 1) ^ 2 = 2)",
+        "Explanation": "Log(e^2) = 2. (Lean中的 Real.log)"
+    },
+    {
+        "Assertional_Logic": "Factorial({x: NaturalNumbers}) -> NaturalNumbers",
+        "Lean4_Code": "variable(x: ℕ) #check Nat.factorial x",
+        "Explanation": "阶乘：n! 表示从 1 到 n 的所有正整数的乘积。"
+    },
+    {
+        "Assertional_Logic": "Get_Combination({x: NaturalNumbers}, {y: NaturalNumbers}) -> NaturalNumbers",
+        "Lean4_Code": "variable(x: ℕ)(y: ℕ) #check x.choose y",
+        "Explanation": "组合数：二项式定理中的组合系数，计算 C(n, k) = n! / (k!(n-k)!)。"
+    },
+    {
+        "Assertional_Logic": "Get_Reciprocal({x: Real}) -> Real",
+        "Lean4_Code": "variable(x: ℝ) #check x⁻¹",
+        "Explanation": "倒数：一个数的倒数是其与 1 的乘积为 1 的数，例如 4 的倒数是 1/4。"
+    },
+    {
+        "Assertional_Logic": "Get_Sum({S: Finset}, {L: LamdaExpression}) -> Real",
+        "Lean4_Code": "def Get_Sum (S: Finset ℕ)(f: ℕ → ℝ) : ℝ := ∑ i ∈ S, f i",
+        "Explanation": "集合S可以为(Set.Icc 1 10).toFinset, lambda表达式可以为(λ x : ℕ => x ^ 2 + 1); 求集合中所有元素的和"
+    },
+    {
+        "Assertional_Logic": "Get_Prod({S: Finset}, {L: LamdaExpression}) -> ℝ",
+        "Lean4_Code": "def Get_Prod (S: Finset ℕ)(f: ℕ → ℝ) : ℝ := ∏ i ∈ S, f i",
+        "Explanation": "集合S可以为(Set.Icc 1 10).toFinset, lambda表达式可以为(λ x : ℕ => x ^ 2 + 1); 求集合中所有元素的乘积"
+    },
+    {
+        "Assertional_Logic": "Exp({x: Real}) -> Real",
+        "Lean4_Code": "variable (x: ℝ) #check exp 2",
+        "Explanation": "指数函数：计算 e^x，其中 e 为自然对数的底数。"
+    },
+    {
+        "Assertional_Logic": "Get_PolyDegree(x: Polynomial) -> Number",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check p.degree\n#check p.natDegree",
+        "Explanation": "输入一个多项式, 返回它的最高次幂"
+    },
+    {
+        "Assertional_Logic": "Get_Polyroots(x: Polynomial) -> Set",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check p.roots",
+        "Explanation": "输入一个多项式, 返回它的根的集合"
+    },
+    {
+        "Assertional_Logic": "Get_Term_Coefficient(x: Polynomial, y: PolynomialTerm) -> Number",
+        "Lean4_Code": "variable (p : Polynomial ℝ)(n : ℕ)\n#check p.coeff n",
+        "Explanation": "输入一个多项式和对应的某一项, 返回该项的系数"
+    },
+    {
+        "Assertional_Logic": "Get_PolyTerm(x: Polynomial) -> Set",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check (monomial 2 (p.coeff 2))",
+        "Explanation": "输入一个多项式, 返回它的项的集合"
+    },
+    {
+        "Assertional_Logic": "Get_ConstantTerm(x: Polynomial) -> Number",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check p.coeff 0",
+        "Explanation": "输入一个多项式, 返回它的常数项"
+    },
+    {
+        "Assertional_Logic": "Is_PolyFactor(A: Polynomial, B: Polynomial) -> Boolean",
+        "Lean4_Code": "variable (p q : Polynomial ℝ)\n#check p ∣ q",
+        "Explanation": "输入两个多项式, 判断 A 是不是 B 的因子"
+    },
+    {
+        "Assertional_Logic": "Is_IrreduciblePolynomial(A: Polynomial) -> Boolean",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check Irreducible p",
+        "Explanation": "输入一个多项式, 判断是否可约"
+    },
+    {
+        "Assertional_Logic": "Get_PolyCoefficient(x: Polynomial) -> Set",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check p.coeffs",
+        "Explanation": "输入一个多项式, 返回它的系数集合"
+    },
+    {
+        "Assertional_Logic": "Eval_Value_Polynomial(P: Polynomial(a), x: Prop(a)) -> Number",
+        "Lean4_Code": "variable (p : Polynomial ℝ) (x : ℝ)\n#check eval 10 p",
+        "Explanation": "输入一个多项式和变量在某处的值, 返回对应的值"
+    },
+    {
+        "Assertional_Logic": "Solve_equation(x: Variable, P: Equation) -> Set",
+        "Lean4_Code": "theorem Solve_equation : {x :ℝ | x + 1 = 0 } = sorry := by sorry",
+        "Explanation": "输入一个等式和对应变量, 返回解集(可扩展到多元, 但方程个数必须等于变量数)"
+    },
+    {
+        "Assertional_Logic": "Solve_inequation(x: Variable, P: Inequation) -> Set",
+        "Lean4_Code": "theorem Solve_inequation : {x :ℝ | x + 1 > 0 } = sorry := by sorry",
+        "Explanation": "输入一个不等式和对应变量, 返回解集 (可扩展到多元, 但方程个数必须等于变量数)"
+    },
+    {
+        "Assertional_Logic": "Is_Polynomial_Root(P: Polynomial, x: Variable) -> Boolean",
+        "Lean4_Code": "variable (p : Polynomial ℝ) (a : ℝ)\n#check IsRoot p a",
+        "Explanation": "判断 x 是不是多项式 P 的根"
+    },
+    {
+        "Assertional_Logic": "Get_Polynomial_Composition(f: Polynomial, g: Polynomial) -> Polynomial",
+        "Lean4_Code": "variable (f g : Polynomial ℝ)\n#check comp f g",
+        "Explanation": "计算多项式的复合"
+    },
+    {
+        "Assertional_Logic": "Get_Polynomial_Leading_Coefficient(x: Polynomial) -> Number",
+        "Lean4_Code": "variable (p : Polynomial ℝ)\n#check p.leadingCoeff",
+        "Explanation": "输入一个多项式, 返回最高项系数"
+    },
+    {
+        "Assertional_Logic": "Get_Sequence_Terms(s: Sequence, n: Integers) -> Numbers",
+        "Lean4_Code": "variable (seq: ℕ → ℝ) \n #check seq 10",
+        "Explanation": "输入一个数列和一个索引，返回对应的项"
+    },
+    {
+        "Assertional_Logic": "Get_Sequences_Sum(s: Sequence, i: Integer) -> Number",
+        "Lean4_Code": "def Get_Sequences_Sum (s : ℕ → ℝ) (i : ℕ) : ℝ :=\n  ∑ n ∈ Finset.Icc 1 i, s n \n#check Get_Sequences_Sum seq 10",
+        "Explanation": "输入一个数列和一个索引，返回从 1 到 i 处的部分和"
+    },
+    {
+        "Assertional_Logic": "Is_ArithmeticSequence(s: Sequence) -> Boolean",
+        "Lean4_Code": "def Is_ArithmeticSequence (s : ℕ → ℝ) : Prop :=\n  ∃ d : ℝ, ∀ n : ℕ, s (n + 1) - s n = d \n#check Is_ArithmeticSequence fib",
+        "Explanation": "判断数列是否为等差数列"
+    },
+    {
+        "Assertional_Logic": "Is_GeometricSequence(s: Sequence) -> Boolean",
+        "Lean4_Code": "def Is_GeometricSequence (s : ℕ → ℝ) : Prop :=\n  ∃ q : ℝ, ∀ n : ℕ, s (n + 1) / s n = q \n#check Is_GeometricSequence fib",
+        "Explanation": "判断数列是否为等比数列"
+    },
+    {
+        "Assertional_Logic": "Is_MonotonicSequence(s: Sequence) -> Boolean",
+        "Lean4_Code": "def Is_MonotonicSequence (s : ℕ → ℝ) : Prop := \n  Monotone s ∨ Antitone s \n#check Is_MonotonicSequence seq",
+        "Explanation": "判断数列是否为单调数列"
+    },
+    {
+        "Assertional_Logic": "Get_CommonDifference(s: ArithmeticSequence) -> Number",
+        "Lean4_Code": "structure ArithmeticSequence where\n(Sequence: ℕ → ℝ)\n(d : ℝ) -- 公差\n(property : ∀ n : ℕ, Sequence (n + 1) - Sequence n = d)\nvariable (S: ArithmeticSequence) \n #check S.d",
+        "Explanation": "输入一个等差数列，返回公差"
+    },
+    {
+        "Assertional_Logic": "Get_CommonRatio(s: GeometricSequence) -> Number",
+        "Lean4_Code": "structure GeometricSequence where \n(Sequence: ℕ → ℝ)\n(q : ℝ) -- 公比\n(property : ∀ n : ℕ, Sequence (n + 1) / Sequence n = q)  -- 确保是等比数列 \n variable (S: GeometricSequence) \n #check S.q",
+        "Explanation": "输入一个等比数列，返回公比"
+    },
+    {
+        "Assertional_Logic": "Is_Monotonic_Increasing_Sequence(s: Sequence) -> Boolean",
+        "Lean4_Code": "#check StrictMonoOn seq",
+        "Explanation": "判断数列是否为严格单调递增"
+    },
+    {
+        "Assertional_Logic": "Is_Monotonic_Decreasing_Sequence(s: Sequence) -> Boolean",
+        "Lean4_Code": "#check StrictAntiOn seq",
+        "Explanation": "判断数列是否为严格单调递减"
+    },
+    {
+        "Assertional_Logic": "Get_FiniteSequences_Length(s: FiniteSequence) -> PositiveInteger",
+        "Lean4_Code": "structure FiniteSequence  where\n  (Sequence: ℕ → ℝ)\n  (length: ℕ)\n#check hp\n#check hp.length",
+        "Explanation": "输入一个有限数列，返回其长度"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Range(f: Function) -> Set",
+        "Lean4_Code": "#check Set.range f",
+        "Explanation": "输入一个函数，返回其值域"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Maximum(f: Function) -> Number",
+        "Lean4_Code": "def Get_Function_Maximum  (f: ℕ → ℕ): sSup (Set.range f)= 100 :=by\n  sorry",
+        "Explanation": "输入一个函数，返回其最大值"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Minimum(f: Function) -> Number",
+        "Lean4_Code": "def Get_Function_Minimum  (f: ℕ → ℕ): sInf (Set.range f)= 100 :=by\n  sorry",
+        "Explanation": "输入一个函数，返回其最小值"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Zeroes(f: Function) -> Set",
+        "Lean4_Code": "def Is_Function_Root (f : ℝ → ℝ) (x : ℝ) : Prop := f x = 0\n#check Is_Function_Root f1 3\ndef Get_Function_Zeroes (f: ℝ → ℝ): Set ℝ := { x | Is_Function_Root f x}\n#check Get_Function_Zeroes f1",
+        "Explanation": "输入一个函数，返回其零点集合"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Composition(f: Function, g: Function) -> Function",
+        "Lean4_Code": "#check f1 ∘ f2",
+        "Explanation": "输入两个函数，返回它们的复合"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Minimalperiod(f: Function) -> Real",
+        "Lean4_Code": "def is_periodic_real (f : ℝ → ℝ) (T : ℝ) : Prop :=\n  ∀ x, f (x + T) = f x\n\nnoncomputable def least_positive_period_real (f : ℝ → ℝ) : ℝ :=\n  sInf {T: ℝ | T > 0 ∧ is_periodic_real f T}",
+        "Explanation": "输入一个周期函数，返回其最小正周期"
+    },
+    {
+        "Assertional_Logic": "Get_Inverse_Function(f: Function) -> Function",
+        "Lean4_Code": "#check Function.invFun f1\n#check f1⁻¹",
+        "Explanation": "输入一个双射函数，返回其反函数"
+    },
+    {
+        "Assertional_Logic": "Get_Function_IthComposition(f: Function, i: Integer) -> Function",
+        "Lean4_Code": "#check f1^[3]",
+        "Explanation": "输入一个函数和一个整数 i，返回函数的 i 次复合"
+    },
+    {
+        "Assertional_Logic": "Get_Function_Value(f: Function, x: Number) -> Number",
+        "Lean4_Code": "#check f 10",
+        "Explanation": "输入一个函数和一个数 x，返回 f(x)"
+    },
+    {
+        "Assertional_Logic": "Is_Bijection(f: Function) -> Boolean",
+        "Lean4_Code": "#check Function.Bijective f1",
+        "Explanation": "判断一个函数是否是双射"
+    },
+    {
+        "Assertional_Logic": "Is_Injection(f: Function) -> Boolean",
+        "Lean4_Code": "#check Function.Injective f1",
+        "Explanation": "判断一个函数是否是单射"
+    },
+    {
+        "Assertional_Logic": "Is_Surjection(f: Function) -> Boolean",
+        "Lean4_Code": "#check Function.Surjective f1",
+        "Explanation": "判断一个函数是否是满射"
+    },
+    {
+        "Assertional_Logic": "Get_QuadraticFunction_Discriminant(f: QuadraticFunction) -> Real",
+        "Lean4_Code": "variable(A: QuadraticFunction)\n#check A.discriminant",
+        "Explanation": "输入一个二次函数，返回其判别式"
+    },
+    {
+        "Assertional_Logic": "Get_StepFunction_Expression(f: Function, P: Proposition) -> Expression",
+        "Lean4_Code": "theorem TestStepFunction (f1: ℕ → ℕ)(h: ∀ x > 2, f1 x = x^2 + 1): f1 3 = 10:= by\n  have h' : 3 > 2 :=by norm_num\n  exact h 3 h'",
+        "Explanation": "输入一个分段函数和一个命题，返回函数的表达式"
+    },
+    {
+        "Assertional_Logic": "Set_Union(A: Set, B: Set) -> Set",
+        "Lean4_Code": "#check a1 ∪ a2",
+        "Explanation": "输入两个集合，返回它们的并集"
+    },
+    {
+        "Assertional_Logic": "Set_Intersection(A: Set, B: Set) -> Set",
+        "Lean4_Code": "#check a1 ∩ a2",
+        "Explanation": "输入两个集合，返回它们的交集"
+    },
+    {
+        "Assertional_Logic": "Set_Difference(A: Set, B: Set) -> Set",
+        "Lean4_Code": "#check a1.diff a2\n#check a1 \\ a2",
+        "Explanation": "输入两个集合，返回它们的差集"
+    },
+    {
+        "Assertional_Logic": "Set_SymmetricDifference(A: Set, B: Set) -> Set",
+        "Lean4_Code": "#check symmDiff a1 a2",
+        "Explanation": "输入两个集合，返回它们的对称差集"
+    },
+    {
+        "Assertional_Logic": "Set_Subset(A: Set, B: Set) -> Boolean",
+        "Lean4_Code": "#check a1 ⊆ a2",
+        "Explanation": "判断集合 A 是否是集合 B 的子集"
+    },
+    {
+        "Assertional_Logic": "Set_ProperSubset(A: Set, B: Set) -> Boolean",
+        "Lean4_Code": "#check a1 ⊂ a2",
+        "Explanation": "判断集合 A 是否是集合 B 的真子集"
+    },
+    {
+        "Assertional_Logic": "Set_Superset(A: Set, B: Set) -> Boolean",
+        "Lean4_Code": "#check a1 ⊇ a2",
+        "Explanation": "判断集合 A 是否是集合 B 的超集"
+    },
+    {
+        "Assertional_Logic": "Set_ProperSuperset(A: Set, B: Set) -> Boolean",
+        "Lean4_Code": "#check a1 ⊃ a2",
+        "Explanation": "判断集合 A 是否是集合 B 的真超集"
+    },
+    {
+        "Assertional_Logic": "Set_Cardinality(A: Set) -> Number",
+        "Lean4_Code": "variable (S: Finset ℕ)(H: S.Nonempty)\n#check S.card\nvariable (S: Set ℝ)[Fintype S]\n#check S.toFinset.card",
+        "Explanation": "输入一个集合，返回其基数（元素个数）"
+    },
+    {
+        "Assertional_Logic": "Set_PowerSet(A: Set) -> Set",
+        "Lean4_Code": "#check 𝒫 a1",
+        "Explanation": "输入一个集合，返回其幂集"
+    },
+    {
+        "Assertional_Logic": "Set_Complement(A: Set, U: Set) -> Set",
+        "Lean4_Code": "#check a1ᶜ",
+        "Explanation": "输入一个集合 A 和全集 U，返回 A 在 U 中的补集"
+    },
+    {
+        "Assertional_Logic": "Set_Equality(A: Set, B: Set) -> Boolean",
+        "Lean4_Code": "#check a1 = a2",
+        "Explanation": "判断两个集合是否相等"
+    },
+    {
+        "Assertional_Logic": "Get_Set_Sum(A: Set) -> Real",
+        "Lean4_Code": "#check ∑ i ∈ S, i",
+        "Explanation": "输入一个有限集合，返回其所有元素的和"
+    },
+    {
+        "Assertional_Logic": "Get_Set_Product(A: Set) -> Real",
+        "Lean4_Code": "#check ∏ i ∈ S, i",
+        "Explanation": "输入一个有限集合，返回其所有元素的乘积"
+    },
+    {
+        "Assertional_Logic": "Build_Set(x: VariableType, P(x): Proposition) -> Set",
+        "Lean4_Code": "#check {a : ℕ | a > 2}",
+        "Explanation": "根据给定的条件 P(x) 构造一个集合"
+    },
+    {
+        "Assertional_Logic": "Get_Set_Maximum(A: Set) -> Real",
+        "Lean4_Code": "#check sSup a1",
+        "Explanation": "输入一个集合，返回其最大元素"
+    },
+    {
+        "Assertional_Logic": "Get_Set_Minimum(A: Set) -> Real",
+        "Lean4_Code": "#check sInf a1",
+        "Explanation": "输入一个集合，返回其最小元素"
+    },
+    {
+        "Assertional_Logic": "Elements_In_Set(A: Individual, B: Set) -> Boolean",
+        "Lean4_Code": "#check e ∈ se",
+        "Explanation": "判断元素 A 是否属于集合 B"
+    },
+    {
+        "Assertional_Logic": "Get_Set_Means(A: Set) -> Real",
+        "Lean4_Code": "def Get_Set_Means (s : Set ℕ) [Fintype ↑s] : ℕ :=\n  (∑ i ∈ s, i )/(s.toFinset.card)",
+        "Explanation": "输入一个有限集合，返回其均值"
+    },
+    {
+        "Assertional_Logic": "Is_Set_BoundedFromAbove(A: Set) -> Boolean",
+        "Lean4_Code": "#check Set.Bounded Nat.le a1",
+        "Explanation": "判断集合是否有上界"
+    },
+    {
+        "Assertional_Logic": "Is_Set_Unbounded(A: Set) -> Boolean",
+        "Lean4_Code": "#check Set.Unbounded Nat.le a1",
+        "Explanation": "判断集合是否无界"
+    },
+    {
+        "Assertional_Logic": "Get_UniversalSet(A: Concept) -> Set",
+        "Lean4_Code": "def u : Set ℕ :=  Set.univ",
+        "Explanation": "定义全集，即包含所有相关元素的集合"
+    },
+    {
+        "Assertional_Logic": "Range(a: NaturalNumber, b: NaturalNumber) -> FiniteSet",
+        "Lean4_Code": "def Range (a b : ℕ) : Finset ℕ := Finset.Icc a b",
+        "Explanation": "定义一个包含 a 到 b 之间所有整数的有限集合"
+    },
+    {
+        "Assertional_Logic": "Get_Open_Interval(a: Number, b: Number) -> Interval",
+        "Lean4_Code": "#check Set.Ioo a b",
+        "Explanation": "获取开区间 (a, b)，不包含端点 a 和 b"
+    },
+    {
+        "Assertional_Logic": "Get_LeftClosedRightOpen_Interval(a: Number, b: Number) -> Interval",
+        "Lean4_Code": "#check Set.Ico a b",
+        "Explanation": "获取左闭右开区间 [a, b)，包含 a 但不包含 b"
+    },
+    {
+        "Assertional_Logic": "Get_LeftOpenRightClosed_Interval(a: Number, b: Number) -> Interval",
+        "Lean4_Code": "#check Set.Ioc a b",
+        "Explanation": "获取左开右闭区间 (a, b]，包含 b 但不包含 a"
+    },
+    {
+        "Assertional_Logic": "Get_Closed_Interval(a: Number, b: Number) -> Interval",
+        "Lean4_Code": "#check Set.Icc a b",
+        "Explanation": "获取闭区间 [a, b]，包含 a 和 b"
+    },
+    {
+        "Assertional_Logic": "Get_RightOpen_Interval(b: Number) -> Interval",
+        "Lean4_Code": "#check Set.Iio b",
+        "Explanation": "获取右开区间 (-∞, b)，包含所有小于 b 的数"
+    },
+    {
+        "Assertional_Logic": "Get_RightClosed_Interval(b: Number) -> Interval",
+        "Lean4_Code": "#check Set.Iic b",
+        "Explanation": "获取右闭区间 (-∞, b]，包含所有小于等于 b 的数"
+    },
+    {
+        "Assertional_Logic": "Get_LeftOpen_Interval(a: Number) -> Interval",
+        "Lean4_Code": "#check Set.Ioi a",
+        "Explanation": "获取左开区间 (a, +∞)，包含所有大于 a 的数"
+    },
+    {
+        "Assertional_Logic": "Get_LeftClosed_Interval(a: Number) -> Interval",
+        "Lean4_Code": "#check Set.Ici a",
+        "Explanation": "获取左闭区间 [a, +∞)，包含所有大于等于 a 的数"
+    },
+    {
+        "Assertional_Logic": "Get_Digit: [(Optional)Base: NaturalNumber](n: NaturalNumber) -> List",
+        "Lean4_Code": "#check Nat.digits 10 100",
+        "Explanation": "获取一个数的各位数，默认基数为10"
+      },
+      {
+        "Assertional_Logic": "Covert_Digit_To_Number: [(Optional)Base: NaturalNumber](L: List) -> NaturalNumber",
+        "Lean4_Code": "#check Nat.ofDigits 10 [0, 0, 1]",
+        "Explanation": "将一个List（各位数）转到一个自然数，默认基数为10"
+      },
+      {
+        "Assertional_Logic": "Get_DigitCount: Get_DigitCount[(Optional)Base: NaturalNumber](n: Integer) -> Integer",
+        "Lean4_Code": "#check (Nat.digits 10 100).length",
+        "Explanation": "获取一个数的数字个数"
+      },
+      {
+        "Assertional_Logic": "Get_DigitProduct: [(Optional)Base: NaturalNumber]Get_DigitProduct(n: Integer) -> Integer",
+        "Lean4_Code": "def Get_DigitProduct(L: List ℕ): ℕ := List.foldl (λ (x:ℕ) (y:ℕ) => x * y) 1 L",
+        "Explanation": "获取一个数的数字积"
+      },
+      {
+        "Assertional_Logic": "Get_DigitSum: [(Optional)Base: NaturalNumber]Get_DigitSum(n: Integer) -> Integer",
+        "Lean4_Code": "def Get_DigitSum(L: List ℕ): ℕ := List.foldl (λ (x:ℕ) (y:ℕ) => x + y) 0 L",
+        "Explanation": "获取一个数的数字和"
+      },
+      {
+        "Assertional_Logic": "Is_PandigitalNumber: Is_PandigitalNumber(L: List) -> Boolean",
+        "Lean4_Code": "def Is_PandigitalNumber (L: List ℕ) : Prop := (∀ d : ℕ, d ∈ (Finset.range 10) → d ∈ L)",
+        "Explanation": "判断一个数是否为全数字"
+      },
+      {
+        "Assertional_Logic": "Is_PalindromeNumber: Is_PalindromeNumber(L: List) -> Boolean",
+        "Lean4_Code": "#check (Nat.digits 10 101).Palindrome",
+        "Explanation": "判断一个数是否为回文数"
+      },
+      {
+        "Assertional_Logic": "Get_Ones_Digit: [(Optional)Base: NaturalNumber]Get_Ones_Digit({n: Integer}) -> Integer",
+        "Lean4_Code": "def convert_base_eval (n : ℕ) (b1 b2 : ℕ) : ℕ := Nat.ofDigits b2 (Nat.digits b1 n)",
+        "Explanation": "获取一个数的最后一位数字"
+      },
+      {
+        "Assertional_Logic": "Is_Nat_Mod: Is_Nat_Mod(a: NaturalNumber, b: NaturalNumber, n: NaturalNumber) -> Boolean",
+        "Lean4_Code": "def Is_Nat_Mod (a b n : ℕ) : Prop := a ≡ b [MOD n]",
+        "Explanation": "检查 a 和 b 对模 n 是否等价"
+      },
+      {
+        "Assertional_Logic": "Get_InverseMod: Get_InverseMod(a: NaturalNumber, m: NaturalNumber) -> Boolean",
+        "Lean4_Code": "def Is_InverseMod (a m : ℕ) : Prop := ∃ x : ℕ, Is_Nat_Mod (a * x) 1 m",
+        "Explanation": "判断 a 是否有逆元模 m"
+      },
+      {
+        "Assertional_Logic": "Get_FractionalPart: Get_FractionalPart(x: Real) -> Real",
+        "Lean4_Code": "#check Int.fract x",
+        "Explanation": "获取实数 x 的小数部分"
+      },
+      {
+        "Assertional_Logic": "Get_IntegerPart: Get_IntegerPart(x: Real) -> Integer",
+        "Lean4_Code": "#check Int.floor x",
+        "Explanation": "获取实数 x 的整数部分"
+      },
+      {
+        "Assertional_Logic": "Get_LeastCommonDenominator: Get_LeastCommonDenominator(f1: RationalNumbers, f2: RationalNumbers) -> Integer",
+        "Lean4_Code": "def Get_LeastCommonDenominator(q1: ℚ)(q2: ℚ): ℕ := Nat.lcm q1.den q2.den",
+        "Explanation": "获取两个分数的最小公分母"
+      },
+      {
+        "Assertional_Logic": "Get_Mediant: Get_Mediant(q1: RationalNumbers, q2: RationalNumbers) -> RationalNumbers",
+        "Lean4_Code": "def Get_Mediant(q1: ℚ)(q2: ℚ): ℤ := (q1.num + q2.num) / (q1.den + q2.den)",
+        "Explanation": "获取两个有理数的中值"
+      },
+      {
+        "Assertional_Logic": "UnitFraction: UnitFraction(q: RationalNumbers) -> Prop",
+        "Lean4_Code": "def Is_UnitFraction(q: ℚ): Prop := (q.num = 1) ∧ (q.den > 0)",
+        "Explanation": "判断一个有理数是否为单位分数"
+      },
+      {
+        "Assertional_Logic": "Is_ProperFraction: Is_ProperFraction(q: RationalNumbers) -> Prop",
+        "Lean4_Code": "def Is_ProperFraction(q: ℚ): Prop := q.num < q.den",
+        "Explanation": "判断一个有理数是否为真分数"
+      },
+      {
+        "Assertional_Logic": "Is_IrreducibleFraction: Is_IrreducibleFraction(q: RationalNumbers) -> Prop",
+        "Lean4_Code": "def Is_IrreducibleFraction(q: ℚ): Prop := Int.gcd q.num q.den = 1",
+        "Explanation": "判断一个有理数是否为最简分数"
+      },
+      {
+        "Assertional_Logic": "Is_Coprime: Is_Coprime(m: NaturalNumber, n: NaturalNumber) -> Prop",
+        "Lean4_Code": "#check Nat.Coprime 10 20",
+        "Explanation": "判断两个自然数是否互质"
+      },
+      {
+        "Assertional_Logic": "Is_Factor: Is_Factor(a: NaturalNumber, b: NaturalNumber) -> Prop",
+        "Lean4_Code": "#eval 2 ∣ 10",
+        "Explanation": "判断一个自然数是否为另一个自然数的因数"
+      },
+      {
+        "Assertional_Logic": "Get_GCD: Get_GCD(a: NaturalNumber, b: NaturalNumber) -> NaturalNumber",
+        "Lean4_Code": "#eval Nat.gcd 10 15",
+        "Explanation": "计算两个自然数的最大公约数"
+      },
+      {
+        "Assertional_Logic": "Get_LCM: Get_LCM(a: NaturalNumber, b: NaturalNumber) -> NaturalNumber",
+        "Lean4_Code": "#eval Nat.lcm 2 10",
+        "Explanation": "计算两个自然数的最小公倍数"
+      },
+      {
+        "Assertional_Logic": "Is_PerfectSquare: Is_PerfectSquare(a: NaturalNumber) -> Prop",
+        "Lean4_Code": "def Is_PerfectSquare(a: ℕ): Prop := IsSquare a",
+        "Explanation": "判断一个自然数是否是完全平方数"
+      },
+      {
+        "Assertional_Logic": "Get_Remainder: Get_Remainder(a: NaturalNumber, b: NaturalNumber) -> NaturalNumber",
+        "Lean4_Code": "#eval 7 % 3",
+        "Explanation": "计算 a 除以 b 的余数"
+      },
+      {
+        "Assertional_Logic": "Is_Prime: Is_Prime(a: NaturalNumber) -> Prop",
+        "Lean4_Code": "#check (Prime 10)",
+        "Explanation": "判断一个自然数是否为素数"
+      },
+      {
+        "Assertional_Logic": "Get_SumOfSquares: Get_SumOfSquares(n: Integer) -> Integer",
+        "Lean4_Code": "def Get_SumOfSquares(n: ℕ): ℕ := ∑ i ∈ Set.Icc 1 n, i ^ 2",
+        "Explanation": "计算一个整数的平方和"
+      },
+      {
+        "Assertional_Logic": "Is_Twin_Prime: Is_Twin_Prime(p: Prime) -> Boolean",
+        "Lean4_Code": "def Is_Twin_Prime(n: ℕ): Prop := Prime n ∧ (Prime (n + 2) ∨ Prime (n - 2))",
+        "Explanation": "判断一个素数是否为双胞胎素数"
+      },
+      {
+        "Assertional_Logic": "Is_Factorial_Prime: Is_Factorial_Prime(p: Prime) -> Boolean",
+        "Lean4_Code": "def Is_Factorial_Prime(N: ℕ): Prop := Prime N ∧ (∃ n, N = Nat.factorial n + 1 ∨ N = Nat.factorial n - 1)",
+        "Explanation": "判断一个素数是否是阶乘素数，即是否可以表示为某个阶乘加1或减1"
+      },
+      {
+        "Assertional_Logic": "Is_MersenneNumber: Is_MersenneNumber(N: NaturalNumber) -> Boolean",
+        "Lean4_Code": "def Is_MersenneNumber(N: ℕ): Prop := ∃ n, N = 2 ^ n -1",
+        "Explanation": "判断一个数是否为梅森数，即是否可以表示为 2^n - 1"
+      },
+      {
+        "Assertional_Logic": "Is_SinglyEvenNumber: Is_SinglyEvenNumber(N: NaturalNumber) -> Boolean",
+        "Lean4_Code": "def Is_SinglyEvenNumber(N: ℕ): Prop := 2 ∣ N ∧ ¬ (4 ∣ N)",
+        "Explanation": "判断一个数是否为奇偶数，即被2整除但不能被4整除"
+      },
+      {
+        "Assertional_Logic": "Order: Order(a: NaturalNumber, N: NaturalNumber) -> Number",
+        "Lean4_Code": "def orderOf (a : ℕ) (N : ℕ) : ℕ := nat.orderOf a N",
+        "Explanation": "计算一个数 a 在模 N 群体中的阶，即最小的正整数 k 使得 a^k ≡ 1 (mod N)"
+      }
+]

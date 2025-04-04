@@ -1,0 +1,202 @@
+[
+    {
+        "Assertional_Logic": "Real",
+        "Lean4_Code": "variable (a : ℝ)",
+        "Explanation": "Real number"
+    },
+    {
+        "Assertional_Logic": "NonNegativeNumbers",
+        "Lean4_Code": "def NonNegative_Real (x : ℝ) : Prop := 0 ≤ x   variable (ha: NonNegative_Real a)",
+        "Explanation": "Real numbers that are greater or equal than zero."
+    },
+    {
+        "Assertional_Logic": "NegativeNumbers",
+        "Lean4_Code": "def Negative_Real (x : ℝ) : Prop := x < 0   variable (ha: Negative_Real a)",
+        "Explanation": "Real numbers less than zero."
+    },
+    {
+        "Assertional_Logic": "PositiveNumbers",
+        "Lean4_Code": "def Positive_Real (x : ℝ) : Prop := 0 < x   variable (ha: Positive_Real a)",
+        "Explanation": "Real numbers greater than zero."
+    },
+    {
+        "Assertional_Logic": "AlgebraicNumbers",
+        "Lean4_Code": "variable (h1 : IsAlgebraic ℝ x)",
+        "Explanation": "Numbers that satisfy a polynomial equation with integer coefficients."
+    },
+    {
+        "Assertional_Logic": "IrrationalNumbers",
+        "Lean4_Code": "variable (h2 : Irrational x)",
+        "Explanation": "Numbers that cannot be expressed as a simple fraction."
+    },
+    {
+        "Assertional_Logic": "TranscendentalNumbers",
+        "Lean4_Code": "variable (hT : Transcendental ℝ x)",
+        "Explanation": "Numbers that are not roots of any non-zero polynomial equation with integer coefficients."
+    },
+    {
+        "Assertional_Logic": "Integers",
+        "Lean4_Code": "variable (x : ℤ)",
+        "Explanation": "Whole numbers including negatives, zero, and positives."
+    },
+    {
+        "Assertional_Logic": "OddNumbers",
+        "Lean4_Code": "variable (a : ℤ) (hodd : Odd a)",
+        "Explanation": "Integers not divisible by 2."
+    },
+    {
+        "Assertional_Logic": "EvenNumbers",
+        "Lean4_Code": "variable (b : ℤ) (heven : Even b)",
+        "Explanation": "Integers divisible by 2."
+    },
+    {
+        "Assertional_Logic": "NonNegativeIntegers",
+        "Lean4_Code": "def NonNegative_Int (x : ℤ) : Prop := 0 ≤ x   variable (ha: NonNegative_Int a)",
+        "Explanation": "Integers that are greater or equal than zero."
+    },
+    {
+        "Assertional_Logic": "NegativeIntegers",
+        "Lean4_Code": "def Negative_Int (x : ℤ) : Prop := x < 0   variable (ha: Negative_Int a)",
+        "Explanation": "Integers less than zero."
+    },
+    {
+        "Assertional_Logic": "PositiveIntegers",
+        "Lean4_Code": "def Positive_Int (x : ℤ) : Prop := 0 < x   variable (ha: Positive_Int a)",
+        "Explanation": "Integers greater than zero."
+    },
+    {
+        "Assertional_Logic": "PrimeNumbers",
+        "Lean4_Code": "variable (p : ℕ) (hp : Nat.Prime p)",
+        "Explanation": "A natural number greater than 1 with no divisors other than 1 and itself."
+    },
+    {
+        "Assertional_Logic": "CompositeNumbers",
+        "Lean4_Code": "def CompositeNumbers (n : ℕ) : Prop := n > 1 ∧ ¬ Nat.Prime n   variable (hc: CompositeNumbers a)",
+        "Explanation": "A natural number greater than 1 that is not prime."
+    },
+    {
+        "Assertional_Logic": "RationalNumbers",
+        "Lean4_Code": "variable (x : ℚ)",
+        "Explanation": "Numbers that can be expressed as a fraction of two integers."
+    },
+    {
+        "Assertional_Logic": "ComplexNumbers",
+        "Lean4_Code": "variable (z : ℂ)",
+        "Explanation": "Numbers of the form a + bi where a, b are real numbers."
+    },
+    {
+        "Assertional_Logic": "ImaginaryNumbers",
+        "Lean4_Code": "def IsPureImaginary (z : ℂ) : Prop := z.re = 0 ∧ z.im ≠ 0   variable (Iz: IsPureImaginary z)",
+        "Explanation": "Numbers of the form bi where b is real."
+    },
+    {
+        "Assertional_Logic": "ComplexUnit",
+        "Lean4_Code": "#check Complex.I",
+        "Explanation": "The imaginary unit i where i^2 = -1."
+    },
+    {
+        "Assertional_Logic": "Function",
+        "Lean4_Code": "variable(f: ℝ → ℝ)",
+        "Explanation": "A mathematical relationship where each input (from the domain) corresponds to exactly one output (in the codomain)."
+    },
+    {
+        "Assertional_Logic": "QuadraticFunction",
+        "Lean4_Code": "structure QuadraticFunction where\n  (a b c : ℝ)\n  (a_nonzero : a ≠ 0)\n  (discriminant : ℝ := b^2 - 4 * a * c)\n  (func : ℝ → ℝ := λ x => a * x^2 + b * x + c)",
+        "Explanation": "A function whose expression has the form of ax^2 + bx + c."
+    },
+    {
+        "Assertional_Logic": "CubicFunction",
+        "Lean4_Code": "structure CubicFunction where\n  (a b c d : ℝ)\n  (func : ℝ → ℝ := λ x => a * x^3 + b * x^2 + c*x + d)\n  (a_nonzero : a ≠ 0)\n  (discriminant : ℝ := b^2 - 3 * a * c)",
+        "Explanation": "A function whose expression has the form of ax^3 + bx^2 + cx + d."
+    },
+    {
+        "Assertional_Logic": "ConstantFunction",
+        "Lean4_Code": "def ConstantFunction (c : ℝ) : ℝ → ℝ := λ x => c   def example_constant_function : ℝ → ℝ := ConstantFunction 5",
+        "Explanation": "A function that always outputs the same value, regardless of the input."
+    },
+    {
+        "Assertional_Logic": "IdentityFunction",
+        "Lean4_Code": "def Identity_function : ℝ → ℝ := id",
+        "Explanation": "A function that maps every input to itself."
+    },
+    {
+        "Assertional_Logic": "PeriodicFunction",
+        "Lean4_Code": "variable (fp: ℝ → ℝ)   variable (hfp: Periodic fp 1)",
+        "Explanation": "A function that repeats its values at regular intervals, such as trigonometric functions."
+    },
+    {
+        "Assertional_Logic": "IncreasingFunction",
+        "Lean4_Code": "variable (f1 : ℝ → ℝ)   variable (hb1: MonotoneOn f1 (Set.Icc 1 10))   variable (hb2: StrictMonoOn f1 (Set.Icc 1 10)) -- You should identify the specific set",
+        "Explanation": "A function where the output increases as the input increases."
+    },
+    {
+        "Assertional_Logic": "DecreasingFunction",
+        "Lean4_Code": "variable (f2 : ℝ → ℝ)   variable (hb3 : AntitoneOn f2 (Set.Icc 1 10))   variable (hb4: StrictAntiOn f2 (Set.Icc 1 10)) -- You should identify the specific set",
+        "Explanation": "A function where the output decreases as the input increases."
+    },
+    {
+        "Assertional_Logic": "OddFunction",
+        "Lean4_Code": "variable (h: Function.Odd f)",
+        "Explanation": "A function that satisfies the condition f(-x) = -f(x) for all x in its domain."
+    },
+    {
+        "Assertional_Logic": "EvenFunction",
+        "Lean4_Code": "variable (h: Function.Even f)",
+        "Explanation": "A function that satisfies the condition f(-x) = f(x) for all x in its domain."
+    },
+    {
+        "Assertional_Logic": "Sequence",
+        "Lean4_Code": "variable (sequence: ℕ → ℝ)",
+        "Explanation": "A list of numbers arranged in a specific order, usually following a particular pattern or rule."
+    },
+    {
+        "Assertional_Logic": "ArithmeticSequence",
+        "Lean4_Code": "structure ArithmeticSequence where\n  (Sequence: ℕ → ℝ)\n  (d : ℝ)   -- 公差\n  (property : ∀ n : ℕ, Sequence (n + 1) - Sequence n = d)  -- 确保是等差数列",
+        "Explanation": "A sequence where the difference between consecutive terms is constant."
+    },
+    {
+        "Assertional_Logic": "GeometricSequence",
+        "Lean4_Code": "structure GeometricSequence where\n  (Sequence: ℕ → ℝ)\n  (q : ℝ)   -- 公比\n  (property : ∀ n : ℕ, Sequence (n + 1) / Sequence n = q)  -- 确保是等比数列",
+        "Explanation": "A sequence where each term is found by multiplying the previous term by a constant ratio."
+    },
+    {
+        "Assertional_Logic": "HarmonicSequence",
+        "Lean4_Code": "def Harmonic : ℕ → ℚ\n| n => 1 / n\n#eval Harmonic 12",
+        "Explanation": "A sequence where each term is the reciprocal of a natural number, i.e., 1/2, 1/3, ..."
+    },
+    {
+        "Assertional_Logic": "ConvergentSequence",
+        "Lean4_Code": "structure ConvergentSequence (s : ℕ → ℝ) where\n  (L : ℝ)     -- 极限 L\n  (lim : ∀ ε > 0, ∃ N : ℕ, ∀ n ≥ N, |s n - L| < ε)",
+        "Explanation": "A sequence whose terms approach a specific value (L) as n tends to infinity."
+    },
+    {
+        "Assertional_Logic": "DivergentSequence",
+        "Lean4_Code": "structure DivergentSequence (s : ℕ → ℝ) where\n  (diverges_to_infinity : ∀ M > 0, ∃ N : ℕ, ∀ n ≥ N, s n > M)",
+        "Explanation": "A sequence whose terms grow without bound, i.e., they tend to infinity as n increases."
+    },
+    {
+        "Assertional_Logic": "Polynomial",
+        "Lean4_Code": "variable (q : Polynomial ℝ)",
+        "Explanation": "Mathematical expression consisting of variables (numbers) and coefficients, combined using operations."
+    },
+    {
+        "Assertional_Logic": "Monomial",
+        "Lean4_Code": "variable (h2 : q = monomial 1 2)",
+        "Explanation": "A polynomial with only one term, such as 3x^2 or 5."
+    },
+    {
+        "Assertional_Logic": "IrreduciblePolynomial",
+        "Lean4_Code": "variable (pI : Polynomial ℝ)(hpI : Irreducible pI) /- pI 是一个不可约多项式 -/",
+        "Explanation": "A polynomial that cannot be factored into polynomials of lower degree with coefficients in a field."
+    },
+    {
+        "Assertional_Logic": "QuadraticPolynomial",
+        "Lean4_Code": "structure QuadraticPolynomial where\n  (p : Polynomial ℝ)\n  (degree_2 : p.natDegree = 2)\n  (leading_coeff_nonzero : p.leadingCoeff ≠ 0)\n  (discriminant : ℝ := p.coeff 1 ^ 2 - 4 * p.coeff 0 * p.coeff 2)",
+        "Explanation": "A polynomial whose expression has the form ( ax^2 + bx + c ), where ( a, b, c ) are constants, and ( a ≠ 0 )."
+    },
+    {
+        "Assertional_Logic": "CubicPolynomial",
+        "Lean4_Code": "structure CubicPolynomial where\n  (p : Polynomial ℝ)\n  (degree_3 : p.natDegree = 3)\n  (leading_coeff_nonzero : p.leadingCoeff ≠ 0)\n  (discriminant : ℝ := p.coeff 2 ^ 2 - 3 * p.coeff 3 * p.coeff 1)",
+        "Explanation": "A polynomial whose expression has the form ( ax^3 + bx^2 + cx + d ), where ( a, b, c, d ) are constants, and ( a ≠ 0 )."
+    }
+]
