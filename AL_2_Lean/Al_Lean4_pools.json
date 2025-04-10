@@ -1,0 +1,3714 @@
+[
+    {
+        "id": 1,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = Sqrt(3 - Sqrt(5 - Sqrt(x)))",
+        "Query": "Build_Set(x, (x >= 0) & (5 - Sqrt(x) >= 0) & (3 - Sqrt(5 - Sqrt(x)) >= 0))",
+        "Proof": "",
+        "lean": "theorem test1 (f : ℝ → ℝ) \n  (h_f : f = λ x, real.sqrt (3 - real.sqrt (5 - real.sqrt x))) : \n  {x | (x ≥ 0) ∧ (5 - real.sqrt x ≥ 0) ∧ (3 - real.sqrt (5 - real.sqrt x) ≥ 0)} = sorry := \nby sorry"
+    },
+    {
+        "id": 2,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "9997 ^ 2",
+        "Proof": "",
+        "lean": "theorem test2 : 9997 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 3,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a * b^2 = 27 / 5; a^2 * b = 135",
+        "Query": "a + 5 * b",
+        "Proof": "",
+        "lean": "theorem test3 (a b : ℝ)\n  (h1 : a * b ^ 2 = 27 / 5) (h2 : a ^ 2 * b = 135) :\n  a + 5 * b = sorry := by sorry"
+    },
+    {
+        "id": 4,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(3^4 - 3^3) / (3^3 - 3^2)",
+        "Proof": "",
+        "lean": "theorem test4 : (3^4 - 3^3) / (3^3 - 3^2) = sorry := by sorry"
+    },
+    {
+        "id": 5,
+        "Declarations": "a: EvenNumbers; b: EvenNumbers",
+        "Facts": "a = b + 2; a ^ 2 - b ^ 2 = 268",
+        "Query": "a ^ 2",
+        "Proof": "",
+        "lean": "theorem test5 (a b : ℕ)\n  (h1 : a = b + 2) (h2 : a ^ 2 - b ^ 2 = 268) :\n  a ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 6,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "91 ^ 2",
+        "Proof": "",
+        "lean": "theorem test6 : 91 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 7,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "115 ^ 2",
+        "Proof": "",
+        "lean": "theorem test7 : 115 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 8,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(2 ^ 10 - 2 ^ 8) / (2 ^ 7 - 2 ^ 6)",
+        "Proof": "",
+        "lean": "theorem test8 : (2 ^ 10 - 2 ^ 8) / (2 ^ 7 - 2 ^ 6) = sorry := by sorry"
+    },
+    {
+        "id": 9,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "99^2 + 99 + 1",
+        "Proof": "",
+        "lean": "theorem test9 : 99^2 + 99 + 1 = sorry := by sorry"
+    },
+    {
+        "id": 10,
+        "Declarations": "f: Function",
+        "Facts": "Get_StepFunction_Expression(f, x >= 0) = - x ^ (1 /3); Get_StepFunction_Expression(f, x < 0) = x ^ 2",
+        "Query": "Get_Function_Value(Get_Function_IthComposition(f, 3), 512)",
+        "Proof": "",
+        "lean": "theorem test10 (f : ℝ → ℝ)\n  (h1 : ∀ x, x ≥ 0 → f x = - x ^ (1 / 3))\n  (h2 : ∀ x, x < 0 → f x = x ^ 2) :\n  (f^[3]) 512 = sorry := by sorry"
+    },
+    {
+        "id": 11,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "Get_Sum(Range(1, 259), n -> i ^ n ) ",
+        "Proof": "",
+        "lean": "theorem test11 (i : ℂ) : ∑ n in finset.range 259, i ^ n = sorry := by sorry"
+    },
+    {
+        "id": 12,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(34-10)+(20-9)+(55-10)",
+        "Proof": "",
+        "lean": "theorem test12 : (34 - 10) + (20 - 9) + (55 - 10) = sorry := by sorry"
+    },
+    {
+        "id": 13,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "989 ^ 2",
+        "Proof": "",
+        "lean": "theorem test13 : 989 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 14,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = Sqrt(x^2)",
+        "Query": "Get_Function_Range(f)",
+        "Proof": "",
+        "lean": "theorem test14 (f : ℝ → ℝ) \n  (hf : ∀ x, f x = real.sqrt (x^2)) : \n  Set.range f = sorry := by sorry"
+    },
+    {
+        "id": 15,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "32 ^ 2 - 18 ^ 2",
+        "Proof": "",
+        "lean": "theorem test15 : 32 ^ 2 - 18 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 16,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(4 / 3) * (6 / 4) * (8 / 5) * (10 / 6) * (12 / 7) * (14 / 8)",
+        "Proof": "",
+        "lean": "theorem test16 : (4 / 3) * (6 / 4) * (8 / 5) * (10 / 6) * (12 / 7) * (14 / 8) = sorry := by sorry"
+    },
+    {
+        "id": 17,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "113 + 276 - 13 - 26",
+        "Proof": "",
+        "lean": "theorem test17 : 113 + 276 - 13 - 26 = sorry := by sorry"
+    },
+    {
+        "id": 18,
+        "Declarations": "f: Function; g: Function",
+        "Facts": "Get_Function_Expression(f) = x + 1; Get_Function_Expression(g) = 2 * x",
+        "Query": "Get_Function_Value( Get_Function_Composition( f, Get_Function_Composition( Get_Inverse_Function(g), Get_Function_Composition( Get_Inverse_Function(f), Get_Function_Composition( Get_Inverse_Function(f), Get_Function_Composition( g, f ) ) ) ) ), 5 )",
+        "Proof": "",
+        "lean": "theorem test18 (f g : ℝ → ℝ) \n  (hf : ∀ x, f x = x + 1) (hg : ∀ x, g x = 2 * x) :\n  f (g⁻¹ (f⁻¹ (f⁻¹ (g (f 5))))) = sorry := by sorry"
+    },
+    {
+        "id": 19,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "252 ^ 2 - 248 ^ 2",
+        "Proof": "",
+        "lean": "theorem test19 : 252 ^ 2 - 248 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 20,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3)))))))))",
+        "Proof": "",
+        "lean": "theorem test20 : 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3 * (1 + 3))))))))) = sorry := by sorry"
+    },
+    {
+        "id": 21,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "26 * 33 + 67 * 26",
+        "Proof": "",
+        "lean": "theorem test21 : 26 * 33 + 67 * 26 = sorry := by sorry"
+    },
+    {
+        "id": 22,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Sqrt(Sqrt(12960000))",
+        "Proof": "",
+        "lean": "theorem test22 : real.sqrt (real.sqrt 12960000) = sorry := by sorry"
+    },
+    {
+        "id": 23,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "55 * 1212 - 15 * 1212",
+        "Proof": "",
+        "lean": "theorem test23 : 55 * 1212 - 15 * 1212 = sorry := by sorry"
+    },
+    {
+        "id": 24,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "1017 ^ 2",
+        "Proof": "",
+        "lean": "theorem test24 : 1017 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 25,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "16 * ((125 / 2) + (25 / 4) + (9 / 16) + 1)",
+        "Proof": "",
+        "lean": "theorem test25 : 16 * ((125 / 2) + (25 / 4) + (9 / 16) + 1) = sorry := by sorry"
+    },
+    {
+        "id": 26,
+        "Declarations": "A: Set",
+        "Facts": "A = Build_Set(x, x = (-1) * 2 ^ n && Is_NaturalNumbers(n) = True && x <= 512)",
+        "Query": "Get_Set_Sum(A)",
+        "Proof": "",
+        "lean": "theorem test26 (A : Set ℕ) \n  (hA : A = {x | ∃ n : ℕ, x = (-1) * 2 ^ n ∧ n ∈ ℕ ∧ x ≤ 512}) : \n  ∑ x in A, x = sorry := by sorry"
+    },
+    {
+        "id": 27,
+        "Declarations": "f: Function",
+        "Facts": "Get_StepFunction_Expression(f, x >= 0) = -x^2; Get_StepFunction_Expression(f, x < 0) = x + 8",
+        "Query": "Get_Function_Value(Get_Function_IthComposition(f, 4), 1)",
+        "Proof": "",
+        "lean": "theorem test27 (f : ℝ → ℝ) \n  (h1 : ∀ x, x ≥ 0 → f x = -x^2) \n  (h2 : ∀ x, x < 0 → f x = x + 8) : \n  (stefan_function_nth_iter f 4) 1 = sorry := by sorry"
+    },
+    {
+        "id": 28,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(66666 ^ 4) / (22222 ^ 4)",
+        "Proof": "",
+        "lean": "theorem test28 : (66666 ^ 4) / (22222 ^ 4) = sorry := by sorry"
+    },
+    {
+        "id": 29,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "55^2 - 45^2",
+        "Proof": "",
+        "lean": "theorem test29 : 55^2 - 45^2 = sorry := by sorry"
+    },
+    {
+        "id": 30,
+        "Declarations": "f: Function; g: Function",
+        "Facts": "Get_Function_Expression(f) = x + 2; Get_Function_Expression(g) = x / 3",
+        "Query": "Get_Function_Value(Get_Function_Composition(f, Get_Function_Composition(Get_Inverse_Function(g),Get_Function_Composition(Get_Inverse_Function(f), Get_Function_Composition(Get_Inverse_Function(f),Get_Function_Composition(g, f) ) ) ) ), 19 )",
+        "Proof": "",
+        "lean": "theorem test30 (f g : ℝ → ℝ)\n  (hf_expr : ∀ x, f x = x + 2)\n  (hg_expr : ∀ x, g x = x / 3) :\n  f (g⁻¹ (f⁻¹ (f⁻¹ (g (f 19))))) = sorry := by sorry"
+    },
+    {
+        "id": 31,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(1622^2 - 1615^2) / (1629^2 - 1608^2)",
+        "Proof": "",
+        "lean": "theorem test31 : (1622^2 - 1615^2) / (1629^2 - 1608^2) = sorry := by sorry"
+    },
+    {
+        "id": 32,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "54 * 46",
+        "Proof": "",
+        "lean": "theorem test32 : 54 * 46 = sorry := by sorry"
+    },
+    {
+        "id": 33,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(17 + 10) ^ 2 - (17 - 10) ^ 2",
+        "Proof": "",
+        "lean": "theorem test33 : (17 + 10) ^ 2 - (17 - 10) ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 34,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers",
+        "Facts": "",
+        "Query": "Build_Set((x, y), (x^y + 1 = y^x) & (2 * x^y = y^x + 7))",
+        "Proof": "",
+        "lean": "theorem test34 (x y : ℕ) (hx : 0 < x) (hy : 0 < y) : \n  {⟨x, y⟩ | x ^ y + 1 = y ^ x ∧ 2 * x ^ y = y ^ x + 7} = sorry := by sorry"
+    },
+    {
+        "id": 35,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "95 ^ 2",
+        "Proof": "",
+        "lean": "theorem test35 : 95 ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 36,
+        "Declarations": "x: Real; y: Real; a: Real",
+        "Facts": "3 * x + y = a; 2 * x + 5 * y = 2 * a; x = 2",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test36 (x y a : ℝ) \n  (h1 : 3 * x + y = a) (h2 : 2 * x + 5 * y = 2 * a) (h3 : x = 2) : \n  a = sorry := by sorry"
+    },
+    {
+        "id": 37,
+        "Declarations": "f: Function; g: Function",
+        "Facts": "Get_Function_Expression(f) = 3 * x - 2; Get_Function_Expression(g) = Get_Function_IthComposition(f, 3)",
+        "Query": "Get_Function_InDomain_Range(g, Build_Set(x: Real, 0 <= x <= 2))",
+        "Proof": "",
+        "lean": "theorem test37 (f g : ℝ → ℝ)\n  (h1 : ∀ x, f x = 3 * x - 2)\n  (h2 : ∀ x, g x = f (f (f x))) :\n  ∀ x, (0 ≤ x ∧ x ≤ 2) → g x ∈ {y : ℝ | 0 ≤ y ∧ y ≤ 2} = sorry := by sorry"
+    },
+    {
+        "id": 38,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Abs(pi - Abs(pi - 7))",
+        "Proof": "",
+        "lean": "theorem test38 : |real.pi - |real.pi - 7|| = sorry := by sorry"
+    },
+    {
+        "id": 39,
+        "Declarations": "x: Real",
+        "Facts": "x = 5",
+        "Query": "(x^8 + 12 * x^4 + 36) / (x^4 + 6)",
+        "Proof": "",
+        "lean": "theorem test39 (x : ℝ) \n  (h : x = 5) : \n  (x^8 + 12 * x^4 + 36) / (x^4 + 6) = sorry := by sorry"
+    },
+    {
+        "id": 40,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum({-1, -3, -9, -27, -81, -243, -729})",
+        "Proof": "",
+        "lean": "theorem test40 : (∑ x in {-1, -3, -9, -27, -81, -243, -729}, x) = sorry := by sorry"
+    },
+    {
+        "id": 41,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "1003^2 - 997^2 - 1001^2 + 999^2",
+        "Proof": "",
+        "lean": "theorem test41 : 1003^2 - 997^2 - 1001^2 + 999^2 = sorry := by sorry"
+    },
+    {
+        "id": 42,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(2 + 4 - 8 + 16 + 32 - 64) / (4 + 8 - 16 + 32 + 64 - 128)",
+        "Proof": "",
+        "lean": "theorem test42 : (2 + 4 - 8 + 16 + 32 - 64) / (4 + 8 - 16 + 32 + 64 - 128) = sorry := by sorry"
+    },
+    {
+        "id": 43,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum(Get_Polyroots((2x+3)(x-4)+(2x+3)(x-6)))",
+        "Proof": "",
+        "lean": "theorem test43 : sSum (roots ((2 * x + 3) * (x - 4) + (2 * x + 3) * (x - 6))) = sorry := by sorry"
+    },
+    {
+        "id": 44,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(6^6 - 16 * 6^3 + 64) / (6^3 - 8)",
+        "Proof": "",
+        "lean": "theorem test44 : (6^6 - 16 * 6^3 + 64) / (6^3 - 8) = sorry := by sorry"
+    },
+    {
+        "id": 45,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "98 * 102",
+        "Proof": "",
+        "lean": "theorem test45 : 98 * 102 = sorry := by sorry"
+    },
+    {
+        "id": 46,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(1 / 5) + (2 / 5) + (3 / 5) + (4 / 5) + (5 / 5) + (6 / 5) + (7 / 5) + (8 / 5) + (9 / 5) + (10 / 5)",
+        "Proof": "",
+        "lean": "theorem test46 : (1 / 5) + (2 / 5) + (3 / 5) + (4 / 5) + (5 / 5) + (6 / 5) + (7 / 5) + (8 / 5) + (9 / 5) + (10 / 5) = sorry := by sorry"
+    },
+    {
+        "id": 47,
+        "Declarations": "y: Function",
+        "Facts": "Get_Function_Expression(y) = Abs(x + 7) - Abs(x - 2)",
+        "Query": "Get_Function_Range(y)",
+        "Proof": "",
+        "lean": "theorem test47 (y : ℝ → ℝ)\n  (h : ∀ x, y x = abs (x + 7) - abs (x - 2)) :\n  set.range y = sorry := by sorry"
+    },
+    {
+        "id": 48,
+        "Declarations": "x: Real; A: Real; B: Real; C: Real",
+        "Facts": "A = Get_Set_Sum(Build_Set(1 / (2 ^ n), (0 <= n) & (Is_NaturalNumbers(n) = True))); B = Get_Set_Sum(Build_Set((-1) ^ n / (2 ^ n), (0 <= n) & (Is_NaturalNumbers(n) = True))); C = Get_Set_Sum(Build_Set(1 / (x ^ n), (0 <= n) & (Is_NaturalNumbers(n) = True))); A * B = C",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test48 (x A B C : ℝ) \n  (hA : A = ∑' n, 1 / (2 ^ n))\n  (hB : B = ∑' n, ((-1) ^ n) / (2 ^ n))\n  (hC : C = ∑' n, 1 / (x ^ n))\n  (hABC : A * B = C) :\n  x = sorry := by sorry"
+    },
+    {
+        "id": 49,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(Sqrt(8), 64 * Sqrt(8))",
+        "Proof": "",
+        "lean": "theorem test49 : log (sqrt 8) (64 * sqrt 8) = sorry := by sorry"
+    },
+    {
+        "id": 50,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(Get_Number_Ceil(Sqrt(20))) ^ 2",
+        "Proof": "",
+        "lean": "theorem test50 : (⌈sqrt 20⌉) ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 51,
+        "Declarations": "a: Real",
+        "Facts": "a = 5",
+        "Query": "a^3 * a^2",
+        "Proof": "",
+        "lean": "theorem test51 (a : ℝ) (h : a = 5) : a^3 * a^2 = sorry := by sorry"
+    },
+    {
+        "id": 52,
+        "Declarations": "P: Polynomial; alpha: Real; beta: Real",
+        "Facts": "P = x^2 + 7x - 2; Get_Polyroots(P) = {alpha, beta}",
+        "Query": "alpha^2 + beta^2",
+        "Proof": "",
+        "lean": "theorem test52 (P : ℝ[X]) (alpha beta : ℝ) \n  (hP : P = X^2 + 7 * X - 2) (hroots : {alpha, beta} = {r : ℝ | r^2 + 7*r - 2 = 0}) : \n  alpha^2 + beta^2 = sorry := by sorry"
+    },
+    {
+        "id": 53,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(5, 1/625)",
+        "Proof": "",
+        "lean": "theorem test53 : real.log 5 (1/625) = sorry := by sorry"
+    },
+    {
+        "id": 54,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "i ^ 11 + i ^ 111",
+        "Proof": "",
+        "lean": "theorem test54 (i : ℂ) : i ^ 11 + i ^ 111 = sorry := by sorry"
+    },
+    {
+        "id": 55,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(3.2)",
+        "Proof": "",
+        "lean": "theorem test55 : ⌊3.2⌋ = sorry := by sorry"
+    },
+    {
+        "id": 56,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(723 * 723) - (722 * 724)",
+        "Proof": "",
+        "lean": "theorem test56 : (723 * 723) - (722 * 724) = sorry := by sorry"
+    },
+    {
+        "id": 57,
+        "Declarations": "x: Real; a: Real",
+        "Facts": "x = a + 7",
+        "Query": "x - a + 3",
+        "Proof": "",
+        "lean": "theorem test57 (x a : ℝ) \n  (h : x = a + 7) : \n  x - a + 3 = sorry := by sorry"
+    },
+    {
+        "id": 58,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(5, 625)",
+        "Proof": "",
+        "lean": "theorem test58 : log 5 625 = sorry := by sorry"
+    },
+    {
+        "id": 59,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(8, 2)",
+        "Proof": "",
+        "lean": "theorem test59 : log 8 / log 2 = sorry := by sorry"
+    },
+    {
+        "id": 60,
+        "Declarations": "x: Real; y: Real; z: Real",
+        "Facts": "x = 1/3; y = 2/3; z = -9",
+        "Query": "x^2 * y^3 * z",
+        "Proof": "",
+        "lean": "theorem test60 (x y z : ℝ)\n  (h1 : x = 1/3) (h2 : y = 2/3) (h3 : z = -9) :\n  x^2 * y^3 * z = sorry := by sorry"
+    },
+    {
+        "id": 61,
+        "Declarations": "G: Sequence; k: NaturalNumbers",
+        "Facts": "Get_Sequence_Terms(G, 1) = 1 / 3; Get_Sequence_Terms(G, 2) = 2 / (3^2); Get_Sequence_Terms(G, 3) = 3 / (3^3); Get_Sequence_Terms(G, k) = k / (3^k)",
+        "Query": "Get_Sequence_Infinite_Sum(G)",
+        "Proof": "",
+        "lean": "theorem test61 (G : ℕ → ℝ) (k : ℕ)\n  (h1 : G 1 = 1 / 3) (h2 : G 2 = 2 / (3^2)) (h3 : G 3 = 3 / (3^3)) (hk : G k = k / (3^k)) :\n  ∑' n, G n = sorry := by sorry"
+    },
+    {
+        "id": 62,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "81 ^ (3 / 4)",
+        "Proof": "",
+        "lean": "theorem test62 : 81 ^ (3 / 4) = sorry := by sorry"
+    },
+    {
+        "id": 63,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil(Sqrt(9 / 4)) + Get_Number_Ceil(9 / 4) + Get_Number_Ceil((9 / 4) ^ 2)",
+        "Proof": "",
+        "lean": "theorem test63 : ⌈real.sqrt (9 / 4)⌉ + ⌈9 / 4⌉ + ⌈(9 / 4) ^ 2⌉ = sorry := by sorry"
+    },
+    {
+        "id": 64,
+        "Declarations": "a: Real",
+        "Facts": "a = 3",
+        "Query": "a^2 * a^5",
+        "Proof": "",
+        "lean": "theorem test64 (a : ℝ) \n  (h1 : a = 3) : \n  a^2 * a^5 = sorry := by sorry"
+    },
+    {
+        "id": 65,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "x = 3; y = 0",
+        "Query": "y * (y - 3*x)",
+        "Proof": "",
+        "lean": "theorem test65 (x y : ℝ)\n  (h1 : x = 3) (h2 : y = 0) :\n  y * (y - 3 * x) = sorry := by sorry"
+    },
+    {
+        "id": 66,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(Sqrt(80))",
+        "Proof": "",
+        "lean": "theorem test66 : ∀ x : ℝ, x = real.sqrt 80 → int.floor x = sorry := by sorry"
+    },
+    {
+        "id": 67,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil(-2.4)",
+        "Proof": "",
+        "lean": "theorem test67 : ⌈-2.4⌉ = sorry := by sorry"
+    },
+    {
+        "id": 68,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(4, 64)",
+        "Proof": "",
+        "lean": "theorem test68 : log 4 64 = sorry := by sorry"
+    },
+    {
+        "id": 69,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil(Sqrt(2)) + Get_Number_Ceil(Sqrt(22)) + Get_Number_Ceil(Sqrt(222))",
+        "Proof": "",
+        "lean": "theorem test69 : ⌈√2⌉ + ⌈√22⌉ + ⌈√222⌉ = sorry := by sorry"
+    },
+    {
+        "id": 70,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(3, 1 / Sqrt(3))",
+        "Proof": "",
+        "lean": "theorem test70 : log 3 (1 / sqrt 3) = sorry := by sorry"
+    },
+    {
+        "id": 71,
+        "Declarations": "G: Sequence; k: NaturalNumbers",
+        "Facts": "Get_Sequence_Terms(G, k) = k / (2^k)",
+        "Query": "Get_Sequence_Infinite_Sum(G)",
+        "Proof": "",
+        "lean": "theorem test71 (G : ℕ → ℝ) (k : ℕ) \n  (hG : ∀ k, G k = k / (2^k)) : \n  tsum G = sorry := by sorry"
+    },
+    {
+        "id": 72,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(81, 3) - Log(1/9, 3)",
+        "Proof": "",
+        "lean": "theorem test72 : log 81 3 - log (1/9) 3 = sorry := by sorry"
+    },
+    {
+        "id": 73,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(7, Sqrt(7))",
+        "Proof": "",
+        "lean": "theorem test73 : log 7 (sqrt 7) = sorry := by sorry"
+    },
+    {
+        "id": 74,
+        "Declarations": "f: Fucntion",
+        "Facts": "Get_Function_Value(f, 3) = 10; Get_Function_Value(f, 4) = 17; Get_Function_Value(f, 5) = 26; Get_Function_Value(f, 6) = 37; Get_Function_Value(f, 7) = 50",
+        "Query": "Get_Function_Value(Get_Inverse_Function(f), 50) * Get_Function_Value(Get_Inverse_Function(f), 10) + Get_Function_Value(Get_Inverse_Function(f), 26)",
+        "Proof": "",
+        "lean": "theorem test74 (f : ℕ → ℕ) \n  (h1 : f 3 = 10) (h2 : f 4 = 17) (h3 : f 5 = 26)\n  (h4 : f 6 = 37) (h5 : f 7 = 50) :\n  (function.inv_fun f) 50 * (function.inv_fun f) 10 + (function.inv_fun f) 26 = sorry := by sorry"
+    },
+    {
+        "id": 75,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(Sqrt(63))",
+        "Proof": "",
+        "lean": "theorem test75 : ⌊real.sqrt 63⌋ = sorry := by sorry"
+    },
+    {
+        "id": 76,
+        "Declarations": "a: Real; b: Real; c: Real",
+        "Facts": "a = 4; b = a + 2; c = b - 10; a + 1 != 0; b - 2 != 0; c + 6 != 0",
+        "Query": "((a + 2) / (a + 1)) * ((b - 1) / (b - 2)) * ((c + 8) / (c + 6))",
+        "Proof": "",
+        "lean": "theorem test76 (a b c : ℝ)\n  (h1 : a = 4) (h2 : b = a + 2) (h3 : c = b - 10)\n  (h4 : a + 1 ≠ 0) (h5 : b - 2 ≠ 0) (h6 : c + 6 ≠ 0) :\n  ((a + 2) / (a + 1)) * ((b - 1) / (b - 2)) * ((c + 8) / (c + 6)) = sorry := by sorry"
+    },
+    {
+        "id": 77,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(2 + 1) * (2^2 + 1^2) * (2^4 + 1^4)",
+        "Proof": "",
+        "lean": "theorem test77 : (2 + 1) * (2^2 + 1^2) * (2^4 + 1^4) = sorry := by sorry"
+    },
+    {
+        "id": 78,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil(5 / 4) + Get_Number_Floor(-5 / 4)",
+        "Proof": "",
+        "lean": "theorem test78 : ⌈5 / 4⌉ + ⌊-5 / 4⌋ = sorry := by sorry"
+    },
+    {
+        "id": 79,
+        "Declarations": "n: Integers",
+        "Facts": "n = 2",
+        "Query": "(n - 1) * n * (n + 1) * (n + 2) * (n + 3)",
+        "Proof": "",
+        "lean": "theorem test79 (n : ℤ) \n  (h : n = 2) : \n  (n - 1) * n * (n + 1) * (n + 2) * (n + 3) = sorry := by sorry"
+    },
+    {
+        "id": 80,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(Sqrt(6), 216 * Sqrt(6))",
+        "Proof": "",
+        "lean": "theorem test80 : log (sqrt 6) (216 * sqrt 6) = sorry := by sorry"
+    },
+    {
+        "id": 81,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(2^2)^3",
+        "Proof": "",
+        "lean": "theorem test81 : (2^2)^3 = sorry := by sorry"
+    },
+    {
+        "id": 82,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "99 * 99",
+        "Proof": "",
+        "lean": "theorem test82 : 99 * 99 = sorry := by sorry"
+    },
+    {
+        "id": 83,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(17.2) + Get_Number_Floor(-17.2)",
+        "Proof": "",
+        "lean": "theorem test83 : ⌊17.2⌋ + ⌊-17.2⌋ = sorry := by sorry"
+    },
+    {
+        "id": 84,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(8, 2)",
+        "Proof": "",
+        "lean": "theorem test84 : log 8 2 = sorry := by sorry"
+    },
+    {
+        "id": 85,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a = 2; b = 3",
+        "Query": "(a^b)^a - (b^a)^b",
+        "Proof": "",
+        "lean": "theorem test85 (a b : ℝ)\n  (h1 : a = 2) (h2 : b = 3) :\n  (a ^ b) ^ a - (b ^ a) ^ b = sorry := by sorry"
+    },
+    {
+        "id": 86,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a = 4; b = 1",
+        "Query": "(a^2 + b)^2 - (a^2 - b)^2",
+        "Proof": "",
+        "lean": "theorem test86 (a b : ℝ) \n  (h1 : a = 4) (h2 : b = 1) : \n  (a^2 + b)^2 - (a^2 - b)^2 = sorry := by sorry"
+    },
+    {
+        "id": 87,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(2, 4^2)",
+        "Proof": "",
+        "lean": "theorem test87 : real.log 2 (4 ^ 2) = sorry := by sorry"
+    },
+    {
+        "id": 88,
+        "Declarations": "G: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(G, 1) = 1/3; Get_Sequence_Terms(G, 2) = 1/6; Get_Sequence_Terms(G, 3) = 1/12; Get_Sequence_Terms(G, 4) = 1/24",
+        "Query": "Get_Sequence_Infinite_Sum(G)",
+        "Proof": "",
+        "lean": "theorem test88 (G : ℕ → ℝ) \n  (h1 : G 1 = 1/3) \n  (h2 : G 2 = 1/6) \n  (h3 : G 3 = 1/12) \n  (h4 : G 4 = 1/24) : \n  tsum G = sorry := by sorry"
+    },
+    {
+        "id": 89,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil(3 * (6 - (1 / 2)))",
+        "Proof": "",
+        "lean": "theorem test89 : ⌈3 * (6 - (1 / 2))⌉ = sorry := by sorry"
+    },
+    {
+        "id": 90,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "i ^ 11 + i ^ 16 + i ^ 21 + i ^ 26 + i ^ 31",
+        "Proof": "",
+        "lean": "theorem test90 (i : ℂ) : i ^ 11 + i ^ 16 + i ^ 21 + i ^ 26 + i ^ 31 = sorry := by sorry"
+    },
+    {
+        "id": 91,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(10 ^ (-2) * 5 ^ 0) / 10 ^ (-3)",
+        "Proof": "",
+        "lean": "theorem test91 : (10 ^ (-2) * 5 ^ 0) / 10 ^ (-3) = sorry := by sorry"
+    },
+    {
+        "id": 92,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil( (17 / 7) - Get_Number_Ceil(27 / 17) ) / Get_Number_Ceil( (27 / 7) + Get_Number_Ceil( (7 * 17) / 27 ) )",
+        "Proof": "",
+        "lean": "theorem test92 : ⌈(17 / 7) - ⌈27 / 17⌉⌉ / ⌈(27 / 7) + ⌈(7 * 17) / 27⌉⌉ = sorry := by sorry"
+    },
+    {
+        "id": 93,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(pi)",
+        "Proof": "",
+        "lean": "theorem test93 : ⌊real.pi⌋ = sorry := by sorry"
+    },
+    {
+        "id": 94,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor( - ( 5 / 3 ) )",
+        "Proof": "",
+        "lean": "theorem test94 : ⌊- (5 / 3)⌋ = sorry := by sorry"
+    },
+    {
+        "id": 95,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "27^(-1/3) + 32^(-2/5)",
+        "Proof": "",
+        "lean": "theorem test95 : 27^(-1/3) + 32^(-2/5) = sorry := by sorry"
+    },
+    {
+        "id": 96,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(3, 1/3)",
+        "Proof": "",
+        "lean": "theorem test96 : log 3 (1/3) = sorry := by sorry"
+    },
+    {
+        "id": 97,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Sum(Range(5, 29), x => Get_Number_Ceil(Sqrt(x)))",
+        "Proof": "",
+        "lean": "theorem test97 : (Finset.range 5 29).sum (λ x, ⌈Real.sqrt x⌉) = sorry := by sorry"
+    },
+    {
+        "id": 98,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(0.999) + Get_Number_Ceil(2.001)",
+        "Proof": "",
+        "lean": "theorem test98 : ⌊0.999⌋ + ⌈2.001⌉ = sorry := by sorry"
+    },
+    {
+        "id": 99,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil( (-5 / 3) ^ 2 )",
+        "Proof": "",
+        "lean": "theorem test99 : ⌈((-5 / 3) ^ 2)⌉ = sorry := by sorry"
+    },
+    {
+        "id": 100,
+        "Declarations": "G: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(G, 1) = 3 / 2; Get_Sequence_Terms(G, 2) = - (2 / 3); Get_Sequence_Terms(G, 3) = 8 / 27; Get_Sequence_Terms(G, 4) = - (32 / 243)",
+        "Query": "Get_Sequence_Infinite_Sum(G)",
+        "Proof": "",
+        "lean": "theorem test100 (G : ℕ → ℝ)\n  (h1 : G 1 = 3 / 2) (h2 : G 2 = - (2 / 3)) \n  (h3 : G 3 = 8 / 27) (h4 : G 4 = - (32 / 243)) :\n  (∑' n, G n) = sorry := by sorry"
+    },
+    {
+        "id": 101,
+        "Declarations": "a: Real; S: Set",
+        "Facts": "a = 2; S = Build_Set(a-x, (Is_Integers(x) = True) & (0 <= x <= 10))",
+        "Query": "Get_Set_Product(S)",
+        "Proof": "",
+        "lean": "theorem test101 (a : ℝ) (S : set ℝ) \n  (ha : a = 2) (hS : S = {y | ∃ x, (x ∈ ℤ) ∧ 0 ≤ x ∧ x ≤ 10 ∧ y = a - x}) : \n  ∏ x in S, x = sorry := by sorry"
+    },
+    {
+        "id": 102,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil(Sqrt(140))",
+        "Proof": "",
+        "lean": "theorem test102 : ⌈real.sqrt 140⌉ = sorry := by sorry"
+    },
+    {
+        "id": 103,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor((12.1)^2) - Get_Number_Floor(12.1) * Get_Number_Floor(12.1)",
+        "Proof": "",
+        "lean": "theorem test103 : ⌊(12.1)^2⌋ - ⌊12.1⌋ * ⌊12.1⌋ = sorry := by sorry"
+    },
+    {
+        "id": 104,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(2, 1/16)",
+        "Proof": "",
+        "lean": "theorem test104 : log 2 (1 / 16) = sorry := by sorry"
+    },
+    {
+        "id": 105,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(Get_Number_Floor(Sqrt(17))) ^ 2",
+        "Proof": "",
+        "lean": "theorem test105 : (⌊sqrt 17⌋) ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 106,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(27 * Sqrt(3), 3)",
+        "Proof": "",
+        "lean": "theorem test106 : log 3 (27 * real.sqrt 3) = sorry := by sorry"
+    },
+    {
+        "id": 107,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(-4.5) * Get_Number_Ceil(4.5) * Get_Number_Floor(-3.5) * Get_Number_Ceil(3.5) * ... * Get_Number_Floor(-0.5) * Get_Number_Ceil(0.5)",
+        "Proof": "",
+        "lean": "theorem test107 : ⌊-4.5⌋ * ⌈4.5⌉ * ⌊-3.5⌋ * ⌈3.5⌉ * ... * ⌊-0.5⌋ * ⌈0.5⌉ = sorry := by sorry"
+    },
+    {
+        "id": 108,
+        "Declarations": "a: Real",
+        "Facts": "a = 1.5",
+        "Query": "(5 * a^2 - 13 * a + 4) * (2 * a - 3)",
+        "Proof": "",
+        "lean": "theorem test108 (a : ℝ) \n  (h : a = 1.5) : \n  (5 * a^2 - 13 * a + 4) * (2 * a - 3) = sorry := by sorry"
+    },
+    {
+        "id": 109,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = x^2 + 2 * Sqrt(x)",
+        "Query": "2 * Get_Function_Value(f, 2) - Get_Function_Value(f, 8)",
+        "Proof": "",
+        "lean": "theorem test109 (f : ℝ → ℝ) \n  (h1 : ∀ x, f x = x ^ 2 + 2 * real.sqrt x) : \n  2 * f 2 - f 8 = sorry := by sorry"
+    },
+    {
+        "id": 110,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(-27) ^ (5 / 3)",
+        "Proof": "",
+        "lean": "theorem test110 : (-27) ^ (5 / 3) = sorry := by sorry"
+    },
+    {
+        "id": 111,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(1/3, 9)",
+        "Proof": "",
+        "lean": "theorem test111 : log 1/3 9 = sorry := by sorry"
+    },
+    {
+        "id": 112,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor( Get_Number_Ceil( (13 / 7) ^ 2 ) + (17 / 4) )",
+        "Proof": "",
+        "lean": "theorem test112 : ⌊⌈(13 / 7) ^ 2⌉ + (17 / 4)⌋ = sorry := by sorry"
+    },
+    {
+        "id": 113,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "x = 2; y = 3",
+        "Query": "3 * x^y + 4 * y^x",
+        "Proof": "",
+        "lean": "theorem test113 (x y : ℝ) \n  (hx : x = 2) (hy : y = 3) : \n  3 * x^y + 4 * y^x = sorry := by sorry"
+    },
+    {
+        "id": 114,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(4, 32)",
+        "Proof": "",
+        "lean": "theorem test114 : log 4 32 = sorry := by sorry"
+    },
+    {
+        "id": 115,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "64 ^ (1 / 2) * 27 ^ (-1 / 3) * 16 ^ (1 / 4)",
+        "Proof": "",
+        "lean": "theorem test115 : 64 ^ (1 / 2) * 27 ^ (-1 / 3) * 16 ^ (1 / 4) = sorry := by sorry"
+    },
+    {
+        "id": 116,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil( - Sqrt(49 / 4) )",
+        "Proof": "",
+        "lean": "theorem test116 : ⌈- real.sqrt (49 / 4)⌉ = sorry := by sorry"
+    },
+    {
+        "id": 117,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(Sqrt(12)) ^ 2",
+        "Proof": "",
+        "lean": "theorem test117 : (⌊real.sqrt 12⌋) ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 118,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "16 ^ (7 / 4)",
+        "Proof": "",
+        "lean": "theorem test118 : 16 ^ (7 / 4) = sorry := by sorry"
+    },
+    {
+        "id": 119,
+        "Declarations": "P: Polynomial; alpha: Real; beta: Real",
+        "Facts": "P = 5*x^2 + 3*x + 4; Get_Polyroots(P) = {alpha, beta}",
+        "Query": "alpha + beta",
+        "Proof": "",
+        "lean": "theorem test119 (P : Polynomial) (α β : ℝ)\n  (hP : P = 5 * X^2 + 3 * X + 4) (hroots : {α, β} = roots P) :\n  α + β = sorry := by sorry"
+    },
+    {
+        "id": 120,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "i ^ 22 + i ^ 222",
+        "Proof": "",
+        "lean": "theorem test120 (i : ℂ) : i ^ 22 + i ^ 222 = sorry := by sorry"
+    },
+    {
+        "id": 121,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(Abs(-34.1))",
+        "Proof": "",
+        "lean": "theorem test121 : int.floor(abs (-34.1)) = sorry := by sorry"
+    },
+    {
+        "id": 122,
+        "Declarations": "x: Real",
+        "Facts": "x = -2",
+        "Query": "(3 + x * (3 + x) - 3^2) / (x - 3 + x^2)",
+        "Proof": "",
+        "lean": "theorem test122 (x : ℝ) \n  (h : x = -2) : \n  (3 + x * (3 + x) - 3^2) / (x - 3 + x^2) = sorry := by sorry"
+    },
+    {
+        "id": 123,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(4 ^ (1 / 6)) ^ 9",
+        "Proof": "",
+        "lean": "theorem test123 : (4 ^ (1 / 6)) ^ 9 = sorry := by sorry"
+    },
+    {
+        "id": 124,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(-2.54) + Get_Number_Ceil(25.4)",
+        "Proof": "",
+        "lean": "theorem test124 : (Int.floor (-2.54) + Int.ceil 25.4) = sorry := by sorry"
+    },
+    {
+        "id": 125,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "64^2 - 36^2",
+        "Proof": "",
+        "lean": "theorem test125 : 64^2 - 36^2 = sorry := by sorry"
+    },
+    {
+        "id": 126,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = 2 * x^2 - 4 * x + 9",
+        "Query": "2 * Get_Function_Value(f, 3) + 3 * Get_Function_Value(f, -3)",
+        "Proof": "",
+        "lean": "theorem test126 (f : ℝ → ℝ)\n  (hf : f = λ x, 2 * x^2 - 4 * x + 9) :\n  2 * f 3 + 3 * f (-3) = sorry := by sorry"
+    },
+    {
+        "id": 127,
+        "Declarations": "x: Real",
+        "Facts": "x = 3",
+        "Query": "x^3 + x^2 + x + 1",
+        "Proof": "",
+        "lean": "theorem test127 (x : ℝ) \n  (h : x = 3) : \n  x^3 + x^2 + x + 1 = sorry := by sorry"
+    },
+    {
+        "id": 128,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "i ^ 6 + i ^ 16 + i ^ (-26)",
+        "Proof": "",
+        "lean": "theorem test128 (i : ℂ) : i ^ 6 + i ^ 16 + i ^ (-26) = sorry := by sorry"
+    },
+    {
+        "id": 129,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "x = 4; y = 3",
+        "Query": "24 - (2*x -y)",
+        "Proof": "",
+        "lean": "theorem test129 (x y : ℝ) \n  (h1 : x = 4) (h2 : y = 3) : \n  24 - (2 * x - y) = sorry := by sorry"
+    },
+    {
+        "id": 130,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "(i/2) ^ 2",
+        "Proof": "",
+        "lean": "theorem test130 (i : ℂ) : (i / 2) ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 131,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "7 / (45^2 -38^2)",
+        "Proof": "",
+        "lean": "theorem test131 : 7 / (45^2 - 38^2) = sorry := by sorry"
+    },
+    {
+        "id": 132,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(2^(5/4))^(2/5) * (4^(25/8))^(2/25)",
+        "Proof": "",
+        "lean": "theorem test132 : (2^(5/4))^(2/5) * (4^(25/8))^(2/25) = sorry := by sorry"
+    },
+    {
+        "id": 133,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil( (7 / 4) ^ 2 )",
+        "Proof": "",
+        "lean": "theorem test133 : ⌈(7 / 4) ^ 2⌉ = sorry := by sorry"
+    },
+    {
+        "id": 134,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Ceil( - ( 7 / 4 ) )",
+        "Proof": "",
+        "lean": "theorem test134 : ⌈- (7 / 4)⌉ = sorry := by sorry"
+    },
+    {
+        "id": 135,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "(-125) ^ (4 / 3)",
+        "Proof": "",
+        "lean": "theorem test135 : (-125) ^ (4 / 3) = sorry := by sorry"
+    },
+    {
+        "id": 136,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "(i / 4) ^ 4",
+        "Proof": "",
+        "lean": "theorem test136 (i : ℂ) : (i / 4) ^ 4 = sorry := by sorry"
+    },
+    {
+        "id": 137,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(6.7) + Get_Number_Floor(-6.7)",
+        "Proof": "",
+        "lean": "theorem test137 : ⌊6.7⌋ + ⌊-6.7⌋ = sorry := by sorry"
+    },
+    {
+        "id": 138,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "x = 13; y = 5",
+        "Query": "(x + y) * (x - y)",
+        "Proof": "",
+        "lean": "theorem test138 (x y : ℝ)\n  (h1 : x = 13) (h2 : y = 5) :\n  (x + y) * (x - y) = sorry := by sorry"
+    },
+    {
+        "id": 139,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "i ^ 5 + i ^ (-25) + i ^ 45",
+        "Proof": "",
+        "lean": "theorem test139 (i : ℂ) : i ^ 5 + i ^ (-25) + i ^ 45 = sorry := by sorry"
+    },
+    {
+        "id": 140,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Number_Floor(14.6) - Get_Number_Ceil(-14.6)",
+        "Proof": "",
+        "lean": "theorem test140 : int.floor 14.6 - int.ceil (-14.6) = sorry := by sorry"
+    },
+    {
+        "id": 141,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Log(3, 27)",
+        "Proof": "",
+        "lean": "theorem test141 : log 3 27 = sorry := by sorry"
+    },
+    {
+        "id": 142,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "x = 2; y = -3",
+        "Query": "(x*y)^5 / y^3",
+        "Proof": "",
+        "lean": "theorem test142 (x y : ℝ) \n  (hx : x = 2) (hy : y = -3) : \n  (x * y)^5 / y^3 = sorry := by sorry"
+    },
+    {
+        "id": 143,
+        "Declarations": "x: Real",
+        "Facts": "x = 2",
+        "Query": "x ^ (( x + 1) ^ x )",
+        "Proof": "",
+        "lean": "theorem test143 (x : ℝ) \n  (h1 : x = 2) : \n  x ^ ((x + 1) ^ x) = sorry := by sorry"
+    },
+    {
+        "id": 144,
+        "Declarations": "G: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(G, 1) = 1; Get_Sequence_Terms(G, 2) = - (2 / 7); Get_Sequence_Terms(G, 3) = (4 / 49); Get_Sequence_Terms(G, 4) = - (8 / 343)",
+        "Query": "Get_Sequence_Infinite_Sum(G)",
+        "Proof": "",
+        "lean": "theorem test144 (G : ℕ → ℝ)\n  (h1 : G 1 = 1)\n  (h2 : G 2 = - (2 / 7))\n  (h3 : G 3 = (4 / 49))\n  (h4 : G 4 = - (8 / 343)) :\n  ∑' n, G n = sorry := by sorry"
+    },
+    {
+        "id": 145,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = x ^ 2",
+        "Query": "Get_Set_Maximum(Build_Set(x | ∃ A : FiniteSet, x = Set_Cardinality(A) ∧ Get_Function_InDomain_Range(f, A) = {0,1,2,3,4,5,6,7,8,9} ) )",
+        "Proof": "",
+        "lean": "theorem test145 (f : ℝ → ℝ)\n  (hf : ∀ x, f x = x ^ 2) :\n  sSup {x | ∃ (A : finset ℕ), ↑(A.card) = x ∧ (f '' ↑A) = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}} = sorry := by sorry"
+    },
+    {
+        "id": 146,
+        "Declarations": "f: Function; g: Function",
+        "Facts": "Get_Function_Expression(f) = (x + 5) / 3; Get_Function_Expression(g) =  1 / (Get_Function_Expression(Get_Inverse_Function(f)) + 1 )",
+        "Query": "Get_Function_Value(g, 3)",
+        "Proof": "",
+        "lean": "theorem test146 (f g : ℝ → ℝ) \n  (hf : f = λ x, (x + 5) / 3) \n  (hg : g = λ x, 1 / ((hf.symm x) + 1)) : \n  g 3 = sorry := by sorry"
+    },
+    {
+        "id": 147,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = (3 / 7) ^ x",
+        "Query": "Get_Function_InDomain_Range(f, Get_LeftClosed_Interval(0))",
+        "Proof": "",
+        "lean": "theorem test147 (f : ℝ → ℝ) \n  (hf : ∀ x, f x = (3 / 7) ^ x) :\n  ∀ x ∈ Icc 0 0, f x ∈ range f := sorry"
+    },
+    {
+        "id": 148,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Expression(f) = 1 / (1 - x)",
+        "Query": "Get_Function_InDomain_Range(f, Set_Difference(Get_UniversalSet(Real), Solve_equation(x, 1-x = 0)))",
+        "Proof": "",
+        "lean": "theorem test148 (f : ℝ → ℝ)\n  (h : f = λ x, 1 / (1 - x)) :\n  function_domain f \\ {x | 1 - x = 0} = sorry := by sorry"
+    },
+    {
+        "id": 149,
+        "Declarations": "",
+        "Facts": "",
+        "Query": " Set_Difference(Get_UniversalSet(Real), Solve_inequation(x, x^2 - 5 * x + 6 <= 0)) ",
+        "Proof": "",
+        "lean": "theorem test149 : set.univ ℝ \\ {x | x^2 - 5 * x + 6 ≤ 0} = sorry := by sorry"
+    },
+    {
+        "id": 150,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality( Build_Set(x | x - 64 = 0 ∨ x^2 - 64 = 0 ∨ x^3 - 64 = 0) )",
+        "Proof": "",
+        "lean": "theorem test150 : fintype.card {x | x - 64 = 0 ∨ x^2 - 64 = 0 ∨ x^3 - 64 = 0} = sorry := by sorry"
+    },
+    {
+        "id": 151,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum(Build_Set(x | x^2 - 7 = 0 ∨ x^3 - 8 = 0 ∨ x^4 - 9 = 0))",
+        "Proof": "",
+        "lean": "theorem test151 : \n  sSum {x | x ^ 2 - 7 = 0 ∨ x ^ 3 - 8 = 0 ∨ x ^ 4 - 9 = 0} = sorry := by sorry"
+    },
+    {
+        "id": 152,
+        "Declarations": "f: Function; g: Function",
+        "Facts": "Get_Function_Expression(f) = x^3 + 2*x + 1; Get_Function_Expression(g) = x - 1",
+        "Query": "Get_Function_Value(Get_Function_Composition(f, g), 1)",
+        "Proof": "",
+        "lean": "theorem test152 (f g : ℝ → ℝ) \n  (hf : f = λ x, x^3 + 2*x + 1) \n  (hg : g = λ x, x - 1) : \n  f (g 1) = sorry := by sorry"
+    },
+    {
+        "id": 153,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Difference(Get_UniversalSet(Real), Solve_equation(x, (3 * x -9)*(3 * x + 6) = 0))",
+        "Proof": "",
+        "lean": "theorem test153 : (set.univ \\ {x : ℝ | (3 * x - 9) * (3 * x + 6) = 0}) = sorry := by sorry"
+    },
+    {
+        "id": 154,
+        "Declarations": "f: Function",
+        "Facts": "Get_Function_Value(f, 1) = 2; Get_Function_Value(f, 2) = 6; Get_Function_Value(f, 3) = 5",
+        "Query": "Get_Function_Value(Get_Function_Composition(Get_Inverse_Function(f), Get_Inverse_Function(f)), 6)",
+        "Proof": "",
+        "lean": "theorem test154 (f : ℝ → ℝ) \n  (h1 : f 1 = 2) (h2 : f 2 = 6) (h3 : f 3 = 5) :\n  (f⁻¹ ∘ f⁻¹) 6 = sorry := by sorry"
+    },
+    {
+        "id": 155,
+        "Declarations": "g: Function",
+        "Facts": "Get_Function_Expression(g) = 3*x - 4",
+        "Query": "Get_Function_Value(g, 0)",
+        "Proof": "",
+        "lean": "theorem test155 (g : ℝ → ℝ) \n  (h : ∀ x, g x = 3 * x - 4) : \n  g 0 = sorry := by sorry"
+    },
+    {
+        "id": 156,
+        "Declarations": "f: Function; k: Function",
+        "Facts": "Get_StepFunction_Expression(f, ∀ x > 2) = Get_Function_Expression(k); Get_StepFunction_Expression(f, ∀ x <= 2) = 2 + (x-2)^2; Get_Inverse_Function(f) = f",
+        "Query": "Get_Function_Expression(k)",
+        "Proof": "",
+        "lean": "theorem test156 (f k : ℝ → ℝ) \n  (h1 : ∀ x, x > 2 → f x = k x) \n  (h2 : ∀ x, x ≤ 2 → f x = 2 + (x - 2)^2) \n  (h3 : (∀ x, f (f x) = x)) : \n  k = sorry := by sorry"
+    },
+    {
+        "id": 157,
+        "Declarations": "f: Function",
+        "Facts": "Get_StepFunction_Expression(f, ∀ x: NaturalNumber, x >= 2 ∧ x <= 15) = x^2 + x + 17",
+        "Query": "Get_Function_Value(f, 10) - Get_Function_Value(f, 9)",
+        "Proof": "",
+        "lean": "theorem test157 (f : ℕ → ℕ)\n  (h : ∀ x : ℕ, x ≥ 2 ∧ x ≤ 15 → f x = x^2 + x + 17) :\n  f 10 - f 9 = sorry := by sorry"
+    },
+    {
+        "id": 158,
+        "Declarations": "f: Function; g: Function; a: Real; b: Real",
+        "Facts": "Get_Function_Expression(f) = a * x + b; Get_Function_Expression(g) = 3 * x + 2; g = 2 * Get_Inverse_Function(f)",
+        "Query": "(a + b) / 2",
+        "Proof": "",
+        "lean": "theorem test158 (f g : ℝ → ℝ) (a b : ℝ)\n  (hf : f = λ x, a * x + b) (hg : g = λ x, 3 * x + 2) (hgf : g = (λ x, a⁻¹ * (x - b / a)) * 2) :\n  (a + b) / 2 = sorry := by sorry"
+    },
+    {
+        "id": 159,
+        "Declarations": "a: Real; b: Real; h: Function",
+        "Facts": "Get_Function_Expression(h) = a*x + b; Get_Function_Value(h, 1) = 5; Get_Function_Value(h, -1) = 1",
+        "Query": "Get_Function_Value(h, 6)",
+        "Proof": "",
+        "lean": "theorem test159 (a b : ℝ) (h : ℝ → ℝ)\n  (h1 : h = λ x, a * x + b) (h2 : h 1 = 5) (h3 : h (-1) = 1) :\n  h 6 = sorry := by sorry"
+    },
+    {
+        "id": 160,
+        "Declarations": "f: Function",
+        "Facts": "Get_StepFunction_Expression(f, ∀ x ∈ Get_LeftClosed_Interval(0)) = Get_Number_Floor( (5 / 8) ^ x )",
+        "Query": "Set_Cardinality(Get_Function_Range(f))",
+        "Proof": "",
+        "lean": "theorem test160 (f : ℝ → ℝ)\n  (h : ∀ x ∈ Icc 0 1, f x = ⌊(5 / 8) ^ x⌋) : \n  fintype.card (set.range f) = sorry := by sorry"
+    },
+    {
+        "id": 161,
+        "Declarations": "P: Polynomial; a: Real; b: Real",
+        "Facts": "P = x^2 + a*x  + b; Is_Root(P, 2*a); Is_Root(P, b)",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test161 (P : polynomial ℝ) (a b : ℝ) \n  (hP : P = X^2 + a * X + b) (h1 : is_root P (2 * a)) (h2 : is_root P b) : \n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 162,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = 3*(x - 4) + 2*(x^2 - x + 7) - 5*(x - 1)",
+        "Query": "Get_ConstantTerm(P)",
+        "Proof": "",
+        "lean": "theorem test162 (P : polynomial ℝ)\n  (hP : P = 3 * (X - 4) + 2 * (X^2 - X + 7) - 5 * (X - 1)) :\n  P.coeff 0 = sorry := by sorry"
+    },
+    {
+        "id": 163,
+        "Declarations": "P: Polynomial; Q: Polynomial",
+        "Facts": "Get_PolyDegree(P) = 3; Get_PolyDegree(Q) = 5",
+        "Query": "Get_PolyDegree(2*P + 4*Q)",
+        "Proof": "",
+        "lean": "theorem test163 (P Q : Polynomial) \n  (h1 : degree P = 3) (h2 : degree Q = 5) : \n  degree (2 * P + 4 * Q) = sorry := by sorry"
+    },
+    {
+        "id": 164,
+        "Declarations": "E: QuadraticFunction; C: QuadraticFunction; e: Real; c: Real",
+        "Facts": "Get_Function_Expression(E) = x^2 + 4*x + e; Get_Function_Expression(C) = x^2 + 4*x + c; (e != c) = True; Get_QuadraticFunction_Discriminant(E) / Get_QuadraticFunction_Discriminant(C) = e / c",
+        "Query": "e + c",
+        "Proof": "",
+        "lean": "theorem test164 (E C : QuadraticFunction) (e c : ℝ)\n  (h1 : Get_Function_Expression(E) = x^2 + 4*x + e) \n  (h2 : Get_Function_Expression(C) = x^2 + 4*x + c) \n  (h3 : e ≠ c) \n  (h4 : Get_QuadraticFunction_Discriminant(E) / Get_QuadraticFunction_Discriminant(C) = e / c) : \n  e + c = sorry := by sorry"
+    },
+    {
+        "id": 165,
+        "Declarations": "F: Polynomial",
+        "Facts": "(x^2 - 1)*F = 5*x^6 - x^5 + 3*x^4 + x^3 - 25*x^2 + 38*x - 17",
+        "Query": "Get_PolyDegree(F)",
+        "Proof": "",
+        "lean": "theorem test165 (F : Polynomial) \n  (hF : (x^2 - 1) * F = 5 * x^6 - x^5 + 3 * x^4 + x^3 - 25 * x^2 + 38 * x - 17) : \n  degree F = sorry := by sorry"
+    },
+    {
+        "id": 166,
+        "Declarations": "P1: Polynomial; P2: Polynomial; P3: Polynomial; a: Real; b: Real; c: Real; d: Real; e: Real; f: Real; g: Real; h: Real",
+        "Facts": "P1 = a * x^6 + b * x^8 + c * x^3 + d; P2 = x^5 + e * x^4 + f; P3 = x^2 + g * x + h; (a != 0) = True; (b != 0) = True; (c != 0) = True; (d != 0) = True; (e != 0) = True; (f != 0) = True; (g != 0) = True; (h != 0) = True",
+        "Query": "Get_PolyDegree(P1 * P2 * P3)",
+        "Proof": "",
+        "lean": "theorem test166 (P1 P2 P3 : polynomial ℝ) (a b c d e f g h : ℝ)\n  (hP1 : P1 = a * x^6 + b * x^8 + c * x^3 + d)\n  (hP2 : P2 = x^5 + e * x^4 + f)\n  (hP3 : P3 = x^2 + g * x + h) \n  (ha : a ≠ 0) (hb : b ≠ 0) (hc : c ≠ 0) \n  (hd : d ≠ 0) (he : e ≠ 0) (hf : f ≠ 0)\n  (hg : g ≠ 0) (hh : h ≠ 0) :\n  polynomial.degree (P1 * P2 * P3) = sorry := by sorry"
+    },
+    {
+        "id": 167,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = 3 * (x ^ 10 - x ^ 7 + 2 * x ^ 3 - x + 7) + 4 * (x ^ 3 - 2 * x ^ 2 - 5)",
+        "Query": "Get_Set_Sum(Get_PolyCoefficient(P))",
+        "Proof": "",
+        "lean": "theorem test167 (P : Polynomial) \n  (hP : P = 3 * (x ^ 10 - x ^ 7 + 2 * x ^ 3 - x + 7) + 4 * (x ^ 3 - 2 * x ^ 2 - 5)) : \n  sorry := by sorry"
+    },
+    {
+        "id": 168,
+        "Declarations": "F: Polynomial",
+        "Facts": "(x - 1) * F = 3 * x^4 + x^3 - 25 * x^2 + 38 * x - 17",
+        "Query": "Get_PolyDegree(F)",
+        "Proof": "",
+        "lean": "theorem test168 (F : polynomial ℝ)\n  (h : (X - 1) * F = 3 * X^4 + X^3 - 25 * X^2 + 38 * X - 17) :\n  F.degree = sorry := by sorry"
+    },
+    {
+        "id": 169,
+        "Declarations": "F: Polynomial; G: Polynomial",
+        "Facts": "Get_PolyDegree(F) = 4; Get_PolyDegree(G) = 2",
+        "Query": "Get_PolyDegree(F - G)",
+        "Proof": "",
+        "lean": "theorem test169 (F G : Polynomial) \n  (hF : Get_PolyDegree F = 4) (hG : Get_PolyDegree G = 2) : \n  Get_PolyDegree (F - G) = sorry := by sorry"
+    },
+    {
+        "id": 170,
+        "Declarations": "p: PositiveNumbers; q: PositiveNumbers; m: Real; n: Real; P: Polynomial",
+        "Facts": "P = x^2 - m *x + n; Is_Root(P, p) = True; Is_Root(P, q) = True; Is_Prime(p) = True; Is_Prime(q) = True",
+        "Query": "Set_Cardinality(Build_Set(n, m < 20))",
+        "Proof": "",
+        "lean": "theorem test170 (p q : ℕ) (m n : ℝ) (P : polynomial ℝ) \n  (hP : P = X^2 - m * X + n) \n  (h1 : is_root P p) (h2 : is_root P q)\n  (hp : nat.prime p) (hq : nat.prime q) : \n  set.card (set_of (λ n, m < 20)) = sorry := by sorry"
+    },
+    {
+        "id": 171,
+        "Declarations": "F: QuadraticPolynomial; G: CubicPolynomial",
+        "Facts": "Get_polynomial_Leading_coefficient(F) = 1; Get_polynomial_Leading_coefficient(G) = 1",
+        "Query": "Get_Set_Maximum(Build_Set(n, n = Get_PolyDegree(f^3 - g^2 + f - 1)))",
+        "Proof": "",
+        "lean": "```lean\ntheorem test171 (F : polynomial ℝ) (G : polynomial ℝ)\n  (hF : F.leading_coeff = 1) (hG : G.leading_coeff = 1) : \n  sSup {n | n = (F ^ 3 - G ^ 2 + F - 1).degree} = sorry := by sorry\n```"
+    },
+    {
+        "id": 172,
+        "Declarations": "f: Polynomial; g: Polynomial; h: Polynomial",
+        "Facts": "h = Get_Poly_Composition(f, g) + g; Get_PolyDegree(h) = 8; Get_PolyDegree(f) = 4",
+        "Query": "Get_PolyDegree(h)",
+        "Proof": "",
+        "lean": "theorem test172 (f g h : Polynomial)\n  (h1 : h = (f.comp g) + g) (h2 : h.degree = 8) (h3 : f.degree = 4) :\n  h.degree = sorry := by sorry"
+    },
+    {
+        "id": 173,
+        "Declarations": "P: Polynomial; G: Polynomial; c: Real",
+        "Facts": "P = 4 * x^3 + 3 * x^2 + 2 * x + 1; G = 3 - 4 * x + 5 * x^2 -6 * x^3; Get_PolyDegree(P + c * G) = 2",
+        "Query": "c",
+        "Proof": "",
+        "lean": "theorem test173 (P G : Polynomial) (c : ℝ) \n  (hP : P = 4 * x^3 + 3 * x^2 + 2 * x + 1) \n  (hG : G = 3 - 4 * x + 5 * x^2 - 6 * x^3) \n  (hDeg : (P + c * G).degree = 2) : \n  c = sorry := by sorry"
+    },
+    {
+        "id": 174,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "f = 3 * x^4 + 5 * x^2 - 9 * x - 2; g = Get_Poly_Composition(f, x - 1)",
+        "Query": "Get_Set_Sum(Get_PolyCoefficient(g))",
+        "Proof": "",
+        "lean": "theorem test174 (f g : polynomial ℝ) \n  (h1 : f = 3 * x^4 + 5 * x^2 - 9 * x - 2) \n  (h2 : g = polynomial.map (λ x, x - 1) f) : \n  g.coeff.sum = sorry := by sorry"
+    },
+    {
+        "id": 175,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "Get_PolyDegree(f) = 7; Get_PolyDegree(g) = 7",
+        "Query": "Get_Set_Maximum(Build_Set(n, n = Get_PolyDegree(f + g) ) ) * Get_Set_Minimum(Build_Set(n, n = Get_PolyDegree(f + g) ) )",
+        "Proof": "",
+        "lean": "theorem test175 (f g : polynomial ℝ) \n  (h1 : degree f = 7) (h2 : degree g = 7) :\n  (let A := {n | n = degree (f + g)} in \n    sSup A * sInf A) = sorry := by sorry"
+    },
+    {
+        "id": 176,
+        "Declarations": "f: Polynomial; g: Polynomial; h: Polynomial",
+        "Facts": "Get_PolyDegree(f) = 6; Get_PolyDegree(g) = 3; Get_PolyDegree(Get_Poly_Composition(f, g) + Get_Poly_Composition(g, h) + Get_Poly_Composition(h, f)) = 36",
+        "Query": "Get_PolyDegree(h)",
+        "Proof": "",
+        "lean": "theorem test176 (f g h : Polynomial)\n  (h1 : degree f = 6) (h2 : degree g = 3)\n  (h3 : degree (f.comp g + g.comp h + h.comp f) = 36) :\n  degree h = sorry := by sorry"
+    },
+    {
+        "id": 177,
+        "Declarations": "g: Polynomial; h: Polynomial; b: Integer",
+        "Facts": "Get_PolyDegree(h) = 5; h = (x^2 - 7 * x + 10) * g; Get_PolyDegree(g) = b",
+        "Query": "b",
+        "Proof": "",
+        "lean": "theorem test177 (g h : Polynomial) (b : ℤ)\n  (h1 : degree h = 5) (h2 : h = (x^2 - 7 * x + 10) * g) (h3 : degree g = b) :\n  b = sorry := by sorry"
+    },
+    {
+        "id": 178,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "f = x^7 - 3 * x^3 + 2; g = Get_Poly_Composition(f, x + 1)",
+        "Query": "Get_Set_Sum(Get_PolyCoefficient(g))",
+        "Proof": "",
+        "lean": "theorem test178 (f g : polynomial ℝ) \n  (hf : f = x^7 - 3 * x^3 + 2) \n  (hg : g = polynomial.eval (x + 1) f) : \n  g.coeffs.sum = sorry := by sorry"
+    },
+    {
+        "id": 179,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Build_Set(P: Polynomial, (P = x^2 + m*x + n) & (Is_Root(P, a) -> Is_PositiveIntegers(a) = True) & (n = 28))",
+        "Proof": "",
+        "lean": "theorem test179 : Set_Cardinality({P : Polynomial | (P = x^2 + m*x + n) ∧ (Is_Root(P, a) → Is_PositiveIntegers(a) = true) ∧ (n = 28)}) = sorry := by sorry"
+    },
+    {
+        "id": 180,
+        "Declarations": "P: Polynomial; t: Real; S: Set",
+        "Facts": "P = x^2 - 5 * x + t; S = Build_Set(t, Is_Root(P, a) -> Is_PositiveIntegers(a) = True)",
+        "Query": "Get_Set_Means(S)",
+        "Proof": "",
+        "lean": "theorem test180 (P : Polynomial) (t : ℝ) (S : Set) \n  (hP : P = x^2 - 5 * x + t) \n  (hS : S = {t | ∀ a, Is_Root(P, a) → Is_PositiveIntegers(a) = true}) : \n  sMeans S = sorry := by sorry"
+    },
+    {
+        "id": 181,
+        "Declarations": "f: Monomial; a: Real; b: Real; c: Real",
+        "Facts": "Eval_Value_Polynomial(f, 0) = 4; Eval_Value_Polynomial(f, 1) = 10; Get_PolyDegree(f) = 2; f = a*x^2 + b*x + c",
+        "Query": "f",
+        "Proof": "",
+        "lean": "theorem test181 (f : polynomial ℝ) (a b c : ℝ) \n  (h1 : eval 0 f = 4) (h2 : eval 1 f = 10) (h3 : degree f = 2) \n  (h4 : f = a * polynomial.X^2 + b * polynomial.X + c) :\n  f = sorry := by sorry"
+    },
+    {
+        "id": 182,
+        "Declarations": "p: Polynomial; q: Polynomial",
+        "Facts": "Get_PolyDegree(p) = 7; Get_PolyDegree(q) = 7",
+        "Query": "Get_PolyDegree(p * q)",
+        "Proof": "",
+        "lean": "theorem test182 (p q : Polynomial) \n  (hp : degree p = 7) (hq : degree q = 7) :\n  degree (p * q) = sorry := by sorry"
+    },
+    {
+        "id": 183,
+        "Declarations": "p: Polynomial; q: Polynomial",
+        "Facts": "q = x^5 + 3 * x^3 + 9 * x; p + q = 7 * x^3 + 24 * x^2 + 25 * x + 1",
+        "Query": "p",
+        "Proof": "",
+        "lean": "theorem test183 (p q : Polynomial)\n  (h1 : q = x^5 + 3 * x^3 + 9 * x) (h2 : p + q = 7 * x^3 + 24 * x^2 + 25 * x + 1) :\n  p = sorry := by sorry"
+    },
+    {
+        "id": 184,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = (2 * x^4 + 3 * x^3 + x - 14) * (3 * x^10 - 9 * x^7 + 9 * x^4 + 30) - (x^2 + 5)^7",
+        "Query": "Get_PolyDegree(P)",
+        "Proof": "",
+        "lean": "theorem test184 (P : polynomial ℝ) \n  (hP : P = (2 * x^4 + 3 * x^3 + x - 14) * (3 * x^10 - 9 * x^7 + 9 * x^4 + 30) - (x^2 + 5)^7) : \n  polynomial.degree P = sorry := by sorry"
+    },
+    {
+        "id": 185,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "f = x^3 - 2 * x - 2; f + g = -2 + x",
+        "Query": "g",
+        "Proof": "",
+        "lean": "theorem test185 (f g : polynomial ℝ)\n  (h1 : f = x^3 - 2 * x - 2) (h2 : f + g = -2 + x) :\n  g = sorry := by sorry"
+    },
+    {
+        "id": 186,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "f = -7 * x^4 + 3 * x^3 + x - 5; Get_PolyDegree(f + g) = 1",
+        "Query": "Get_PolyDegree(g)",
+        "Proof": "",
+        "lean": "theorem test186 (f g : Polynomial)\n  (hf : f = -7 * x^4 + 3 * x^3 + x - 5) \n  (hg : degree (f + g) = 1) :\n  degree g = sorry := by sorry"
+    },
+    {
+        "id": 187,
+        "Declarations": "p: Polynomial; q: Polynomial",
+        "Facts": "p = x^4 - 3 * x + 2; q = p^3",
+        "Query": "Get_PolyCoefficient(q, 3)",
+        "Proof": "",
+        "lean": "theorem test187 (p q : Polynomial)\n  (hp : p = x^4 - 3 * x + 2) (hq : q = p^3) :\n  Get_PolyCoefficient(q, 3) = sorry := by sorry"
+    },
+    {
+        "id": 188,
+        "Declarations": " P: Polynomial",
+        "Facts": "P = 3 * (3 * x^7 + 8 * x^4 - 7) + 7 * (x^5 - 7 * x^2 + 5)",
+        "Query": "Get_Set_Sum(Get_PolyCoefficient(P))",
+        "Proof": "",
+        "lean": "theorem test188 (P : polynomial ℝ) \n  (hP : P = 3 * (3 * X^7 + 8 * X^4 - 7) + 7 * (X^5 - 7 * X^2 + 5)) :\n  (P.coeffs.sum : ℝ) = sorry := by sorry"
+    },
+    {
+        "id": 189,
+        "Declarations": "F: Polynomial; G: Polynomial; c: Real",
+        "Facts": "F = 1 - 12 * x + 3 * x^2 - 4 * x^3 + 5 * x^4; G = 3 - 2 * x - 6 * x^3 + 9 * x^4; Get_PolyDegree(F + c * G) = 3",
+        "Query": "c",
+        "Proof": "",
+        "lean": "theorem test189 (F G : polynomial ℝ) (c : ℝ)\n  (hF : F = 1 - 12 * X + 3 * X^2 - 4 * X^3 + 5 * X^4)\n  (hG : G = 3 - 2 * X - 6 * X^3 + 9 * X^4)\n  (h_deg : degree (F + c • G) = 3) : \n  c = sorry := by sorry"
+    },
+    {
+        "id": 190,
+        "Declarations": "M: Polynomial; J: Polynomial; c: PositiveNumbers",
+        "Facts": "Get_PolyDegree(M) = 4; Get_PolyDegree(J) = 4; Get_polynomial_Leading_coefficient(M) = 1; Get_polynomial_Leading_coefficient(J) = 1; Get_ConstantTerm(M) = c; Get_ConstantTerm(J) = c; Get_Term_Coefficient(M, 1) = Get_Term_Coefficient(J, 1); M * J = z^8 + 3*z^7 + z^6 + 3*z^5 + 4*z^4 + 6*z^3 + 2*z^2 + 4",
+        "Query": "c",
+        "Proof": "",
+        "lean": "theorem test190 (M J : Polynomial) (c : ℕ) \n  (h1 : M.degree = 4) \n  (h2 : J.degree = 4) \n  (h3 : M.leading_coeff = 1) \n  (h4 : J.leading_coeff = 1) \n  (h5 : M.constant_coeff = c) \n  (h6 : J.constant_coeff = c) \n  (h7 : M.coeff 1 = J.coeff 1) \n  (h8 : M * J = polynomial.mk [4, 0, 2, 6, 4, 3, 1, 3, 1]) : \n  c = sorry := by sorry"
+    },
+    {
+        "id": 191,
+        "Declarations": "P: Polynomial; Q: Polynomial",
+        "Facts": "P = (x + 7) * (x + 5); Q = (2*x - 3) * (x - 2)",
+        "Query": "P - Q",
+        "Proof": "",
+        "lean": "theorem test191 (P Q : Polynomial) \n  (hP : P = (x + 7) * (x + 5)) (hQ : Q = (2 * x - 3) * (x - 2)) : \n  P - Q = sorry := by sorry"
+    },
+    {
+        "id": 192,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = 4 + 5 * x^3 + 100 + 2 * π * x^4 + Sqrt(10) * x^4 + 9",
+        "Query": "Get_PolyDegree(P)",
+        "Proof": "",
+        "lean": "theorem test192 (P : polynomial ℝ) \n  (hP : P = 4 + 5 * x^3 + 100 + 2 * π * x^4 + sqrt 10 * x^4 + 9) : \n  polynomial.degree P = sorry := by sorry"
+    },
+    {
+        "id": 193,
+        "Declarations": "P1: Polynomial; P2: Polynomial; P3: Polynomial; Result: Polynomial",
+        "Facts": "P1 = (2 * x^2 + 3 * x + 7) * (x + 1); P2 = (x + 1) * (x^2 + 4 * x - 63); P3 = (3 * x - 14) * (x + 1) * (x + 5); Result = P1 - P2 + P3",
+        "Query": "Result",
+        "Proof": "",
+        "lean": "theorem test193 (P1 P2 P3 Result : Polynomial) \n  (h1 : P1 = (2 * x^2 + 3 * x + 7) * (x + 1)) \n  (h2 : P2 = (x + 1) * (x^2 + 4 * x - 63)) \n  (h3 : P3 = (3 * x - 14) * (x + 1) * (x + 5)) \n  (h_result : Result = P1 - P2 + P3) : \n  Result = sorry := by sorry"
+    },
+    {
+        "id": 194,
+        "Declarations": "f: Polynomial; g: Polynomial; h: Polynomial",
+        "Facts": "h = 3 * f + 4 * g; Get_PolyDegree(f) = 8; Get_PolyDegree(h) = 9",
+        "Query": "Get_Set_Minimum(Build_Set(n, n = Get_PolyDegree(g)))",
+        "Proof": "",
+        "lean": "theorem test194 (f g h : polynomial) \n  (h1 : h = 3 * f + 4 * g) \n  (h2 : degree f = 8) \n  (h3 : degree h = 9) : \n  sInf {n | n = degree g} = sorry := by sorry"
+    },
+    {
+        "id": 195,
+        "Declarations": "f: Polynomial; g: Polynomial; h: Polynomial",
+        "Facts": "f = -3 * x^2 + x - 4; g = -5 * x^2 + 3 * x - 8; h = 5 * x^2 + 5 * x + 1",
+        "Query": "f + g + h",
+        "Proof": "",
+        "lean": "theorem test195 (f g h : polynomial ℝ)\n  (hf : f = -3 * x^2 + x - 4) (hg : g = -5 * x^2 + 3 * x - 8) (hh : h = 5 * x^2 + 5 * x + 1) :\n  f + g + h = sorry := by sorry"
+    },
+    {
+        "id": 196,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = -2 * (x^7 - x^4 + 3 * x^2 - 5) + 4 * (x^3 + 2 * x) - 3 * (x^5 - 4)",
+        "Query": "Get_Set_Sum(Get_PolyCoefficient(P))",
+        "Proof": "",
+        "lean": "theorem test196 (P : Polynomial) \n  (hP : P = -2 * (x^7 - x^4 + 3 * x^2 - 5) + 4 * (x^3 + 2 * x) - 3 * (x^5 - 4)) : \n  Set.Sum (Get_PolyCoefficient(P)) = sorry := by sorry"
+    },
+    {
+        "id": 197,
+        "Declarations": "f: Polynomial; g: Polynomial; h: Polynomial",
+        "Facts": "h = f * g; Get_ConstantTerm(f) = -4; Get_ConstantTerm(h) = 3",
+        "Query": "Eval_Value_Polynomial(g, 0)",
+        "Proof": "",
+        "lean": "theorem test197 (f g h : Polynomial) \n  (h1 : h = f * g) (h2 : Get_ConstantTerm f = -4) (h3 : Get_ConstantTerm h = 3) :\n  Eval_Value_Polynomial g 0 = sorry := by sorry"
+    },
+    {
+        "id": 198,
+        "Declarations": "f: Polynomial; g: Polynomial; h: Polynomial",
+        "Facts": "h = Get_Poly_Composition(f, g) + g; Get_PolyDegree(h) = 6; Get_PolyDegree(f) = 2",
+        "Query": "Get_PolyDegree(g)",
+        "Proof": "",
+        "lean": "theorem test198 (f g h : Polynomial)\n  (h1 : h = f.comp g + g)\n  (h2 : h.degree = 6)\n  (h3 : f.degree = 2) :\n  g.degree = sorry := by sorry"
+    },
+    {
+        "id": 199,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "Get_PolyDegree(f) = 4; Get_PolyDegree(g) = 5",
+        "Query": "Get_PolyDegree(Get_Poly_Composition(f, x^3) * Get_Poly_Composition(g, x^2))",
+        "Proof": "",
+        "lean": "theorem test199 (f g : Polynomial) \n  (hf : degree f = 4) (hg : degree g = 5) : \n  degree ((f.comp (X ^ 3)) * (g.comp (X ^ 2))) = sorry := by sorry"
+    },
+    {
+        "id": 200,
+        "Declarations": "b: Real; c: Real; P: Polynomial",
+        "Facts": "P = x^2 + b * x + c; b = c + 1",
+        "Query": "Get_Set_Product(c, Set_Cardinality(Get_Polyroots(P)) = 1)",
+        "Proof": "",
+        "lean": "theorem test200 (b c : ℝ) (P : polynomial ℝ) \n  (hP : P = polynomial.X^2 + b * polynomial.X + c) (hb : b = c + 1) : \n  (∃ s : set ℝ, s.card = 1 ∧ c ∈ s) → sorry := by sorry"
+    },
+    {
+        "id": 201,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = -3*(x^4 - x^3 + x) + 7*(x^4 + 2) - 4*(2*x^4 + 2*x^2 + 1)",
+        "Query": "Get_polynomial_Leading_coefficient(P)",
+        "Proof": "",
+        "lean": "theorem test201 (x : ℝ) (P : polynomial ℝ)\n  (hP : P = -3 * (x^4 - x^3 + x) + 7 * (x^4 + 2) - 4 * (2 * x^4 + 2 * x^2 + 1)) : \n  leading_coeff P = sorry := by sorry"
+    },
+    {
+        "id": 202,
+        "Declarations": "P1: Polynomial; P2: Polynomial; P3: Polynomial; a: Real; b: Real; c: Real; d: Real; e: Real; f: Real",
+        "Facts": "P1 = x^4 + a * x^7 + b * x + c; P2 = x^3 + d * x^2 + e; P3 = x + f; (a != 0) = True; (b != 0) = True; (c != 0) = True; (d != 0) = True; (e != 0) = True; (f != 0) = True",
+        "Query": "Get_PolyDegree(P1 * P2 * P3)",
+        "Proof": "",
+        "lean": "theorem test202 (P1 P2 P3 : Polynomial) (a b c d e f : ℝ)\n  (h1 : P1 = x^4 + a * x^7 + b * x + c) (h2 : P2 = x^3 + d * x^2 + e)\n  (h3 : P3 = x + f) (ha : a ≠ 0) (hb : b ≠ 0) (hc : c ≠ 0)\n  (hd : d ≠ 0) (he : e ≠ 0) (hf : f ≠ 0) :\n  degree (P1 * P2 * P3) = sorry := by sorry"
+    },
+    {
+        "id": 203,
+        "Declarations": "P: Polynomial",
+        "Facts": "P = (3 * x^2 + 11)^12",
+        "Query": "Get_PolyDegree(P)",
+        "Proof": "",
+        "lean": "theorem test203 (P : polynomial ℝ)\n  (hP : P = (3 * polynomial.X ^ 2 + 11) ^ 12) :\n  polynomial.degree P = sorry := by sorry"
+    },
+    {
+        "id": 204,
+        "Declarations": "P: Polynomial; k: Real; S: Set",
+        "Facts": "P = x^2 - k * x + 16; S = Build_Set(k, Is_Root(P, a) -> Is_PositiveIntegers(a) = True)",
+        "Query": "Get_Set_Mean(S)",
+        "Proof": "",
+        "lean": "theorem test204 (P : Polynomial) (k : ℝ) (S : Set)\n  (hP : P = x^2 - k * x + 16) \n  (hS : S = {k | ∀ a, Is_Root(P, a) → Is_PositiveIntegers(a)}) : \n  sMean S = sorry := by sorry"
+    },
+    {
+        "id": 205,
+        "Declarations": "f: Polynomial; g: Polynomial",
+        "Facts": "Get_PolyDegree(g) < Get_PolyDegree(f); Get_PolyDegree(f) = 2",
+        "Query": "Get_PolyDegree(f + g)",
+        "Proof": "",
+        "lean": "theorem test205 (f g : polynomial ℝ)\n  (h1 : g.degree < f.degree) (h2 : f.degree = 2) :\n  (f + g).degree = sorry := by sorry"
+    },
+    {
+        "id": 206,
+        "Declarations": "A: PositiveIntegers; B: PositiveIntegers",
+        "Facts": "B = A + 1; A * B = 506",
+        "Query": "A + B",
+        "Proof": "",
+        "lean": "theorem test206 (A B : ℕ)\n  (h1 : B = A + 1) (h2 : A * B = 506) :\n  A + B = sorry := by sorry"
+    },
+    {
+        "id": 207,
+        "Declarations": "a: Integer; b: Integer",
+        "Facts": "Log(579, 10) > a; Log(579, 10) < b; b = a + 1",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test207 (a b : ℤ) \n  (h1 : real.log 579 / real.log 10 > a) \n  (h2 : real.log 579 / real.log 10 < b) \n  (h3 : b = a + 1) : \n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 208,
+        "Declarations": "a: Integer; b: Integer",
+        "Facts": "a < Log(17, 10) < b; b = a + 1",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test208 (a b : ℤ)\n  (h1 : a < real.log 17 / real.log 10)\n  (h2 : real.log 17 / real.log 10 < b)\n  (h3 : b = a + 1) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 209,
+        "Declarations": "Set_of_x: Set",
+        "Facts": "Set_of_x = Solve_inequation(x: PositiveIntegers, x^4 / x^2 < 10)",
+        "Query": "Get_Set_Maximum(Set_of_x)",
+        "Proof": "",
+        "lean": "theorem test209 (Set_of_x : Set ℕ) \n  (hSet : Set_of_x = {x : ℕ | x > 0 ∧ x^4 / x^2 < 10}) : \n  sSup Set_of_x = sorry := by sorry"
+    },
+    {
+        "id": 210,
+        "Declarations": "a: Integers; b: Integers; logValue: Real",
+        "Facts": "logValue = Log(28471, 10); a < logValue < b; b = a + 1",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test210 (a b : ℤ) (logValue : ℝ)\n  (h1 : logValue = log 28471 / log 10) (h2 : a < logValue ∧ logValue < b) (h3 : b = a + 1) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 211,
+        "Declarations": "Hash: Operator",
+        "Facts": "Hash({a: Real}, {b: Real}, {c: Real}) = b^2 - 4 * a * c",
+        "Query": "Hash(1, 2, 3)",
+        "Proof": "",
+        "lean": "theorem test211 (Hash : (ℝ → ℝ → ℝ → ℝ)) \n  (hHash : ∀ a b c, Hash a b c = b^2 - 4 * a * c) :\n  Hash 1 2 3 = sorry := by sorry"
+    },
+    {
+        "id": 212,
+        "Declarations": "S: Set",
+        "Facts": "S = Build_Set(x: Integers, x >= 80 && x <= 90)",
+        "Query": "Get_Set_Sum(S)",
+        "Proof": "",
+        "lean": "theorem test212 (S : set ℤ) \n  (hS : S = {x | 80 ≤ x ∧ x ≤ 90}) : \n  (∑ x in S, x) = sorry := by sorry"
+    },
+    {
+        "id": 213,
+        "Declarations": "a: Integers; S: Set",
+        "Facts": "S = {a, a+1, a+2}; a + (a+2) = 118",
+        "Query": "a + 1",
+        "Proof": "",
+        "lean": "theorem test213 (a : ℤ) (S : Set ℤ)\n  (hS : S = {a, a + 1, a + 2}) (h1 : a + (a + 2) = 118) :\n  a + 1 = sorry := by sorry"
+    },
+    {
+        "id": 214,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "81^(1/4) * 27^(1/3) * Sqrt(9)",
+        "Proof": "",
+        "lean": "theorem test214 : 81^(1/4) * 27^(1/3) * sqrt 9 = sorry := by sorry"
+    },
+    {
+        "id": 215,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum({1, 3, 5, 7, 9, 11, 13, 15, 17, 19})",
+        "Proof": "",
+        "lean": "theorem test215 : finset.sum {1, 3, 5, 7, 9, 11, 13, 15, 17, 19} = sorry := by sorry"
+    },
+    {
+        "id": 216,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; min_b: PositiveIntegers",
+        "Facts": "min_b = Get_Set_Minimum(Build_Set(b, 2700^(1/3) = a * b^(1/3)))",
+        "Query": "a + min_b",
+        "Proof": "",
+        "lean": "theorem test216 (a b min_b : ℕ)\n  (h1 : min_b = sInf {b | 2700^(1/3) = a * b^(1/3)}) :\n  a + min_b = sorry := by sorry"
+    },
+    {
+        "id": 217,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "Abs(a - b) = 6; a * b = 112",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test217 (a b : ℕ)\n  (h1 : |a - b| = 6) (h2 : a * b = 112) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 218,
+        "Declarations": "p: Real; q: Real",
+        "Facts": "p > 1 = True; q > 1 = True; 1/p + 1/q = 1; p * q = 4",
+        "Query": "q",
+        "Proof": "",
+        "lean": "theorem test218 (p q : ℝ)\n  (hp : p > 1) (hq : q > 1) (h1 : 1 / p + 1 / q = 1) (h2 : p * q = 4) :\n  q = sorry := by sorry"
+    },
+    {
+        "id": 219,
+        "Declarations": "CirclePlus: Operator",
+        "Facts": "CirclePlus({a: Real}, {b: Real}) = 3 * a + 4 * b",
+        "Query": "CirclePlus(3, 1)",
+        "Proof": "",
+        "lean": "theorem test219 (CirclePlus : ℝ → ℝ → ℝ)\n  (h : ∀ a b, CirclePlus a b = 3 * a + 4 * b) :\n  CirclePlus 3 1 = sorry := by sorry"
+    },
+    {
+        "id": 220,
+        "Declarations": "S: Set; n: PositiveIntegers",
+        "Facts": "S = Build_Set(n, n ≤ 7 ∧ n ∈ PositiveIntegers)",
+        "Query": "Get_Sum(S, n -> 9 * n)",
+        "Proof": "",
+        "lean": "theorem test220 (S : Set ℕ) (n : ℕ) \n  (hn : 0 < n) \n  (hS : S = {n | n ≤ 7 ∧ n ∈ ℕ ∧ 0 < n}) : \n  ∑ n in S, 9 * n = sorry := by sorry"
+    },
+    {
+        "id": 221,
+        "Declarations": "S: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(S, 1) = 2; Get_Sequence_Terms(S, 5) = 162",
+        "Query": "Get_Sequence_Terms(S, 6)",
+        "Proof": "",
+        "lean": "theorem test221 (S : ℕ → ℝ)\n  (h1 : S 1 = 2) (h2 : S 5 = 162) :\n  S 6 = sorry := by sorry"
+    },
+    {
+        "id": 222,
+        "Declarations": "a: Integer; b: Integer; op: Operator",
+        "Facts": "a ≠ 0; b ≠ 0; op(a, b) = 1/a + 1/b; a + b = 9; a * b = 20",
+        "Query": "op(a, b)",
+        "Proof": "",
+        "lean": "theorem test222 (a b : ℤ) (op : ℤ → ℤ → ℚ)\n  (h1 : a ≠ 0) (h2 : b ≠ 0) (h3 : op a b = 1/a + 1/b) (h4 : a + b = 9) (h5 : a * b = 20) :\n  op a b = sorry := by sorry"
+    },
+    {
+        "id": 223,
+        "Declarations": "a: NegativeIntegers; b: NegativeIntegers; S: Set",
+        "Facts": "a + 1 = b; a * b = 2550",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test223 (a b : ℤ) (S : set ℤ)\n  (h1 : a + 1 = b) (h2 : a * b = 2550) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 224,
+        "Declarations": "P1: Polynomial; P2: Polynomial; a: Integers; b: Integers; c: Integers",
+        "Facts": "P1 = x^2 + 15*x + 54; P1 = (x + a)*(x + b); P2 = x^2 - 17*x + 72; P2 = (x - b)*(x - c)",
+        "Query": "a + b + c",
+        "Proof": "",
+        "lean": "theorem test224 (P1 P2 : polynomial ℤ) (a b c : ℤ) \n  (h1 : P1 = polynomial.X^2 + 15 * polynomial.X + 54)\n  (h2 : P1 = (polynomial.X + polynomial.C a) * (polynomial.X + polynomial.C b))\n  (h3 : P2 = polynomial.X^2 - 17 * polynomial.X + 72)\n  (h4 : P2 = (polynomial.X - polynomial.C b) * (polynomial.X - polynomial.C c)) : \n  a + b + c = sorry := by sorry"
+    },
+    {
+        "id": 225,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "16^(1/4) * 8^(1/3) * Sqrt(4)",
+        "Proof": "",
+        "lean": "theorem test225 : 16^(1/4) * 8^(1/3) * real.sqrt 4 = sorry := by sorry"
+    },
+    {
+        "id": 226,
+        "Declarations": "d: Real; a: Integers; b: Integers; c: Integers",
+        "Facts": "d ≠ 0; (12*d + 13 + 14*d^2) + (2*d + 1) = a*d + b + c*d^2",
+        "Query": "a + b + c",
+        "Proof": "",
+        "lean": "theorem test226 (d : ℝ) (a b c : ℤ)\n  (h1 : d ≠ 0)\n  (h2 : (12 * d + 13 + 14 * d^2) + (2 * d + 1) = a * d + b + c * d^2) :\n  a + b + c = sorry := by sorry"
+    },
+    {
+        "id": 227,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: PositiveIntegers, 20 < x^2 + 6x + 9 < 40))",
+        "Proof": "",
+        "lean": "theorem test227 : Set_Cardinality(Solve_inequation(x : ℕ+, 20 < x^2 + 6 * x + 9 ∧ x^2 + 6 * x + 9 < 40)) = sorry := by sorry"
+    },
+    {
+        "id": 228,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "a^2 + b^2 = 193; a * b = 84",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test228 (a b : ℕ) \n  (h1 : a ^ 2 + b ^ 2 = 193) (h2 : a * b = 84) : \n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 229,
+        "Declarations": "S: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(S, 1) = 3; Get_Sequence_Terms(S, 4) = 192",
+        "Query": "Get_Sequence_Terms(S, 3)",
+        "Proof": "",
+        "lean": "theorem test229 (S : ℕ → ℝ) \n  (h1 : S 1 = 3) (h2 : S 4 = 192) : \n  S 3 = sorry := by sorry"
+    },
+    {
+        "id": 230,
+        "Declarations": "Star: Operator",
+        "Facts": "Star({a: Real}, {b: Real}) = (a + b) / (a - b)",
+        "Query": "Star(Star(1, 2), 4)",
+        "Proof": "",
+        "lean": "theorem test230 (Star : ℝ → ℝ → ℝ) \n  (h : ∀ (a b : ℝ), Star a b = (a + b) / (a - b)) :\n  Star (Star 1 2) 4 = sorry := by sorry"
+    },
+    {
+        "id": 231,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; c: PositiveIntegers; S: Set",
+        "Facts": "S = {a, b, c}; Get_Set_Sum(S) = 72; b = 3 * a; c = 4 * a",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test231 (a b c : ℕ) (S : Set ℕ)\n  (hS : S = {a, b, c}) (hSum : S.sum = 72) (hb : b = 3 * a) (hc : c = 4 * a) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 232,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers",
+        "Facts": "x - y = 2; x * y = 120",
+        "Query": "x + y",
+        "Proof": "",
+        "lean": "theorem test232 (x y : ℕ) \n  (h1 : x - y = 2) (h2 : x * y = 120) :\n  x + y = sorry := by sorry"
+    },
+    {
+        "id": 233,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "Abs(a - b) = 12; a * b = 45",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test233 (a b : ℕ) \n  (h1 : |a - b| = 12) (h2 : a * b = 45) : \n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 234,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "a + b = 50; a - b = 12",
+        "Query": "Abs(a^2 - b^2)",
+        "Proof": "",
+        "lean": "```lean\ntheorem test234 (a b : ℕ)\n  (ha : a > 0) (hb : b > 0)\n  (h1 : a + b = 50) (h2 : a - b = 12) :\n  |a^2 - b^2| = sorry := by sorry\n```"
+    },
+    {
+        "id": 235,
+        "Declarations": "S: Set",
+        "Facts": "S = Build_Set(x: Integers, x > 3 ∧ x < 12)",
+        "Query": "Get_Set_Sum(S)",
+        "Proof": "",
+        "lean": "theorem test235 (S : set ℤ) \n  (hS : S = {x | x > 3 ∧ x < 12}) : \n  ∑ x in S, x = sorry := by sorry"
+    },
+    {
+        "id": 236,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers",
+        "Facts": "Abs(x - y) = 6; x * y = 135",
+        "Query": "Get_Set_Maximum({x, y})",
+        "Proof": "",
+        "lean": "theorem test236 (x y : ℕ) \n  (hx_pos : 0 < x) (hy_pos : 0 < y)\n  (habs : |x - y| = 6) (hprod : x * y = 135) :\n  max x y = sorry := by sorry"
+    },
+    {
+        "id": 237,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "a / b = 5 / 2; a * b = 160",
+        "Query": "Get_Set_Maximum({a, b})",
+        "Proof": "",
+        "lean": "theorem test237 (a b : ℕ) \n  (h1 : a / b = 5 / 2) (h2 : a * b = 160) : \n  max a b = sorry := by sorry"
+    },
+    {
+        "id": 238,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: PositiveIntegers, 100 <= x^2 <= 200))",
+        "Proof": "",
+        "lean": "theorem test238 : (Set ℕ).card = sorry := by sorry"
+    },
+    {
+        "id": 239,
+        "Declarations": "a: EvenNumbers; S: Set",
+        "Facts": "S = {a, a+2, a+4}; a + (a+4) = 128",
+        "Query": "Get_Set_Sum(S)",
+        "Proof": "",
+        "lean": "theorem test239 (a : ℕ) (S : Set ℕ)\n  (hS : S = {a, a + 2, a + 4}) (hSum : a + (a + 4) = 128) :\n  sSum S = sorry := by sorry"
+    },
+    {
+        "id": 240,
+        "Declarations": "S: Sequence",
+        "Facts": "ForAll(i: Integers && i >= 1 -> Get_Sequence_Terms(S, i) / 3 = Get_Sequence_Terms(S, i+1) && Is_Integer(Get_Sequence_Terms(S, i)) = True)",
+        "Query": "Set_Cardinality(S)",
+        "Proof": "",
+        "lean": "theorem test240 (S : ℕ → ℕ) \n  (h : ∀ i : ℕ, i ≥ 1 → S i / 3 = S (i + 1) ∧ int.of_nat (S i) = S i) : \n  sorry := by sorry"
+    },
+    {
+        "id": 241,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "a^2 + b^2 = 90; a * b = 27",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test241 (a b : ℕ)\n  (h1 : a ^ 2 + b ^ 2 = 90) (h2 : a * b = 27) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 242,
+        "Declarations": "Star: Operator",
+        "Facts": "ForAll(a: Real && b: Real && a ≠ b, Star(a, b) = (a + b) / (a - b))",
+        "Query": "Star(Star(1, 2), 3)",
+        "Proof": "",
+        "lean": "theorem test242 (Star : ℝ → ℝ → ℝ) \n  (hStar : ∀ (a b : ℝ), a ≠ b → Star a b = (a + b) / (a - b)) :\n  Star (Star 1 2) 3 = sorry := by sorry"
+    },
+    {
+        "id": 243,
+        "Declarations": "x: Integer; S: Set",
+        "Facts": "S = {x, x + 1, x + 2, x + 3}; Get_Set_Sum(S) = 22",
+        "Query": "Get_Sum(S, n -> 2*n + 20)",
+        "Proof": "",
+        "lean": "theorem test243 (x : ℤ) (S : Set ℤ) \n  (hS : S = {x, x + 1, x + 2, x + 3}) \n  (hSum : ∑ (s ∈ S), s = 22) : \n  ∑ (s ∈ S), (2 * s + 20) = sorry := by sorry"
+    },
+    {
+        "id": 244,
+        "Declarations": "a: Integer; b: Integer",
+        "Facts": "a + 2 = b; Is_Odd_Number(a) = True; Is_Odd_Number(b) = True; Abs(b^2 - a^2) = 128",
+        "Query": "a * b",
+        "Proof": "",
+        "lean": "theorem test244 (a b : ℤ) \n  (h1 : a + 2 = b) \n  (h2 : odd a) \n  (h3 : odd b) \n  (h4 : abs (b^2 - a^2) = 128) :\n  a * b = sorry := by sorry"
+    },
+    {
+        "id": 245,
+        "Declarations": "P: Polynomial; A: Integer; B: Integer",
+        "Facts": "P = 6*x^2 + 17*x + 5; P = (A*x + 1)*(B*x + 5)",
+        "Query": "A * B",
+        "Proof": "",
+        "lean": "theorem test245 (P : polynomial ℤ) (A B : ℤ)\n  (h1 : P = 6 * X^2 + 17 * X + 5) (h2 : P = (A * X + 1) * (B * X + 5)) :\n  A * B = sorry := by sorry"
+    },
+    {
+        "id": 246,
+        "Declarations": "x: PositiveInteger",
+        "Facts": "1^x + 2^x + 5^x = 642",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test246 (x : ℕ) \n  (h : 1^x + 2^x + 5^x = 642) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 247,
+        "Declarations": "Z: Polynomial; a: Integer; b: Integer",
+        "Facts": "Z = 2*z^2 + 13*z +21; Z = (z + a) * (2*z + b)",
+        "Query": "2a + b",
+        "Proof": "",
+        "lean": "theorem test247 (Z : polynomial) (a b : ℤ) \n  (h1 : Z = 2 * z^2 + 13 * z + 21) (h2 : Z = (z + a) * (2 * z + b)) : \n  2 * a + b = sorry := by sorry"
+    },
+    {
+        "id": 248,
+        "Declarations": "p: Real; q: Real",
+        "Facts": "p > 1 = True; q > 1 = True; 1/p + 1/q = 1",
+        "Query": "(p - 1) * (q - 1)",
+        "Proof": "",
+        "lean": "theorem test248 (p q : ℝ)\n  (hp : p > 1) (hq : q > 1) (h : 1/p + 1/q = 1) :\n  (p - 1) * (q - 1) = sorry := by sorry"
+    },
+    {
+        "id": 249,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "1 + 3 + 5 + 7 + 9",
+        "Proof": "",
+        "lean": "theorem test249 : 1 + 3 + 5 + 7 + 9 = sorry := by sorry"
+    },
+    {
+        "id": 250,
+        "Declarations": "A: Integer; B: Integer; P: Polynomial",
+        "Facts": "P = 10 * x^2 - x -24; P = (A*x - 8) * (B*x + 3)",
+        "Query": "A*B + B",
+        "Proof": "",
+        "lean": "theorem test250 (A B : ℤ) (P : Polynomial)\n  (h1 : P = 10 * x^2 - x - 24) (h2 : P = (A * x - 8) * (B * x + 3)) : \n  A * B + B = sorry := by sorry"
+    },
+    {
+        "id": 251,
+        "Declarations": "A: Integer",
+        "Facts": "A + (A + 1) + (A + 2) = 27",
+        "Query": "A * (A + 1) * (A + 2)",
+        "Proof": "",
+        "lean": "theorem test251 (A : ℤ) \n  (hA : A + (A + 1) + (A + 2) = 27) :\n  A * (A + 1) * (A + 2) = sorry := by sorry"
+    },
+    {
+        "id": 252,
+        "Declarations": "P: Polynomial; A: Integer; B: Integer",
+        "Facts": "P = 3*x^2 + 14*x + 8; P = (3*x + A) * (x + B)",
+        "Query": "A - B",
+        "Proof": "",
+        "lean": "theorem test252 (P : polynomial ℤ) (A B : ℤ)\n  (h1 : P = 3 * polynomial.X ^ 2 + 14 * polynomial.X + 8) \n  (h2 : P = (3 * polynomial.X + polynomial.C A) * (polynomial.X + polynomial.C B)) :\n  A - B = sorry := by sorry"
+    },
+    {
+        "id": 253,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: PositiveIntegers, x ^ (-1) > x ))",
+        "Proof": "",
+        "lean": "theorem test253 : Set_Cardinality({x : ℕ+ | x⁻¹ > x}) = sorry := by sorry"
+    },
+    {
+        "id": 254,
+        "Declarations": "a: Integer; S: Set",
+        "Facts": "S = {a, a+1, a+2, a+3, a+4, a+5, a+6}; Get_Set_Sum(S) = 49 ",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test254 (a : ℤ) (S : Set ℤ)\n  (hS : S = {a, a + 1, a + 2, a + 3, a + 4, a + 5, a + 6}) (hSum : set.sum S = 49) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 255,
+        "Declarations": "a: EvenNumbers; S: Set",
+        "Facts": "S = {a, a+2, a+4}; Get_Set_Sum(S) = 66",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test255 (a : ℕ) (S : Set ℕ)\n  (hS : S = {a, a + 2, a + 4}) (hSum : sSum S = 66) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 256,
+        "Declarations": "a: Integers; S: Set",
+        "Facts": "S = {a, a+1, a+2, a+3, a+4}; Get_Set_Sum(S) = 5",
+        "Query": "Get_Set_Product(S)",
+        "Proof": "",
+        "lean": "theorem test256 (a : ℤ) (S : Set ℤ) \n  (hS : S = {a, a + 1, a + 2, a + 3, a + 4}) \n  (hSum : sSum S = 5) : \n  sProd S = sorry := by sorry"
+    },
+    {
+        "id": 257,
+        "Declarations": "Star: Operator",
+        "Facts": "Star({a: PositiveIntegers}, {b: PositiveIntegers}) = a^b + b^a",
+        "Query": "Star(2, 6)",
+        "Proof": "",
+        "lean": "theorem test257 (Star : ℕ → ℕ → ℕ)\n  (hStar : ∀ a b : ℕ, Star a b = a^b + b^a) :\n  Star 2 6 = sorry := by sorry"
+    },
+    {
+        "id": 258,
+        "Declarations": "a: NonNegativeNumbers; b: NonNegativeNumbers; P: Polynomial",
+        "Facts": "P = x^2 + 18 * x - 63; P = (x - a) * (x + b)",
+        "Query": "b",
+        "Proof": "",
+        "lean": "theorem test258 (a b : ℕ) (P : polynomial ℝ) \n  (h1 : P = (λ x, x ^ 2 + 18 * x - 63)) \n  (h2 : P = (λ x, (x - a) * (x + b))) : \n  b = sorry := by sorry"
+    },
+    {
+        "id": 259,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum({47,49,51,53,55,57,59,61,63})",
+        "Proof": "",
+        "lean": "theorem test259 : (47 + 49 + 51 + 53 + 55 + 57 + 59 + 61 + 63) = sorry := by sorry"
+    },
+    {
+        "id": 260,
+        "Declarations": "S: GeometricSequence; a: PositiveIntegers; b: PositiveIntegers; r: Integers",
+        "Facts": "S = {a, b, 2009}; a < b < 2009; b = a * r; 2009 = b * r",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test260 (S : Set ℤ) (a b r : ℕ) \n  (h1 : S = {↑a, ↑b, 2009}) (h2 : a < b) (h3 : b < 2009) \n  (h4 : b = a * r) (h5 : 2009 = b * r) : \n  a = sorry := by sorry"
+    },
+    {
+        "id": 261,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers; z: PositiveIntegers",
+        "Facts": "6*x*y*z + 30*x*y +21*x*z + 2*y*z + 105*x + 10*y + 7*z = 812",
+        "Query": "x + y + z",
+        "Proof": "",
+        "lean": "theorem test261 (x y z : ℕ)\n  (h : 6 * x * y * z + 30 * x * y + 21 * x * z + 2 * y * z + 105 * x + 10 * y + 7 * z = 812) :\n  x + y + z = sorry := by sorry"
+    },
+    {
+        "id": 262,
+        "Declarations": "P: Polynomial; A: PositiveIntegers; B: PositiveIntegers; C: PositiveIntegers",
+        "Facts": "P = 6 * y ^ 2 - y - 51; P = (3 * A * y + B) * (y - C)",
+        "Query": "(A * C) ^ 2 - B",
+        "Proof": "",
+        "lean": "theorem test262 (P : Polynomial) (A B C : ℕ) \n  (h1 : P = 6 * y ^ 2 - y - 51) \n  (h2 : P = (3 * A * y + B) * (y - C)) : \n  (A * C) ^ 2 - B = sorry := by sorry"
+    },
+    {
+        "id": 263,
+        "Declarations": "S: Set; a: Integers",
+        "Facts": "S = {a, a+1, a+2, a+3}; Get_Set_Sum(S) = 22",
+        "Query": "Get_Sum(S, n -> (n + 2) * 20)",
+        "Proof": "",
+        "lean": "theorem test263 (S : Set ℤ) (a : ℤ)\n  (hS : S = {a, a + 1, a + 2, a + 3})\n  (hSum : ∑ n in S, n = 22) :\n  ∑ n in S, (n + 2) * 20 = sorry := by sorry"
+    },
+    {
+        "id": 264,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a != 0; b != 0",
+        "Query": "Build_Set((a, b), Solve_equation(x, x^2 + a * x + b = 0) = {a, b})",
+        "Proof": "",
+        "lean": "theorem test264 (a b : ℝ) \n  (ha : a ≠ 0) (hb : b ≠ 0) :\n  { (a, b) | {x | x^2 + a * x + b = 0} = {a, b} } = sorry := by sorry"
+    },
+    {
+        "id": 265,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; S: Set",
+        "Facts": "S = Build_Set( (a * b) * (a + b), a * b + (a + b) = 454)",
+        "Query": "Get_Set_Maximum(S)",
+        "Proof": "",
+        "lean": "theorem test265 (a b : ℕ) (S : Set ℕ)\n  (hS : S = {x | x = (a * b) * (a + b) ∧ a * b + (a + b) = 454}) :\n  sSup S = sorry := by sorry"
+    },
+    {
+        "id": 266,
+        "Declarations": "S: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(S, 2) = -2; Get_Sequence_Terms(S, 5) = 16",
+        "Query": "Get_Sequence_Terms(S, 14)",
+        "Proof": "",
+        "lean": "theorem test266 (S : ℕ → ℝ) \n  (h1 : S 2 = -2) (h2 : S 5 = 16) : \n  S 14 = sorry := by sorry"
+    },
+    {
+        "id": 267,
+        "Declarations": "k: PositiveIntegers; S_k: ArithmeticSequence; S: Set",
+        "Facts": "S = Build_Set(S_k, Is_Monotonic_Increasing_Sequence(S_k) = True && Get_Sequence_Terms(S_k, 1) = 1 && Get_CommonDifference(S_k) = k) && Elements_In_Set(2005, S_k) = True",
+        "Query": "Set_Cardinality(S)",
+        "Proof": "",
+        "lean": "theorem test267 (k : ℕ) (S_k : ℕ → ℕ) (S : Set (ℕ → ℕ))\n  (hS : S = {S_k | (∀ n, S_k (n+1) - S_k n = k) ∧ S_k 1 = 1} ∧ S_k 2005 ∈ S) :\n  fintype.card S = sorry := by sorry"
+    },
+    {
+        "id": 268,
+        "Declarations": "a: EvenNumbers",
+        "Facts": "a + (a + 2) + (a + 4) + (a + 6) + (a + 8) = 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 - 4",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test268 (a : ℕ)\n  (h : a + (a + 2) + (a + 4) + (a + 6) + (a + 8) = 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 - 4) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 269,
+        "Declarations": "f: Function; l: Integers; k: Integers; m: Integers; n: Integers",
+        "Facts": "Get_Function_Expression(f) = 3 / (2 * c - 3); Get_Function_Expression(Get_Inverse_Function(f)) * c * Get_Function_Expression(f) = (k*c + l) / (m*c +n)",
+        "Query": "(k * n^2) / (l * m)",
+        "Proof": "",
+        "lean": "theorem test269 (f : Integer → Integer) (l k m n : ℤ)\n  (hf : ∀ c, f c = 3 / (2 * c - 3))\n  (hinv : ∀ c, (f⁻¹ c) * c * (f c) = (k * c + l) / (m * c + n)) :\n  (k * n ^ 2) / (l * m) = sorry := by sorry"
+    },
+    {
+        "id": 270,
+        "Declarations": "b: Real; Set_of_b: Set",
+        "Facts": "Set_of_b = Build_Set(b | x1: Real && x2: Real && Solve_equtaion(x, x^2 + b * x + 48 = 0) = {x1, x2} && x1 / x2 = 3)",
+        "Query": "Get_Set_Maximum(Set_of_b)",
+        "Proof": "",
+        "lean": "theorem test270 (b : ℝ) (Set_of_b : Set ℝ) \n  (hSet_of_b : Set_of_b = {b | ∃ (x1 x2 : ℝ), {x1, x2} = Solve_equtaion(x, x^2 + b * x + 48 = 0) ∧ x1 / x2 = 3}) :\n  sSup Set_of_b = sorry := by sorry"
+    },
+    {
+        "id": 271,
+        "Declarations": "m: Real; b: Real",
+        "Facts": "-1 = m * 7 + b; 7 = m * (-1) + b",
+        "Query": "m + b",
+        "Proof": "",
+        "lean": "theorem test271 (m b : ℝ) \n  (h1 : -1 = m * 7 + b) (h2 : 7 = m * (-1) + b) : \n  m + b = sorry := by sorry"
+    },
+    {
+        "id": 272,
+        "Declarations": "k: Real; x1: PrimeNumbers; x2: PrimeNumbers",
+        "Facts": "Solve_equation(x, x^2 - 12 * x + k = 0) = {x1, x2}",
+        "Query": "k",
+        "Proof": "",
+        "lean": "theorem test272 (k : ℝ) (x1 x2 : ℕ)\n  (hx1 : nat.prime x1) (hx2 : nat.prime x2) \n  (hSol : {x : ℝ | x^2 - 12 * x + k = 0} = {x1, x2}) : \n  k = sorry := by sorry"
+    },
+    {
+        "id": 273,
+        "Declarations": "d: Real",
+        "Facts": "",
+        "Query": "Solve_equation(e: Real, And(2 * d = 17 * e - 8, 2 * e = d - 9) )",
+        "Proof": "",
+        "lean": "theorem test273 (d e : ℝ) \n  (h1 : 2 * d = 17 * e - 8) (h2 : 2 * e = d - 9) : \n  e = sorry := by sorry"
+    },
+    {
+        "id": 274,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (x + 1) / (x - 1) = (x - 2) / (x + 2) )",
+        "Proof": "",
+        "lean": "theorem test274 (x : ℝ) : \n  ((x + 1) / (x - 1) = (x - 2) / (x + 2)) → x = sorry := by sorry"
+    },
+    {
+        "id": 275,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Minimum(Solve_equation(x: Real, 24 * x^2 + 17 * x - 20 = 0 ))",
+        "Proof": "",
+        "lean": "theorem test275 : sorry := by sorry"
+    },
+    {
+        "id": 276,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(a: Real, Sqrt(4 + Sqrt(16 + 16 * a)) + Sqrt(1 + Sqrt(1 + a)) = 6)",
+        "Proof": "",
+        "lean": "theorem test276 : ∃ (a : ℝ), real.sqrt (4 + real.sqrt (16 + 16 * a)) + real.sqrt (1 + real.sqrt (1 + a)) = 6 := by sorry"
+    },
+    {
+        "id": 277,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (2 * x + 1) * (3 * x + 2) = (x - 3) * (6 * x - 5))",
+        "Proof": "",
+        "lean": "theorem test277 (x : ℝ) \n  : (2 * x + 1) * (3 * x + 2) = (x - 3) * (6 * x - 5) ↔ x = sorry := by sorry"
+    },
+    {
+        "id": 278,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, And(-9 * x^2 - 3 * x + 2 = 0, x > 0) )",
+        "Proof": "",
+        "lean": "theorem test278 : ∀ x : ℝ, (-9 * x^2 - 3 * x + 2 = 0 ∧ x > 0) → x = sorry := by sorry"
+    },
+    {
+        "id": 279,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 2^(2*x) = 256^(1/2))",
+        "Proof": "",
+        "lean": "theorem test279 (x : ℝ) : 2^(2 * x) = 256^(1/2) → x = sorry := by sorry"
+    },
+    {
+        "id": 280,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (1/25)^(x + 2) = 125^(-x))",
+        "Proof": "",
+        "lean": "theorem test280 {x : ℝ} : (1/25)^(x + 2) = 125^(-x) → x = sorry := by sorry"
+    },
+    {
+        "id": 281,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 441 + 2 * 21 * 19 + 361 = x)",
+        "Proof": "",
+        "lean": "theorem test281 : ∃ (x : ℝ), 441 + 2 * 21 * 19 + 361 = x := by sorry"
+    },
+    {
+        "id": 282,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (66 - 2^x) / (2^x + 3) = (4 - 2^x) / (2^(x+1) + 6))",
+        "Proof": "",
+        "lean": "theorem test282 (x : ℝ) : \n  (66 - 2^x) / (2^x + 3) = (4 - 2^x) / (2^(x+1) + 6) = sorry := by sorry"
+    },
+    {
+        "id": 283,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(w: Real, (1 + 1/6) / w = 42/3)",
+        "Proof": "",
+        "lean": "theorem test283 : ∃ w : ℝ, (1 + 1/6) / w = 42/3 := by sorry"
+    },
+    {
+        "id": 284,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (2^(x+1))^3 * 4^x = 8192)",
+        "Proof": "",
+        "lean": "theorem test284 (x : ℝ) : ((2^(x+1))^3 * 4^x = 8192) → x = sorry := by sorry"
+    },
+    {
+        "id": 285,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, x^2 + 24 * x + 128 = 0)",
+        "Proof": "",
+        "lean": "theorem test285 : ∃ x : ℝ, x^2 + 24 * x + 128 = 0 := by sorry"
+    },
+    {
+        "id": 286,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, And(-21 * x^2 - 11 * x + 40 = 0, x > 0))",
+        "Proof": "",
+        "lean": "theorem test286 : ∃ x : ℝ, -21 * x^2 - 11 * x + 40 = 0 ∧ x > 0 := by sorry"
+    },
+    {
+        "id": 287,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (1/9)^x = 3^(x+3))",
+        "Proof": "",
+        "lean": "theorem test287 (x : ℝ) : ((1/9)^x = 3^(x+3)) → x = sorry := by sorry"
+    },
+    {
+        "id": 288,
+        "Declarations": "A: GeometricSequence; B: GeometricSequence; a: PositiveNumbers; b: PositiveNumbers",
+        "Facts": "Get_Sequence_Terms(A, 1) = 6; Get_Sequence_Terms(A, 2) = a; Get_Sequence_Terms(A, 3) = b; Get_Sequence_Terms(B, 1) = 1 / b; Get_Sequence_Terms(B, 2) = a; Get_Sequence_Terms(B, 3) = 54",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test288 (A B : ℕ → ℝ) (a b : ℝ)\n  (h1 : A 1 = 6) \n  (h2 : A 2 = a) \n  (h3 : A 3 = b) \n  (h4 : B 1 = 1 / b) \n  (h5 : B 2 = a) \n  (h6 : B 3 = 54) : \n  a = sorry := by sorry"
+    },
+    {
+        "id": 289,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_inequation(a, (15 / Abs(9 + 2 * a)) < 1)",
+        "Proof": "",
+        "lean": "theorem test289 (a : ℝ) : (15 / |9 + 2 * a|) < 1 → a = sorry := by sorry"
+    },
+    {
+        "id": 290,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x, (9 - 4*x) / (x + 6) = 7)",
+        "Proof": "",
+        "lean": "theorem test290 (x : ℝ) \n  (h : (9 - 4 * x) / (x + 6) = 7) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 291,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x, (x - 9) / (x + 1) = 2)",
+        "Proof": "",
+        "lean": "theorem test291 (x : ℝ) : (x - 9) / (x + 1) = 2 → x = sorry := by sorry"
+    },
+    {
+        "id": 292,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x, (2 / 3) = (4 / x - 5) )",
+        "Proof": "",
+        "lean": "theorem test292 : ∃ x : ℝ, (2 / 3) = (4 / x - 5) := by sorry"
+    },
+    {
+        "id": 293,
+        "Declarations": "a: OddNumbers; b: OddNumbers",
+        "Facts": "a + 2 = b; Abs(b^2 - a^2) = 128",
+        "Query": "a * b",
+        "Proof": "",
+        "lean": "theorem test293 (a b : ℕ)\n  (h1 : a + 2 = b) (h2 : |b ^ 2 - a ^ 2| = 128) :\n  a * b = sorry := by sorry"
+    },
+    {
+        "id": 294,
+        "Declarations": "m: PositiveIntegers; n: PositiveIntegers",
+        "Facts": "",
+        "Query": "Build_Set((m, n) | 6 * m * n = 27 - 3 * m - 2 * n)",
+        "Proof": "",
+        "lean": "theorem test294 (m n : ℕ) (hm : m > 0) (hn : n > 0) : \n  {p : ℕ × ℕ | 6 * p.1 * p.2 = 27 - 3 * p.1 - 2 * p.2} = sorry := by sorry"
+    },
+    {
+        "id": 295,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers",
+        "Facts": "3*x + 2*y + x*y = 115",
+        "Query": "x + y",
+        "Proof": "",
+        "lean": "theorem test295 (x y : ℕ) \n  (h : 3 * x + 2 * y + x * y = 115) : \n  x + y = sorry := by sorry"
+    },
+    {
+        "id": 296,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers",
+        "Facts": "10*x*y + 14*x + 15*y = 166",
+        "Query": "x + y",
+        "Proof": "",
+        "lean": "theorem test296 (x y : ℕ)\n  (h : 10 * x * y + 14 * x + 15 * y = 166) :\n  x + y = sorry := by sorry"
+    },
+    {
+        "id": 297,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a ≠ 0; b ≠ 0; a * b = a - b",
+        "Query": "Get_Set_Minimum(Build_Set(x: Real, x = (a / b) + (b / a) - (a * b)))",
+        "Proof": "",
+        "lean": "theorem test297 (a b : ℝ)\n  (h1 : a ≠ 0) (h2 : b ≠ 0) (h3 : a * b = a - b) :\n  sInf {x | x = (a / b) + (b / a) - (a * b)} = sorry := by sorry"
+    },
+    {
+        "id": 298,
+        "Declarations": "f: Function; n: Integers",
+        "Facts": "Get_StepFunction_Expression(f, ∀ n ∈ OddNumbers) = n^2 + 1; Get_StepFunction_Expression(f, ∀ n ∈ EvenNumbers) = n^2 - 3*n + 1",
+        "Query": "Get_Function_Value(f, Get_Function_Value(f, Get_Function_Value(f, Get_Function_Value(f, Get_Function_Value(f, Get_Function_Value(f, 2))))))",
+        "Proof": "",
+        "lean": "theorem test298 (f : ℤ → ℤ) (n : ℤ)\n  (h1 : ∀ n ∈ {n : ℤ | n % 2 ≠ 0}, f n = n^2 + 1)\n  (h2 : ∀ n ∈ {n : ℤ | n % 2 = 0}, f n = n^2 - 3*n + 1) :\n  f (f (f (f (f (f 2))))) = sorry := by sorry"
+    },
+    {
+        "id": 299,
+        "Declarations": "S: Set",
+        "Facts": "S = Build_Set(x: Integers, -30 <= x <= 26)",
+        "Query": "Get_Set_Sum(S)",
+        "Proof": "",
+        "lean": "theorem test299 (S : Set ℤ) \n  (hS : S = {x : ℤ | -30 ≤ x ∧ x ≤ 26}) : \n  ∑ x in S, x = sorry := by sorry"
+    },
+    {
+        "id": 300,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a * b^2 = 27 / 5; a^2 * b = 135",
+        "Query": "a + 5 * b",
+        "Proof": "",
+        "lean": "theorem test300 (a b : ℝ) \n  (h1 : a * b ^ 2 = 27 / 5) (h2 : a ^ 2 * b = 135) :\n  a + 5 * b = sorry := by sorry"
+    },
+    {
+        "id": 301,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; S: Set",
+        "Facts": "b = a + 1; 9999 >= a * b >= 1000",
+        "Query": "Get_Set_Minimum(Build_Set(a * b, 9999 >= a * b >= 1000))",
+        "Proof": "",
+        "lean": "theorem test301 (a b : ℕ) (S : set ℕ)\n  (h1 : b = a + 1) (h2 : 9999 ≥ a * b ∧ a * b ≥ 1000) :\n  sInf {x | ∃ (a b : ℕ), b = a + 1 ∧ 9999 ≥ a * b ∧ a * b ≥ 1000 ∧ x = a * b} = sorry := by sorry"
+    },
+    {
+        "id": 302,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Build_Set(x | x - 64 = 0 ∨ x^2 - 64 = 0 ∨ x^3 - 64 = 0))",
+        "Proof": "",
+        "lean": "theorem test302 : Set.card {x | x - 64 = 0 ∨ x^2 - 64 = 0 ∨ x^3 - 64 = 0} = sorry := by sorry"
+    },
+    {
+        "id": 303,
+        "Declarations": "P: Polynomial; A: Integer; B: Integer; C: Integer",
+        "Facts": "P = 4 * (3 * r^3 + 5 * r - 6) - 6 * (2 * r^3 - r^2 + 4 * r); P = A * r^2 + B * r + C",
+        "Query": "A, B, C",
+        "Proof": "",
+        "lean": "theorem test303 (P : Polynomial) (A B C : ℤ) \n  (h1 : P = 4 * (3 * r^3 + 5 * r - 6) - 6 * (2 * r^3 - r^2 + 4 * r))\n  (h2 : P = A * r^2 + B * r + C) : \n  A = sorry ∧ B = sorry ∧ C = sorry := by sorry"
+    },
+    {
+        "id": 304,
+        "Declarations": "a: Real; b: Real; c: Real",
+        "Facts": "a / b = Sqrt(10) / Sqrt(21); b / c = Sqrt(135) / Sqrt(8)",
+        "Query": "a / c",
+        "Proof": "",
+        "lean": "theorem test304 (a b c : ℝ)\n  (h1 : a / b = real.sqrt 10 / real.sqrt 21)\n  (h2 : b / c = real.sqrt 135 / real.sqrt 8) :\n  a / c = sorry := by sorry"
+    },
+    {
+        "id": 305,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum(Build_Set(x | x^2 - 7 = 0 ∨ x^3 - 8 = 0 ∨ x^4 - 9 = 0))",
+        "Proof": "",
+        "lean": "theorem test305 : Get_Set_Sum({x | x ^ 2 - 7 = 0 ∨ x ^ 3 - 8 = 0 ∨ x ^ 4 - 9 = 0}) = sorry := by sorry"
+    },
+    {
+        "id": 306,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "a^2 * b^3 = 32 / 27; a / b^3 = 27 / 4",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test306 (a b : ℝ)\n  (h1 : a ^ 2 * b ^ 3 = 32 / 27) (h2 : a / b ^ 3 = 27 / 4) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 307,
+        "Declarations": "s: Integers; x: Integers; P: QuadraticPolynomial",
+        "Facts": "P = (1/2)x^2 + s*x - 1/2",
+        "Query": "Get_Set_Sum(Build_Set(s | ∀ x (Is_Root(P, x) ∧ x ∈ Integers)))",
+        "Proof": "",
+        "lean": "theorem test307 (s x : ℤ) (P : ℚ[X]) \n  (hP : P = (1/2 : ℚ)*x^2 + s*x - 1/2) : \n  let A := {s | ∀ x, P.eval x = 0 ∧ x ∈ ℤ} in \n  sSum A = sorry := by sorry"
+    },
+    {
+        "id": 308,
+        "Declarations": "P: Polynomial; A: Integers; B: Integers",
+        "Facts": "P = 6*x^2 + 17*x + 5; P = (A*x + 1)*(B*x + 5)",
+        "Query": "A * B",
+        "Proof": "",
+        "lean": "theorem test308 (P : Polynomial) (A B : ℤ)\n  (h1 : P = 6 * x^2 + 17 * x + 5) (h2 : P = (A * x + 1) * (B * x + 5)) : \n  A * B = sorry := by sorry"
+    },
+    {
+        "id": 309,
+        "Declarations": "k: PositiveIntegers; t: PositiveIntegers; m: PrimeNumbers; n: PrimeNumbers; P: Polynomial",
+        "Facts": "Solve_equation(x, x^2 - m * x + n = 0) = {k ,t}; k > t",
+        "Query": "m^n + n^m + k^t + t^k",
+        "Proof": "",
+        "lean": "theorem test309 (k t : ℕ) (m n : ℕ) (P : polynomial ℕ) \n  (hk_pos : k > 0) (ht_pos : t > 0) (hm_prime : prime m) (hn_prime : prime n)\n  (h_solutions : ∀ x, (x^2 - m * x + n = 0) → (x = k ∨ x = t)) (hk_gt : k > t): \n  m^n + n^m + k^t + t^k = sorry := by sorry"
+    },
+    {
+        "id": 310,
+        "Declarations": "A: PositiveIntegers; B: PositiveIntegers; C: PositiveIntegers; D: PositiveIntegers",
+        "Facts": "(1 + Sqrt(2)) / (2 + Sqrt(3)) = A * (1 + Sqrt(B)) - (Sqrt(C) + Sqrt(D))",
+        "Query": "A + B + C + D",
+        "Proof": "",
+        "lean": "theorem test310 (A B C D : ℕ) \n  (h : (1 + real.sqrt 2) / (2 + real.sqrt 3) = A * (1 + real.sqrt B) - (real.sqrt C + real.sqrt D)) : \n  A + B + C + D = sorry := by sorry"
+    },
+    {
+        "id": 311,
+        "Declarations": "f: Function; n: Integers",
+        "Facts": "Get_StepFunction_Expression(f, n ∈ OddNumbers) = n^2; Get_StepFunction_Expression(f, n ∈ EvenNumbers) = n^2 - 4n - 1",
+        "Query": "Get_Function_Value(Get_Function_IthComposition(f, 4), 4)",
+        "Proof": "",
+        "lean": "theorem test311 (f : ℤ → ℤ) (n : ℤ) \n  (h1 : ∀ (n : ℤ), n % 2 = 1 → f n = n^2) \n  (h2 : ∀ (n : ℤ), n % 2 = 0 → f n = n^2 - 4*n - 1) :\n  (f^[4]) 4 = sorry := by sorry"
+    },
+    {
+        "id": 312,
+        "Declarations": "A: PositiveIntegers; S: Set",
+        "Facts": "S = Build_Set(n, n ∈ PositiveIntegers ∧ n ≥ A ∧ n ≤ A + 26); Get_Set_Sum(S) = 3^7",
+        "Query": "A + 13",
+        "Proof": "",
+        "lean": "theorem test312 (A : ℕ) (S : Set ℕ)\n  (h1 : S = {n | n ∈ ℕ ∧ n ≥ A ∧ n ≤ A + 26}) \n  (h2 : ∑ x in S, x = 3^7) :\n  A + 13 = sorry := by sorry"
+    },
+    {
+        "id": 313,
+        "Declarations": "n: PositiveIntegers; S: ArithmeticSequence; omitted: Set",
+        "Facts": "S = Range(1, n); omitted = Build_Set({k, k+1} | k: Integers && 1 <= k < k+1 <= n)",
+        "Query": "Get_Set_Minimum({n: PositiveIntegers | Get_Set_Sum(S) - Get_Set_Sum(omitted) = 241})",
+        "Proof": "",
+        "lean": "theorem test313 (n : ℕ) (S : Set ℕ) (omitted : Set ℕ) \n  (hS : S = {k | 1 ≤ k ∧ k ≤ n}) \n  (hOmitted : omitted = {k | ∃ (x : ℤ), 1 ≤ x ∧ x + 1 ≤ n ∧ k = x ∨ k = x + 1}) : \n  ∃ (m : ℕ), (∑ k in S, k - ∑ k in omitted, k = 241) ∧ m = sorry := by sorry"
+    },
+    {
+        "id": 314,
+        "Declarations": "x: PositiveIntegers",
+        "Facts": "1^x + 2^x + 5^x = 642",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test314 (x : ℕ)\n  (h1 : 1 ^ x + 2 ^ x + 5 ^ x = 642) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 315,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers",
+        "Facts": "",
+        "Query": "Set_Cardinality(Build_Set((x, y), 1 / ((1/x + 1/y) / 2) = 20))",
+        "Proof": "",
+        "lean": "theorem test315 (x y : ℕ) \n  (hx : 0 < x) (hy : 0 < y) :\n  Set_Cardinality({ (x, y) | 1 / ((1 / x + 1 / y) / 2) = 20 }) = sorry := by sorry"
+    },
+    {
+        "id": 316,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; c: PositiveIntegers; P: Polynomial; x1: Real",
+        "Facts": "P = 8 * x^3 - 3 * x^2 - 3 * x - 1; Is_Root(P, x1); x1 = (Sqrt(a, 3) + Sqrt(b, 3) + 1) / c",
+        "Query": "a + b + c",
+        "Proof": "",
+        "lean": "theorem test316 (a b c : ℕ) (P : Polynomial) (x1 : ℝ)\n  (hP : P = 8 * x^3 - 3 * x^2 - 3 * x - 1) \n  (hRoot : Is_Root(P, x1)) \n  (hx1 : x1 = (Real.sqrt a 3 + Real.sqrt b 3 + 1) / c) :\n  a + b + c = sorry := by sorry"
+    },
+    {
+        "id": 317,
+        "Declarations": "m: Real; n: Real; p: Real",
+        "Facts": "(m + n + p) * (m*n + m*p + n*p) = 25; m^2*(n + p) + n^2*(m + p) + p^2*(m + n) = 4",
+        "Query": "m * n * p",
+        "Proof": "",
+        "lean": "theorem test317 (m n p : ℝ) \n  (h1 : (m + n + p) * (m * n + m * p + n * p) = 25) \n  (h2 : m^2 * (n + p) + n^2 * (m + p) + p^2 * (m + n) = 4) : \n  m * n * p = sorry := by sorry"
+    },
+    {
+        "id": 318,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "",
+        "Query": "Build_Set((x, y) | Abs(x + y - 7) + Abs(4x - y + 12) = 0)",
+        "Proof": "",
+        "lean": "theorem test318 (x y : ℝ) : { (x, y) | |x + y - 7| + |4 * x - y + 12| = 0 } = sorry := by sorry"
+    },
+    {
+        "id": 319,
+        "Declarations": "S: ArithmeticSequence",
+        "Facts": "Get_Sequence_Terms(S, 1) * Get_Sequence_Terms(S, 3) = 5; ∀ x ∈ S -> Is_PositiveIntegers(x) = True",
+        "Query": "Get_Sequence_Terms(S, 4)",
+        "Proof": "",
+        "lean": "theorem test319 (S : ℕ → ℕ) \n  (h1 : S 1 * S 3 = 5) \n  (h2 : ∀ x, x ∈ set.range S → x > 0) : \n  S 4 = sorry := by sorry"
+    },
+    {
+        "id": 320,
+        "Declarations": "S: Set",
+        "Facts": "S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; ∃ x ∈ S -> Get_Set_Sum(S - {x}) ∈ {n^2 | n ∈ PositiveIntegers}",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test320 (S : Set ℕ) \n  (hS : S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10})\n  (h : ∃ x ∈ S, ∃ (n : ℕ), n ∈ {n | 0 < n} ∧ (∑ y in S.erase x, y) = n^2) :\n  ∃ x, x = sorry := by sorry"
+    },
+    {
+        "id": 321,
+        "Declarations": "a: Integers; b: Integers; c: Integers",
+        "Facts": "Get_Set_Means({a, 2 * b}) = 7; Get_Set_Means({a, 2 * c}) = 8",
+        "Query": "Get_Set_Means({a, b, c})",
+        "Proof": "",
+        "lean": "theorem test321 (a b c : ℤ) \n  (h1 : (a + 2 * b) / 2 = 7) (h2 : (a + 2 * c) / 2 = 8) : \n  (a + b + c) / 3 = sorry := by sorry"
+    },
+    {
+        "id": 322,
+        "Declarations": "a: Real; b: Real; i: ComplexUnit",
+        "Facts": "Solve_equation(x, x^2 + 5 * x + 8 = 0) = {a + b * i}",
+        "Query": "a + b^2",
+        "Proof": "",
+        "lean": "theorem test322 (a b : ℝ) (i : ℂ) \n  (h : {x | x ^ 2 + 5 * x + 8 = 0} = {a + b * i}) :\n  a + b ^ 2 = sorry := by sorry"
+    },
+    {
+        "id": 323,
+        "Declarations": "Star: Operator",
+        "Facts": "Star({K: Integers}, {L: Integers}) = (K + L) * (K - L)",
+        "Query": "Star(6, 5)",
+        "Proof": "",
+        "lean": "theorem test323 (Star : ℤ → ℤ → ℤ)\n  (h : ∀ K L, Star K L = (K + L) * (K - L)) :\n  Star 6 5 = sorry := by sorry"
+    },
+    {
+        "id": 324,
+        "Declarations": "n: PositiveIntegers; b: PositiveIntegers; T: Function",
+        "Facts": "Get_Function_Expression(T) = (n * (n + 1)) / 2",
+        "Query": "Get_Set_Minimum(Build_Set(b, ∃ x : PositiveIntegers -> Get_Function_Value(T, b + 1) - Get_Function_Value(T, b) = Get_Function_Value(T, x) && b > 2011)",
+        "Proof": "",
+        "lean": "theorem test324 (n b : ℕ) (T : ℕ → ℕ) \n  (hT : T = λ n, (n * (n + 1)) / 2) : \n  sInf {b | ∃ x : ℕ, T (b + 1) - T b = T x ∧ b > 2011} = sorry := by sorry"
+    },
+    {
+        "id": 325,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_inequation(r, -13 * (r + 5) + 25 > 4 * (r - 10))",
+        "Proof": "",
+        "lean": "theorem test325 : ∀ r : ℝ, -13 * (r + 5) + 25 > 4 * (r - 10) ↔ sorry := by sorry"
+    },
+    {
+        "id": 326,
+        "Declarations": "x: Real",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (Sqrt(12 * x) + 12) * (Sqrt(3 * x) - 6) = 4 * (x + 3) + x - 34)",
+        "Proof": "",
+        "lean": "theorem test326 (x : ℝ)\n  (h : (sqrt (12 * x) + 12) * (sqrt (3 * x) - 6) = 4 * (x + 3) + x - 34) :\n  x = sorry := by sorry"
+    },
+    {
+        "id": 327,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: PositiveNumbers, (x^2 - 4 * x + 4) ^ (1 / 3) = 16)",
+        "Proof": "",
+        "lean": "```lean\ntheorem test327 (x : ℝ) (hx : 0 < x) : \n  (x^2 - 4 * x + 4) ^ (1 / 3) = 16 := sorry\n```"
+    },
+    {
+        "id": 328,
+        "Declarations": "a: Real; b: Real; c: Real; d: Real",
+        "Facts": "",
+        "Query": "Solve_equation(c, a - b = 2 * (c + d) && b = a - 2 && d = c + 5)",
+        "Proof": "",
+        "lean": "theorem test328 (a b c d : ℝ) \n  (h1 : a - b = 2 * (c + d)) (h2 : b = a - 2) (h3 : d = c + 5) :\n  c = sorry := by sorry"
+    },
+    {
+        "id": 329,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(z, 2 - 3 * i * z = 3 + 2 * i * z)",
+        "Proof": "",
+        "lean": "theorem test329 : ∃ z : ℂ, 2 - 3 * complex.I * z = 3 + 2 * complex.I * z := by sorry"
+    },
+    {
+        "id": 330,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 81^(2*x) = 27^(3*x - 4))",
+        "Proof": "",
+        "lean": "theorem test330 (x : ℝ) : 81^(2*x) = 27^(3*x - 4) → x = sorry := by sorry"
+    },
+    {
+        "id": 331,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(r: Real, (r + 9) / (r - 3) = (r - 2) / (r + 5))",
+        "Proof": "",
+        "lean": "theorem test331 (r : ℝ) : (r + 9) / (r - 3) = (r - 2) / (r + 5) → r = sorry := by sorry"
+    },
+    {
+        "id": 332,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(t: Real, 3 * 3^t + Sqrt(9 * 9^t) = 18)",
+        "Proof": "",
+        "lean": "theorem test332 (t : ℝ) \n  (h : 3 * 3^t + real.sqrt (9 * 9^t) = 18) : \n  t = sorry := by sorry"
+    },
+    {
+        "id": 333,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 2^x + 6 = 3 * 2^x - 26)",
+        "Proof": "",
+        "lean": "theorem test333 : ∃ x : ℝ, 2 ^ x + 6 = 3 * 2 ^ x - 26 := by sorry"
+    },
+    {
+        "id": 334,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, And(5 * x^2 + 9 * x - 18 = 0, x > 0))",
+        "Proof": "",
+        "lean": "theorem test334 : ∃ (x : ℝ), 5 * x^2 + 9 * x - 18 = 0 ∧ x > 0 := by sorry"
+    },
+    {
+        "id": 335,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (3*x^2 + 2*x + 1) / (x - 1) = 3*x + 1)",
+        "Proof": "",
+        "lean": "theorem test335 : ∃ x : ℝ, (3 * x ^ 2 + 2 * x + 1) / (x - 1) = 3 * x + 1 := by sorry"
+    },
+    {
+        "id": 336,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (x - 4)^3 = (1/8)^(-1))",
+        "Proof": "",
+        "lean": "theorem test336 (x : ℝ) \n  (h : (x - 4) ^ 3 = (1 / 8) ^ (-1)) :\n  x = sorry := by sorry"
+    },
+    {
+        "id": 337,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, Sqrt(3 - 1 / x) = -4)",
+        "Proof": "",
+        "lean": "theorem test337 (x : ℝ) : sqrt (3 - 1 / x) = -4 → false := by sorry"
+    },
+    {
+        "id": 338,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 5^(x + 4) = 125^x)",
+        "Proof": "",
+        "lean": "theorem test338 {x : ℝ} : 5^(x + 4) = 125^x → x = sorry := by sorry"
+    },
+    {
+        "id": 339,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 27 = 3 * (9)^(x-1))",
+        "Proof": "",
+        "lean": "theorem test339 : ∃ x : ℝ, 27 = 3 * 9 ^ (x - 1) := by sorry"
+    },
+    {
+        "id": 340,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (2x + 4) / (x^2 + 4x - 5) = (2 - x) / (x - 1))",
+        "Proof": "",
+        "lean": "theorem test340 (x : ℝ) : \n  (2 * x + 4) / (x^2 + 4 * x - 5) = (2 - x) / (x - 1) → x = sorry := by sorry"
+    },
+    {
+        "id": 341,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum(Solve_equation(x: Real, 3^(x^2 + 4 * x + 4) = 9^(x + 2)))",
+        "Proof": "",
+        "lean": "theorem test341 : Get_Set_Sum(Solve_equation (x : ℝ, 3^(x^2 + 4 * x + 4) = 9^(x + 2))) = sorry := by sorry"
+    },
+    {
+        "id": 342,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 9^n * 9^n * 9^n * 9^n = 81^4)",
+        "Proof": "",
+        "lean": "theorem test342 : ∃ (n : ℝ), 9^n * 9^n * 9^n * 9^n = 81^4 := by sorry"
+    },
+    {
+        "id": 343,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, (2 - n) / (n + 1) + (2n - 4) / (2 - n) = 1)",
+        "Proof": "",
+        "lean": "theorem test343 : ∃ n : ℝ, (2 - n) / (n + 1) + (2 * n - 4) / (2 - n) = 1 := by sorry"
+    },
+    {
+        "id": 344,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 2^(x-3) = 4^(x+1))",
+        "Proof": "",
+        "lean": "theorem test344 : ∃ (x : ℝ), 2^(x - 3) = 4^(x + 1) := by sorry"
+    },
+    {
+        "id": 345,
+        "Declarations": "n: Real",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, Abs(n + 6) = 2 - n)",
+        "Proof": "",
+        "lean": "theorem test345 (n : ℝ) :\n  |n + 6| = 2 - n → n = sorry := by sorry"
+    },
+    {
+        "id": 346,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 3^(2 * x) = Sqrt(27))",
+        "Proof": "",
+        "lean": "theorem test346 (x : ℝ) : 3 ^ (2 * x) = sqrt 27 → x = sorry := by sorry"
+    },
+    {
+        "id": 347,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (x + 4) / (x - 2) = 3)",
+        "Proof": "",
+        "lean": "theorem test347 : ∃ x : ℝ, (x + 4) / (x - 2) = 3 := by sorry"
+    },
+    {
+        "id": 348,
+        "Declarations": "s: ArithmeticSequence; x: Real",
+        "Facts": "Get_Sequence_Terms(s, 1) = 1 / 2; Get_Sequence_Terms(s, 2) = x - 1; Get_Sequence_Terms(s, 3) = 3 * x",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test348 (s : ℕ → ℝ) (x : ℝ) \n  (h1 : s 1 = 1 / 2) (h2 : s 2 = x - 1) (h3 : s 3 = 3 * x) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 349,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "",
+        "Query": "Build_Set((x, y), (3 * x - 5 * y = -1.5) && (7 * x + 2 * y = 4.7))",
+        "Proof": "",
+        "lean": "theorem test349 (x y : ℝ) :\n  { (x, y) | (3 * x - 5 * y = -1.5) ∧ (7 * x + 2 * y = 4.7) } = sorry := by sorry"
+    },
+    {
+        "id": 350,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(c: Real, Sqrt(4 + Sqrt(8 + 4 * c)) + Sqrt(2 + Sqrt(2 + c)) = 2 + 2 * Sqrt(2))",
+        "Proof": "",
+        "lean": "theorem test350 (c : ℝ) \n  (h : sqrt (4 + sqrt (8 + 4 * c)) + sqrt (2 + sqrt (2 + c)) = 2 + 2 * sqrt 2) :\n  c = sorry := by sorry"
+    },
+    {
+        "id": 351,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(Q: Real, Sqrt(Q^3) = 16 * (16)^(1/8))",
+        "Proof": "",
+        "lean": "theorem test351 : ∃ Q : ℝ, (Q ^ (3 / 2) = 16 * 16 ^ (1 / 8)) := by sorry"
+    },
+    {
+        "id": 352,
+        "Declarations": "S: ArithmeticSequence; x: PositiveNumbers",
+        "Facts": "Get_Sequence_Terms(S, 1) = 1 ^ 2; Get_Sequence_Terms(S, 2) = x ^ 2; Get_Sequence_Terms(S, 3) = 3 ^ 2",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test352 (S : ℕ → ℕ) (x : ℕ) \n  (h1 : S 1 = 1 ^ 2) (h2 : S 2 = x ^ 2) (h3 : S 3 = 3 ^ 2) :\n  x = sorry := by sorry"
+    },
+    {
+        "id": 353,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 4 * x^(1/3) - 2 * (x / x^(2/3)) = 7 + x ^ (1 / 3))",
+        "Proof": "",
+        "lean": "theorem test353 (x : ℝ) \n  (h : 4 * x^(1/3) - 2 * (x / x^(2/3)) = 7 + x^(1/3)) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 354,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 5^(2 * n + 1) = 1 / 25)",
+        "Proof": "",
+        "lean": "theorem test354 (n : ℝ) \n  (h : 5 ^ (2 * n + 1) = 1 / 25) : \n  n = sorry := by sorry"
+    },
+    {
+        "id": 355,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 2^n * 4^n = 64^(n - 36))",
+        "Proof": "",
+        "lean": "theorem test355 (n : ℝ) (h : 2^n * 4^n = 64^(n - 36)) : n = sorry := by sorry"
+    },
+    {
+        "id": 356,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 2 * 3^x = 162)",
+        "Proof": "",
+        "lean": "theorem test356 (x : ℝ) : (2 * 3^x = 162) → x = sorry := by sorry"
+    },
+    {
+        "id": 357,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (1/4)^(2x + 8) = 16^(2x + 5))",
+        "Proof": "",
+        "lean": "```lean\ntheorem test357 (x : ℝ) : (1/4)^(2*x + 8) = 16^(2*x + 5) → x = sorry := by sorry\n```"
+    },
+    {
+        "id": 358,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 100^3 = 10^x)",
+        "Proof": "",
+        "lean": "theorem test358 : ∃ x : ℝ, 100 ^ 3 = 10 ^ x := by sorry"
+    },
+    {
+        "id": 359,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 1/2 + 1/x = 5/6)",
+        "Proof": "",
+        "lean": "theorem test359 : ∃ x : ℝ, 1 / 2 + 1 / x = 5 / 6 := by sorry"
+    },
+    {
+        "id": 360,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (6*x^2 + 111*x + 1) / (2*x + 37) = 3*x + 1)",
+        "Proof": "",
+        "lean": "theorem test360 (x : ℝ) : (6 * x^2 + 111 * x + 1) / (2 * x + 37) = 3 * x + 1 := sorry"
+    },
+    {
+        "id": 361,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "",
+        "Query": "Build_Set((x, y), (3 * x - 5 * y = -11) && (7 * x + 2 * y = -12))",
+        "Proof": "",
+        "lean": "theorem test361 (x y : ℝ) : \n  { (x, y) | 3 * x - 5 * y = -11 ∧ 7 * x + 2 * y = -12 } = sorry := by sorry"
+    },
+    {
+        "id": 362,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Maximum(Solve_equation(x: Real, 5 * (9 * x^2 + 9 * x + 10) = x * (9 * x - 40)))",
+        "Proof": "",
+        "lean": "theorem test362 : sSup {x : ℝ | 5 * (9 * x^2 + 9 * x + 10) = x * (9 * x - 40)} = sorry := by sorry"
+    },
+    {
+        "id": 363,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "Solve_equation(z, 1 - i * z = -1 + i * z)",
+        "Proof": "",
+        "lean": "theorem test363 (i : complex) (h1 : i * i = -1) : \n  ∃ z : complex, 1 - i * z = -1 + i * z := by sorry"
+    },
+    {
+        "id": 364,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (3*x - 1) / (4*x - 4) = 2/3)",
+        "Proof": "",
+        "lean": "theorem test364 (x : ℝ) \n  (h : (3 * x - 1) / (4 * x - 4) = 2 / 3) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 365,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 1/2 - 1/3 = 1/x)",
+        "Proof": "",
+        "lean": "theorem test365 : ∃ x : ℝ, 1 / 2 - 1 / 3 = 1 / x := by sorry"
+    },
+    {
+        "id": 366,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(m: Real, (m - 4)^3 = (1/8)^(-1))",
+        "Proof": "",
+        "lean": "theorem test366 : ∃ m : ℝ, (m - 4)^3 = (1/8)^(-1) := by sorry"
+    },
+    {
+        "id": 367,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 8^n * 8^n * 8^n = 64^3)",
+        "Proof": "",
+        "lean": "theorem test367 (n : ℝ) \n  (h : 8^n * 8^n * 8^n = 64^3) :\n  n = sorry := by sorry"
+    },
+    {
+        "id": 368,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x, (x^2 + 2*x + 3) / (x + 4) = x + 5)",
+        "Proof": "",
+        "lean": "theorem test368 : ∃ x : ℝ, (x^2 + 2*x + 3) / (x + 4) = x + 5 := by sorry"
+    },
+    {
+        "id": 369,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 0.03 * n + 0.08 * (20 + n) = 12.6)",
+        "Proof": "",
+        "lean": "theorem test369 (n : ℝ) \n  (h : 0.03 * n + 0.08 * (20 + n) = 12.6) :\n  n = sorry := by sorry"
+    },
+    {
+        "id": 370,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "Solve_equation(z, 2 - i*z = -1 + 3*i*z)",
+        "Proof": "",
+        "lean": "theorem test370 (i : ℂ) (z : ℂ) :\n  (2 - i * z = -1 + 3 * i * z) → z = sorry := by sorry"
+    },
+    {
+        "id": 371,
+        "Declarations": "y: Real",
+        "Facts": "",
+        "Query": "Solve_equation(y: Real, 4 + 2.3 * y = 1.7 * y - 20)",
+        "Proof": "",
+        "lean": "theorem test371 (y : ℝ) : \n  ∃ (y : ℝ), 4 + 2.3 * y = 1.7 * y - 20 := by sorry"
+    },
+    {
+        "id": 372,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 8^(4x - 6) = (1/2)^(x + 5))",
+        "Proof": "",
+        "lean": "theorem test372 : ∃ x : ℝ, 8^(4*x - 6) = (1/2)^(x + 5) := by sorry"
+    },
+    {
+        "id": 373,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "Solve_equation(z, 1 - i * z = -1 + i * z)",
+        "Proof": "",
+        "lean": "theorem test373 (i : ℂ) (z : ℂ) : (1 - i * z = -1 + i * z) → z = sorry := by sorry"
+    },
+    {
+        "id": 374,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (3*x - 1) / (4*x - 4) = 2/3)",
+        "Proof": "",
+        "lean": "theorem test374 (x : ℝ) \n  (h : (3 * x - 1) / (4 * x - 4) = 2 / 3) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 375,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 1/2 - 1/3 = 1/x)",
+        "Proof": "",
+        "lean": "theorem test375 : ∃ x : ℝ, 1 / 2 - 1 / 3 = 1 / x := by sorry"
+    },
+    {
+        "id": 376,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(m: Real, (m - 4)^3 = (1/8)^(-1))",
+        "Proof": "",
+        "lean": "theorem test376 (m : ℝ) : (m - 4) ^ 3 = (1 / 8) ^ (-1) → m = sorry := by sorry"
+    },
+    {
+        "id": 377,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 8^n * 8^n * 8^n = 64^3)",
+        "Proof": "",
+        "lean": "theorem test377 (n : ℝ) \n  (h : 8 ^ n * 8 ^ n * 8 ^ n = 64 ^ 3) : \n  n = sorry := by sorry"
+    },
+    {
+        "id": 378,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x, (x^2 + 2*x + 3) / (x + 4) = x + 5)",
+        "Proof": "",
+        "lean": "theorem test378 : ∃ x : ℝ, (x^2 + 2*x + 3) / (x + 4) = x + 5 := by sorry"
+    },
+    {
+        "id": 379,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(n: Real, 0.03 * n + 0.08 * (20 + n) = 12.6)",
+        "Proof": "",
+        "lean": "theorem test379 (n : ℝ) \n  (h : 0.03 * n + 0.08 * (20 + n) = 12.6) : \n  n = sorry := by sorry"
+    },
+    {
+        "id": 380,
+        "Declarations": "i: ComplexUnit",
+        "Facts": "",
+        "Query": "Solve_equation(z: ComplexNumbers, 2 - i * z = -1 + 3 * i * z)",
+        "Proof": "",
+        "lean": "theorem test380 (i : ℂ) : ∃ z : ℂ, 2 - i * z = -1 + 3 * i * z := by sorry"
+    },
+    {
+        "id": 381,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(y: Real, 4 + 2.3 * y = 1.7 * y - 20)",
+        "Proof": "",
+        "lean": "theorem test381 : ∃ y : ℝ, 4 + 2.3 * y = 1.7 * y - 20 := by sorry"
+    },
+    {
+        "id": 382,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 8^(4x - 6) = (1/2)^(x + 5))",
+        "Proof": "",
+        "lean": "theorem test382 : ∃ x : ℝ, 8^(4 * x - 6) = (1/2)^(x + 5) := by sorry"
+    },
+    {
+        "id": 383,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(y, Abs(y - 6) + 2 * y = 9)",
+        "Proof": "",
+        "lean": "theorem test383 : ∀ y : ℝ, abs(y - 6) + 2 * y = 9 → y = sorry := by sorry"
+    },
+    {
+        "id": 384,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, 361 + 2 * 19 * 6 + 36 = x)",
+        "Proof": "",
+        "lean": "theorem test384 : ∃ (x : ℝ), 361 + 2 * 19 * 6 + 36 = x := by sorry"
+    },
+    {
+        "id": 385,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, x^2 + 4 * x + 3 = - (x + 3) * (x + 5))",
+        "Proof": "",
+        "lean": "theorem test385 (x : ℝ) : x^2 + 4 * x + 3 = - (x + 3) * (x + 5) → x = sorry := by sorry"
+    },
+    {
+        "id": 386,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (5x + 1) / (2x^2 + 5x - 3) = (2x) / (2x - 1))",
+        "Proof": "",
+        "lean": "theorem test386 (x : ℝ) \n  : (5 * x + 1) / (2 * x^2 + 5 * x - 3) = (2 * x) / (2 * x - 1) → x = sorry := by sorry"
+    },
+    {
+        "id": 387,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(r: Real, (r + 3) / (r - 2) = (r - 1) / (r + 1))",
+        "Proof": "",
+        "lean": "theorem test387 (r : ℝ) : (r + 3) / (r - 2) = (r - 1) / (r + 1) → r = sorry := by sorry"
+    },
+    {
+        "id": 388,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (5 * x) / (x + 3) - 3 / (x + 3) = 1 / (x + 3))",
+        "Proof": "",
+        "lean": "theorem test388 (x : ℝ) :\n  (5 * x) / (x + 3) - 3 / (x + 3) = 1 / (x + 3) → x = sorry := by sorry"
+    },
+    {
+        "id": 389,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, (x^2 + x + 1) / (x + 1) = x + 2)",
+        "Proof": "",
+        "lean": "theorem test389 : ∀ x : ℝ, (x ^ 2 + x + 1) / (x + 1) = x + 2 → x = sorry := by sorry"
+    },
+    {
+        "id": 390,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Solve_equation(x: Real, x = 35 / (6 - (2 / 5)))",
+        "Proof": "",
+        "lean": "theorem test390 (x : ℝ) \n  (h : x = 35 / (6 - (2 / 5))) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 391,
+        "Declarations": "k: Real; a: Integers; b: Integers; P: Polynomial",
+        "Facts": "",
+        "Query": "Get_Set_Product(Build_Set(k, P = x^2 + k * x + 15 && P = (x + a) * (x + b)))",
+        "Proof": "",
+        "lean": "theorem test391 (k : ℝ) (a b : ℤ) (P : Polynomial) \n  (hP1 : P = x ^ 2 + k * x + 15) (hP2 : P = (x + a) * (x + b)) : \n  sProd {k | hP1 ∧ hP2} = sorry := by sorry"
+    },
+    {
+        "id": 392,
+        "Declarations": "Z: Polynomial; a: Integers; b: Integers",
+        "Facts": "Z = 2*z^2 + 13*z + 21; Z = (z + a) * (2*z + b)",
+        "Query": "2 * a + b",
+        "Proof": "",
+        "lean": "theorem test392 (Z : Polynomial) (a b : ℤ) \n  (h1 : Z = 2 * z^2 + 13 * z + 21) (h2 : Z = (z + a) * (2 * z + b)) : \n  2 * a + b = sorry := by sorry"
+    },
+    {
+        "id": 393,
+        "Declarations": "x: Integers; S: Set",
+        "Facts": "S = Solve_inequation(x: Integers, (Abs(x) + 1 > 7) && (Abs(x + 1) ≤ 7))",
+        "Query": "Get_Set_Sum(S)",
+        "Proof": "",
+        "lean": "theorem test393 (x : ℤ) (S : Set ℤ)\n  (hS : S = {x | abs x + 1 > 7 ∧ abs (x + 1) ≤ 7}) :\n  ∑' in S = sorry := by sorry"
+    },
+    {
+        "id": 394,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Build_Set(k: PositiveIntegers, Set_Cardinality(Solve_equation(x: Real, kx^2 + 10x + k = 0))) > 0)",
+        "Proof": "",
+        "lean": "theorem test394 : \n  Set_Cardinality({k : ℕ+ | Set_Cardinality({x : ℝ | k * x^2 + 10 * x + k = 0}) > 0}) = sorry := by sorry"
+    },
+    {
+        "id": 395,
+        "Declarations": "p: Real; q: Real",
+        "Facts": "p > 1 = True; q > 1 = True; 1/p + 1/q = 1",
+        "Query": "(p - 1) * (q - 1)",
+        "Proof": "",
+        "lean": "theorem test395 (p q : ℝ)\n  (hp : p > 1) (hq : q > 1) (h : 1 / p + 1 / q = 1) :\n  (p - 1) * (q - 1) = sorry := by sorry"
+    },
+    {
+        "id": 396,
+        "Declarations": "a: Real; b: Real",
+        "Facts": "Solve_equation(x: Real, 18 + 5*x^2 = 20*x) = {a, b}",
+        "Query": "Get_Number_Round(a) * Get_Number_Round(b)",
+        "Proof": "",
+        "lean": "theorem test396 (a b : ℝ) \n  (h1 : {a, b} = {x : ℝ | 18 + 5 * x^2 = 20 * x}) : \n  ⌊a⌋ * ⌊b⌋ = sorry := by sorry"
+    },
+    {
+        "id": 397,
+        "Declarations": "x: PositiveIntegers; y: PositiveIntegers; S: Set",
+        "Facts": "S = Build_Set(x, 1 / x + 1 / y = 1 / 7)",
+        "Query": "Get_Set_Sum(S)",
+        "Proof": "",
+        "lean": "theorem test397 (x y : ℕ) (S : Set ℕ)\n  (hS : S = {x | ∃ y, 1 / x + 1 / y = 1 / 7}) :\n  ∑ x in S, x = sorry := by sorry"
+    },
+    {
+        "id": 398,
+        "Declarations": "A: Integers; B: Integers",
+        "Facts": "",
+        "Query": "Get_Set_Minimum(Build_Set(A + B, 1 / (Sqrt(2) + Sqrt(8) + Sqrt(32)) = Sqrt(A) / B))",
+        "Proof": "",
+        "lean": "theorem test398 (A B : ℤ) : \n  sInf { A + B | 1 / (real.sqrt 2 + real.sqrt 8 + real.sqrt 32) = real.sqrt A / B } = sorry := by sorry"
+    },
+    {
+        "id": 399,
+        "Declarations": "x: Real; y: Real; z: Real",
+        "Facts": "x != y; y != z; z != x",
+        "Query": "Get_Set_Minimum(Build_Set(t: Real, t = ((y - x)^2 / ((y - z) * (z - x))) + ((z - y)^2 / ((z - x) * (x - y))) + ((x - z)^2 / ((x - y) * (y - z)))))",
+        "Proof": "",
+        "lean": "theorem test399 (x y z : ℝ) \n  (h1 : x ≠ y) (h2 : y ≠ z) (h3 : z ≠ x) : \n  sInf {t | t = ((y - x)^2 / ((y - z) * (z - x))) + ((z - y)^2 / ((z - x) * (x - y))) + ((x - z)^2 / ((x - y) * (y - z)))} = sorry := by sorry"
+    },
+    {
+        "id": 400,
+        "Declarations": "a: Integers; b: Integers",
+        "Facts": "2 * a - 3 * b = -23; b = a + 1; a < b",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test400 (a b : ℤ)\n  (h1 : 2 * a - 3 * b = -23) (h2 : b = a + 1) (h3 : a < b) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 401,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum({1, 3, 5, 7, 9})",
+        "Proof": "",
+        "lean": "theorem test401 : sSum ({1, 3, 5, 7, 9} : finset ℕ) = sorry := by sorry"
+    },
+    {
+        "id": 402,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum(Build_Set(x, x ∈ Integers ∧ x > 500 ∧ x < 700 ∧ x ∈ OddNumbers))",
+        "Proof": "",
+        "lean": "theorem test402 : \n  ∑ x in {x : ℤ | x > 500 ∧ x < 700 ∧ x % 2 = 1}, x = sorry := by sorry"
+    },
+    {
+        "id": 403,
+        "Declarations": "A: Real; B: Real",
+        "Facts": "(5 * x - 16) / (x^2 - 7 * x + 10) = A / (x - 2) + B / (x - 5)",
+        "Query": "A + B",
+        "Proof": "",
+        "lean": "theorem test403 (A B : ℝ) (x : ℝ)\n  (h : (5 * x - 16) / (x^2 - 7 * x + 10) = A / (x - 2) + B / (x - 5)) :\n  A + B = sorry := by sorry"
+    },
+    {
+        "id": 404,
+        "Declarations": "a: Real; b: Real; h: Function",
+        "Facts": "Get_Function_Expression(h) = a*x + b; Get_Function_Value(h, 1) = 5; Get_Function_Value(h, -1) = 1",
+        "Query": "Get_Function_Value(h, 6)",
+        "Proof": "",
+        "lean": "theorem test404 (a b : ℝ) (h : ℝ → ℝ)\n  (h_expr : ∀ x, h x = a * x + b)\n  (h1 : h 1 = 5)\n  (h_neg1 : h (-1) = 1) :\n  h 6 = sorry := by sorry"
+    },
+    {
+        "id": 405,
+        "Declarations": "x: Real",
+        "Facts": "",
+        "Query": "Get_Set_Maximum(Build_Set(a: Real, a = 4 * (x + 7) * (2 - x)))",
+        "Proof": "",
+        "lean": "theorem test405 (x : ℝ) : \n  sSup {a : ℝ | a = 4 * (x + 7) * (2 - x)} = sorry := by sorry"
+    },
+    {
+        "id": 406,
+        "Declarations": "x: PositiveNumbers; y: PositiveNumbers",
+        "Facts": "(x + y)^2 + (x - y)^2 = 10; (x + y)^4 + (x - y)^4 = 98",
+        "Query": "x * y",
+        "Proof": "",
+        "lean": "theorem test406 (x y : ℕ) \n  (h1 : (x + y) ^ 2 + (x - y) ^ 2 = 10) \n  (h2 : (x + y) ^ 4 + (x - y) ^ 4 = 98) : \n  x * y = sorry := by sorry"
+    },
+    {
+        "id": 407,
+        "Declarations": "A: Set; B: Set",
+        "Facts": "A = Build_Set(x: PositiveIntegers, x <= 20); B = Build_Set(y: EvenNumbers, y <= 20)",
+        "Query": "Abs(5 * Get_Set_Sum(A) - Get_Set_Sum(B))",
+        "Proof": "",
+        "lean": "theorem test407 (A B : Set)\n  (hA : A = {x | ∃ (x : ℕ), 0 < x ∧ x ≤ 20})\n  (hB : B = {y | ∃ (y : ℕ), y % 2 = 0 ∧ y ≤ 20}) :\n  |5 * (Finset.sum (A.to_finset : Finset ℕ) id) - (Finset.sum (B.to_finset : Finset ℕ) id)| = sorry := by sorry"
+    },
+    {
+        "id": 408,
+        "Declarations": "a: Integers; b: Integers; c: Integers",
+        "Facts": "x^2 - 8*x - 49 = (a*x + b)^2 + c",
+        "Query": "a * b",
+        "Proof": "",
+        "lean": "theorem test408 (a b c : ℤ)\n  (h1 : ∀ x : ℤ, x^2 - 8*x - 49 = (a*x + b)^2 + c) :\n  a * b = sorry := by sorry"
+    },
+    {
+        "id": 409,
+        "Declarations": "a: Real; b: Real; c: Real",
+        "Facts": "a - 7 * b + 8 * c = 4; 8 * a + 4 * b - c = 7",
+        "Query": "a^2 - b^2 + c^2",
+        "Proof": "",
+        "lean": "theorem test409 (a b c : ℝ) \n  (h1 : a - 7 * b + 8 * c = 4) (h2 : 8 * a + 4 * b - c = 7) :\n  a^2 - b^2 + c^2 = sorry := by sorry"
+    },
+    {
+        "id": 410,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Get_Set_Sum(Build_Set(x: PositiveIntegers, x < 62 ∧ EvenNumbers(x)))",
+        "Proof": "",
+        "lean": "theorem test410 : ∑ x in {x : ℕ | x < 62 ∧ x % 2 = 0}, x = sorry := by sorry"
+    },
+    {
+        "id": 411,
+        "Declarations": "x: PositiveIntegers; n: Integers; d: Integers",
+        "Facts": "n = x^2 + 2 * x + 17; d = 2 * x + 5; n = d * x + 7",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test411 (x : ℕ) (n d : ℤ) \n  (h1 : n = x^2 + 2 * x + 17) (h2 : d = 2 * x + 5) (h3 : n = d * x + 7) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 412,
+        "Declarations": "f: Function; n: Integers",
+        "Facts": "Get_StepFunction_Expression(f, n ∈ OddNumbers) = n^2 + 1; Get_StepFunction_Expression(f, n ∈ EvenNumbers) = n / 2",
+        "Query": "Set_Cardinality(Build_Set(n | n ∈ Range(1, 100) ∧ ∃ k : NaturalNumbers, Get_Function_Value(Get_Function_IthComposition(f, k), n) = 1))",
+        "Proof": "",
+        "lean": "theorem test412 (f : ℤ → ℤ) (n : ℤ)\n  (h1 : ∀ n ∈ {n | odd n}, f n = n^2 + 1)\n  (h2 : ∀ n ∈ {n | even n}, f n = n / 2) : \n  fintype.card {n | n ∈ finset.range 100 ∧ ∃ k : ℕ, (f^[k]) n = 1} = sorry := by sorry"
+    },
+    {
+        "id": 413,
+        "Declarations": "a: Integer; b: Integer; op: Operator",
+        "Facts": "a ≠ 0; b ≠ 0; op(a, b) = 1/a + 1/b; a + b = 9; a * b = 20",
+        "Query": "op(a, b)",
+        "Proof": "",
+        "lean": "theorem test413 (a b : ℤ) (op : ℤ → ℤ → ℚ)\n  (h1 : a ≠ 0) (h2 : b ≠ 0) (h3 : op a b = 1/a + 1/b) \n  (h4 : a + b = 9) (h5 : a * b = 20) :\n  op a b = sorry := by sorry"
+    },
+    {
+        "id": 414,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Abs(pi - Abs(pi - 7))",
+        "Proof": "",
+        "lean": "theorem test414 : |real.pi - |real.pi - 7|| = sorry := by sorry"
+    },
+    {
+        "id": 415,
+        "Declarations": "S: Set; n: PositiveIntegers",
+        "Facts": "S = Range(1, n)",
+        "Query": "Set_Cardinality(Solve_inequation(n: PositiveIntegers, (6 * n) % Get_Set_Sum(S) = 0))",
+        "Proof": "",
+        "lean": "theorem test415 (S : Set ℕ) (n : ℕ) \n  (hPos : 0 < n) (hS : S = {k | 1 ≤ k ∧ k ≤ n}) : \n  card {m | 0 < m ∧ (6 * m) % (∑ k in S, k) = 0} = sorry := by sorry"
+    },
+    {
+        "id": 416,
+        "Declarations": "a: NegativeIntegers; b: NegativeIntegers",
+        "Facts": "b = a + 1; a * b = 2550",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test416 (a b : ℤ)\n  (h1 : b = a + 1) (h2 : a * b = 2550) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 417,
+        "Declarations": "a: NonNegativeIntegers; b: NonNegativeIntegers; P: Polynomial",
+        "Facts": "P = x^2 - 16*x + 60; P = (x - a)*(x - b); a > b",
+        "Query": "3*b - a",
+        "Proof": "",
+        "lean": "theorem test417 (a b : ℕ) (P : polynomial ℤ)\n  (hP1 : P = polynomial.X^2 - 16 * polynomial.X + 60)\n  (hP2 : P = (polynomial.X - polynomial.C a) * (polynomial.X - polynomial.C b))\n  (h : a > b) :\n  3 * b - a = sorry := by sorry"
+    },
+    {
+        "id": 418,
+        "Declarations": "N: PositiveIntegers; B: PositiveIntegers; J: PositiveIntegers; Cost_PB: Real; Cost_Jam: Real; Total_Cost: Real",
+        "Facts": "N > 1; Cost_PB = N * B * 4; Cost_Jam = N * J * 5; Total_Cost = Cost_PB + Cost_Jam; Total_Cost = 253",
+        "Query": "Cost_Jam / 100",
+        "Proof": "",
+        "lean": "theorem test418 (N B J : ℕ) (Cost_PB Cost_Jam Total_Cost : ℝ)\n  (hN : N > 1)\n  (hCost_PB : Cost_PB = N * B * 4)\n  (hCost_Jam : Cost_Jam = N * J * 5)\n  (hTotal_Cost : Total_Cost = Cost_PB + Cost_Jam)\n  (hTotal_Cost_eq : Total_Cost = 253) :\n  Cost_Jam / 100 = sorry := by sorry"
+    },
+    {
+        "id": 419,
+        "Declarations": "x: Real; y: Real; z: Real",
+        "Facts": "y + z = 13; z + x = 14; x + y = 15",
+        "Query": "Sqrt(x * y * z * (x + y + z))",
+        "Proof": "",
+        "lean": "theorem test419 (x y z : ℝ)\n  (h1 : y + z = 13) (h2 : z + x = 14) (h3 : x + y = 15) :\n  real.sqrt (x * y * z * (x + y + z)) = sorry := by sorry"
+    },
+    {
+        "id": 420,
+        "Declarations": "a: Real; b: Real; i: ComplexUnit; numerator: ComplexNumbers; denominator: ComplexNumbers; result: ComplexNumbers",
+        "Facts": "numerator = 2 + 2i; denominator = -3 + 4i; result = numerator / denominator; result = a + b*i",
+        "Query": "a + b*i",
+        "Proof": "",
+        "lean": "theorem test420 (a b : ℝ) (i : ℂ) (numerator denominator result : ℂ)\n  (h1 : numerator = 2 + 2 * i) (h2 : denominator = -3 + 4 * i)\n  (h3 : result = numerator / denominator) (h4 : result = a + b * i) :\n  a + b * i = sorry := by sorry"
+    },
+    {
+        "id": 421,
+        "Declarations": "S: Set; n: PositiveIntegers",
+        "Facts": "S = Build_Set(n, n ≤ 7 ∧ n ∈ PositiveIntegers)",
+        "Query": "Get_Sum(S, n -> 9 * n)",
+        "Proof": "",
+        "lean": "theorem test421 (S : Set ℕ) (n : ℕ) \n  (hS : S = {n | n ≤ 7 ∧ n > 0}) : \n  ∑ k in S, 9 * k = sorry := by sorry"
+    },
+    {
+        "id": 422,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(m: Integers, 1 / Abs(m) >= 1 / 8 ∧ m != 0))",
+        "Proof": "",
+        "lean": "theorem test422 : Set_Cardinality({m : ℤ | 1 / |m| ≥ 1 / 8 ∧ m ≠ 0}) = sorry := by sorry"
+    },
+    {
+        "id": 423,
+        "Declarations": "E: Set; O: Set",
+        "Facts": "E = Build_Set(x: EvenNumbers, x <= 40); O = Build_Set(x: OddNumbers, x <= 29)",
+        "Query": "Abs(Get_Set_Sum(E) - Get_Set_Sum(O))",
+        "Proof": "",
+        "lean": "theorem test423 (E O : Set ℕ)\n  (hE : E = {x | x ≤ 40 ∧ x % 2 = 0}) (hO : O = {x | x ≤ 29 ∧ x % 2 = 1}) :\n  |∑ x in E, x - ∑ x in O, x| = sorry := by sorry"
+    },
+    {
+        "id": 424,
+        "Declarations": "x: Real; y: Real; a: PositiveIntegers; b: PositiveIntegers; c: PositiveIntegers; d: PositiveIntegers",
+        "Facts": "Solve_equation({x, y}, x + y = 3 * x * y = 4) = {(x1, y1), (x2, y2)}; x1 = (a + b * Sqrt(c)) / d; x2 = (a - b * Sqrt(c)) / d",
+        "Query": "a + b + c + d",
+        "Proof": "",
+        "lean": "theorem test424 (x y : ℝ) (a b c d : ℕ) \n  (h1 : {x, y} = {x | x + y = 3 * x * y = 4} ∧ \n        (x = (a + b * real.sqrt c) / d ∨ x = (a - b * real.sqrt c) / d)) :\n  a + b + c + d = sorry := by sorry"
+    },
+    {
+        "id": 425,
+        "Declarations": "S: GeometricSequence",
+        "Facts": "Get_Sequence_Terms(S, 1) = 2; Get_Sequence_Terms(S, 5) = 162",
+        "Query": "Get_Sequence_Terms(S, 6)",
+        "Proof": "",
+        "lean": "theorem test425 (S : ArithmeticSequence)\n  (h1 : sequence_term S 1 = 2) (h2 : sequence_term S 5 = 162) :\n  sequence_term S 6 = sorry := by sorry"
+    },
+    {
+        "id": 426,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality( Build_Set( n | Is_PositiveIntegers(n) = True && Is_Integers(4096^(1/n)) = True && n >= 2))",
+        "Proof": "",
+        "lean": "theorem test426 : Set.card {n | n ∈ ℕ ∧ 2 ≤ n ∧ ∃ k : ℕ, 4096 ^ (1/n : ℝ) = k} = sorry := by sorry"
+    },
+    {
+        "id": 427,
+        "Declarations": "P: Polynomial; a: Integers; b: Integers",
+        "Facts": "P = 16*x^2 - 106*x - 105; P = (8*x + a)*(2*x + b)",
+        "Query": "a + 2*b",
+        "Proof": "",
+        "lean": "theorem test427 (P : polynomial ℤ) (a b : ℤ)\n  (h1 : P = 16 * x^2 - 106 * x - 105) (h2 : P = (8 * x + a) * (2 * x + b)) :\n  a + 2 * b = sorry := by sorry"
+    },
+    {
+        "id": 428,
+        "Declarations": "p: Real; q: Real",
+        "Facts": "1 < p = True; p < q = True; 1/p + 1/q = 1; p * q = 9/2",
+        "Query": "q",
+        "Proof": "",
+        "lean": "theorem test428 (p q : ℝ) \n  (h1 : 1 < p) (h2 : p < q) (h3 : 1 / p + 1 / q = 1) (h4 : p * q = 9 / 2) :\n  q = sorry := by sorry"
+    },
+    {
+        "id": 429,
+        "Declarations": "A: Integers; B: Integers; P: Polynomial",
+        "Facts": "P = 12 * y^2 - 65 * y + 42; P = (A * y - 14) * (B * y - 3)",
+        "Query": "A * B + A",
+        "Proof": "",
+        "lean": "theorem test429 (A B : ℤ) (P : polynomial ℤ)\n  (h1 : P = 12 * y^2 - 65 * y + 42) \n  (h2 : P = (A * y - 14) * (B * y - 3)) :\n  A * B + A = sorry := by sorry"
+    },
+    {
+        "id": 430,
+        "Declarations": "p: Real; q: Real",
+        "Facts": "p > 1 = True; q > 1 = True; 1/p + 1/q = 1; p * q = 4",
+        "Query": "q",
+        "Proof": "",
+        "lean": "theorem test430 (p q : ℝ)\n  (h1 : p > 1 = true) (h2 : q > 1 = true)\n  (h3 : 1 / p + 1 / q = 1) (h4 : p * q = 4) :\n  q = sorry := by sorry"
+    },
+    {
+        "id": 431,
+        "Declarations": "CirclePlus: Operator",
+        "Facts": "CirclePlus({a: Real}, {b: Real}) = 3 * a + 4 * b",
+        "Query": "CirclePlus(3, 1)",
+        "Proof": "",
+        "lean": "theorem test431 (CirclePlus : ℝ → ℝ → ℝ) \n  (h : ∀ a b : ℝ, CirclePlus a b = 3 * a + 4 * b) : \n  CirclePlus 3 1 = sorry := by sorry"
+    },
+    {
+        "id": 432,
+        "Declarations": "x: PositiveIntegers",
+        "Facts": "(3 * x)^2 - x = 2010",
+        "Query": "x",
+        "Proof": "",
+        "lean": "theorem test432 (x : ℕ) \n  (h : (3 * x) ^ 2 - x = 2010) : \n  x = sorry := by sorry"
+    },
+    {
+        "id": 433,
+        "Declarations": "n: OddNumbers; a: OddNumbers; S: Set; y: Real; Set_of_j: Set",
+        "Facts": "Set_of_j = Build_Set(j: EvenNumbers, 0 <= j <= 2*(n-1)); S = Build_Set(a + i, i ∈ Set_of_j); Get_Set_Means(S) = y",
+        "Query": "Get_Set_Minimum(S) + Get_Set_Maximum(S)",
+        "Proof": "",
+        "lean": "theorem test433 (n a : ℕ) (S : Set ℝ) (y : ℝ) (Set_of_j : Set ℕ)\n  (hn : n % 2 = 1) (ha : a % 2 = 1)\n  (hSet_of_j : Set_of_j = {j | j % 2 = 0 ∧ 0 ≤ j ∧ j ≤ 2 * (n - 1)})\n  (hS : S = {x | ∃ i ∈ Set_of_j, x = a + i})\n  (hMean : sMean S = y) :\n  sMin S + sMax S = sorry := by sorry"
+    },
+    {
+        "id": 434,
+        "Declarations": "c: PositiveIntegers; S: Set",
+        "Facts": "S = Build_Set(c, ∃ a: RationalNumbers -> Elements_In_Set(a, Solve_equation(x, 5*x^2 + 11*x + c = 0) = True); Set_Cardinality(S) = 2",
+        "Query": "Get_Set_Product(S)",
+        "Proof": "",
+        "lean": "theorem test434 (c : ℕ) (S : Set ℝ) \n  (hS1 : S = {c | ∃ a : ℚ, (∃ x, (5 * x^2 + 11 * x + c = 0)) ∧ (a ∈ S = true)}) \n  (hS2 : S.card = 2) : \n  ∏ x in S, x = sorry := by sorry"
+    },
+    {
+        "id": 435,
+        "Declarations": "b: PositiveIntegers",
+        "Facts": "0.76 = (4 * b + 19) / (6 * b + 11)",
+        "Query": "b",
+        "Proof": "",
+        "lean": "theorem test435 (b : ℕ) (hb : 0.76 = (4 * b + 19) / (6 * b + 11)) : \n  b = sorry := by sorry"
+    },
+    {
+        "id": 436,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; c: PositiveIntegers",
+        "Facts": "a * b + c = 41; b * c + a = 41; a * c + b = 41",
+        "Query": "a + b + c",
+        "Proof": "",
+        "lean": "theorem test436 (a b c : ℕ) \n  (h1 : a * b + c = 41) (h2 : b * c + a = 41) (h3 : a * c + b = 41) : \n  a + b + c = sorry := by sorry"
+    },
+    {
+        "id": 437,
+        "Declarations": "P1: Polynomial; P2: Polynomial; a: Real; b: Real; c: Real; d: Real",
+        "Facts": "P1 = 3*x^2 - 5*x + 4; P2 = 7 - 2*x; P1 * P2 = a*x^3 + b*x^2 + c*x + d",
+        "Query": "8*a + 4*b + 2*c + d",
+        "Proof": "",
+        "lean": "theorem test437 (P1 P2 : Polynomial) (a b c d : ℝ)\n  (h1 : P1 = 3 * x^2 - 5 * x + 4) (h2 : P2 = 7 - 2 * x) (h3 : P1 * P2 = a * x^3 + b * x^2 + c * x + d) :\n  8 * a + 4 * b + 2 * c + d = sorry := by sorry"
+    },
+    {
+        "id": 438,
+        "Declarations": "f: Function; f_inv: Function; a: Integers; b: Integers",
+        "Facts": "Get_Function_Expression(f) = 3 * x + b; f_inv = Get_Inverse_Function(f); Get_Function_Value(f, -3) = a; Get_Function_Value(f_inv, -3) = a",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test438 (f f_inv : ℤ → ℤ) (a b : ℤ)\n  (h1 : f = λ x, 3 * x + b)\n  (h2 : f_inv = function.inverse f)\n  (h3 : f (-3) = a)\n  (h4 : f_inv (-3) = a) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 439,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "Abs(a - b) = 6; a * b = 112",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test439 (a b : ℕ) \n  (h1 : |a - b| = 6) (h2 : a * b = 112) : \n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 440,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: Integers, Abs(5 * x - 3) <= 7))",
+        "Proof": "",
+        "lean": "theorem test440 : Set_Cardinality({x : ℤ | |5 * x - 3| ≤ 7}) = sorry := by sorry"
+    },
+    {
+        "id": 441,
+        "Declarations": "p: PositiveNumbers; q: PositiveNumbers; m: Real; n: Real; P: Polynomial",
+        "Facts": "P = x^2 - m * x + n; Is_Prime(p) = True; Is_Prime(q) = True",
+        "Query": "Set_Cardinality(Build_Set(n, m < 20 && Is_Root(P, p) = True && Is_Root(P, q) = True))",
+        "Proof": "",
+        "lean": "theorem test441 (p q : ℕ) (m n : ℝ) (P : polynomial ℝ)\n  (hp : nat.prime p) (hq : nat.prime q) \n  (hP : P = polynomial.X^2 - m * polynomial.X + n) : \n  fintype.card {n : ℝ | m < 20 ∧ (P.eval p = 0) ∧ (P.eval q = 0)} = sorry := by sorry"
+    },
+    {
+        "id": 442,
+        "Declarations": "x: PositiveIntegers, y: PositiveIntegers",
+        "Facts": "2 * x^2 * y^3 + 4 * y^3 = 149 + 3 * x^2",
+        "Query": "x + y",
+        "Proof": "",
+        "lean": "theorem test442 (x y : ℕ) \n  (hx : 0 < x) (hy : 0 < y)\n  (h : 2 * x^2 * y^3 + 4 * y^3 = 149 + 3 * x^2) :\n  x + y = sorry := by sorry"
+    },
+    {
+        "id": 443,
+        "Declarations": "A: Integers; B: Integers; P: Polynomial",
+        "Facts": "P = 10 * x^2 - x - 24; P = (A * x - 8) * (B * x + 3)",
+        "Query": "A * B + B",
+        "Proof": "",
+        "lean": "theorem test443 (A B : ℤ) (P : Polynomial ℤ)\n  (h1 : P = 10 * x^2 - x - 24) (h2 : P = (A * x - 8) * (B * x + 3)) :\n  A * B + B = sorry := by sorry"
+    },
+    {
+        "id": 444,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; op: Operator",
+        "Facts": "op(a, b) = Sqrt(a * b + a) / Sqrt(a * b - b)",
+        "Query": "op(9, 2)",
+        "Proof": "",
+        "lean": "theorem test444 (a b : ℕ) (op : ℕ → ℕ → ℝ)\n  (h1 : op a b = real.sqrt (a * b + a) / real.sqrt (a * b - b)) :\n  op 9 2 = sorry := by sorry"
+    },
+    {
+        "id": 445,
+        "Declarations": "A: Integers",
+        "Facts": "A + (A + 1) + (A + 2) = 27",
+        "Query": "A * (A + 1) * (A + 2)",
+        "Proof": "",
+        "lean": "theorem test445 (A : ℤ)\n  (h1 : A + (A + 1) + (A + 2) = 27) :\n  A * (A + 1) * (A + 2) = sorry := by sorry"
+    },
+    {
+        "id": 446,
+        "Declarations": "P: Polynomial; A: Integer; B: Integer",
+        "Facts": "P = 3*x^2 + 14*x + 8; P = (3*x + A) * (x + B)",
+        "Query": "A - B",
+        "Proof": "",
+        "lean": "theorem test446 (P : Polynomial) (A B : ℤ)\n  (h1 : P = 3*x^2 + 14*x + 8) (h2 : P = (3*x + A) * (x + B)) :\n  A - B = sorry := by sorry"
+    },
+    {
+        "id": 447,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: PositiveIntegers, x ^ (-1) > x ))",
+        "Proof": "",
+        "lean": "theorem test447 : Set.card {x : ℕ+ | x⁻¹ > x} = sorry := by sorry"
+    },
+    {
+        "id": 448,
+        "Declarations": "m: Integers; n: Integers",
+        "Facts": "Solve_equation(x, (x + 1) * (x + 2) - (x + 3) = 0) = {m + Sqrt(n), m - Sqrt(n)}",
+        "Query": "m + n",
+        "Proof": "",
+        "lean": "theorem test448 (m n : ℤ)\n  (h : {m + real.sqrt n, m - real.sqrt n} = {x | (x + 1) * (x + 2) - (x + 3) = 0}) :\n  m + n = sorry := by sorry"
+    },
+    {
+        "id": 449,
+        "Declarations": "a: Integers; S: Set",
+        "Facts": "S = {a, a+1, a+2, a+3, a+4, a+5, a+6}; Get_Set_Sum(S) = 49",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test449 (a : ℤ) (S : Set ℤ) \n  (hS : S = {a, a + 1, a + 2, a + 3, a + 4, a + 5, a + 6}) \n  (hSum : ∑ x in S, x = 49) : \n  a = sorry := by sorry"
+    },
+    {
+        "id": 450,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: Integers, Abs(x - 2) <= 5.6))",
+        "Proof": "",
+        "lean": "theorem test450 : Set_Cardinality({x : ℤ | |x - 2| ≤ 5.6}) = sorry := by sorry"
+    },
+    {
+        "id": 451,
+        "Declarations": "x: Real; y: Real",
+        "Facts": "4 * y - 4 * x^2 = 1; 4 * x - 4 * y^2 = 1",
+        "Query": "1 / (x^3 + y^3)",
+        "Proof": "",
+        "lean": "theorem test451 (x y : ℝ) \n  (h1 : 4 * y - 4 * x^2 = 1) (h2 : 4 * x - 4 * y^2 = 1) :\n  1 / (x^3 + y^3) = sorry := by sorry"
+    },
+    {
+        "id": 452,
+        "Declarations": "a: Integers; b: Integers; c: Integers; d: Integers; S: Set",
+        "Facts": "S = {a, b, c, d}; a + b = 16; a + c = 19; a + d = 20; b + c = 21; b + d = 22; c + d = 25",
+        "Query": "S",
+        "Proof": "",
+        "lean": "theorem test452 (a b c d : ℤ) (S : Set ℤ)\n  (hS : S = {a, b, c, d}) (h1 : a + b = 16) \n  (h2 : a + c = 19) (h3 : a + d = 20) \n  (h4 : b + c = 21) (h5 : b + d = 22) \n  (h6 : c + d = 25) : \n  S = sorry := by sorry"
+    },
+    {
+        "id": 453,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: Integers, Abs(x + 4) < 9))",
+        "Proof": "",
+        "lean": "theorem test453 : Set_Cardinality({x : ℤ | abs x + 4 < 9}) = sorry := by sorry"
+    },
+    {
+        "id": 454,
+        "Declarations": "c: Integers; f: Function",
+        "Facts": "Get_Function_Expression(f) = (2 * x^2 + x + 5) / (x^2 + 4 * x + c)",
+        "Query": "Get_Set_Minimum(Build_Set(c | ∀x (x^2 + 4 * x + c != 0)))",
+        "Proof": "",
+        "lean": "theorem test454 (c : ℤ) (f : ℝ → ℝ) \n  (hf : f = λ x, (2 * x^2 + x + 5) / (x^2 + 4 * x + c)) :\n  sInf {c | ∀ x, x^2 + 4 * x + c ≠ 0} = sorry := by sorry"
+    },
+    {
+        "id": 455,
+        "Declarations": "a: NonNegativeNumbers; b: NonNegativeNumbers; c: NonNegativeNumbers",
+        "Facts": "a^2 + b^2 + c^2 = 13; a * b + b * c + c * a = 6",
+        "Query": "Get_Set_Sum({a, b, c})",
+        "Proof": "",
+        "lean": "theorem test455 (a b c : ℝ)\n  (h1 : 0 ≤ a) (h2 : 0 ≤ b) (h3 : 0 ≤ c)\n  (h4 : a^2 + b^2 + c^2 = 13)\n  (h5 : a * b + b * c + c * a = 6) :\n  (a + b + c) = sorry := by sorry"
+    },
+    {
+        "id": 456,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers; c: PositiveIntegers",
+        "Facts": "a^2 + b^2 = c^2; a = 162",
+        "Query": "Set_Cardinality(Build_Set((b, c), a^2 + b^2 = c^2))",
+        "Proof": "",
+        "lean": "theorem test456 (a b c : ℕ) \n  (h1 : a ^ 2 + b ^ 2 = c ^ 2) (h2 : a = 162) :\n  Set.cardinality {p : ℕ × ℕ | a ^ 2 + p.1 ^ 2 = p.2 ^ 2} = sorry := by sorry"
+    },
+    {
+        "id": 457,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Build_Set((x, y), x ∈ Integers ∧ y ∈ Integers ∧ x^2 - y^2 = 17))",
+        "Proof": "",
+        "lean": "theorem test457 : \n  Set_Cardinality({⟨x, y⟩ | x ∈ ℤ ∧ y ∈ ℤ ∧ x^2 - y^2 = 17}) = sorry := by sorry"
+    },
+    {
+        "id": 458,
+        "Declarations": "a: Integer; b: Integer; logValue: Real",
+        "Facts": "logValue = Log(2938, 8); a < logValue < b; b = a + 1",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test458 (a b : ℤ) (logValue : ℝ)\n  (h1 : logValue = log 2938 / log 8) (h2 : a < logValue ∧ logValue < b) (h3 : b = a + 1) :\n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 459,
+        "Declarations": "",
+        "Facts": "",
+        "Query": "Set_Cardinality(Solve_inequation(x: PositiveIntegers, x^2 + 4x + 4 < 20))",
+        "Proof": "",
+        "lean": "theorem test459 : Set_Cardinality({x : ℕ+ | x^2 + 4*x + 4 < 20}) = sorry := by sorry"
+    },
+    {
+        "id": 460,
+        "Declarations": "P1: Polynomial; P2: Polynomial; a: Integers; b: Integers",
+        "Facts": "P1 = a * x + b; P2 = 2 * x + 3; P1 * P2 = 20 * x^2 + 44 * x + 21; (a != b) = True",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test460 (P1 P2 : Polynomial) (a b : ℤ)\n  (h1 : P1 = a * x + b) (h2 : P2 = 2 * x + 3) \n  (h3 : P1 * P2 = 20 * x^2 + 44 * x + 21) \n  (h4 : a ≠ b) : \n  a + b = sorry := by sorry"
+    },
+    {
+        "id": 461,
+        "Declarations": "a: EvenNumbers; S: Set",
+        "Facts": "S = {a, a+2, a+4}; Get_Set_Sum(S) = 66",
+        "Query": "a",
+        "Proof": "",
+        "lean": "theorem test461 (a : ℕ) (S : Set ℕ) \n  (hS : S = {a, a + 2, a + 4}) (hSum : (∑ x in S, x) = 66) :\n  a = sorry := by sorry"
+    },
+    {
+        "id": 462,
+        "Declarations": "a: Integers; b: Integers; c: Integers",
+        "Facts": "a + 1/b = 22/7; b + 1/c = 8; a * b * c = 21",
+        "Query": "c + 1/a",
+        "Proof": "",
+        "lean": "theorem test462 (a b c : ℤ)\n  (h1 : a + 1 / b = 22 / 7) (h2 : b + 1 / c = 8) (h3 : a * b * c = 21) :\n  c + 1 / a = sorry := by sorry"
+    },
+    {
+        "id": 463,
+        "Declarations": "a: Real; b: Real; c: Real; S: Set",
+        "Facts": "a + b + c = 0; a * b * c = 17",
+        "Query": "a^3 + b^3 + c^3",
+        "Proof": "",
+        "lean": "theorem test463 (a b c : ℝ) (S : Set ℝ)\n  (h1 : a + b + c = 0) (h2 : a * b * c = 17) :\n  a ^ 3 + b ^ 3 + c ^ 3 = sorry := by sorry"
+    },
+    {
+        "id": 464,
+        "Declarations": "a: PositiveIntegers; b: PositiveIntegers",
+        "Facts": "a * b - (a + b) = 39; Get_GCD(a, b) = 1; a < 20; b < 20",
+        "Query": "a + b",
+        "Proof": "",
+        "lean": "theorem test464 (a b : ℕ) \n  (h1 : a * b - (a + b) = 39) \n  (h2 : nat.gcd a b = 1) \n  (h3 : a < 20) \n  (h4 : b < 20) : \n  a + b = sorry := by sorry"
+    }
+]
