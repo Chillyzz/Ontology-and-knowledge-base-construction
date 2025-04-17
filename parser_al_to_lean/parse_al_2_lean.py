@@ -110,10 +110,20 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
         # decl_node.add_child(Node("conceptID", type_name))
         return decl_node
 
-    def visitAssertionList(self, ctx:AssertionalLogicParser.AssertionListContext):
+    def visitAssertionList(self, ctx: AssertionalLogicParser.AssertionListContext):
         node = Node("Facts")
-        for asrt in ctx.assertion():
-            node.add_child(self.visit(asrt))
+        for child in ctx.children:
+            if child.getText() == ';':
+                continue
+            # assertion部分
+            if isinstance(child, AssertionalLogicParser.AssertionContext):
+                node.add_child(self.visitAssertion(child))
+            # 单独的term
+            elif isinstance(child, AssertionalLogicParser.TermContext):
+                # 把 term 作为 assertion 包装起来
+                term_node = Node("assertion")
+                term_node.add_child(self.visitArithmeticOpTerm(child))
+                node.add_child(term_node)
         return node
 
     def visitAssertion(self, ctx:AssertionalLogicParser.AssertionContext):
@@ -234,9 +244,9 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
 
 if __name__ == "__main__":
     # 1. 读入你的例子文件
-    decl_str = "a: PositiveIntegers; b: PositiveIntegers; c: PositiveIntegers; s: Set"
-    facts_str = "s = {a, b, c}; Get_Set_Sum(s) = 72"
-    query_str = "Set_Cardinality(Solve_inequation(x: Integers, Abs(x - 2) <= 5.6)) = ?"
+    decl_str = "a: PositiveIntegers"
+    facts_str = "a > 72"
+    query_str = "a = ?"
 
     print(">>> Declarations")
     decl_tree = parse_declarations_string(decl_str)
@@ -253,7 +263,7 @@ if __name__ == "__main__":
     print(query_tree)
     lean_query = extract_assertions(query_tree, 2)
 
-    print(f"theorem xx {lean_decl} \n {lean_fact} \n {lean_query} := by sorry")
+    print(f"theorem xx {lean_decl} \n {lean_fact} \n: {lean_query} := by sorry")
 
     # input_stream = InputStream(s)
 
