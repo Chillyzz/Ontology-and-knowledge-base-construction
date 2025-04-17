@@ -80,20 +80,24 @@ def extract_assertions(assertions_node, choose):
         if child.name != "assertion":
             continue
         # 假设 assertion 节点结构固定：term, OP, term
-        left_term = child.children[0]
-        op_node = child.children[1]
-        right_term = child.children[2]
-        # 分别递归提取叶子 value
-        left_values = get_leaf_values(left_term)
-        left_expr = "".join(left_values)  # 不再多加空格
-        right_values = get_leaf_values(right_term)
-        right_expr = "".join(right_values)
-        # 拼接表达式
-        expr = f"{left_expr} {op_node.value} {right_expr}"
+        if len(child.children) == 3:
+            # term '=' term
+            left_term = child.children[0]
+            op_node = child.children[1]
+            right_term = child.children[2]
+            left_expr = " ".join(get_leaf_values(left_term))
+            right_expr = " ".join(get_leaf_values(right_term))
+            expr = f"{left_expr} {op_node.value} {right_expr}"
+        # 单独的 term
+        elif len(child.children) == 1:
+            term_node = child.children[0]
+            expr = " ".join(get_leaf_values(term_node))
+        else:
+            raise ValueError(f"Unexpected number of children in assertion node: {len(child.children)}")
         all_assertions.append(expr)
-    
+
+    # 统一添加 h1, h2, ...
     if choose == 1:
-        # 统一添加 h1, h2, ...
         final_output = []
         for i, assertion in enumerate(all_assertions):
             final_output.append(f"(h{i+1} : {assertion})")
@@ -140,4 +144,4 @@ if __name__ == "__main__":
     assert1.add_child(Node("term", "3"))
 
     print(extract_declarations(declarations_node))
-    print(extract_assertions(facts_node))
+    print(extract_assertions(facts_node, choose=1))
