@@ -22,10 +22,6 @@ declaration
     : variable ':' conceptID
     ;
 
-// assertionList
-//    : assertion (';' assertion)*
-//    ;
-
 assertionList
     : (assertion | term) (';' (assertion | term))*
     ;
@@ -38,22 +34,14 @@ queryList
     : assertion (';' assertion)*
     ;
 
-// term
-//     : '(' term ')'                     # ParenTerm
-//     | term op=('+' | '-') term         # BinaryOpTerm
-//     | term op=('^' | '*' | '/' | '%') term   # BinaryOpTerm
-//     | term op=('>' | '<' | '=' | '<=' | '>=' | '!=') term # ArithmeticOpTerm
-//     | operatorID '(' termList ')'         # OperatorTerm
-//     | '{' termList '}'                 # SetTerm 
-//     | atomicIndividual            # AtomicTerm
-//     ;
-
 term
     : '(' term ')'                     # ParenTerm
+    | operatorID '(' termList ')'         # OperatorTerm
     | term op=('+' | '-') term         # BinaryOpTerm
+    | term op=('∈' | '∪' | '∩' | '⊆' | '⊂' | '⊇' |'⊃') term              # SetOpterm
     | term op=('^' | '*' | '/' | '%') term   # BinaryOpTerm
     | term op=('>' | '<' | '=' | '<=' | '>=' | '!=') term # ArithmeticOpTerm
-    | operatorID '(' termList ')'         # OperatorTerm
+    | term op=('∧' | '∨' | '↔' | '→') term    # LogicalOpterm
     | '{' termList '}'                 # SetTerm 
     | '(' term (',' term)+ ')'         # TupleTerm
     | atomicIndividual                 # AtomicTerm
@@ -253,23 +241,41 @@ operatorID
     | 'Order'
     | 'Get_Mod_Nat'
     | 'Is_Nat_Mod'
+    | 'Negation'
+    | 'ForAll'
+    | 'Exists'
+    | 'Get_Lambda_Function'
     ;
 
 
 // Lexer rules
 variable
-    : LOWERCASE_LETTER (LOWERCASE_LETTER)*
+    : CHARACTERS 
+    | (LOWERCASE_LETTER | UPPERCASE_LETTER) 
+    | '-' CHARACTERS
+    | '-' (LOWERCASE_LETTER | UPPERCASE_LETTER)
     ;
 
 variableID
-    : LOWERCASE_LETTER (LOWERCASE_LETTER)*
+    : CHARACTERS
+    | (LOWERCASE_LETTER | UPPERCASE_LETTER) 
+    | '-' CHARACTERS
+    | '-' (LOWERCASE_LETTER | UPPERCASE_LETTER)
     ;
 
-FLOAT : DIGIT+ '.' DIGIT+ ;
-INT   : DIGIT+ ;
-fragment DIGIT : [0-9] ;
+numeral
+    : DIGITS                  # PositiveInteger
+    | DIGIT                   # PositiveSingleDigit
+    | DIGITS '.' DIGITS       # PositiveFloat
+    | '-' DIGITS              # NegativeInteger
+    | '-' DIGIT               # NegativeSingleDigit
+    | '-' DIGITS '.' DIGITS   # NegativeFloat
+    ;
 
-numeral : FLOAT | INT ;
+DIGIT : [0-9];
+DIGITS : DIGIT+;
+CHARACTERS : CHARACTER+;
+CHARACTER : [A-Za-z0-9];
 
 logicalConstant
     : 'True'
@@ -285,7 +291,7 @@ mathematicalConstant
 // Basic tokens
 UPPERCASE_LETTER: [A-Z];
 LOWERCASE_LETTER: [a-z];
-ALPHABET: [A-Za-z];
+
 
 // Operators and punctuation
 QUESTION: '?';

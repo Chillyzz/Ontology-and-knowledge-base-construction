@@ -40,6 +40,8 @@ def declaration_to_lean(declaration):
         return f"({variable} : ℤ) (h_{variable} : {variable} < 0)"
     elif concept_id == "PositiveIntegers":
         return f"({variable} : ℕ)"
+    elif concept_id == "NaturalNumbers":
+        return f"({variable} : ℕ)"
     elif concept_id == "PrimeNumbers":
         return f"({variable} : ℕ) (h_{variable} : Nat.Prime {variable})"
     elif concept_id == "CompositeNumbers":
@@ -52,6 +54,8 @@ def declaration_to_lean(declaration):
         return f"(h_{variable} : IsPureImaginary {variable})"
     elif concept_id == "Function":
         return f"({variable} : ℝ → ℝ)"
+    elif concept_id == "Set":
+        return f"({variable} : Set ℝ)"
     elif concept_id == "QuadraticFunction":
         return (
             f"({variable}: ℝ → ℝ)"
@@ -131,15 +135,3 @@ def declaration_to_lean(declaration):
         return f"({variable} : {concept_id})"
     
 
-print(declaration_to_lean(("x", "Real"))) 
-# 输出: (x : ℝ)
-
-print(declaration_to_lean(("f", "OddFunction")))
-# 输出: (f : ℝ → ℝ) (h_f : Function.Odd f)
-
-print(declaration_to_lean(("seq", "ArithmeticSequence")))
-# 输出: (seq : ArithmeticSequence)
-
-
-print(declaration_to_lean(("AA", "QuadraticFunction")))
-print(declaration_to_lean(("AB", "QuadraticPolynomial")))
