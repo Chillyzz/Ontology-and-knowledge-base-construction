@@ -1,4 +1,5 @@
 # file: build_tree.py
+import warnings
 
 from antlr4 import InputStream, CommonTokenStream
 from AssertionalLogicLexer import AssertionalLogicLexer
@@ -14,14 +15,17 @@ def parse_program_string(input_text: str) -> Node:
     """
     解析完整 program JSON 字符串，返回自定义 Node 树。
     """
-    input_stream = InputStream(input_text)
-    lexer = AssertionalLogicLexer(input_stream)
-    tokens = CommonTokenStream(lexer)
-    parser = AssertionalLogicParser(tokens)
-    tree = parser.program()
+    try:
+        input_stream = InputStream(input_text)
+        lexer = AssertionalLogicLexer(input_stream)
+        tokens = CommonTokenStream(lexer)
+        parser = AssertionalLogicParser(tokens)
+        tree = parser.program()
 
-    visitor = BuildTreeVisitor()
-    return visitor.visit(tree)
+        visitor = BuildTreeVisitor()
+        return visitor.visit(tree)
+    except Exception as e:
+        raise RuntimeError(f"[ParseError] 解析 program 失败: {e}")
 
 
 def parse_declarations_string(decl_str: str) -> Node:
@@ -29,15 +33,18 @@ def parse_declarations_string(decl_str: str) -> Node:
     只解析 Declarations 部分。
     输入例："x: Real; y: Integer;"
     """
-    full_text = f"{decl_str}\n"
-    input_stream = InputStream(full_text)
-    lexer = AssertionalLogicLexer(input_stream)
-    tokens = CommonTokenStream(lexer)
-    parser = AssertionalLogicParser(tokens)
-    tree = parser.declarationList()
+    try:
+        full_text = f"{decl_str}\n"
+        input_stream = InputStream(full_text)
+        lexer = AssertionalLogicLexer(input_stream)
+        tokens = CommonTokenStream(lexer)
+        parser = AssertionalLogicParser(tokens)
+        tree = parser.declarationList()
 
-    visitor = BuildTreeVisitor()
-    return visitor.visit(tree)
+        visitor = BuildTreeVisitor()
+        return visitor.visit(tree)
+    except Exception as e:
+        raise RuntimeError(f"[ParseError] 解析 Declarations 失败: {e}")
 
 
 def parse_facts_string(fact_str: str) -> Node:
@@ -45,15 +52,18 @@ def parse_facts_string(fact_str: str) -> Node:
     只解析 Facts 部分。
     输入例："Abs(x - 2) = 3; x + 1 = 5;"
     """
-    full_text = f"{fact_str}\n"
-    input_stream = InputStream(full_text)
-    lexer = AssertionalLogicLexer(input_stream)
-    tokens = CommonTokenStream(lexer)
-    parser = AssertionalLogicParser(tokens)
-    tree = parser.assertionList()
+    try:
+        full_text = f"{fact_str}\n"
+        input_stream = InputStream(full_text)
+        lexer = AssertionalLogicLexer(input_stream)
+        tokens = CommonTokenStream(lexer)
+        parser = AssertionalLogicParser(tokens)
+        tree = parser.assertionList()
 
-    visitor = BuildTreeVisitor()
-    return visitor.visit(tree)
+        visitor = BuildTreeVisitor()
+        return visitor.visit(tree)
+    except Exception as e:
+        raise RuntimeError(f"[ParseError] 解析 Facts 失败: {e}")
 
 
 def parse_query_string(query_str: str) -> Node:
@@ -61,15 +71,18 @@ def parse_query_string(query_str: str) -> Node:
     只解析 Query 部分。
     输入例："x = ?"
     """
-    full_text = f"{query_str}\n"
-    input_stream = InputStream(full_text)
-    lexer = AssertionalLogicLexer(input_stream)
-    tokens = CommonTokenStream(lexer)
-    parser = AssertionalLogicParser(tokens)
-    tree = parser.queryList()
+    try:
+        full_text = f"{query_str}\n"
+        input_stream = InputStream(full_text)
+        lexer = AssertionalLogicLexer(input_stream)
+        tokens = CommonTokenStream(lexer)
+        parser = AssertionalLogicParser(tokens)
+        tree = parser.queryList()
 
-    visitor = BuildTreeVisitor()
-    return visitor.visit(tree)
+        visitor = BuildTreeVisitor()
+        return visitor.visit(tree)
+    except Exception as e:
+        raise RuntimeError(f"[ParseError] 解析 Query 失败: {e}")
 
 
 class BuildTreeVisitor(AssertionalLogicVisitor):
@@ -112,6 +125,8 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
 
     def visitAssertionList(self, ctx: AssertionalLogicParser.AssertionListContext):
         node = Node("Facts")
+        # for asrt in ctx.assertion():
+        #     node.add_child(self.visit(asrt))
         for child in ctx.children:
             if child.getText() == ';':
                 continue
@@ -122,8 +137,14 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
             elif isinstance(child, AssertionalLogicParser.TermContext):
                 # 把 term 作为 assertion 包装起来
                 term_node = Node("assertion")
-                term_node.add_child(self.visitArithmeticOpTerm(child))
+                # term_node.add_child(self.visitArithmeticOpTerm(child))
+                term_node.add_child(self.visit(child))
                 node.add_child(term_node)
+            else:
+                warnings.warn(
+                    f"未识别的 assertion 子节点类型: {type(child)}，文本内容为：'{child.getText()}'. ",
+                    UserWarning
+                )
         return node
 
     def visitAssertion(self, ctx:AssertionalLogicParser.AssertionContext):
@@ -146,7 +167,9 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
     # 根据语法，继续重写 visitAtomicIndividual、visitOperatorID、visitTerms 等
     def visitParenTerm(self, ctx):
         parenterm_node = Node("term")
+        parenterm_node.add_child(Node("OP", "("))
         parenterm_node.add_child(self.visit(ctx.term()))
+        parenterm_node.add_child(Node("OP", ")"))
         return parenterm_node
     
     def visitArithmeticOpTerm(self, ctx):
@@ -181,6 +204,14 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
         new_operator_node = Node(op, lean_operator)
         return new_operator_node
 
+    def visitLogicOpTerm(self, ctx):
+        LogicOpTerm_node = Node("term")
+        op = ctx.op.text  # 获取操作符（'∧' 或 '∨'）
+        LogicOpTerm_node.add_child(self.visit(ctx.term(0)))
+        LogicOpTerm_node.add_child(Node("OP", op))
+        LogicOpTerm_node.add_child(self.visit(ctx.term(1)))
+        return LogicOpTerm_node
+
     def visitSetTerm(self, ctx):
         seterm_node = Node("term")
         values = []
@@ -195,6 +226,21 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
         seterm_node.add_child(Node("setterm", "{" + ", ".join(values) + "}"))
         return seterm_node
     
+    def visitSetOpTerm(self, ctx):
+        setopterm_node = Node("term")
+        # 访问左边的 term
+        left = self.visit(ctx.term(0))
+        # 访问操作符
+        op = ctx.op.text  # 比如 '∈', '∪', '⊆'
+        op_node = Node("OP", op)
+        # 访问右边的 term
+        right = self.visit(ctx.term(1))
+        # 按顺序添加子节点
+        setopterm_node.add_child(left)
+        setopterm_node.add_child(op_node)
+        setopterm_node.add_child(right)
+        return setopterm_node
+    
     def visitTupleTerm(self, ctx):
         tuple_node = Node("term")
         var_names = []
@@ -202,17 +248,20 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
         # 遍历每一个 term 子节点
         for term_ctx in ctx.term():
             child_node = self.visit(term_ctx)
-            if child_node.children and child_node.children[0].name == "declaration":
+            if child_node.children:
                 decl_text = child_node.children[0].value.strip("() ")
                 if ":" in decl_text:
                     var, typ = map(str.strip, decl_text.split(":"))
-                    var_names.append(var)
+                    var_names.append(f"{var}: {typ}")
                     if common_type is None:
                         common_type = typ
                     elif common_type != typ:
                         raise ValueError("Inconsistent types in tuple declaration") 
+                else:
+                    var_names.append(decl_text)
+                
         # 将收集的值合并为一个字符串 "(m, n)"
-        tuple_node.add_child(Node("tupleterm", f"({', '.join(var_names)} : {common_type})"))  # 合并为 tuple 形式的字符串
+        tuple_node.add_child(Node("tupleterm", f"({', '.join(var_names)})"))  # 合并为 tuple 形式的字符串
         return tuple_node
 
     def visitAtomicTerm(self, ctx):
@@ -244,9 +293,9 @@ class BuildTreeVisitor(AssertionalLogicVisitor):
 
 if __name__ == "__main__":
     # 1. 读入你的例子文件
-    decl_str = "a: PositiveIntegers"
-    facts_str = "a > 72"
-    query_str = "a = ?"
+    decl_str = "a: Real; b: Real; h: Real; k: Real"
+    facts_str = "Is_Odd_Number(a)"
+    query_str = "(a, c, b) = ?"
 
     print(">>> Declarations")
     decl_tree = parse_declarations_string(decl_str)
