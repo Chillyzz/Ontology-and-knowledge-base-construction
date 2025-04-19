@@ -38,10 +38,10 @@ term
     : '(' term ')'                     # ParenTerm
     | operatorID '(' termList ')'         # OperatorTerm
     | term op=('+' | '-') term         # BinaryOpTerm
-    | term op=('∈' | '∪' | '∩' | '⊆' | '⊂' | '⊇' |'⊃') term              # SetOpterm
+    | term op=('∈' | '∪' | '∩' | '⊆' | '⊂' | '⊇' |'⊃') term              # SetOpTerm
     | term op=('^' | '*' | '/' | '%') term   # BinaryOpTerm
-    | term op=('>' | '<' | '=' | '<=' | '>=' | '!=') term # ArithmeticOpTerm
-    | term op=('∧' | '∨' | '↔' | '→') term    # LogicalOpterm
+    | term op=('>' | '<' | '=' | '<=' | '>=' | '!=') term                  # ArithmeticOpTerm
+    | term op=('∧' | '∨' | '↔' | '→') term    # LogicOpTerm
     | '{' termList '}'                 # SetTerm 
     | '(' term (',' term)+ ')'         # TupleTerm
     | atomicIndividual                 # AtomicTerm
